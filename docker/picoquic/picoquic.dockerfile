@@ -27,7 +27,7 @@ RUN git clone https://github.com/private-octopus/picoquic /picoquic
 
 WORKDIR /picoquic
 
-RUN git checkout d130b484f2af8f167044eedce1e9fde9e2a45b91
+RUN git checkout 3aa4e448ef4e9da257cd4b222a36ec8010f9dfa7
 
 # Build picotls
 WORKDIR /picotls
@@ -36,14 +36,13 @@ RUN git checkout c07a6ac08586d2fd177e7871c6ee879e4ac11603
 
 RUN git submodule init && \
     git submodule update && \
-    PKG_CONFIG_PATH=$PWD/../openssl/build/lib/pkgconfig cmake . && \
-    make && \
-    make 
+    PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig cmake . && \
+    make
 
 # Build picoquic
 WORKDIR /picoquic
 
-RUN PKG_CONFIG_PATH=$PWD/../openssl/build/lib/pkgconfig cmake . && \
+RUN PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig cmake . && \
     make
 
 EXPOSE 4433/UDP
