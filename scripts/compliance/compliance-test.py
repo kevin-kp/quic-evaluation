@@ -8,12 +8,14 @@ def remove_container(container_id):
     # Remove container if it exists
     output, error = run_command("docker ps -aq")
     if container_id in output:
-        run_command("docker rm " + container_id)
+        # stop removes container because they are all started with the --rm parameter
+        run_command("docker stop " + container_id)
 
 def remove_containers():
     # check if there are containers open
     output, error = run_command("docker ps -aq")
     if output != "":
+        # stop removes container because they are all started with the --rm parameter
         run_command("docker stop $(docker ps -aq)")
 
 def create_container(image, name = None):
