@@ -1,7 +1,7 @@
 FROM openssl:tls13
+ENV TERM dumb
 
 RUN apt-get install -y software-properties-common
-
 RUN add-apt-repository -y ppa:jonathonf/gcc-7.1
 
 # Install packages needed for ats

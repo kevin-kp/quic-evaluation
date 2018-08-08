@@ -1,15 +1,14 @@
 import subprocess
-import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("testserver")
-args = parser.parse_args()
+###
+# Merges draft-12+PR#1389 in experiment branches and only succeeds when there are no merge conflicts ...
+###
 
-def run_command(command, stdout=subprocess.PIPE):
-    subprocess.Popen(command.split(), stdout=stdout).wait()
+def run_command(command):
+    process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+    return process.communicate()
 
 experiment_branches = [
-    "draft-12+PR#1389", # Check if implementation works with a correct quicker;
     "exp-badly-formed-frame", # Quicker sents a badly formed frame
     "exp-data-after-fin", # Quicker sents data after fin bit was set on a stream
     "exp-duplicate-packets", # Quicker sents all packets duplicate
@@ -22,13 +21,7 @@ experiment_branches = [
     "exp-stop-sending-cli-uni", # Quicker sents a stop sending frame on a client unidirectional stream
 ]
 
-run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh 127.0.0.1 4433"
-
-
-# TODO: save output from quicker to a file instead of printing this
 for branch in experiment_branches:
-    with open("/logs/" + args.testserver + "-" + branch + ".txt","w+") as out:
-        run_command("git checkout " + branch)
-        run_command(run_quicker_client, stdout=out)
-
-print("client test done")
+    command = "git checkout " + branch
+    run_command(command)
+    run_command("git merge draft-12+PR#1389")

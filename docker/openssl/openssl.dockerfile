@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+ENV TERM dumb
 
 # install necessary packages 
 RUN rm -rf /var/lib/apt/lists/*  \

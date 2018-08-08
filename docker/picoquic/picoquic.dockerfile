@@ -1,4 +1,5 @@
 from openssl:tls13
+ENV TERM dumb
 
 # Install packages needed for ngtcp2
 RUN rm -rf /var/lib/apt/lists/*  \
@@ -47,4 +48,4 @@ RUN PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig cmake . && \
 
 EXPOSE 4433/UDP
 #./picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433
-ENTRYPOINT ["/picoquic/picoquicdemo", "-c", "/keys/domain.crt", "-k", "/keys/domain.key", "-p", "4433"]
+ENTRYPOINT ["/picoquic/picoquicdemo", "-c", "/keys/domain.crt", "-k", "/keys/domain.key", "-p", "4433", ">>", "/logs/log.txt"]
