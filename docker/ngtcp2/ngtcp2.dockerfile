@@ -36,4 +36,4 @@ RUN autoreconf -i && \
 EXPOSE 4433/UDP
 #CMD [ "node", "/server/out/main.js" ]
 #CMD [ "node", "/server/out/main.js", "127.0.0.1", "4433", "./keys/selfsigned_default.key", "./keys/selfsigned_default.crt" ]
-CMD [ "/ngtcp2/examples/server", "0.0.0.0", "4433", "/keys/domain.key", "/keys/domain.crt" ]
+ENTRYPOINT [ "/ngtcp2/examples/server", "0.0.0.0", "4433", "/keys/domain.key", "/keys/domain.crt" ]

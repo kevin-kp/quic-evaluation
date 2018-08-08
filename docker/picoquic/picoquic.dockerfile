@@ -47,4 +47,4 @@ RUN PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig cmake . && \
 
 EXPOSE 4433/UDP
 #./picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433
-#CMD ["/picoquic/picoquicdemo", "-c", "/keys/domain.crt", "-k", "/keys/domain.key", "-p", "4433"]
+ENTRYPOINT ["/picoquic/picoquicdemo", "-c", "/keys/domain.crt", "-k", "/keys/domain.key", "-p", "4433"]

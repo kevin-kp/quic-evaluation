@@ -59,4 +59,4 @@ RUN cmake -DCMAKE_BUILD_TYPE=Release .. && make
 
 EXPOSE 4433/UDP
 
-CMD ["/quant/bin/server", "-d", "/", "-i", "eth0", "-p", "4433:4433/udp", "-k", "/keys/domain.key", "-c", "/keys/domain.crt"]
+ENTRYPOINT ["/quant/bin/server", "-d", "/", "-i", "eth0", "-p", "4433:4433/udp", "-k", "/keys/domain.key", "-c", "/keys/domain.crt"]
