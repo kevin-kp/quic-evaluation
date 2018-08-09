@@ -2,6 +2,7 @@ import subprocess
 import time
 
 QUIC_RESULTS_DIRECTORY = "/Users/kevin/Documents/quic-results"
+TEST_DATETIME_STR = time.strftime("%Y%m%d-%H%M%S")
 
 def run_subprocess_command(command):
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -15,9 +16,8 @@ def run_call_command(command):
     subprocess.call(command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def get_host_directory(name, is_server):
-    timestr = time.strftime("%Y%m%d-%H%M%S")
     subdir = "server" if is_server else "client"
-    host_dir = QUIC_RESULTS_DIRECTORY + "/" + name + "/" + subdir + "/" + timestr
+    host_dir = QUIC_RESULTS_DIRECTORY + "/" + TEST_DATETIME_STR + "/" + subdir + "/" + name
     run_subprocess_command("mkdir -p " + host_dir)
     run_subprocess_command("sudo chmod -R 777 " + QUIC_RESULTS_DIRECTORY)
     return host_dir
@@ -71,23 +71,50 @@ def restart_test_client(client_container_id, server_name):
     client_container_id = create_client_container("quicker", server_name, "client-quicker", "/bin/bash")
     return client_container_id
 
-def run_test_client(client_container_id, server_name):
+def run_test_client(client_container_id, server_name, branch):
     print("starting test client to test " + server_name)
     if client_container_id is None:
         print("cannot run test client, no container")
         exit(-1)
-    command = "docker exec -i " + client_container_id + " python /scripts/compliance/compliance-client-test.py " + server_name
+    command = "docker exec -i " + client_container_id + " python /scripts/compliance/compliance-client-test.py --server " + server_name + " --branch " + branch
+    run_call_command(command)
+
+def run_test_server(container_id, server_name, branch):
+    print("starting test server to test " + server_name)
+    if container_id is None:
+        print("cannot run server, no container")
+        exit(-1)
+    command = "docker exec -i " + container_id + " python /scripts/compliance/compliance-server-test.py --server " + server_name + " --branch " + branch
     run_call_command(command)
 
 def main():
-    implementations = ["ngtcp2","quicker","quant"]
+    implementations = [
+        "ngtcp2",
+        "quicker",
+        "quant"
+    ]
+    experiment_branches = [
+        "draft-12+PR#1389", # Check if implementation works with a correct quicker;
+        "exp-badly-formed-frame", # Quicker sents a badly formed frame
+        "exp-data-after-fin", # Quicker sents data after fin bit was set on a stream
+        "exp-duplicate-packets", # Quicker sents all packets duplicate
+        "exp-flow-control", # Quicker sets its max_stream_data very low
+        "exp-many-quic-in-udp", # Quicker sents a lot of handshake packets in a single UDP datagram
+        "exp-out-of-order", # Quicker sents packets reversed from the buffer
+        "exp-random-bytes", # Quicker sents random bytes
+        "exp-request-wrong-stream", # Quicker requests a resource with HTTP on a Server unidirectional stream
+        "exp-start-hs-frame", # Quicker starts with a handshake packet instead of initial packet
+        "exp-stop-sending-cli-uni", # Quicker sents a stop sending frame on a client unidirectional stream
+    ]
     remove_containers()
     client_container_id = None
     for implementation in implementations:
-        container_id = create_server_container(implementation)
-        client_container_id = restart_test_client(client_container_id, implementation)
-        run_test_client(client_container_id, implementation)
-        remove_container(container_id)
+        for branch in experiment_branches:
+            container_id = create_server_container(implementation, entrypoint="/bin/bash")
+            client_container_id = restart_test_client(client_container_id, implementation)
+            run_test_server(container_id, implementation, branch)
+            run_test_client(client_container_id, implementation, branch)
+            remove_container(container_id)
     print("compliance test done")
 
 if __name__== "__main__":
