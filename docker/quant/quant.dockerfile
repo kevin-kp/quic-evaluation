@@ -22,6 +22,7 @@ RUN rm -rf /var/lib/apt/lists/*  \
     graphviz \
     mercurial \
     pkg-config \
+    tcpdump   \
     wget \
     && apt-get autoremove \
     && apt-get clean

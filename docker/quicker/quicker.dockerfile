@@ -4,6 +4,11 @@ ENV TERM dumb
 # to generate new self-signed cert for testing 
 # openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout keys/temp.key -out keys/temp.crt
 
+RUN apt-get install -y \
+    tcpdump \
+    && apt-get autoremove \
+    && apt-get clean
+
 # Clone quicker
 RUN git clone -b draft-12+PR#1389 https://github.com/kevin-kp/quicker.git /server
 

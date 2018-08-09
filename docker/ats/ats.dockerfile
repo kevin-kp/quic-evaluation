@@ -25,7 +25,7 @@ RUN rm -rf /var/lib/apt/lists/*  \
     # libcap-dev: optional, highly recommended
     libcap-dev \    
     # libhwloc-dev: optional, highly recommended
-    libhwloc-dev
+    libhwloc-dev 
 
 # copy keys for the server
 COPY ./docker/keys /keys/

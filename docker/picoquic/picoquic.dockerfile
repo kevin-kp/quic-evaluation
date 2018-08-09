@@ -13,7 +13,7 @@ RUN rm -rf /var/lib/apt/lists/*  \
     libtool \ 
     libev-dev \
     pkg-config \
-    cmake
+    cmake           
 
 # copy keys for the server
 COPY ./docker/keys /keys/
