@@ -5,8 +5,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("testserver")
 args = parser.parse_args()
 
-def run_command(command, stdout=subprocess.PIPE):
-    subprocess.Popen(command.split(), stdout=stdout).wait()
+def run_command(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE):
+    subprocess.call(command.split(), stdout=stdout, stderr=stderr)
 
 experiment_branches = [
     "draft-12+PR#1389", # Check if implementation works with a correct quicker;
@@ -22,7 +22,7 @@ experiment_branches = [
     "exp-stop-sending-cli-uni", # Quicker sents a stop sending frame on a client unidirectional stream
 ]
 
-run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh 127.0.0.1 4433"
+run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh " + args.testserver + " 4433"
 
 
 # TODO: save output from quicker to a file instead of printing this
