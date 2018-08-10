@@ -1,6 +1,10 @@
 import subprocess
 import argparse
+import signal
+import sys
 
+tcpdump_process = None
+out_file = None
 
 def get_run_test_server_command(servername):
     switcher = {
@@ -12,15 +16,31 @@ def get_run_test_server_command(servername):
     }
     return switcher.get(servername, None)
 
-def run_command(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE):
+def run_command(command, stdout=None, stderr=None):
     subprocess.call(command.split(), stdout=stdout, stderr=stderr)
 
 
 def start_tcpdump(server, branch):
-    command = "tcpdump -i eth0 -s0 udp port 4433 -w /logs/" + server + "-" + branch + ".pcap"
+    command = "tcpdump -i any -s0 udp port 4433 -U -w /logs/" + server + "-" + branch + ".pcap"
     return subprocess.Popen(command.split())
 
+def sigterm_handler(signal, frame):
+    global tcpdump_process
+    global out_file
+    print("server done")
+    if out_file is not None:
+        out_file.flush()
+        out_file.close()
+    if tcpdump_process is not None:
+        tcpdump_process.send_signal(signal.SIGINT)
+    sys.exit(0)
+
 def main():
+    global tcpdump_process
+    global out_file
+    
+    signal.signal(signal.SIGTERM, sigterm_handler)
+
     parser = argparse.ArgumentParser()
     parser.add_argument('-s','--server', help='Server name that is tested with this client script', required=True)
     parser.add_argument('-b','--branch', help='Branch that is going to be used to test the server (only for logging purpose, but still required though)', required=True)
@@ -33,10 +53,9 @@ def main():
         print("unknown server")
         exit(-1)
 
-    with open("/logs/" + args.server + "-" + args.branch + ".txt","w+") as out:
-        tcpdump_process = start_tcpdump(args.server, args.branch)
-        run_command(run_server_command, stdout=out)
-        tcpdump_process.kill()
+    out_file = open("/logs/" + args.server + "-" + args.branch + ".txt","w+")
+    tcpdump_process = start_tcpdump(args.server, args.branch)
+    run_command(run_server_command, stdout=out_file, stderr=out_file)
 
 if __name__== "__main__":
   main()

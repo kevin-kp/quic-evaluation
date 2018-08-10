@@ -8,7 +8,8 @@ def run_subprocess_command(command):
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     output, error = process.communicate()
     #if error is not None:
-    #    print("error occured when running command: " + command)
+    #    print("error in command: " + command)
+    #    print("error: " + error)
     #    exit(-1)
     return output.rstrip()
 
@@ -19,7 +20,7 @@ def get_host_directory(name, is_server):
     subdir = "server" if is_server else "client"
     host_dir = QUIC_RESULTS_DIRECTORY + "/" + TEST_DATETIME_STR + "/" + subdir + "/" + name
     run_subprocess_command("mkdir -p " + host_dir)
-    run_subprocess_command("sudo chmod -R 777 " + QUIC_RESULTS_DIRECTORY)
+    run_subprocess_command("chmod -R 777 " + host_dir)
     return host_dir
 
 def get_short_container_id(container_id):
@@ -68,7 +69,7 @@ def restart_test_client(client_container_id, server_name):
     print("restarting client")
     if client_container_id is not None:
         remove_container(client_container_id)
-    client_container_id = create_client_container("quicker", server_name, "client-quicker", "/bin/bash")
+    client_container_id = create_client_container("quicker", server_name, "client-quicker")
     return client_container_id
 
 def run_test_client(client_container_id, server_name, branch):
@@ -84,8 +85,8 @@ def run_test_server(container_id, server_name, branch):
     if container_id is None:
         print("cannot run server, no container")
         exit(-1)
-    command = "docker exec -i " + container_id + " python /scripts/compliance/compliance-server-test.py --server " + server_name + " --branch " + branch
-    run_call_command(command)
+    command = "docker exec -i -d " + container_id + " python -u /scripts/compliance/compliance-server-test.py --server " + server_name + " --branch " + branch
+    run_subprocess_command(command)
 
 def main():
     implementations = [
@@ -110,7 +111,7 @@ def main():
     client_container_id = None
     for implementation in implementations:
         for branch in experiment_branches:
-            container_id = create_server_container(implementation, entrypoint="/bin/bash")
+            container_id = create_server_container(implementation)
             client_container_id = restart_test_client(client_container_id, implementation)
             run_test_server(container_id, implementation, branch)
             run_test_client(client_container_id, implementation, branch)

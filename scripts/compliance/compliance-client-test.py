@@ -1,13 +1,14 @@
 import subprocess
 import argparse
+import signal
 
 
-def run_command(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE):
+def run_command(command, stdout=None, stderr=None):
     subprocess.call(command.split(), stdout=stdout, stderr=stderr)
 
 
 def start_tcpdump(server, branch):
-    command = "tcpdump -i eth0 -s0 udp port 4433 -w /logs/" + server + "-" + branch + ".pcap"
+    command = "tcpdump -i any -s0 udp port 4433 -U -w /logs/" + server + "-" + branch + ".pcap"
     return subprocess.Popen(command.split())
 
 def main():
@@ -23,7 +24,7 @@ def main():
         run_command("git checkout " + args.branch)
         tcpdump_process = start_tcpdump(args.server, args.branch)
         run_command(run_quicker_client, stdout=out)
-        tcpdump_process.kill()
+        tcpdump_process.send_signal(signal.SIGINT)
 
 if __name__== "__main__":
   main()
