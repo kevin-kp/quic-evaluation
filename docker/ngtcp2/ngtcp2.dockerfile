@@ -16,13 +16,9 @@ RUN rm -rf /var/lib/apt/lists/*  \
     pkg-config 
 
 # Clone ngtcp2
-RUN git clone https://github.com/ngtcp2/ngtcp2 /ngtcp2
+RUN git clone -b experiment-branch https://github.com/kevin-kp/ngtcp2.git /ngtcp2
 
 WORKDIR /ngtcp2
-
-# Fetch ngtcp2 when it implemented draft 12
-RUN git checkout 769e8e5cfe45c1681a31aab32c22eb096d05afe0
-
 
 # Build ngtcp2
 RUN autoreconf -i && \

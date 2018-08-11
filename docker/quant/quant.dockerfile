@@ -34,7 +34,7 @@ WORKDIR /cmake-3.12.0
 RUN ./configure && make && make install
 
 # Clone quant
-RUN git clone --depth 1 -b 12 https://github.com/NTAP/quant.git /quant
+RUN git clone --depth 1 -b 12 https://github.com/kevin-kp/quant.git /quant
 
 WORKDIR /quant
 
