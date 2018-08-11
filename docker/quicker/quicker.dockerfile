@@ -17,16 +17,18 @@ RUN npm install typescript -g
 
 WORKDIR /server
 
-# copy keys for the server
-COPY ./docker/keys /keys/
-# copy scripts
-COPY ./scripts /scripts/
-
 # Install dependencies quicker
 RUN npm install
 
 # Build quicker 
 #RUN tsc -p ./
+
+# copy keys for the server
+COPY ./docker/keys /keys/
+# copy scripts
+COPY ./scripts /scripts/
+# copy www folder
+COPY ./www /www/
 
 EXPOSE 4433/UDP
 #CMD [ "node", "/server/out/main.js" ]

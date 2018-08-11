@@ -35,3 +35,4 @@ for branch in experiment_branches:
     command = "git checkout " + branch
     run_command(command)
     run_command("git merge draft-12+PR#1389")
+    run_command("git push")

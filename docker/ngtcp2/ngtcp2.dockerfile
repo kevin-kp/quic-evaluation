@@ -15,11 +15,6 @@ RUN rm -rf /var/lib/apt/lists/*  \
     libev-dev \
     pkg-config 
 
-# copy keys for the server
-COPY ./docker/keys /keys/
-# copy scripts
-COPY ./scripts /scripts/
-
 # Clone ngtcp2
 RUN git clone https://github.com/ngtcp2/ngtcp2 /ngtcp2
 
@@ -33,6 +28,14 @@ RUN git checkout 769e8e5cfe45c1681a31aab32c22eb096d05afe0
 RUN autoreconf -i && \
     ./configure PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig LDFLAGS="-Wl,-rpath,/openssl/build/lib" && \
     make -j$(nproc) check
+
+
+# copy keys for the server
+COPY ./docker/keys /keys/
+# copy scripts
+COPY ./scripts /scripts/
+# copy www folder
+COPY ./www /www/
 
 EXPOSE 4433/UDP
 #CMD [ "node", "/server/out/main.js" ]

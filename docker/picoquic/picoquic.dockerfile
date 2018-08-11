@@ -15,11 +15,6 @@ RUN rm -rf /var/lib/apt/lists/*  \
     pkg-config \
     cmake           
 
-# copy keys for the server
-COPY ./docker/keys /keys/
-# copy scripts
-COPY ./scripts /scripts/
-
 # Clone picotls
 RUN git clone https://github.com/h2o/picotls /picotls
 
@@ -45,6 +40,13 @@ WORKDIR /picoquic
 
 RUN PKG_CONFIG_PATH=/openssl/build/lib/pkgconfig cmake . && \
     make
+
+# copy keys for the server
+COPY ./docker/keys /keys/
+# copy scripts
+COPY ./scripts /scripts/
+# copy www folder
+COPY ./www /www/
 
 EXPOSE 4433/UDP
 #./picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433

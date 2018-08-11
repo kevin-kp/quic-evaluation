@@ -33,11 +33,6 @@ RUN tar -xvzf cmake-3.12.0.tar.gz
 WORKDIR /cmake-3.12.0
 RUN ./configure && make && make install
 
-# copy keys for the server
-COPY ./docker/keys /keys/
-# copy scripts
-COPY ./scripts /scripts/
-
 # Clone quant
 RUN git clone --depth 1 -b 12 https://github.com/NTAP/quant.git /quant
 
@@ -58,6 +53,13 @@ RUN mkdir Release && mkdir ./Release/external && mkdir ./Release/external/lib
 WORKDIR ./Release
 
 RUN cmake -DCMAKE_BUILD_TYPE=Release .. && make
+
+# copy keys for the server
+COPY ./docker/keys /keys/
+# copy scripts
+COPY ./scripts /scripts/
+# copy www folder
+COPY ./www /www/
 
 EXPOSE 4433/UDP
 

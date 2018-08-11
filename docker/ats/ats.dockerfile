@@ -27,11 +27,6 @@ RUN rm -rf /var/lib/apt/lists/*  \
     # libhwloc-dev: optional, highly recommended
     libhwloc-dev 
 
-# copy keys for the server
-COPY ./docker/keys /keys/
-# copy scripts
-COPY ./scripts /scripts/
-
 # clone ATS with quic
 RUN git clone -b quic-12 https://github.com/apache/trafficserver /trafficserver
 
@@ -39,6 +34,14 @@ WORKDIR /trafficserver
 
 # Build and install ats
 RUN autoreconf -if && CC=gcc-7 CXX=g++-7 ./configure --prefix=$PWD/atsbuild --with-openssl=/openssl/build --enable-debug && make && make install
+
+
+# copy keys for the server
+COPY ./docker/keys /keys/
+# copy scripts
+COPY ./scripts /scripts/
+# copy www folder
+COPY ./www /www/
 
 EXPOSE 4433/UDP
 
