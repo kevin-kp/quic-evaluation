@@ -80,7 +80,7 @@ def activate_network_emulation(network_settings_name):
     if network_settings["loss"] is not None:
         command += " loss {" + str(i) +"} "
     command = command.format(*get_network_settings_array(network_settings_name))
-    #run_command(command)
+    run_command(command)
 
 def run_command(command, stdout=None, stderr=None):
     subprocess.call(command.split(), stdout=stdout, stderr=stderr)
