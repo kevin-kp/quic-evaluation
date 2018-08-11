@@ -71,7 +71,7 @@ def get_network_settings_array(network_settings_name):
 
 def activate_network_emulation(network_settings_name):
     network_settings = get_network_settings(network_settings_name)
-    command = "tc qdisc add dev eth0 root tbf rate {0} burst {1} latency 50ms netem delay {2}"
+    command = "tc qdisc add dev eth0 root handle 1 tbf rate {0} burst {1} latency 50ms && tc qdisc add dev eth0 parent 1: handle 2: netem delay {2}"
     i = 3
     if network_settings["jitter"] is not None:
         command += " {" + str(i) +"} distribution normal"
