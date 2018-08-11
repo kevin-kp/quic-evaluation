@@ -27,7 +27,7 @@ def run_test_server(container_id, server_name, network_setting):
         print("cannot run server, no container")
         exit(-1)
     command = "docker exec -i -d " + container_id + \
-        " python -u /scripts/network/network-server-test.py --server " + \
+        " python -u /scripts/network/network-emu-server-test.py --server " + \
         server_name + " --networksetting " + network_setting
     run_subprocess_command(command)
 
