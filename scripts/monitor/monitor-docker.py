@@ -18,9 +18,18 @@ def get_docker_stats_format():
             \"network\": \"{{ .NetIO }}\" \
         }'
 
-def process_docker_stats(stats, path, file):
+def process_docker_stats(stats, time, path, file):
     print("stats: " + repr(stats))
-    print("out: " + str(json.loads(stats)))
+    stats_dict = json.loads(stats)
+    if not path.endswith('/'):
+        path = path + "/"
+    with open(path + file, 'a+') as csvfile:
+        csv_writer = csv.writer(csvfile, delimiter=';')
+        csv_writer.writerow([
+            str(time), stats_dict.get("id"), stats_dict.get("name"), 
+            stats_dict.get("memory").get("raw"), stats_dict.get("memory").get("percent"),
+            stats_dict.get("cpu"), stats_dict.get("network")
+        ])
 
 def log_docker_stats(container_id, path, file):
     start_time = None
@@ -36,7 +45,8 @@ def log_docker_stats(container_id, path, file):
         if output == '' and proc.poll() is not None:
             break
         if output:
-            process_docker_stats(output.rstrip().replace('\x1b[2J\x1b[H',''), path, file)
+            # remove clear screen from text
+            process_docker_stats(output.rstrip().replace('\x1b[2J\x1b[H',''), round(time.time() - start_time, 2), path, file)
     
 
 def main():
