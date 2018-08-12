@@ -11,25 +11,25 @@ from general import *
 TEST_NAME = "network"
 
 
-def run_test_client(client_container_id, server_name, network_setting):
+def run_test_client(client_container_id, server_name, network_setting, resource):
     print("starting test client to test " + server_name)
     if client_container_id is None:
         print("cannot run test client, no container")
         exit(-1)
     command = "docker exec -i " + client_container_id + \
         " python /scripts/network/network-client-test.py --server " + \
-        server_name + " --networksetting " + network_setting
+        server_name + " --networksetting " + network_setting + " --resource " + resource
     run_call_command(command)
 
 
-def run_test_server(container_id, server_name, network_setting):
+def run_test_server(container_id, server_name, network_setting, resource):
     print("starting test server to test " + server_name)
     if container_id is None:
         print("cannot run server, no container")
         exit(-1)
     command = "docker exec -i -d " + container_id + \
         " python -u /scripts/network/network-emu-server-test.py --server " + \
-        server_name + " --networksetting " + network_setting
+        server_name + " --networksetting " + network_setting + " --resource " + resource
     run_subprocess_command(command)
 
 
@@ -51,18 +51,24 @@ def main():
         "4g",
         "2g_loss"
     ]
+    resources = [
+        "index.html",
+        "large-text.html",
+        "image.jpg"
+    ]
     
     remove_containers()
     client_container_id = None
     for x in range(0, args.amount_of_runs):
-        for implementation in implementations:
-            for network_setting in network_settings:
-                container_id = create_server_container(TEST_NAME, implementation)
-                client_container_id = restart_test_client(
-                    TEST_NAME, client_container_id, implementation)
-                run_test_server(container_id, implementation, network_setting)
-                run_test_client(client_container_id, implementation, network_setting)
-                remove_container(container_id)
+        for resource in resources:
+            for implementation in implementations:
+                for network_setting in network_settings:
+                    container_id = create_server_container(TEST_NAME, implementation)
+                    client_container_id = restart_test_client(
+                        TEST_NAME, client_container_id, implementation)
+                    run_test_server(container_id, implementation, network_setting, resource)
+                    run_test_client(client_container_id, implementation, network_setting, resource)
+                    remove_container(container_id)
     remove_container(client_container_id)
     print("network test done")
 
