@@ -49,7 +49,8 @@ COPY ./scripts /scripts/
 COPY ./www /www/
 
 # install python dependencies for the scripts that are going to be used
-RUN pip install apscheduler, psutil
+RUN pip install --upgrade pip
+RUN pip install apscheduler psutil
 
 EXPOSE 4433/UDP
 #./picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433

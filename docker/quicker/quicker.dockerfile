@@ -31,7 +31,8 @@ COPY ./scripts /scripts/
 COPY ./www /www/
 
 # install python dependencies for the scripts that are going to be used
-RUN pip install apscheduler, psutil
+RUN pip install --upgrade pip
+RUN pip install apscheduler psutil
 
 EXPOSE 4433/UDP
 #CMD [ "node", "/server/out/main.js" ]
