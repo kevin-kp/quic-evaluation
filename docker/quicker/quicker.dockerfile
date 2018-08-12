@@ -30,6 +30,9 @@ COPY ./scripts /scripts/
 # copy www folder
 COPY ./www /www/
 
+# install python dependencies for the scripts that are going to be used
+RUN pip install apscheduler, psutil
+
 EXPOSE 4433/UDP
 #CMD [ "node", "/server/out/main.js" ]
 #CMD [ "node", "/server/out/main.js", "127.0.0.1", "4433", "./keys/selfsigned_default.key", "./keys/selfsigned_default.crt" ]

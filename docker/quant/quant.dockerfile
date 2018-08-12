@@ -61,6 +61,9 @@ COPY ./scripts /scripts/
 # copy www folder
 COPY ./www /www/
 
+# install python dependencies for the scripts that are going to be used
+RUN pip install apscheduler, psutil
+
 EXPOSE 4433/UDP
 
 #ENTRYPOINT ["/quant/bin/server", "-d", "/", "-i", "eth0", "-p", "4433:4433/udp", "-k", "/keys/domain.key", "-c", "/keys/domain.crt"]
