@@ -18,7 +18,7 @@ def main():
 
     args = parser.parse_args()
 
-    run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh " + args.server + " 4433"
+    run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh " + args.server + " 4433 index.html"
 
     with open("/logs/" + args.server + "-" + args.branch + ".txt","w+") as out:
         run_command("git checkout " + args.branch)

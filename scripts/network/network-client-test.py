@@ -16,14 +16,14 @@ def main():
     parser.add_argument(
         '-s', '--server', help='Server name that is tested with this client script', required=True)
     parser.add_argument(
-        '-n', '--networksetting', help='Network settings name that is going to be used to emulate network to test the server (for logging purposes)', required=True)
+        '-n', '--network_setting', help='Network settings name that is going to be used to emulate network to test the server (for logging purposes)', required=True)
 
     args = parser.parse_args()
 
-    run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh " + args.server + " 4433"
+    run_quicker_client = "sh ./scripts/run-scripts/client/build_quicker_and_run.sh " + args.server + " 4433  index.html"
 
-    with open("/logs/" + args.server + "-" + args.networksetting + ".txt","w+") as out:
-        tcpdump_process = start_tcpdump(args.server, args.networksetting)
+    with open("/logs/" + args.server + "-" + args.network_setting + ".txt","w+") as out:
+        tcpdump_process = start_tcpdump(args.server, args.network_setting)
         run_command(run_quicker_client, stdout=out)
         tcpdump_process.send_signal(signal.SIGINT)
 

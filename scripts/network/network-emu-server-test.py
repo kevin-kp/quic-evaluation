@@ -114,7 +114,7 @@ def main():
     parser.add_argument(
         '-s', '--server', help='Server name that is tested with this client script', required=True)
     parser.add_argument(
-        '-n', '--networksetting', help='Network settings name that is going to be used to emulate network to test the server', required=True)
+        '-n', '--network_setting', help='Network settings name that is going to be used to emulate network to test the server', required=True)
 
     args = parser.parse_args()
 
@@ -124,9 +124,9 @@ def main():
         print("unknown server")
         exit(-1)
 
-    out_file = open("/logs/" + args.server + "-" + args.networksetting + ".txt", "w+")
-    tcpdump_process = start_tcpdump(args.server, args.networksetting)
-    activate_network_emulation(args.networksetting)
+    out_file = open("/logs/" + args.server + "-" + args.network_setting + ".txt", "w+")
+    tcpdump_process = start_tcpdump(args.server, args.network_setting)
+    activate_network_emulation(args.network_setting)
     run_command(run_server_command, stdout=out_file, stderr=out_file)
 
 
