@@ -37,7 +37,6 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-a','--amount_of_runs', help='Amount of times the compliance tests need to be run', nargs='?', const=1, type=int, default=1)
-
     args = parser.parse_args()
 
     implementations = [
