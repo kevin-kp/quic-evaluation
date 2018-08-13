@@ -1,0 +1,133 @@
+QUICker client connecting to quicker:4433
+clear text client key: d0ef22af3daa4ac82f00838a4522f720
+clear text client key: 8ce25999243e82025749c4b1
+clear text client pn: 2d90832ddef8eb0d5a01fa2ce94f76fe
+clear text server key: ab6e68d9b53fbb1c90438fcd7f11c773
+clear text server iv: 247557f96e07249a25e8673f
+clear text server pn: 8c3bba7e39adc0ce92fd84992d194e87
+2018-08-13T07:39:45.861 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x06a7e10b2e02, Src CID: 0x0d1526cc0c00cffa6a0ec559c4[31m
+       PKN: 1[0m, payload length: 1187
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 844
+clear text client key: d0ef22af3daa4ac82f00838a4522f720
+clear text client key: 8ce25999243e82025749c4b1
+clear text client pn: 2d90832ddef8eb0d5a01fa2ce94f76fe
+clear text server key: ab6e68d9b53fbb1c90438fcd7f11c773
+clear text server iv: 247557f96e07249a25e8673f
+clear text server pn: 8c3bba7e39adc0ce92fd84992d194e87
+2018-08-13T07:39:45.968 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d1526cc0c00cffa6a0ec559c4, Src CID: 0x0a75df06f8da11eda71b[36m
+       PKN: 1[0m, payload length: 1221
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+clear text client key: d0ef22af3daa4ac82f00838a4522f720
+clear text client key: 8ce25999243e82025749c4b1
+clear text client pn: 2d90832ddef8eb0d5a01fa2ce94f76fe
+clear text server key: ab6e68d9b53fbb1c90438fcd7f11c773
+clear text server iv: 247557f96e07249a25e8673f
+clear text server pn: 8c3bba7e39adc0ce92fd84992d194e87
+2018-08-13T07:39:45.981 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d1526cc0c00cffa6a0ec559c4, Src CID: 0x0a75df06f8da11eda71b[36m
+       PKN: 2[0m, payload length: 1134
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+clear text client key: d0ef22af3daa4ac82f00838a4522f720
+clear text client key: 8ce25999243e82025749c4b1
+clear text client pn: 2d90832ddef8eb0d5a01fa2ce94f76fe
+clear text server key: ab6e68d9b53fbb1c90438fcd7f11c773
+clear text server iv: 247557f96e07249a25e8673f
+clear text server pn: 8c3bba7e39adc0ce92fd84992d194e87
+2018-08-13T07:39:45.990 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0a75df06f8da11eda71b, Src CID: 0x0d1526cc0c00cffa6a0ec559c4[31m
+       PKN: 2[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+protected1RTT client key: 8c42aaa3edacbc4d1a3689dba408f99fe669c764fd16efef1047e4388ad6738e
+protected1RTT client iv: 3e4b68a4d98f3e23db486257
+protected1RTT client pn: be72149b826bb4302b652caf32fa80ac38d27dab5eed83d5d2eb4ba58a478104
+protected1RTT server key: dbd6feee41f89c9ea83cafd6ec544a43a64b5d7ab883149b4a632e4ab4ba6ae4
+protected1RTT server iv: e8daf59f90af5c58f91ae27b
+protected1RTT server pn: cc8b638469aaae349bd40dae4584ad26b41569cf112588dad09d5ba5151803df
+2018-08-13T07:39:45.997 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0a75df06f8da11eda71b[31m
+       PKN: 3[0m, spinbit: 0
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x02
+    Application error code= 1
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T07:39:45.999 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0a75df06f8da11eda71b[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x06
+    Application error code= 1
+2018-08-13T07:39:46.019 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0d1526cc0c00cffa6a0ec559c4[36m
+       PKN: 3[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=272 offset=2312
+2018-08-13T07:39:46.023 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0a75df06f8da11eda71b[31m
+       PKN: 5[0m, spinbit: 1
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x0a
+    Application error code= 1
+    [31mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=24680
+    ack block count=0
+    first ackblock=1
+2018-08-13T07:39:46.045 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0d1526cc0c00cffa6a0ec559c4[36m
+       PKN: 4[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=91640
+    ack block count=0
+    first ackblock=0
+2018-08-13T07:39:46.057 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0a75df06f8da11eda71b[31m
+       PKN: 6[0m, spinbit: 1
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x0e
+    Application error code= 1
+    [31mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=18224
+    ack block count=0
+    first ackblock=2
+2018-08-13T07:39:46.059 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0d1526cc0c00cffa6a0ec559c4[36m
+       PKN: 5[0m, spinbit: 0
+    [36mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+clear text client key: 4809638f96f3f2f1d31acb82c4ad92e8
+clear text client key: 2928063b33420b0e3a4d62c4
+clear text client pn: 440c19579dc4453da50d639375a0b6ac
+clear text server key: a5af69e89fd69eaf7ad3babcd12dd3a8
+clear text server iv: bf894ed162ff9d362927231e
+clear text server pn: 60d74c7fa1663a77fc3b4651547c3f4a
+2018-08-13T07:39:50.999 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x09820235bb9ccc7f4e, Src CID: 0x076a792d2d7ee3[31m
+       PKN: 1[0m, payload length: 1190
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=618 offset=0
+    [31mPADDING (0x0)[0m
+    length= 550

@@ -1,0 +1,611 @@
+QUICker client connecting to ngtcp2:4433
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:15.814 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x07ce8568de3a18, Src CID: 0x0f83b776d6cb92341854c909477d00[31m
+       PKN: 1[0m, payload length: 1184
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 842
+2018-08-13T08:01:16.024 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x07ce8568de3a18, Src CID: 0x0f83b776d6cb92341854c909477d00[31m
+       PKN: 2[0m, payload length: 1184
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 842
+2018-08-13T08:01:16.027 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x07ce8568de3a18, Src CID: 0x0f83b776d6cb92341854c909477d00[31m
+       PKN: 3[0m, payload length: 1184
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 842
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.047 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 0[0m, payload length: 1199
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=0
+    ack block count=0
+    first ackblock=0
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0xef7597f73319a330
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1165 offset=0
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.061 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a, Src CID: 0x0f83b776d6cb92341854c909477d00[31m
+       PKN: 4[0m, payload length: 26
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0xef7597f73319a330
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.069 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 1[0m, payload length: 1169
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0xa514ce9893e9e46a
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1138 offset=1165
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.076 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a, Src CID: 0x0f83b776d6cb92341854c909477d00[31m
+       PKN: 5[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=320
+protected1RTT client key: f622e840410f91d34eaa800176b66a5a7b0353315b54da5f089765a8acf85721
+protected1RTT client iv: ddc787106461b6e3ecb7bf75
+protected1RTT client pn: 64ba29cda269f6291deee86f0600dc1df158fe605e12ad647b494aebda76833c
+protected1RTT server key: b15739bcad5299c2dbbccacaf4d6306bc1cd53ba08a8502ab9121c6e8a064ae6
+protected1RTT server iv: da6370038e143bebc6ce28fa
+protected1RTT server pn: f2810c5104451eeccfbf0d740d7922a902563a7086d2bde2445cd3cee9c7f4c7
+2018-08-13T08:01:16.084 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[31m
+       PKN: 6[0m, spinbit: 0
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0xa514ce9893e9e46a
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.089 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 2[0m, payload length: 1185
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1165 offset=0
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.093 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 3[0m, payload length: 1160
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1138 offset=1165
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.099 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 4[0m, payload length: 21
+    [36mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.105 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f83b776d6cb92341854c909477d00, Src CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[36m
+       PKN: 5[0m, payload length: 21
+    [36mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+clear text client key: f26850252e24bb936b79163375ec5378
+clear text client key: beb96b4c7fe0e932163518f7
+clear text client pn: e455925b8b407b38e3a4fdb059cd0763
+clear text server key: f4fc949cc138b5a67364e76da6a65028
+clear text server iv: 5e54f05e449e286f1ec492d2
+clear text server pn: eece361df97cac27103a1f3186908f5c
+2018-08-13T08:01:16.156 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x5dad7cf0ef3c8a56f2c96f75eb1722005f2a[31m
+       PKN: 7[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=5
+    ack delay=10824
+    ack block count=0
+    first ackblock=5
+2018-08-13T08:01:16.171 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0f83b776d6cb92341854c909477d00[36m
+       PKN: 6[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=5
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mPING (0x7)[0m
+
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=2303
+2018-08-13T08:01:16.175 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0f83b776d6cb92341854c909477d00[36m
+       PKN: 7[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=2390
+2018-08-13T08:01:16.177 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0f83b776d6cb92341854c909477d00[36m
+       PKN: 8[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=12 offset=0
+      48656c6c6f20576f726c6421                  'Hello World!'
+2018-08-13T08:01:16.179 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0f83b776d6cb92341854c909477d00[36m
+       PKN: 9[0m, spinbit: 0
+    [36mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.074 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0f4b673edab8e91c4f888afe243467, Src CID: 0x0a4fa33743c34b8e659e[31m
+       PKN: 1[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 734
+protected0RTT client key: 776c6d2ef0f16eccddafae3f701dc2ef97b83b20d001989f892283d8d8729123
+protected0RTT client iv: 8a29dfcd7f7c96616872c48d
+protected0RTT client pn: 7ff16016b0cb27bcc514d32ae696b315b7c54afc52d63e3666f6ebf6fc45b3e7
+2018-08-13T08:01:21.079 
+  [31mTX Protected0RTT(0x4)[0m, Version: 0xff00000c, Dest CID: 0x0f4b673edab8e91c4f888afe243467, Src CID: 0x0a4fa33743c34b8e659e[31m
+       PKN: 2[0m, payload length: 36
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T08:01:21.285 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0f4b673edab8e91c4f888afe243467, Src CID: 0x0a4fa33743c34b8e659e[31m
+       PKN: 3[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 734
+2018-08-13T08:01:21.287 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0f4b673edab8e91c4f888afe243467, Src CID: 0x0a4fa33743c34b8e659e[31m
+       PKN: 4[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 734
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.355 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0a4fa33743c34b8e659e, Src CID: 0x1ec31e5407486de0dd3e440d079b55749876[36m
+       PKN: 0[0m, payload length: 393
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=0
+    ack block count=0
+    first ackblock=0
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0x4602b59943abbd56
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=359 offset=0
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.365 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x1ec31e5407486de0dd3e440d079b55749876, Src CID: 0x0a4fa33743c34b8e659e[31m
+       PKN: 5[0m, payload length: 122
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=100 offset=425
+protected1RTT client key: e02a47a34d7ec36437040acb323555270f505ce3a2114fb8b6857f15d11f6012
+protected1RTT client iv: 459986be79d476ae3c9e16c4
+protected1RTT client pn: 84656b992fc1704528f56c688674b6959a26de8bf6fcbad2292fc42f36b4be74
+protected1RTT server key: fa2c344b05dd2566188d4f5cf7ab4210e3c1db5194d1a22baa0922ea3b883f57
+protected1RTT server iv: 242bac3602d8faa8550ce23c
+protected1RTT server pn: 0d383b2d318629c65d9ab17cfd903874ae2488e9ce3848fa9febf01b19e2d087
+2018-08-13T08:01:21.371 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1ec31e5407486de0dd3e440d079b55749876[31m
+       PKN: 6[0m, spinbit: 0
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0x4602b59943abbd56
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.378 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0a4fa33743c34b8e659e, Src CID: 0x1ec31e5407486de0dd3e440d079b55749876[36m
+       PKN: 1[0m, payload length: 379
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=359 offset=0
+2018-08-13T08:01:21.380 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 2[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+2018-08-13T08:01:21.385 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 3[0m, spinbit: 0
+    [36mMAX_DATA (0x4)[0m
+    Max data=0x100010
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=1204 offset=0
+      3c21646f63747970652068746d6c3e0a          '<!doctype html>\n'
+      3c68746d6c3e0a0a3c686561643e0a20          '<html>\n\n<head>\n '
+      2020203c7469746c653e517569636b65          '   <title>Quicke'
+      723c2f7469746c653e0a3c2f68656164          'r</title>\n</head'
+      3e0a0a3c626f64793e0a202020203c70          '>\n\n<body>\n    <p'
+      3e48656c6c6f20576f726c642066726f          '>Hello World fro'
+      6d20517569636b6572213c2f703e0a20          'm Quicker!</p>\n '
+      2020203c68722f3e0a202020203c6872          '   <hr/>\n    <hr'
+      2f3e0a202020203c62722f3e0a202020          '/>\n    <br/>\n   '
+      203c703e4c6f72656d20697073756d20          ' <p>Lorem ipsum '
+      646f6c6f722073697420616d65742c20          'dolor sit amet, '
+      636f6e73656374657475722061646970          'consectetur adip'
+      697363696e6720656c69742e20496e74          'iscing elit. Int'
+      65676572206e6563206f64696f2e2050          'eger nec odio. P'
+      72616573656e74206c696265726f2e20          'raesent libero. '
+      5365642063757273757320616e746520          'Sed cursus ante '
+      64617069627573206469616d2e0a2020          'dapibus diam.\n  '
+      202020202020536564206e6973692e20          '      Sed nisi. '
+      4e756c6c6120717569732073656d2061          'Nulla quis sem a'
+      74206e69626820656c656d656e74756d          't nibh elementum'
+      20696d706572646965742e2044756973          ' imperdiet. Duis'
+      20736167697474697320697073756d2e          ' sagittis ipsum.'
+      205072616573656e74206d6175726973          ' Praesent mauris'
+      2e204675736365206e65632074656c6c          '. Fusce nec tell'
+      7573207365640a202020202020202061          'us sed\n        a'
+      756775652073656d70657220706f7274          'ugue semper port'
+      612e204d6175726973206d617373612e          'a. Mauris massa.'
+      20566573746962756c756d206c616369          ' Vestibulum laci'
+      6e696120617263752065676574206e75          'nia arcu eget nu'
+      6c6c612e0a20202020202020203c623e          'lla.\n        <b>'
+      4c6f72656d20697073756d20646f6c6f          'Lorem ipsum dolo'
+      722073697420616d65742c20636f6e73          'r sit amet, cons'
+      65637465747572206164697069736369          'ectetur adipisci'
+      6e6720656c69743c2f623e2e20436c61          'ng elit</b>. Cla'
+      737320617074656e7420746163697469          'ss aptent taciti'
+      20736f63696f737175206164206c6974          ' sociosqu ad lit'
+      6f726120746f727175656e7420706572          'ora torquent per'
+      0a2020202020202020636f6e75626961          '\n        conubia'
+      206e6f737472612c2070657220696e63          ' nostra, per inc'
+      6570746f732068696d656e61656f732e          'eptos himenaeos.'
+      2043757261626974757220736f64616c          ' Curabitur sodal'
+      6573206c6967756c6120696e206c6962          'es ligula in lib'
+      65726f2e203c2f703e0a0a202020203c          'ero. </p>\n\n    <'
+      703e536564206469676e697373696d20          'p>Sed dignissim '
+      6c6163696e6961206e756e632e204375          'lacinia nunc. Cu'
+      7261626974757220746f72746f722e20          'rabitur tortor. '
+      50656c6c656e746573717565206e6962          'Pellentesque nib'
+      682e0a20202020202020203c623e4675          'h.\n        <b>Fu'
+      736365206e65632074656c6c75732073          'sce nec tellus s'
+      65642061756775652073656d70657220          'ed augue semper '
+      706f7274613c2f623e2e2041656e6561          'porta</b>. Aenea'
+      6e207175616d2e20496e207363656c65          'n quam. In scele'
+      7269737175652073656d20617420646f          'risque sem at do'
+      6c6f722e204d616563656e6173206d61          'lor. Maecenas ma'
+      747469732e2053656420636f6e76616c          'ttis. Sed conval'
+      6c69730a202020202020202074726973          'lis\n        tris'
+      74697175652073656d2e2050726f696e          'tique sem. Proin'
+      207574206c6967756c612076656c206e          ' ut ligula vel n'
+      756e63206567657374617320706f7274          'unc egestas port'
+      7469746f722e204d6f726269206c6563          'titor. Morbi lec'
+      7475732072697375732c20696163756c          'tus risus, iacul'
+      69732076656c2c207375736369706974          'is vel, suscipit'
+      20717569732c206c75637475730a2020          ' quis, luctus\n  '
+      2020202020206e6f6e2c206d61737361          '      non, massa'
+      2e204675736365206163207475727069          '. Fusce ac turpi'
+      732071756973206c6967756c61206c61          's quis ligula la'
+      63696e696120616c69717565742e204d          'cinia aliquet. M'
+      617572697320697073756d2e203c2f70          'auris ipsum. </p'
+      3e0a0a202020203c703e4e756c6c6120          '>\n\n    <p>Nulla '
+      6d65747573206d657475732c20756c6c          'metus metus, ull'
+      616d636f727065722076656c2c207469          'amcorper vel, ti'
+      6e636964756e74207365642c20657569          'ncidunt sed, eui'
+      736d6f6420696e2c206e6962682e2051          'smod in, nibh. Q'
+      75697371756520766f6c757470617420          'uisque volutpat '
+      636f6e64696d656e74756d2076656c69          'condimentum veli'
+      742e0a20                                  't.\n '
+2018-08-13T08:01:21.388 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 4[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=1209 offset=1204
+      202020202020203c693e536564206469          '       <i>Sed di'
+      676e697373696d206c6163696e696120          'gnissim lacinia '
+      6e756e633c2f693e2e20436c61737320          'nunc</i>. Class '
+      617074656e742074616369746920736f          'aptent taciti so'
+      63696f737175206164206c69746f7261          'ciosqu ad litora'
+      20746f727175656e742070657220636f          ' torquent per co'
+      6e75626961206e6f737472612c207065          'nubia nostra, pe'
+      7220696e636570746f730a2020202020          'r inceptos\n     '
+      20202068696d656e61656f732e204e61          '   himenaeos. Na'
+      6d206e656320616e74652e0a20202020          'm nec ante.\n    '
+      202020203c623e4d6f726269206c6563          '    <b>Morbi lec'
+      7475732072697375732c20696163756c          'tus risus, iacul'
+      69732076656c2c207375736369706974          'is vel, suscipit'
+      20717569732c206c7563747573206e6f          ' quis, luctus no'
+      6e2c206d617373613c2f623e2e205365          'n, massa</b>. Se'
+      64206c6163696e69612c2075726e6120          'd lacinia, urna '
+      6e6f6e2074696e636964756e74206d61          'non tincidunt ma'
+      747469732c20746f72746f720a202020          'ttis, tortor\n   '
+      20202020206e65717565206164697069          '     neque adipi'
+      7363696e67206469616d2c2061206375          'scing diam, a cu'
+      7273757320697073756d20616e746520          'rsus ipsum ante '
+      71756973207475727069732e204e756c          'quis turpis. Nul'
+      6c6120666163696c6973692e0a202020          'la facilisi.\n   '
+      20202020203c693e50656c6c656e7465          '     <i>Pellente'
+      73717565206e6962683c2f693e2e2055          'sque nibh</i>. U'
+      74206672696e67696c6c612e20537573          't fringilla. Sus'
+      70656e646973736520706f74656e7469          'pendisse potenti'
+      2e204e756e632066657567696174206d          '. Nunc feugiat m'
+      6920612074656c6c757320636f6e7365          'i a tellus conse'
+      7175617420696d706572646965742e0a          'quat imperdiet.\n'
+      20202020202020203c623e4675736365          '        <b>Fusce'
+      20616320747572706973207175697320          ' ac turpis quis '
+      6c6967756c61206c6163696e69612061          'ligula lacinia a'
+      6c69717565743c2f623e2e2056657374          'liquet</b>. Vest'
+      6962756c756d2073617069656e2e2050          'ibulum sapien. P'
+      726f696e207175616d2e203c2f703e0a          'roin quam. </p>\n'
+      0a202020203c703e457469616d20756c          '\n    <p>Etiam ul'
+      7472696365732e2053757370656e6469          'trices. Suspendi'
+      73736520696e206a7573746f20657520          'sse in justo eu '
+      6d61676e61206c756374757320737573          'magna luctus sus'
+      63697069742e20536564206c65637475          'cipit. Sed lectu'
+      732e20496e746567657220657569736d          's. Integer euism'
+      6f64206c61637573206c756374757320          'od lacus luctus '
+      6d61676e612e20517569737175650a20          'magna. Quisque\n '
+      202020202020206375727375732c206d          '       cursus, m'
+      65747573207669746165207068617265          'etus vitae phare'
+      74726120617563746f722c2073656d20          'tra auctor, sem '
+      6d61737361206d61747469732073656d          'massa mattis sem'
+      2c20617420696e74657264756d206d61          ', at interdum ma'
+      676e6120617567756520656765742064          'gna augue eget d'
+      69616d2e0a20202020202020203c693e          'iam.\n        <i>'
+      50726f696e207574206c6967756c6120          'Proin ut ligula '
+      76656c206e756e632065676573746173          'vel nunc egestas'
+      20706f72747469746f723c2f693e2e20          ' porttitor</i>. '
+      566573746962756c756d20616e746520          'Vestibulum ante '
+      697073756d207072696d697320696e20          'ipsum primis in '
+      6661756369627573206f726369206c75          'faucibus orci lu'
+      6374757320657420756c747269636573          'ctus et ultrices'
+      0a2020202020202020706f7375657265          '\n        posuere'
+      20637562696c69612043757261653b20          ' cubilia Curae; '
+      4d6f726269206c6163696e6961206d6f          'Morbi lacinia mo'
+      6c6573746965206475692e2050726165          'lestie dui. Prae'
+      73656e7420626c616e64697420646f6c          'sent blandit dol'
+      6f722e20536564206e6f6e207175616d          'or. Sed non quam'
+      2e20496e2076656c206d692073697420          '. In vel mi sit '
+      616d65742061756775650a2020202020          'amet augue\n     '
+      202020636f6e67756520656c656d656e          '   congue elemen'
+      74756d2e204d6f72626920696e206970          'tum. Morbi in ip'
+      73756d2073697420616d657420706564          'sum sit amet ped'
+      6520666163696c69736973206c616f72          'e facilisis laor'
+      6565742e20446f6e6563206c61637573          'eet. Donec lacus'
+      206e756e632c2076697665727261206e          ' nunc, viverra n'
+      65632c20626c616e6469742076656c2c          'ec, blandit vel,'
+      20656765737461730a20202020202020          ' egestas\n       '
+      2065742c2061756775652e2056657374          ' et, augue. Vest'
+      6962756c756d207469                        'ibulum ti'
+2018-08-13T08:01:21.390 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 5[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=758 offset=2413
+      6e636964756e74206d616c6573756164          'ncidunt malesuad'
+      612074656c6c75732e20557420756c74          'a tellus. Ut ult'
+      726963657320756c7472696365732065          'rices ultrices e'
+      6e696d2e204375726162697475722073          'nim. Curabitur s'
+      697420616d6574206d61757269732e20          'it amet mauris. '
+      3c2f703e0a0a202020203c703e0a2020          '</p>\n\n    <p>\n  '
+      2020202020203c623e536564206e6f6e          '      <b>Sed non'
+      207175616d3c2f623e2e204d6f726269          ' quam</b>. Morbi'
+      20696e20647569207175697320657374          ' in dui quis est'
+      2070756c76696e617220756c6c616d63          ' pulvinar ullamc'
+      6f727065722e204e756c6c6120666163          'orper. Nulla fac'
+      696c6973692e20496e7465676572206c          'ilisi. Integer l'
+      6163696e696120736f6c6c6963697475          'acinia sollicitu'
+      64696e206d617373612e0a2020202020          'din massa.\n     '
+      2020203c623e51756973717565206375          '   <b>Quisque cu'
+      727375732c206d657475732076697461          'rsus, metus vita'
+      6520706861726574726120617563746f          'e pharetra aucto'
+      722c2073656d206d61737361206d6174          'r, sem massa mat'
+      7469732073656d2c20617420696e7465          'tis sem, at inte'
+      7264756d206d61676e61206175677565          'rdum magna augue'
+      2065676574206469616d3c2f623e2e20          ' eget diam</b>. '
+      43726173206d657475732e0a20202020          'Cras metus.\n    '
+      2020202053656420616c697175657420          '    Sed aliquet '
+      7269737573206120746f72746f722e20          'risus a tortor. '
+      496e7465676572206964207175616d2e          'Integer id quam.'
+      204d6f726269206d692e0a2020202020          ' Morbi mi.\n     '
+      2020203c693e536564206e6f6e207175          '   <i>Sed non qu'
+      616d3c2f693e2e205175697371756520          'am</i>. Quisque '
+      6e69736c2066656c69732c2076656e65          'nisl felis, vene'
+      6e61746973207472697374697175652c          'natis tristique,'
+      206469676e697373696d20696e2c2075          ' dignissim in, u'
+      6c7472696365732073697420616d6574          'ltrices sit amet'
+      2c2061756775652e2050726f696e2073          ', augue. Proin s'
+      6f64616c65730a20202020202020206c          'odales\n        l'
+      696265726f206567657420616e74652e          'ibero eget ante.'
+      204e756c6c61207175616d2e2041656e          ' Nulla quam. Aen'
+      65616e206c616f726565742e20566573          'ean laoreet. Ves'
+      746962756c756d206e697369206c6563          'tibulum nisi lec'
+      7475732c20636f6d6d6f646f2061632c          'tus, commodo ac,'
+      20666163696c697369732061632c2075          ' facilisis ac, u'
+      6c747269636965732065752c20706564          'ltricies eu, ped'
+      652e0a20202020202020205574206f72          'e.\n        Ut or'
+      63692072697375732c20616363756d73          'ci risus, accums'
+      616e20706f72747469746f722c206375          'an porttitor, cu'
+      7273757320717569732c20616c697175          'rsus quis, aliqu'
+      657420656765742c206a7573746f2e20          'et eget, justo. '
+      3c2f703e0a0a3c2f626f64793e0a0a3c          '</p>\n\n</body>\n\n<'
+      2f68746d6c3e                              '/html>'
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.398 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0a4fa33743c34b8e659e, Src CID: 0x1ec31e5407486de0dd3e440d079b55749876[36m
+       PKN: 6[0m, payload length: 23
+    [36mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=0
+    ack block count=1
+    first ackblock=0
+      gap=0, ackblock=0
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.403 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0a4fa33743c34b8e659e, Src CID: 0x1ec31e5407486de0dd3e440d079b55749876[36m
+       PKN: 7[0m, payload length: 23
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=0
+    ack block count=1
+    first ackblock=1
+      gap=0, ackblock=0
+clear text client key: 4e4da5e707184d95670f3a3ed785f826
+clear text client key: 947312e07820ffba309fd943
+clear text client pn: 05dca5c52749b4c740d4c36d035bea7d
+clear text server key: 898b96ed507504fa75bea746b6debc0e
+clear text server iv: d65bd6bfe94c29c3945efc77
+clear text server pn: 4a83c4a822b7019062887dadaec77c4b
+2018-08-13T08:01:21.408 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 8[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=36680
+    ack block count=0
+    first ackblock=3
+2018-08-13T08:01:21.455 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1ec31e5407486de0dd3e440d079b55749876[31m
+       PKN: 7[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=8
+    ack delay=1352
+    ack block count=0
+    first ackblock=8
+2018-08-13T08:01:21.483 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 9[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=5
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mPING (0x7)[0m
+
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=359
+2018-08-13T08:01:21.489 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 10[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=12 offset=0
+      48656c6c6f20576f726c6421                  'Hello World!'
+2018-08-13T08:01:21.491 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 11[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=7
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mMAX_STREAM_ID (0x6)[0m
+    Max streamID=0x0194
+2018-08-13T08:01:21.493 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 12[0m, spinbit: 0
+    [36mMAX_STREAM_ID (0x6)[0m
+    Max streamID=0x0194
+2018-08-13T08:01:21.528 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0a4fa33743c34b8e659e[36m
+       PKN: 13[0m, spinbit: 0
+    [36mMAX_STREAM_ID (0x6)[0m
+    Max streamID=0x0194
+2018-08-13T08:01:21.531 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1ec31e5407486de0dd3e440d079b55749876[31m
+       PKN: 8[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=12
+    ack delay=6984
+    ack block count=0
+    first ackblock=3
+2018-08-13T08:01:21.591 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1ec31e5407486de0dd3e440d079b55749876[31m
+       PKN: 9[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=13
+    ack delay=23536
+    ack block count=0
+    first ackblock=4

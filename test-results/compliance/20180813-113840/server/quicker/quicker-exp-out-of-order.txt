@@ -1,0 +1,296 @@
+Running QUICker server at 0.0.0.0:4433, with certs: /keys/domain.key, /keys/domain.crt
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+2018-08-13T09:56:00.901 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ba43bd57f0bfb1bf8f4d0, Src CID: 0x062b52eb296f[36m
+       PKN: 1[0m, payload length: 1189
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 846
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+2018-08-13T09:56:00.967 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x062b52eb296f, Src CID: 0x0fdcd457fa0a0f39c751d606871116[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T09:56:00.971 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x062b52eb296f, Src CID: 0x0fdcd457fa0a0f39c751d606871116[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+protected1RTT client key: f4338151e913060e157d1596ee1479d8c709c47086b3636478fabc0b3beb9e9c
+protected1RTT client iv: adca379327abe3bef32da7f2
+protected1RTT client pn: f78fde8c3ae81deb8104806ebb1e9f5af1ca7ee362936367f864a52cc177e334
+protected1RTT server key: f756367b0901f456eef07e0533e63358d14fc1255e257b94f3099af754d495ca
+protected1RTT server iv: f5e7ac7b29c8b1429eb0dc03
+protected1RTT server pn: 65f9491100161a98413f1be1683b61356a314a9d66d38e98f8c836543f40222b
+2018-08-13T09:56:01.025 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 3[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=103616
+    ack block count=0
+    first ackblock=0
+2018-08-13T09:56:01.031 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0fdcd457fa0a0f39c751d606871116[36m
+       PKN: 3[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T09:56:01.038 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=186 offset=0
+      3c21646f63747970652068746d6c3e0a          '<!doctype html>\n'
+      3c68746d6c3e0a202020203c68656164          '<html>\n    <head'
+      3e0a20202020202020203c7469746c65          '>\n        <title'
+      3e517569636b65723c2f7469746c653e          '>Quicker</title>'
+      0a202020203c2f686561643e0a202020          '\n    </head>\n   '
+      203c626f64793e0a2020202020202020          ' <body>\n        '
+      3c703e48656c6c6f20576f726c642066          '<p>Hello World f'
+      726f6d20517569636b6572213c2f703e          'rom Quicker!</p>'
+      0a20202020202020203c62722f3e0a20          '\n        <br/>\n '
+      202020202020203c703e476f6f646279          '       <p>Goodby'
+      65213c2f703e0a202020203c2f626f64          'e!</p>\n    </bod'
+      793e0a3c2f68746d6c3e                      'y>\n</html>'
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+2018-08-13T09:56:01.047 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0fdcd457fa0a0f39c751d606871116, Src CID: 0x062b52eb296f[36m
+       PKN: 2[0m, payload length: 102
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+2018-08-13T09:56:01.050 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 5[0m, spinbit: 0
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=272 offset=2312
+2018-08-13T09:56:01.056 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0fdcd457fa0a0f39c751d606871116[36m
+       PKN: 4[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x08) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T09:56:01.058 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 6[0m, spinbit: 0
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x08) length=186 offset=0
+      3c21646f63747970652068746d6c3e0a          '<!doctype html>\n'
+      3c68746d6c3e0a202020203c68656164          '<html>\n    <head'
+      3e0a20202020202020203c7469746c65          '>\n        <title'
+      3e517569636b65723c2f7469746c653e          '>Quicker</title>'
+      0a202020203c2f686561643e0a202020          '\n    </head>\n   '
+      203c626f64793e0a2020202020202020          ' <body>\n        '
+      3c703e48656c6c6f20576f726c642066          '<p>Hello World f'
+      726f6d20517569636b6572213c2f703e          'rom Quicker!</p>'
+      0a20202020202020203c62722f3e0a20          '\n        <br/>\n '
+      202020202020203c703e476f6f646279          '       <p>Goodby'
+      65213c2f703e0a202020203c2f626f64          'e!</p>\n    </bod'
+      793e0a3c2f68746d6c3e                      'y>\n</html>'
+2018-08-13T09:56:01.061 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0fdcd457fa0a0f39c751d606871116[36m
+       PKN: 5[0m, spinbit: 1
+    [36mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=29056
+    ack block count=0
+    first ackblock=1
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+2018-08-13T09:56:01.082 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0fdcd457fa0a0f39c751d606871116, Src CID: 0x062b52eb296f[36m
+       PKN: 6[0m, payload length: 108
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=6832
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+clear text client key: 79969b37c33b2977947136f18372bdaf
+clear text client key: 03a8ac96de7a2ddcd047feb0
+clear text client pn: 3e1a17a0ad3f815eda5299afb50d89ee
+clear text server key: ffc8de3c424a36175c345971a58fc183
+clear text server iv: bf1dd3ebd6a9f88f7f28ae41
+clear text server pn: d2cfe6831f1a26febbc573582fe9b5f1
+2018-08-13T09:56:01.088 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0fdcd457fa0a0f39c751d606871116, Src CID: 0x062b52eb296f[36m
+       PKN: 7[0m, payload length: 102
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+2018-08-13T09:56:01.133 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 7[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=7
+    ack delay=4920
+    ack block count=0
+    first ackblock=5
+2018-08-13T09:56:01.143 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0fdcd457fa0a0f39c751d606871116[36m
+       PKN: 8[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=6
+    ack delay=14968
+    ack block count=0
+    first ackblock=5
+2018-08-13T09:56:01.201 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x062b52eb296f[31m
+       PKN: 8[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=8
+    ack delay=18656
+    ack block count=0
+    first ackblock=6
+2018-08-13T09:56:01.212 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0fdcd457fa0a0f39c751d606871116[36m
+       PKN: 9[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=7
+    ack delay=21944
+    ack block count=0
+    first ackblock=4
+clear text client key: 126675d74976428b28f35bda2da27d96
+clear text client key: 759e032ac1d4a17e21364946
+clear text client pn: 726a4dec88961b993b4b8063af0b07c0
+clear text server key: 822055f90331193ee3c39c7b0a38bcb9
+clear text server iv: 8371c93173bc46fbb899be5e
+clear text server pn: 12b29a52f3021dfda30d94a69df25da7
+2018-08-13T09:56:06.046 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0535fcd67c, Src CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[36m
+       PKN: 1[0m, payload length: 1183
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=618 offset=0
+    [36mPADDING (0x0)[0m
+    length= 543
+protected0RTT client key: f2660a5b0525aa7b2a18baf64bcd8f66947f52929f6062b19fa10145783ce89c
+protected0RTT client iv: a9b419df12d984f986e9eb81
+protected0RTT client pn: 3605ab7e22ace03f1a72900ee4799fbf0b9a687df84f60a18bea436aa0089057
+clear text client key: 126675d74976428b28f35bda2da27d96
+clear text client key: 759e032ac1d4a17e21364946
+clear text client pn: 726a4dec88961b993b4b8063af0b07c0
+clear text server key: 822055f90331193ee3c39c7b0a38bcb9
+clear text server iv: 8371c93173bc46fbb899be5e
+clear text server pn: 12b29a52f3021dfda30d94a69df25da7
+2018-08-13T09:56:06.059 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719, Src CID: 0x117819442f3998469ac3803e68ecf23d0a[31m
+       PKN: 1[0m, payload length: 389
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=368 offset=0
+2018-08-13T09:56:06.070 
+  [36mRX Protected0RTT(0x4)[0m, Version: 0xff00000c, Dest CID: 0x0535fcd67c, Src CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[36m
+       PKN: 2[0m, payload length: 36
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+protected1RTT client key: 0ef1c18be1cfadb63eef88dfa660fb14a66291d960f71439d77dafcdee4559b3
+protected1RTT client iv: 02c1f6160fae6eca717c0932
+protected1RTT client pn: e3d845518d9ada6a26d0ea6c5191bc2f2dc3193f23dba5f1e2d70b600e6df1f6
+protected1RTT server key: 98cd94ca48becdea984fa220a28a04c849bcc752483d9d872fc5e49bb38fb81f
+protected1RTT server iv: 7feb8926e27ba666340b2cfa
+protected1RTT server pn: 5b0fcf970ce513f367e8aa6b6749afe2528d442e361e1dba68badbe01e2fcdf2
+2018-08-13T09:56:06.085 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[31m
+       PKN: 2[0m, spinbit: 0
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=186 offset=0
+      3c21646f63747970652068746d6c3e0a          '<!doctype html>\n'
+      3c68746d6c3e0a202020203c68656164          '<html>\n    <head'
+      3e0a20202020202020203c7469746c65          '>\n        <title'
+      3e517569636b65723c2f7469746c653e          '>Quicker</title>'
+      0a202020203c2f686561643e0a202020          '\n    </head>\n   '
+      203c626f64793e0a2020202020202020          ' <body>\n        '
+      3c703e48656c6c6f20576f726c642066          '<p>Hello World f'
+      726f6d20517569636b6572213c2f703e          'rom Quicker!</p>'
+      0a20202020202020203c62722f3e0a20          '\n        <br/>\n '
+      202020202020203c703e476f6f646279          '       <p>Goodby'
+      65213c2f703e0a202020203c2f626f64          'e!</p>\n    </bod'
+      793e0a3c2f68746d6c3e                      'y>\n</html>'
+clear text client key: 126675d74976428b28f35bda2da27d96
+clear text client key: 759e032ac1d4a17e21364946
+clear text client pn: 726a4dec88961b993b4b8063af0b07c0
+clear text server key: 822055f90331193ee3c39c7b0a38bcb9
+clear text server iv: 8371c93173bc46fbb899be5e
+clear text server pn: 12b29a52f3021dfda30d94a69df25da7
+2018-08-13T09:56:06.090 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x117819442f3998469ac3803e68ecf23d0a, Src CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[36m
+       PKN: 3[0m, payload length: 122
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=100 offset=618
+2018-08-13T09:56:06.099 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x117819442f3998469ac3803e68ecf23d0a[36m
+       PKN: 4[0m, spinbit: 1
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=22624
+    ack block count=0
+    first ackblock=0
+clear text client key: 126675d74976428b28f35bda2da27d96
+clear text client key: 759e032ac1d4a17e21364946
+clear text client pn: 726a4dec88961b993b4b8063af0b07c0
+clear text server key: 822055f90331193ee3c39c7b0a38bcb9
+clear text server iv: 8371c93173bc46fbb899be5e
+clear text server pn: 12b29a52f3021dfda30d94a69df25da7
+2018-08-13T09:56:06.104 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[31m
+       PKN: 3[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=4616
+    ack block count=0
+    first ackblock=2
+2018-08-13T09:56:06.157 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x12311a7e4bf57cc3ef47e3a092b581fae719[31m
+       PKN: 4[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=18824
+    ack block count=0
+    first ackblock=3
+2018-08-13T09:56:06.164 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x117819442f3998469ac3803e68ecf23d0a[36m
+       PKN: 5[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=7744
+    ack block count=0
+    first ackblock=2
+2018-08-13T09:56:06.227 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x117819442f3998469ac3803e68ecf23d0a[36m
+       PKN: 6[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=18072
+    ack block count=0
+    first ackblock=2
+connection with connectionID 0fdcd457fa0a0f39c751d606871116 is draining
+connection with connectionID 117819442f3998469ac3803e68ecf23d0a is draining
+connection with connectionID 0fdcd457fa0a0f39c751d606871116 is closed
+connection with connectionID 117819442f3998469ac3803e68ecf23d0a is closed

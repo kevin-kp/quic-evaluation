@@ -1,0 +1,117 @@
+Using document root /www/
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=1215
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 1 dcid=0x09a40c9d61cceede88 scid=0x08264c714ae8f11d type=Initial(0x7f) len=1190
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 1 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 01 01 3b 01 00 01  37 03 03 69 08 22 33 1d  |....;...7..i."3.|
+00000010  9e 66 91 60 34 23 f4 56  57 8c 81 fb a1 f4 94 d2  |.f.`4#.VW.......|
+00000020  a1 31 25 c8 b5 ed 8c 42  aa 33 7b 20 79 d3 0c b7  |.1%....B.3{ y...|
+00000030  8f c5 7a 12 20 5f a5 8d  dc fa d4 2a b2 af 2e e6  |..z. _.....*....|
+00000040  c8 93 42 d2 ee 80 0f ef  a7 d3 28 ca 00 08 13 02  |..B.......(.....|
+00000050  13 03 13 01 00 ff 01 00  00 e6 00 1a 00 2d ff 00  |.............-..|
+00000060  00 0c 00 27 00 00 00 04  00 00 28 00 00 01 00 04  |...'......(.....|
+00000070  00 00 c8 00 00 03 00 02  00 1e 00 02 00 02 00 0c  |................|
+00000080  00 08 00 02 00 0c 00 07  00 01 03 00 00 00 0b 00  |................|
+00000090  09 00 00 06 6e 67 74 63  70 32 00 0b 00 04 03 00  |....ngtcp2......|
+000000a0  01 02 00 0a 00 04 00 02  00 17 00 23 00 00 00 10  |...........#....|
+000000b0  00 08 00 06 05 68 71 2d  31 32 00 16 00 00 00 17  |.....hq-12......|
+000000c0  00 00 00 0d 00 1e 00 1c  04 03 05 03 06 03 08 07  |................|
+000000d0  08 08 08 09 08 0a 08 0b  08 04 08 05 08 06 04 01  |................|
+000000e0  05 01 06 01 00 2b 00 07  06 7f 1c 7f 1b 7f 1a 00  |.....+..........|
+000000f0  2d 00 02 01 01 00 33 00  47 00 45 00 17 00 41 04  |-.....3.G.E...A.|
+00000100  b1 a8 6f 13 f9 a0 1a cc  6e 1e b9 fb e6 37 3b 4b  |..o.....n....7;K|
+00000110  0b d7 e7 aa 98 dd 26 f6  d8 4a 5c 3e aa 0b 4d fa  |......&..J\>..M.|
+00000120  28 37 2d af 40 da ec ff  49 bb 9b dd 82 36 ac 3b  |(7-.@...I....6.;|
+00000130  85 64 42 0e fa 7c 6c 9e  72 31 ef 0b bd 8a 99 7f  |.dB..|l.r1......|
+00000140
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters initial_version=0xff00000c
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters initial_max_stream_data=10240
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters initial_max_data=51200
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters initial_max_bidi_streams=12
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters initial_max_uni_streams=12
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters idle_timeout=30
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters max_packet_size=65527
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f cry remote transport_parameters ack_delay_exponent=3
+SSL_READ_EARLY_DATA_FINISH
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 1 Initial(0x7f) PADDING(0x00) len=848
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt read packet 1215 left 0
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 0 Handshake(0x7d) ACK(0x0d) largest_ack=1 ack_delay=0(0) ack_block_count=0
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 0 Handshake(0x7d) ACK(0x0d) block=[1..1] block_count=0
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 0 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0xdca91d08e0e728f1
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 0 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1172 uni=0
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241102414080 last_hs_tx_pkt_ts=1534121240902414080 alarm_duration=200
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 1 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0xced1b7377d116d61
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 1 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1172 len=1131 uni=0
+I00000000 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241102414080 last_hs_tx_pkt_ts=1534121240902414080 alarm_duration=200
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss detection alarm fired
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv packet lost 1 sent_ts=1534121240902414080 unprotected=1
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv packet lost 0 sent_ts=1534121240902414080 unprotected=1
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss detection alarm canceled
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 2 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1172 uni=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241509453824 last_hs_tx_pkt_ts=1534121241109453824 alarm_duration=400
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 3 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1172 len=1131 uni=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241509453824 last_hs_tx_pkt_ts=1534121241109453824 alarm_duration=400
+Forward CID=09a40c9d61cceede88 to CID=d9a70bfaa1b84fd61f5a19a82c94d8d8bf8f
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=1215
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 2 dcid=0x09a40c9d61cceede88 scid=0x08264c714ae8f11d type=Initial(0x7f) len=1190
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 2 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 2 Initial(0x7f) PADDING(0x00) len=848
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt read packet 1215 left 0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 4 Handshake(0x7d) ACK(0x0d) largest_ack=2 ack_delay=0(0) ack_block_count=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 4 Handshake(0x7d) ACK(0x0d) block=[2..1] block_count=1
+Forward CID=09a40c9d61cceede88 to CID=d9a70bfaa1b84fd61f5a19a82c94d8d8bf8f
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=1215
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 3 dcid=0x09a40c9d61cceede88 scid=0x08264c714ae8f11d type=Initial(0x7f) len=1190
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 3 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 3 Initial(0x7f) PADDING(0x00) len=848
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt read packet 1215 left 0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 5 Handshake(0x7d) ACK(0x0d) largest_ack=3 ack_delay=0(0) ack_block_count=0
+I00000207 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 5 Handshake(0x7d) ACK(0x0d) block=[3..1] block_count=2
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=60
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 4 dcid=0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f scid=0x08264c714ae8f11d type=Handshake(0x7d) len=27
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 4 Handshake(0x7d) PATH_RESPONSE(0x0f) data=0xdca91d08e0e728f1
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con source address validated
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 4 Handshake(0x7d) PADDING(0x00) len=1
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt read packet 60 left 0
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=137
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 5 dcid=0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f scid=0x08264c714ae8f11d type=Handshake(0x7d) len=103
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 5 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=320 len=80 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  14 03 03 00 01 01 17 03  03 00 45 3c 32 f0 fe ea  |..........E<2...|
+00000010  78 ea 9c 11 dd 9f 1d e3  53 bb 04 f7 e2 c9 60 b7  |x.......S.....`.|
+00000020  d9 3c 96 95 88 04 50 23  ce 07 04 54 ae f6 40 bb  |.<....P#...T..@.|
+00000030  d3 c5 55 7d 3b cc 85 bb  59 f5 e7 0d 1e 17 00 1e  |..U};...Y.......|
+00000040  a7 ce 3a 86 f0 be 83 4c  80 04 90 d3 c3 90 03 ec  |..:....L........|
+00000050
+Negotiated cipher suite is TLS_AES_256_GCM_SHA384
+Negotiated ALPN is hq-12
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt read packet 137 left 0
+QUIC handshake has completed
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 6 Short(0x00) ACK(0x0d) largest_ack=5 ack_delay=0(0) ack_block_count=0
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 6 Short(0x00) ACK(0x0d) block=[5..1] block_count=4
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 6 Short(0x00) PING(0x07)
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 6 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2303 len=87 uni=0
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241509453824 last_hs_tx_pkt_ts=1534121241109453824 alarm_duration=400
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 7 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2390 len=87 uni=0
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241509453824 last_hs_tx_pkt_ts=1534121241109453824 alarm_duration=400
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 8 Short(0x00) STREAM(0x13) id=0x3 fin=1 offset=0 len=12 uni=1
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f rcv loss_detection_alarm=1534121241509453824 last_hs_tx_pkt_ts=1534121241109453824 alarm_duration=400
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f con recv packet len=70
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f pkt rx pkt 6 dcid=0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f scid=0x type=Short(0x00) len=0
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm rx 6 Short(0x00) STOP_SENDING(0x0c) id=0x2 app_error_code=(unknown)(0x0001)
+ngtcp2_conn_recv: ERR_PROTO
+Closing period has started
+I00000296 0xd9a70bfaa1b84fd61f5a19a82c94d8d8bf8f frm tx 9 Short(0x00) CONNECTION_CLOSE(0x02) error_code=PROTOCOL_VIOLATION(10) reason_len=0
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period: TX CONNECTION_CLOSE
+Closing Period is over
+Closing QUIC connection

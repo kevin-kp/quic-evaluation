@@ -1,0 +1,9 @@
+Using document root /www/
+I00000000 0x167f60eda7c6cdc17288b99473d1cfd9c712 con recv packet len=1215
+I00000000 0x167f60eda7c6cdc17288b99473d1cfd9c712 pkt rx pkt 1 dcid=0x07291a1fc9334d scid=0x0eafe3e763b60822d80c6997c139 type=Initial(0x7f) len=1186
+I00000000 0x167f60eda7c6cdc17288b99473d1cfd9c712 frm rx 1 Initial(0x7f) STREAM(0x15) id=0x3fe fin=1 offset=3629296736041673941 len=1158 uni=1
+ngtcp2_conn_handshake: ERR_PROTO
+Closing period has started
+I00000000 0x167f60eda7c6cdc17288b99473d1cfd9c712 frm tx 0 Handshake(0x7d) CONNECTION_CLOSE(0x02) error_code=PROTOCOL_VIOLATION(10) reason_len=0
+Closing Period: TX CONNECTION_CLOSE
+Closing QUIC connection

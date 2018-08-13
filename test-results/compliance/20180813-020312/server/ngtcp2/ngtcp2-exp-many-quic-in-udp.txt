@@ -1,0 +1,721 @@
+Using document root /www/
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1215
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 1 dcid=0x085bc8717ae6e3f6 scid=0x0c63257adf1af16f301fbb14 type=Initial(0x7f) len=1187
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 1 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 01 01 3b 01 00 01  37 03 03 b9 4b b0 e5 70  |....;...7...K..p|
+00000010  d8 7c 8a 34 29 20 3a 45  47 5d 18 af 9d c7 72 1f  |.|.4) :EG]....r.|
+00000020  42 d0 c6 80 73 b3 76 41  f2 14 e4 20 06 f4 f9 27  |B...s.vA... ...'|
+00000030  41 db f5 94 ce 18 eb 60  f6 70 00 e0 36 e9 e3 4b  |A......`.p..6..K|
+00000040  72 22 78 78 51 89 fb ce  8b 99 53 47 00 08 13 02  |r"xxQ.....SG....|
+00000050  13 03 13 01 00 ff 01 00  00 e6 00 1a 00 2d ff 00  |.............-..|
+00000060  00 0c 00 27 00 00 00 04  00 00 28 00 00 01 00 04  |...'......(.....|
+00000070  00 00 c8 00 00 03 00 02  00 1e 00 02 00 02 00 0c  |................|
+00000080  00 08 00 02 00 0c 00 07  00 01 03 00 00 00 0b 00  |................|
+00000090  09 00 00 06 6e 67 74 63  70 32 00 0b 00 04 03 00  |....ngtcp2......|
+000000a0  01 02 00 0a 00 04 00 02  00 17 00 23 00 00 00 10  |...........#....|
+000000b0  00 08 00 06 05 68 71 2d  31 32 00 16 00 00 00 17  |.....hq-12......|
+000000c0  00 00 00 0d 00 1e 00 1c  04 03 05 03 06 03 08 07  |................|
+000000d0  08 08 08 09 08 0a 08 0b  08 04 08 05 08 06 04 01  |................|
+000000e0  05 01 06 01 00 2b 00 07  06 7f 1c 7f 1b 7f 1a 00  |.....+..........|
+000000f0  2d 00 02 01 01 00 33 00  47 00 45 00 17 00 41 04  |-.....3.G.E...A.|
+00000100  d6 c8 d0 47 d4 e7 da ed  6d 65 81 78 b5 f3 9d 73  |...G....me.x...s|
+00000110  70 cd 22 60 6e f7 63 1e  26 61 38 db 62 ed 9b be  |p."`n.c.&a8.b...|
+00000120  13 5d de b9 00 2c 9d 87  27 cb 0d 3e e3 18 74 6a  |.]...,..'..>..tj|
+00000130  72 d4 5d 5d 85 fa 75 1e  7b ee 91 47 86 da 7a e5  |r.]]..u.{..G..z.|
+00000140
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters initial_version=0xff00000c
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters initial_max_stream_data=10240
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters initial_max_data=51200
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters initial_max_bidi_streams=12
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters initial_max_uni_streams=12
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters idle_timeout=30
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters max_packet_size=65527
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 cry remote transport_parameters ack_delay_exponent=3
+SSL_READ_EARLY_DATA_FINISH
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 1 Initial(0x7f) PADDING(0x00) len=845
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 1215 left 0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 0 Handshake(0x7d) ACK(0x0d) largest_ack=1 ack_delay=0(0) ack_block_count=0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 0 Handshake(0x7d) ACK(0x0d) block=[1..1] block_count=0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 0 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0x55ee31249188a5c7
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 0 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1168 uni=0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836429475072 last_hs_tx_pkt_ts=1534118836229475072 alarm_duration=200
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 1 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0x6b8bea25ae6518c0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 1 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1168 len=1135 uni=0
+I00000000 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836429475072 last_hs_tx_pkt_ts=1534118836229475072 alarm_duration=200
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss detection alarm fired
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet lost 1 sent_ts=1534118836229475072 unprotected=1
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet lost 0 sent_ts=1534118836229475072 unprotected=1
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss detection alarm canceled
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 2 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1168 uni=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 3 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1168 len=1135 uni=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+Forward CID=085bc8717ae6e3f6 to CID=c7f294f962f4738ce83df63c594aad9e65c4
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1215
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 2 dcid=0x085bc8717ae6e3f6 scid=0x0c63257adf1af16f301fbb14 type=Initial(0x7f) len=1187
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 2 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 2 Initial(0x7f) PADDING(0x00) len=845
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 1215 left 0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 4 Handshake(0x7d) ACK(0x0d) largest_ack=2 ack_delay=0(0) ack_block_count=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 4 Handshake(0x7d) ACK(0x0d) block=[2..1] block_count=1
+Forward CID=085bc8717ae6e3f6 to CID=c7f294f962f4738ce83df63c594aad9e65c4
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1215
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 3 dcid=0x085bc8717ae6e3f6 scid=0x0c63257adf1af16f301fbb14 type=Initial(0x7f) len=1187
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 3 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 3 Initial(0x7f) PADDING(0x00) len=845
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 1215 left 0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 5 Handshake(0x7d) ACK(0x0d) largest_ack=3 ack_delay=0(0) ack_block_count=0
+I00000231 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 5 Handshake(0x7d) ACK(0x0d) block=[3..1] block_count=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=64
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 4 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=27
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 4 Handshake(0x7d) PATH_RESPONSE(0x0f) data=0x55ee31249188a5c7
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con source address validated
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 4 Handshake(0x7d) PADDING(0x00) len=1
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 64 left 0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1288
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 5 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 5 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1232
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 6 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 6 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1176
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 7 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 7 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1120
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 8 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 8 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1064
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 9 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 9 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1008
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 10 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 10 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 952
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 11 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 11 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 896
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 12 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 12 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 840
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 13 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 13 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 784
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 14 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 14 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 728
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 15 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 15 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 672
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 16 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 16 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 616
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 17 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 17 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 560
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 18 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 18 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 504
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 19 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 19 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 448
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 20 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 20 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 392
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 21 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 21 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 336
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 22 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 22 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 280
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 23 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 23 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 224
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 24 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 24 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 168
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 25 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 25 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 112
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 26 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 26 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 56
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 27 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 27 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=141
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 28 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=103
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 28 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=320 len=80 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  14 03 03 00 01 01 17 03  03 00 45 f7 71 b7 e4 e4  |..........E.q...|
+00000010  6e 48 22 6f 46 a7 76 85  51 36 e5 58 21 71 4c 8f  |nH"oF.v.Q6.X!qL.|
+00000020  ba 6e 09 89 c8 07 5b a6  86 a6 79 dd 89 0a 7e cb  |.n....[...y...~.|
+00000030  34 1a 66 a6 c2 b3 c9 ca  83 29 c3 9d 33 41 d2 65  |4.f......)..3A.e|
+00000040  96 2a d3 3d 51 cc 69 87  47 93 db e4 ca 27 fe a4  |.*.=Q.i.G....'..|
+00000050
+Negotiated cipher suite is TLS_AES_256_GCM_SHA384
+Negotiated ALPN is hq-12
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 141 left 0
+QUIC handshake has completed
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 6 Short(0x00) ACK(0x0d) largest_ack=28 ack_delay=0(0) ack_block_count=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 6 Short(0x00) ACK(0x0d) block=[28..1] block_count=27
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 6 Short(0x00) PING(0x07)
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 6 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2303 len=87 uni=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 7 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2390 len=87 uni=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 8 Short(0x00) STREAM(0x13) id=0x3 fin=1 offset=0 len=12 uni=1
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1288
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 29 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 29 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1232
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 30 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 30 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1176
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 31 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 31 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1120
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 32 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 32 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1064
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 33 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 33 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1008
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 34 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 34 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 952
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 35 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 35 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 896
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 36 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 36 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 840
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 37 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 37 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 784
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 38 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 38 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 728
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 39 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 39 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 672
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 40 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 40 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 616
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 41 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 41 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 560
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 42 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 42 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 504
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 43 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 43 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 448
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 44 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 44 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 392
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 45 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 45 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 336
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 46 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 46 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 280
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 47 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 47 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 224
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 48 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 48 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 168
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 49 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 49 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 112
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 50 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 50 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 56
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 51 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 51 Handshake(0x7d) PADDING(0x00) len=2
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=66
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 52 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x type=Short(0x00) len=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 52 Short(0x00) PATH_RESPONSE(0x0f) data=0x6b8bea25ae6518c0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 52 Short(0x00) PADDING(0x00) len=1
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 52 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=0 len=16 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  47 45 54 20 2f 69 6e 64  65 78 2e 68 74 6d 6c 0a  |GET /index.html.|
+00000010
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 66 left 0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 9 Short(0x00) ACK(0x0d) largest_ack=52 ack_delay=0(0) ack_block_count=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 9 Short(0x00) ACK(0x0d) block=[52..1] block_count=51
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 9 Short(0x00) MAX_DATA(0x04) max_data=1048592
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 9 Short(0x00) STREAM(0x12) id=0x4 fin=0 offset=0 len=1197 uni=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 10 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=1197 len=1207 uni=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 11 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=2404 len=767 uni=0
+I00000371 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss_detection_alarm=1534118836860802304 last_hs_tx_pkt_ts=1534118836460802304 alarm_duration=400
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=1288
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 53 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 53 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1232
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 54 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 54 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1176
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 55 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 55 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1120
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 56 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 56 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1064
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 57 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 57 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 1008
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 58 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 58 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 952
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 59 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 59 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 896
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 60 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 60 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 840
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 61 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 61 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 784
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 62 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 62 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 728
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 63 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 63 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 672
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 64 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 64 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 616
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 65 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 65 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 560
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 66 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 66 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 504
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 67 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 67 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 448
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 68 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 68 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 392
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 69 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 69 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 336
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 70 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 70 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 280
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 71 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 71 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 224
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 72 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 72 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 168
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 73 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 73 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 112
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 74 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 74 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 56
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 75 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x0c63257adf1af16f301fbb14 type=Handshake(0x7d) len=19
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 75 Handshake(0x7d) PADDING(0x00) len=2
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 56 left 0
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=42
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 76 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x type=Short(0x00) len=0
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 76 Short(0x00) ACK(0x0d) largest_ack=5 ack_delay=6(873) ack_block_count=0
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 76 Short(0x00) ACK(0x0d) block=[5..0] block_count=5
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 3 acked, slow start cwnd=15796
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 2 acked, slow start cwnd=17023
+I00000510 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 42 left 0
+I00000532 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss detection alarm fired
+I00000532 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv handshake_count=0 tlp_count=1 rto_count=0
+I00000532 0xc7f294f962f4738ce83df63c594aad9e65c4 con transmit probe pkt left=1
+I00000532 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 12 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=2404 len=767 uni=0
+I00000532 0xc7f294f962f4738ce83df63c594aad9e65c4 con probe pkt size=803
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=42
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 77 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x type=Short(0x00) len=0
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 77 Short(0x00) ACK(0x0d) largest_ack=11 ack_delay=2(261) ack_block_count=0
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 77 Short(0x00) ACK(0x0d) block=[11..0] block_count=11
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 con packet after last handshake packet was acknowledged
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv latest_rtt=165 min_rtt=165 smoothed_rtt=165.280 rttvar=82.640 max_ack_delay=0
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 11 acked, slow start cwnd=17826
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 10 acked, slow start cwnd=19069
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 9 acked, slow start cwnd=20310
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 8 acked, slow start cwnd=20355
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 7 acked, slow start cwnd=20478
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 6 acked, slow start cwnd=20607
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss detection alarm canceled
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 42 left 0
+I00000536 0xc7f294f962f4738ce83df63c594aad9e65c4 frm tx 13 Short(0x00) MAX_STREAM_ID(0x06) max_stream_id=404
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 con recv packet len=42
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt rx pkt 78 dcid=0xc7f294f962f4738ce83df63c594aad9e65c4 scid=0x type=Short(0x00) len=0
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 78 Short(0x00) ACK(0x0d) largest_ack=13 ack_delay=11(1472) ack_block_count=0
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 frm rx 78 Short(0x00) ACK(0x0d) block=[13..0] block_count=13
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv latest_rtt=60 min_rtt=60 smoothed_rtt=152.192 rttvar=88.156 max_ack_delay=0
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 13 acked, slow start cwnd=20640
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv packet 12 acked, slow start cwnd=21443
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 rcv loss detection alarm canceled
+I00000596 0xc7f294f962f4738ce83df63c594aad9e65c4 pkt read packet 42 left 0
+Unexpected packet received
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1215
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 32 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Initial(0x7f) len=1192
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm rx 32 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=425 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 01 01 9e 01 00 01  9a 03 03 b5 69 cf bc db  |............i...|
+00000010  06 2a 33 c8 31 c8 dd 99  a9 b2 6e bf 79 3c 0b 98  |.*3.1.....n.y<..|
+00000020  0d ca 84 15 4c 7f 87 01  b5 d8 3d 20 53 ce 72 ce  |....L.....= S.r.|
+00000030  a4 f0 d1 c2 9e b2 ea e2  57 0f 44 89 07 4e cf 9a  |........W.D..N..|
+00000040  0a 64 6d e2 a5 85 92 fb  91 a4 a3 f0 00 08 13 02  |.dm.............|
+00000050  13 03 13 01 00 ff 01 00  01 49 00 1a 00 2d ff 00  |.........I...-..|
+00000060  00 0c 00 27 00 00 00 04  00 00 28 00 00 01 00 04  |...'......(.....|
+00000070  00 00 c8 00 00 03 00 02  00 1e 00 02 00 02 00 0c  |................|
+00000080  00 08 00 02 00 0c 00 07  00 01 03 00 00 00 0b 00  |................|
+00000090  09 00 00 06 6e 67 74 63  70 32 00 0b 00 04 03 00  |....ngtcp2......|
+000000a0  01 02 00 0a 00 04 00 02  00 17 00 23 00 00 00 10  |...........#....|
+000000b0  00 08 00 06 05 68 71 2d  31 32 00 16 00 00 00 17  |.....hq-12......|
+000000c0  00 00 00 0d 00 1e 00 1c  04 03 05 03 06 03 08 07  |................|
+000000d0  08 08 08 09 08 0a 08 0b  08 04 08 05 08 06 04 01  |................|
+000000e0  05 01 06 01 00 2b 00 07  06 7f 1c 7f 1b 7f 1a 00  |.....+..........|
+000000f0  2d 00 02 01 01 00 33 00  47 00 45 00 17 00 41 04  |-.....3.G.E...A.|
+00000100  55 3d 74 24 81 9c ef e2  70 e6 0a 43 f9 01 a5 d5  |U=t$....p..C....|
+00000110  c5 cf d7 aa 63 4f e9 3f  a4 59 73 a4 00 5b 16 f9  |....cO.?.Ys..[..|
+00000120  d6 4e c3 68 3f 2c f7 e4  37 4a d8 ae d8 49 6f c5  |.N.h?,..7J...Io.|
+00000130  ce c5 10 19 40 7d 01 e9  01 5c 21 6c a3 b2 de 20  |....@}...\!l... |
+00000140  00 2a 00 00 00 29 00 5b  00 26 00 20 d1 1c b8 00  |.*...).[.&. ....|
+00000150  d6 87 a5 3a ad 11 9f a1  43 39 d3 eb d5 37 cb e2  |...:....C9...7..|
+00000160  13 1f 71 73 67 c8 31 5e  c8 d6 e3 e9 8a ec 81 fa  |..qsg.1^........|
+00000170  00 31 30 39 c7 a5 8c 05  3c f6 06 57 a8 d5 33 39  |.109....<..W..39|
+00000180  b6 e3 43 d1 95 d8 92 3c  26 c0 d7 68 2c 3c cb 8c  |..C....<&..h,<..|
+00000190  15 c5 1d 86 a7 67 b3 bf  25 77 3a 8e 66 3e 48 be  |.....g..%w:.f>H.|
+000001a0  d0 86 fd 14 03 03 00 01  01                       |.........|
+000001a9
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters initial_version=0xff00000c
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters initial_max_stream_data=10240
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters initial_max_data=51200
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters initial_max_bidi_streams=12
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters initial_max_uni_streams=12
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters idle_timeout=30
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters max_packet_size=65527
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 cry remote transport_parameters ack_delay_exponent=3
+SSL_READ_EARLY_DATA_ERROR
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm rx 32 Initial(0x7f) PADDING(0x00) len=745
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 1215 left 0
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 0 Handshake(0x7d) ACK(0x0d) largest_ack=32 ack_delay=0(0) ack_block_count=0
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 0 Handshake(0x7d) ACK(0x0d) block=[32..32] block_count=0
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 0 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0x7a7c52dd9fd3c7b8
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 0 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00000000 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118841884213504 last_hs_tx_pkt_ts=1534118841684213504 alarm_duration=200
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 0 sent_ts=1534118841684213504 unprotected=1
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm canceled
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 1 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118842386524416 last_hs_tx_pkt_ts=1534118841986524416 alarm_duration=400
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1271
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 33 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1230
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 34 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1189
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 35 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1148
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 36 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1107
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 37 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1066
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 38 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1025
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 39 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 984
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 40 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 943
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 41 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 902
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 42 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 861
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 43 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 820
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 44 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 779
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 45 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 738
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 46 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 697
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 47 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 656
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 48 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 615
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 49 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 574
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 50 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 533
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 51 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 492
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 52 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 451
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 53 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 410
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 54 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 369
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 55 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 328
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 56 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 287
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 57 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 246
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 58 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 205
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 59 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 164
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 60 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 123
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 61 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 82
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 62 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 41
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 63 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 0
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=59
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 64 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=0RTT(0x7c) len=37
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm rx 64 0RTT(0x7c) STREAM(0x17) id=0x4 fin=1 offset=0 len=16 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  47 45 54 20 2f 69 6e 64  65 78 2e 68 74 6d 6c 0a  |GET /index.html.|
+00000010
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 59 left 0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 2 Short(0x00) ACK(0x0d) largest_ack=64 ack_delay=0(0) ack_block_count=1
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 2 Short(0x00) ACK(0x0d) block=[64..64] block_count=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 2 Short(0x00) ACK(0x0d) block=[32..32] gap=30 block_count=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 3 Short(0x00) MAX_DATA(0x04) max_data=1048592
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 3 Short(0x00) STREAM(0x12) id=0x4 fin=0 offset=0 len=1209 uni=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118842386524416 last_hs_tx_pkt_ts=1534118841986524416 alarm_duration=400
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 4 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=1209 len=1214 uni=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118842386524416 last_hs_tx_pkt_ts=1534118841986524416 alarm_duration=400
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 5 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=2423 len=748 uni=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118842386524416 last_hs_tx_pkt_ts=1534118841986524416 alarm_duration=400
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1271
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 65 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1230
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 66 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1189
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 67 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1148
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 68 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1107
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 69 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1066
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 70 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1025
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 71 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 984
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 72 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 943
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 73 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 902
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 74 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 861
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 75 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 820
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 76 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 779
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 77 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 738
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 78 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 697
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 79 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 656
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 80 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 615
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 81 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 574
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 82 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 533
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 83 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 492
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 84 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 451
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 85 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 410
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 86 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 369
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 87 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 328
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 88 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 287
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 89 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 246
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 90 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 205
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 91 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 164
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 92 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 123
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 93 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 82
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 94 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 41
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 95 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 0
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1215
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 96 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Initial(0x7f) len=1192
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm rx 96 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=425 uni=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm rx 96 Initial(0x7f) PADDING(0x00) len=745
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 1215 left 0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 6 Handshake(0x7d) ACK(0x0d) largest_ack=96 ack_delay=0(0) ack_block_count=1
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 6 Handshake(0x7d) ACK(0x0d) block=[96..96] block_count=0
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 6 Handshake(0x7d) ACK(0x0d) block=[32..32] gap=62 block_count=0
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1271
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 97 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1230
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 98 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1189
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 99 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1148
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 100 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1107
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 101 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1066
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 102 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 1025
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 103 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 984
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 104 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 943
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 105 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 902
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 106 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 861
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 107 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 820
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 108 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 779
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 109 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 738
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 110 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 697
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 111 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 656
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 112 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 615
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 113 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 574
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 114 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 533
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 115 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 492
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 116 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 451
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 117 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 410
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 118 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 369
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 119 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 328
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 120 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 287
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 121 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 246
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 122 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 205
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 123 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 164
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 124 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 123
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 125 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 82
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 126 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 41
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 127 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=Handshake(0x7d) len=19
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 41 left 0
+Forward CID=0afe2993fd906d275ed3 to CID=5674adeeb75f15c0f08ba1bc78c0853f4236
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=60
+I00000302 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 128 dcid=0x0afe2993fd906d275ed3 scid=0x0516044739 type=0RTT(0x7c) len=37
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000396 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 7 Short(0x00) ACK(0x0d) largest_ack=96 ack_delay=94(11833) ack_block_count=2
+I00000396 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 7 Short(0x00) ACK(0x0d) block=[96..96] block_count=0
+I00000396 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 7 Short(0x00) ACK(0x0d) block=[64..64] gap=30 block_count=0
+I00000396 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 7 Short(0x00) ACK(0x0d) block=[32..32] gap=30 block_count=0
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 138 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=155
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 154 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=123
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 68 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=47
+I00000441 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 47 left 0
+I00000507 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00000507 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 609890740 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000507 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=43
+I00000507 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 43 left 0
+I00000702 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00000702 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 1 sent_ts=1534118841986524416 unprotected=1
+I00000702 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=2 tlp_count=0 rto_count=0
+I00000702 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 8 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00000702 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118843187134720 last_hs_tx_pkt_ts=1534118842387134720 alarm_duration=800
+I00000805 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00000805 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 2782 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00000805 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=43
+I00000805 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 43 left 0
+I00001181 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00001181 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 40 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001181 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=155
+I00001181 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 130 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=123
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001506 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00001506 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 8 sent_ts=1534118842387134720 unprotected=1
+I00001506 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=3 tlp_count=0 rto_count=0
+I00001506 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 9 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00001506 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118844790644224 last_hs_tx_pkt_ts=1534118843190644224 alarm_duration=1600
+I00001609 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00001609 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 4162 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001609 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=43
+I00001609 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 43 left 0
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 1043606547 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=47
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt read packet 47 left 0
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=1250
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 5449 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=19
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 con recv packet len=155
+I00001693 0x5674adeeb75f15c0f08ba1bc78c0853f4236 pkt rx pkt 80 dcid=0x5674adeeb75f15c0f08ba1bc78c0853f4236 scid=0x0516044739 type=Handshake(0x7d) len=123
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00003108 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00003108 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 9 sent_ts=1534118843190644224 unprotected=1
+I00003108 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=4 tlp_count=0 rto_count=0
+I00003108 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 10 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00003108 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118847993110016 last_hs_tx_pkt_ts=1534118844793110016 alarm_duration=3200
+I00006311 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00006311 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 10 sent_ts=1534118844793110016 unprotected=1
+I00006311 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=5 tlp_count=0 rto_count=0
+I00006311 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 11 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00006311 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118854395920896 last_hs_tx_pkt_ts=1534118847995920896 alarm_duration=6400
+I00012718 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss detection alarm fired
+I00012718 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv packet lost 11 sent_ts=1534118847995920896 unprotected=1
+I00012718 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv handshake_count=6 tlp_count=0 rto_count=0
+I00012718 0x5674adeeb75f15c0f08ba1bc78c0853f4236 frm tx 12 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=359 uni=0
+I00012718 0x5674adeeb75f15c0f08ba1bc78c0853f4236 rcv loss_detection_alarm=1534118867202509824 last_hs_tx_pkt_ts=1534118854402509824 alarm_duration=12800
+Timeout
+Draining period has started
+Timeout
+Draining period has started
+Draining Period is over
+Closing QUIC connection
+Draining Period is over
+Closing QUIC connection

@@ -1,0 +1,4849 @@
+QUICker client connecting to ngtcp2:4433
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:05.818 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0b9ee2d1f24638dda87368, Src CID: 0x075b472d974477[31m
+       PKN: 1[0m, payload length: 1188
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 846
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.014 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x075b472d974477, Src CID: 0xf7476665cd381b924f989fa35e04a75a8093[36m
+       PKN: 0[0m, payload length: 1207
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=0
+    ack block count=0
+    first ackblock=0
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0xe88e30cb5eb8270c
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1173 offset=0
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.034 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093, Src CID: 0x075b472d974477[31m
+       PKN: 2[0m, payload length: 26
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0xe88e30cb5eb8270c
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.040 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x075b472d974477, Src CID: 0xf7476665cd381b924f989fa35e04a75a8093[36m
+       PKN: 1[0m, payload length: 1161
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0xe7fddd8299e06a0f
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1130 offset=1173
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.048 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093, Src CID: 0x075b472d974477[31m
+       PKN: 3[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=320
+protected1RTT client key: 88e3b39f396e3de9219e4785a1b0113b759fb79e0cbca71003297af955ea2cf5
+protected1RTT client iv: fd8313cb45a19e98ed69b7f9
+protected1RTT client pn: 11757f437c690b8eebf820d52326a41a1e9a5ffe15f2df59d2f047e74c565859
+protected1RTT server key: 9f8972c4051668799c7a11a776d6ca834a2b138e5da553ccbe58c71acf4d379c
+protected1RTT server iv: 5895df652578b59a5a7250a6
+protected1RTT server pn: 658c6a14f3dbfa47ea4cdd957187f52f733a647c5c80b6e71b6ff6f031d6f365
+2018-08-13T14:39:06.061 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 4[0m, spinbit: 0
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0xe7fddd8299e06a0f
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.066 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x075b472d974477, Src CID: 0xf7476665cd381b924f989fa35e04a75a8093[36m
+       PKN: 2[0m, payload length: 1193
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1173 offset=0
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.071 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x075b472d974477, Src CID: 0xf7476665cd381b924f989fa35e04a75a8093[36m
+       PKN: 3[0m, payload length: 1152
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1130 offset=1173
+2018-08-13T14:39:06.115 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 5[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=4968
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.127 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 4[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mPING (0x7)[0m
+
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=2303
+clear text client key: f336e3386aaf43f1ee555711797fe03a
+clear text client key: a13680c61c31414dc9230f13
+clear text client pn: 67e3a970afd20d28d0ed2b12a1a86c7b
+clear text server key: cd1bc8d79090caf6b2984f2c3b7501f4
+clear text server iv: a6d3caf420bbad20788ded15
+clear text server pn: 355127a2d915e03b931ce4eaead453a4
+2018-08-13T14:39:06.145 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 5[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=2390
+2018-08-13T14:39:06.147 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 6[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x03) length=10 offset=0
+      48656c6c6f20576f726c                      'Hello Worl'
+2018-08-13T14:39:06.152 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 6[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x03
+    Max data=0x14
+2018-08-13T14:39:06.155 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 7[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mMAX_DATA (0x4)[0m
+    Max data=0x100010
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=0
+      3c21646f637479706520                      '<!doctype '
+2018-08-13T14:39:06.158 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 7[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x14
+2018-08-13T14:39:06.160 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 8[0m, spinbit: 0
+    [36mMAX_DATA (0x4)[0m
+    Max data=0x100010
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=0
+      3c21646f637479706520                      '<!doctype '
+2018-08-13T14:39:06.165 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 9[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=6
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=2 offset=10
+      6421                                      'd!'
+2018-08-13T14:39:06.168 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 8[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=8
+    ack delay=1448
+    ack block count=0
+    first ackblock=8
+2018-08-13T14:39:06.169 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 10[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=7
+    ack delay=0
+    ack block count=0
+    first ackblock=6
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=10
+      68746d6c3e0a3c68746d                      'html>\n<htm'
+2018-08-13T14:39:06.175 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 9[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x1e
+2018-08-13T14:39:06.185 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 11[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=9
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=20
+      6c3e0a0a3c686561643e                      'l>\n\n<head>'
+2018-08-13T14:39:06.191 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 10[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x28
+    [31mACK (0xd)[0m
+    largest acknowledged=10
+    ack delay=12104
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:06.202 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 12[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=10
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=30
+      0a202020203c7469746c                      '\n    <titl'
+2018-08-13T14:39:06.203 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 11[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x32
+    [31mACK (0xd)[0m
+    largest acknowledged=11
+    ack delay=16768
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.210 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 13[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=11
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=40
+      653e517569636b65723c                      'e>Quicker<'
+2018-08-13T14:39:06.212 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 12[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x3c
+2018-08-13T14:39:06.218 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 14[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=12
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=50
+      2f7469746c653e0a3c2f                      '/title>\n</'
+2018-08-13T14:39:06.219 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 13[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x46
+2018-08-13T14:39:06.225 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 15[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=13
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=60
+      686561643e0a0a3c626f                      'head>\n\n<bo'
+2018-08-13T14:39:06.227 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 14[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x50
+    [31mACK (0xd)[0m
+    largest acknowledged=14
+    ack delay=4416
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.233 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 16[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=14
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=70
+      64793e0a202020203c70                      'dy>\n    <p'
+2018-08-13T14:39:06.239 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 15[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x5a
+2018-08-13T14:39:06.243 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 17[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=15
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=80
+      3e48656c6c6f20576f72                      '>Hello Wor'
+2018-08-13T14:39:06.245 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 16[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x64
+    [31mACK (0xd)[0m
+    largest acknowledged=16
+    ack delay=8176
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.251 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 18[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=16
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=90
+      6c642066726f6d205175                      'ld from Qu'
+2018-08-13T14:39:06.253 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 17[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x6e
+2018-08-13T14:39:06.258 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 19[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=17
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=100
+      69636b6572213c2f703e                      'icker!</p>'
+2018-08-13T14:39:06.261 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 18[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x78
+2018-08-13T14:39:06.266 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 20[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=18
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=110
+      0a202020203c68722f3e                      '\n    <hr/>'
+2018-08-13T14:39:06.268 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 19[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x82
+    [31mACK (0xd)[0m
+    largest acknowledged=19
+    ack delay=5048
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.275 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 21[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=19
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=120
+      0a202020203c68722f3e                      '\n    <hr/>'
+2018-08-13T14:39:06.278 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 20[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x8c
+2018-08-13T14:39:06.282 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 22[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=20
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=130
+      0a202020203c62722f3e                      '\n    <br/>'
+2018-08-13T14:39:06.286 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 21[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x96
+2018-08-13T14:39:06.290 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 23[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=21
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=140
+      0a202020203c703e4c6f                      '\n    <p>Lo'
+2018-08-13T14:39:06.292 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 22[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xa0
+    [31mACK (0xd)[0m
+    largest acknowledged=22
+    ack delay=4744
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.297 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 24[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=22
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=150
+      72656d20697073756d20                      'rem ipsum '
+2018-08-13T14:39:06.298 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 23[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xaa
+2018-08-13T14:39:06.304 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 25[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=23
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=160
+      646f6c6f722073697420                      'dolor sit '
+2018-08-13T14:39:06.306 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 24[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xb4
+2018-08-13T14:39:06.312 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 26[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=24
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=170
+      616d65742c20636f6e73                      'amet, cons'
+2018-08-13T14:39:06.314 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 25[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xbe
+    [31mACK (0xd)[0m
+    largest acknowledged=25
+    ack delay=3880
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.321 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 27[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=25
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=180
+      65637465747572206164                      'ectetur ad'
+2018-08-13T14:39:06.322 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 26[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xc8
+2018-08-13T14:39:06.326 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 28[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=26
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=190
+      6970697363696e672065                      'ipiscing e'
+2018-08-13T14:39:06.327 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 27[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xd2
+2018-08-13T14:39:06.331 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 29[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=27
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=200
+      6c69742e20496e746567                      'lit. Integ'
+2018-08-13T14:39:06.334 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 28[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xdc
+    [31mACK (0xd)[0m
+    largest acknowledged=28
+    ack delay=2424
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.340 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 30[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=28
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=210
+      6572206e6563206f6469                      'er nec odi'
+2018-08-13T14:39:06.341 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 29[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xe6
+2018-08-13T14:39:06.353 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 31[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=29
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=220
+      6f2e205072616573656e                      'o. Praesen'
+2018-08-13T14:39:06.355 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 30[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xf0
+    [31mACK (0xd)[0m
+    largest acknowledged=30
+    ack delay=7688
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.362 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 32[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=30
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=230
+      74206c696265726f2e20                      't libero. '
+2018-08-13T14:39:06.363 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 31[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xfa
+2018-08-13T14:39:06.368 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 33[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=31
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=240
+      53656420637572737573                      'Sed cursus'
+2018-08-13T14:39:06.370 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 32[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0104
+2018-08-13T14:39:06.377 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 34[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=32
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=250
+      20616e74652064617069                      ' ante dapi'
+2018-08-13T14:39:06.378 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 33[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x010e
+    [31mACK (0xd)[0m
+    largest acknowledged=33
+    ack delay=5704
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.385 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 35[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=33
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=260
+      627573206469616d2e0a                      'bus diam.\n'
+2018-08-13T14:39:06.386 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 34[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0118
+2018-08-13T14:39:06.391 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 36[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=34
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=270
+      20202020202020205365                      '        Se'
+2018-08-13T14:39:06.392 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 35[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0122
+2018-08-13T14:39:06.396 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 37[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=35
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=280
+      64206e6973692e204e75                      'd nisi. Nu'
+2018-08-13T14:39:06.399 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 36[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x012c
+    [31mACK (0xd)[0m
+    largest acknowledged=36
+    ack delay=2952
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.407 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 38[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=36
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=290
+      6c6c6120717569732073                      'lla quis s'
+2018-08-13T14:39:06.409 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 37[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0136
+2018-08-13T14:39:06.413 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 39[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=37
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=300
+      656d206174206e696268                      'em at nibh'
+2018-08-13T14:39:06.415 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 38[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0140
+2018-08-13T14:39:06.419 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 40[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=38
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=310
+      20656c656d656e74756d                      ' elementum'
+2018-08-13T14:39:06.421 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 39[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x014a
+    [31mACK (0xd)[0m
+    largest acknowledged=39
+    ack delay=2936
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.426 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 41[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=39
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=320
+      20696d70657264696574                      ' imperdiet'
+2018-08-13T14:39:06.427 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 40[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0154
+2018-08-13T14:39:06.430 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 42[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=40
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=330
+      2e204475697320736167                      '. Duis sag'
+2018-08-13T14:39:06.432 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 41[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x015e
+2018-08-13T14:39:06.437 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 43[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=41
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=340
+      69747469732069707375                      'ittis ipsu'
+2018-08-13T14:39:06.438 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 42[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0168
+    [31mACK (0xd)[0m
+    largest acknowledged=42
+    ack delay=5888
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.454 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 43[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0168
+2018-08-13T14:39:06.457 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 44[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=42
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=350
+      6d2e205072616573656e                      'm. Praesen'
+2018-08-13T14:39:06.461 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 44[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0172
+    [31mACK (0xd)[0m
+    largest acknowledged=43
+    ack delay=19552
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.464 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 45[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=43
+    ack delay=5480
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.466 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 45[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0172
+2018-08-13T14:39:06.472 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 46[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=44
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=360
+      74206d61757269732e20                      't mauris. '
+2018-08-13T14:39:06.474 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 46[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x017c
+2018-08-13T14:39:06.476 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 47[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=45
+    ack delay=6944
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.479 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 47[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=46
+    ack delay=3808
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:06.480 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 48[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=46
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=370
+      4675736365206e656320                      'Fusce nec '
+2018-08-13T14:39:06.481 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 48[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0186
+2018-08-13T14:39:06.484 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 49[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0186
+2018-08-13T14:39:06.492 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 49[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=48
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=380
+      74656c6c757320736564                      'tellus sed'
+2018-08-13T14:39:06.493 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 50[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0190
+2018-08-13T14:39:06.496 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 50[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=49
+    ack delay=8712
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:06.498 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 51[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=49
+    ack delay=2984
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.499 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 51[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=50
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=390
+      0a202020202020202061                      '\n        a'
+2018-08-13T14:39:06.501 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 52[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x019a
+2018-08-13T14:39:06.502 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 53[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x019a
+2018-08-13T14:39:06.514 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 54[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=51
+    ack delay=13232
+    ack block count=0
+    first ackblock=4
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x019a
+2018-08-13T14:39:06.524 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 52[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=52
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=400
+      756775652073656d7065                      'ugue sempe'
+2018-08-13T14:39:06.528 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 55[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01a4
+2018-08-13T14:39:06.529 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 53[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=54
+    ack delay=25312
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.545 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 56[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01a4
+2018-08-13T14:39:06.548 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 54[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=55
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=410
+      7220706f7274612e204d                      'r porta. M'
+2018-08-13T14:39:06.551 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 57[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ae
+    [31mACK (0xd)[0m
+    largest acknowledged=53
+    ack delay=18048
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.560 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 58[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ae
+2018-08-13T14:39:06.561 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 55[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=57
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=420
+      6175726973206d617373                      'auris mass'
+2018-08-13T14:39:06.563 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 59[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01b8
+2018-08-13T14:39:06.571 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 56[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=59
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=430
+      612e2056657374696275                      'a. Vestibu'
+2018-08-13T14:39:06.575 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 60[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01c2
+    [31mACK (0xd)[0m
+    largest acknowledged=55
+    ack delay=3448
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:06.583 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 57[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=60
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=440
+      6c756d206c6163696e69                      'lum lacini'
+2018-08-13T14:39:06.585 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 61[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01cc
+2018-08-13T14:39:06.590 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 58[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=61
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=450
+      61206172637520656765                      'a arcu ege'
+2018-08-13T14:39:06.592 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 62[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01d6
+    [31mACK (0xd)[0m
+    largest acknowledged=57
+    ack delay=4528
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.598 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 59[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=62
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=460
+      74206e756c6c612e0a20                      't nulla.\n '
+2018-08-13T14:39:06.599 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 63[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01e0
+2018-08-13T14:39:06.604 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 60[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=63
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=470
+      202020202020203c623e                      '       <b>'
+2018-08-13T14:39:06.606 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 64[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ea
+2018-08-13T14:39:06.611 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 61[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=64
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=480
+      4c6f72656d2069707375                      'Lorem ipsu'
+2018-08-13T14:39:06.613 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 65[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01f4
+    [31mACK (0xd)[0m
+    largest acknowledged=60
+    ack delay=3992
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.618 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 62[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=65
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=490
+      6d20646f6c6f72207369                      'm dolor si'
+2018-08-13T14:39:06.619 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 66[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01fe
+2018-08-13T14:39:06.622 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 63[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=66
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=500
+      7420616d65742c20636f                      't amet, co'
+2018-08-13T14:39:06.623 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 67[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0208
+2018-08-13T14:39:06.627 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 64[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=67
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=510
+      6e736563746574757220                      'nsectetur '
+2018-08-13T14:39:06.631 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 68[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0212
+2018-08-13T14:39:06.636 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 65[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=68
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=520
+      61646970697363696e67                      'adipiscing'
+2018-08-13T14:39:06.637 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 69[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x021c
+    [31mACK (0xd)[0m
+    largest acknowledged=64
+    ack delay=5016
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.643 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 66[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=69
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=530
+      20656c69743c2f623e2e                      ' elit</b>.'
+2018-08-13T14:39:06.645 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 70[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0226
+2018-08-13T14:39:06.654 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 67[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=70
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=540
+      20436c61737320617074                      ' Class apt'
+2018-08-13T14:39:06.657 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 71[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0230
+    [31mACK (0xd)[0m
+    largest acknowledged=66
+    ack delay=8304
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.663 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 68[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=71
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=550
+      656e7420746163697469                      'ent taciti'
+2018-08-13T14:39:06.665 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 72[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x023a
+2018-08-13T14:39:06.670 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 69[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=72
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=560
+      20736f63696f73717520                      ' sociosqu '
+2018-08-13T14:39:06.671 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 73[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0244
+2018-08-13T14:39:06.675 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 70[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=73
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=570
+      6164206c69746f726120                      'ad litora '
+2018-08-13T14:39:06.676 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 74[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x024e
+    [31mACK (0xd)[0m
+    largest acknowledged=69
+    ack delay=2576
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.684 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 71[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=74
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=580
+      746f727175656e742070                      'torquent p'
+2018-08-13T14:39:06.686 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 75[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0258
+2018-08-13T14:39:06.693 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 72[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=75
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=590
+      65720a20202020202020                      'er\n       '
+2018-08-13T14:39:06.695 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 76[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0262
+    [31mACK (0xd)[0m
+    largest acknowledged=71
+    ack delay=7736
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.702 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 73[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=76
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=600
+      20636f6e75626961206e                      ' conubia n'
+2018-08-13T14:39:06.703 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 77[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x026c
+2018-08-13T14:39:06.708 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 74[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=77
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=610
+      6f737472612c20706572                      'ostra, per'
+2018-08-13T14:39:06.710 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 78[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0276
+2018-08-13T14:39:06.713 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 75[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=78
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=620
+      20696e636570746f7320                      ' inceptos '
+2018-08-13T14:39:06.715 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 79[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0280
+    [31mACK (0xd)[0m
+    largest acknowledged=74
+    ack delay=2536
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.722 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 76[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=79
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=630
+      68696d656e61656f732e                      'himenaeos.'
+2018-08-13T14:39:06.723 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 80[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x028a
+2018-08-13T14:39:06.726 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 77[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=80
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=640
+      20437572616269747572                      ' Curabitur'
+2018-08-13T14:39:06.728 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 81[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0294
+2018-08-13T14:39:06.732 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 78[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=81
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=650
+      20736f64616c6573206c                      ' sodales l'
+2018-08-13T14:39:06.736 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 82[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x029e
+    [31mACK (0xd)[0m
+    largest acknowledged=77
+    ack delay=2856
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.742 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 79[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=82
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=660
+      6967756c6120696e206c                      'igula in l'
+2018-08-13T14:39:06.744 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 83[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02a8
+2018-08-13T14:39:06.747 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 80[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=83
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=670
+      696265726f2e203c2f70                      'ibero. </p'
+2018-08-13T14:39:06.748 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 84[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02b2
+2018-08-13T14:39:06.752 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 81[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=84
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=680
+      3e0a0a202020203c703e                      '>\n\n    <p>'
+2018-08-13T14:39:06.753 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 85[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02bc
+    [31mACK (0xd)[0m
+    largest acknowledged=80
+    ack delay=3968
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.758 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 82[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=85
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=690
+      536564206469676e6973                      'Sed dignis'
+2018-08-13T14:39:06.759 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 86[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02c6
+2018-08-13T14:39:06.760 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 87[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02c6
+2018-08-13T14:39:06.764 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 83[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=86
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=700
+      73696d206c6163696e69                      'sim lacini'
+2018-08-13T14:39:06.766 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 88[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02d0
+2018-08-13T14:39:06.768 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 84[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=87
+    ack delay=4688
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.772 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 89[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=84
+    ack delay=1768
+    ack block count=0
+    first ackblock=3
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02d0
+2018-08-13T14:39:06.775 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 85[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=88
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=710
+      61206e756e632e204375                      'a nunc. Cu'
+2018-08-13T14:39:06.778 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 90[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02da
+2018-08-13T14:39:06.782 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 86[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=89
+    ack delay=6328
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.784 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 87[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=90
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=720
+      7261626974757220746f                      'rabitur to'
+2018-08-13T14:39:06.786 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 91[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02e4
+2018-08-13T14:39:06.791 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 92[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02e4
+2018-08-13T14:39:06.796 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 88[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=91
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=730
+      72746f722e2050656c6c                      'rtor. Pell'
+2018-08-13T14:39:06.798 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 93[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02ee
+    [31mACK (0xd)[0m
+    largest acknowledged=87
+    ack delay=9040
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.799 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 89[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=92
+    ack delay=5288
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:06.804 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 94[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02ee
+2018-08-13T14:39:06.806 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 90[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=93
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=740
+      656e746573717565206e                      'entesque n'
+2018-08-13T14:39:06.808 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 95[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02f8
+2018-08-13T14:39:06.810 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 91[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=94
+    ack delay=3048
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.818 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 92[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=95
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=750
+      6962682e0a2020202020                      'ibh.\n     '
+2018-08-13T14:39:06.819 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 96[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0302
+    [31mACK (0xd)[0m
+    largest acknowledged=91
+    ack delay=2992
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:06.821 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 97[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0302
+2018-08-13T14:39:06.829 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 93[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=96
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=760
+      2020203c623e46757363                      '   <b>Fusc'
+2018-08-13T14:39:06.830 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 98[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x030c
+2018-08-13T14:39:06.831 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 94[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=97
+    ack delay=6864
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.832 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 99[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x030c
+2018-08-13T14:39:06.837 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 95[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=98
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=770
+      65206e65632074656c6c                      'e nec tell'
+2018-08-13T14:39:06.839 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 100[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0316
+    [31mACK (0xd)[0m
+    largest acknowledged=94
+    ack delay=4096
+    ack block count=0
+    first ackblock=9
+2018-08-13T14:39:06.840 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 96[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=99
+    ack delay=5944
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:06.845 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 101[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0316
+2018-08-13T14:39:06.847 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 97[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=100
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=780
+      75732073656420617567                      'us sed aug'
+2018-08-13T14:39:06.848 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 102[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0320
+2018-08-13T14:39:06.852 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 98[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=101
+    ack delay=3224
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.855 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 99[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=102
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=790
+      75652073656d70657220                      'ue semper '
+2018-08-13T14:39:06.856 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 103[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x032a
+2018-08-13T14:39:06.857 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 104[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=99
+    ack delay=2568
+    ack block count=0
+    first ackblock=14
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x032a
+2018-08-13T14:39:06.871 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 100[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=103
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=800
+      706f7274613c2f623e2e                      'porta</b>.'
+2018-08-13T14:39:06.872 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 105[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0334
+2018-08-13T14:39:06.874 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 101[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=104
+    ack delay=8848
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.876 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 106[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0334
+2018-08-13T14:39:06.881 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 102[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=105
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=810
+      2041656e65616e207175                      ' Aenean qu'
+2018-08-13T14:39:06.882 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 107[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x033e
+2018-08-13T14:39:06.883 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 103[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=106
+    ack delay=4984
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.888 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 104[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=107
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=820
+      616d2e20496e20736365                      'am. In sce'
+2018-08-13T14:39:06.889 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 108[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0348
+    [31mACK (0xd)[0m
+    largest acknowledged=103
+    ack delay=4360
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.894 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 105[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=108
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=830
+      6c657269737175652073                      'lerisque s'
+2018-08-13T14:39:06.896 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 109[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0352
+2018-08-13T14:39:06.898 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 110[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0352
+2018-08-13T14:39:06.903 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 106[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=109
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=840
+      656d20617420646f6c6f                      'em at dolo'
+2018-08-13T14:39:06.904 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 111[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x035c
+2018-08-13T14:39:06.907 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 107[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=110
+    ack delay=5888
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.909 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 112[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=107
+    ack delay=1520
+    ack block count=0
+    first ackblock=3
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x035c
+2018-08-13T14:39:06.913 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 108[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=111
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=850
+      722e204d616563656e61                      'r. Maecena'
+2018-08-13T14:39:06.915 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 113[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0366
+2018-08-13T14:39:06.918 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 109[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=112
+    ack delay=6096
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:06.920 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 110[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=113
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=860
+      73206d61747469732e20                      's mattis. '
+2018-08-13T14:39:06.921 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 114[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0370
+2018-08-13T14:39:06.922 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 115[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0370
+2018-08-13T14:39:06.928 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 111[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=114
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=870
+      53656420636f6e76616c                      'Sed conval'
+2018-08-13T14:39:06.929 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 116[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x037a
+2018-08-13T14:39:06.931 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 112[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=115
+    ack delay=6368
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:06.936 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 117[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=112
+    ack delay=1264
+    ack block count=0
+    first ackblock=4
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x037a
+2018-08-13T14:39:06.937 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 113[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=116
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=880
+      6c69730a202020202020                      'lis\n      '
+2018-08-13T14:39:06.938 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 118[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0384
+2018-08-13T14:39:06.945 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 114[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=118
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=890
+      20207472697374697175                      '  tristiqu'
+2018-08-13T14:39:06.946 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 119[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x038e
+2018-08-13T14:39:06.947 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 120[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x038e
+2018-08-13T14:39:06.951 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 115[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=119
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=900
+      652073656d2e2050726f                      'e sem. Pro'
+2018-08-13T14:39:06.952 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 121[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0398
+2018-08-13T14:39:06.957 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 116[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=120
+    ack delay=5024
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:06.958 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 122[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=115
+    ack delay=4584
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.960 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 123[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0398
+2018-08-13T14:39:06.963 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 117[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=121
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=910
+      696e207574206c696775                      'in ut ligu'
+2018-08-13T14:39:06.965 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 124[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03a2
+2018-08-13T14:39:06.971 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 118[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=124
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=920
+      6c612076656c206e756e                      'la vel nun'
+2018-08-13T14:39:06.972 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 125[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ac
+2018-08-13T14:39:06.973 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 126[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ac
+2018-08-13T14:39:06.978 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 119[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=125
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=930
+      63206567657374617320                      'c egestas '
+2018-08-13T14:39:06.980 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 127[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03b6
+    [31mACK (0xd)[0m
+    largest acknowledged=118
+    ack delay=3656
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:06.981 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 120[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=126
+    ack delay=5064
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:06.987 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 128[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03b6
+2018-08-13T14:39:06.990 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 121[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=127
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=940
+      706f72747469746f722e                      'porttitor.'
+2018-08-13T14:39:06.991 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 129[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03c0
+2018-08-13T14:39:06.992 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 122[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=128
+    ack delay=2624
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:06.997 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 123[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=129
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=950
+      204d6f726269206c6563                      ' Morbi lec'
+2018-08-13T14:39:06.998 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 130[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ca
+    [31mACK (0xd)[0m
+    largest acknowledged=122
+    ack delay=1464
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:06.999 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 131[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ca
+2018-08-13T14:39:07.006 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 124[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=130
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=960
+      7475732072697375732c                      'tus risus,'
+2018-08-13T14:39:07.007 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 132[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03d4
+2018-08-13T14:39:07.008 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 125[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=131
+    ack delay=6592
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:07.012 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 133[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03d4
+2018-08-13T14:39:07.013 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 126[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=132
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=970
+      20696163756c69732076                      ' iaculis v'
+2018-08-13T14:39:07.014 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 134[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03de
+    [31mACK (0xd)[0m
+    largest acknowledged=125
+    ack delay=4368
+    ack block count=0
+    first ackblock=9
+2018-08-13T14:39:07.020 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x075b472d974477[36m
+       PKN: 127[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=134
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=980
+      656c2c20737573636970                      'el, suscip'
+2018-08-13T14:39:07.022 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 135[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03e8
+2018-08-13T14:39:07.023 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 136[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03e8
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.protected1RTTDecrypt (/server/out/crypto/aead.js:96:21)
+    at PacketParser.parseShortHeaderPacket (/server/out/utilities/parsers/packet.parser.js:65:43)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:30:21)
+    at headerOffsets.forEach (/server/out/quicker/client.js:121:54)
+    at Array.forEach (<anonymous>)
+    at Client.onMessage (/server/out/quicker/client.js:119:27)
+    at Socket.socket.on (/server/out/quicker/client.js:56:84)
+    at emitTwo (events.js:125:13)
+2018-08-13T14:39:07.030 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 137[0m, spinbit: 1
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+error
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.protected1RTTDecrypt (/server/out/crypto/aead.js:96:21)
+    at PacketParser.parseShortHeaderPacket (/server/out/utilities/parsers/packet.parser.js:65:43)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:30:21)
+    at headerOffsets.forEach (/server/out/quicker/client.js:121:54)
+    at Array.forEach (<anonymous>)
+    at Client.onMessage (/server/out/quicker/client.js:119:27)
+    at Socket.socket.on (/server/out/quicker/client.js:56:84)
+    at emitTwo (events.js:125:13)
+2018-08-13T14:39:07.033 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0xf7476665cd381b924f989fa35e04a75a8093[31m
+       PKN: 138[0m, spinbit: 1
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.039 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0dd9831aacababbded77416678, Src CID: 0x0ab915ab44133a48338f[31m
+       PKN: 1[0m, payload length: 1183
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 736
+protected0RTT client key: 2490dbd93d83312c9ca97f7199dc14d5de328d7c12209c8561247c26412479a8
+protected0RTT client iv: 56ba77f3bd104d84b5682b2a
+protected0RTT client pn: 044ad8841fe13196dc5b2e617f63977a4c1ae050356d8bbfe29cc8c19d3643ae
+2018-08-13T14:39:11.044 
+  [31mTX Protected0RTT(0x4)[0m, Version: 0xff00000c, Dest CID: 0x0dd9831aacababbded77416678, Src CID: 0x0ab915ab44133a48338f[31m
+       PKN: 2[0m, payload length: 36
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T14:39:11.242 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0dd9831aacababbded77416678, Src CID: 0x0ab915ab44133a48338f[31m
+       PKN: 3[0m, payload length: 1183
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 736
+2018-08-13T14:39:11.248 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0dd9831aacababbded77416678, Src CID: 0x0ab915ab44133a48338f[31m
+       PKN: 4[0m, payload length: 1183
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=425 offset=0
+    [31mPADDING (0x0)[0m
+    length= 736
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.424 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ab915ab44133a48338f, Src CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[36m
+       PKN: 0[0m, payload length: 393
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=0
+    ack block count=0
+    first ackblock=0
+    [36mPATH_CHALLENGE (0xe)[0m
+    data=0xb31f9b06d184e7d8
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=359 offset=0
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.433 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2, Src CID: 0x0ab915ab44133a48338f[31m
+       PKN: 5[0m, payload length: 122
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=100 offset=425
+protected1RTT client key: d24e1e6553e8484a389bdb2913979181bb5c80da364b0be196093e3e0fe93e74
+protected1RTT client iv: 0ef9a696a1ac66e158df2d87
+protected1RTT client pn: 903cfa3b91199d9c2ce7e5e99ada940f314d490d5af9f629a7d6866fd52dddb5
+protected1RTT server key: 3e72be49fa3bf20eadca9a92e6d4855955f7cb4d97a0bf9b9461073e1945b382
+protected1RTT server iv: 2c0ae0156fc746244c9aaa8e
+protected1RTT server pn: ac96f7923c1b144a876c16664f48f05e7153705094ef915ffc9abc181529413d
+2018-08-13T14:39:11.438 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 6[0m, spinbit: 0
+    [31mPATH_RESPONSE (0xf)[0m
+    data=0xb31f9b06d184e7d8
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.447 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ab915ab44133a48338f, Src CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[36m
+       PKN: 1[0m, payload length: 379
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=359 offset=0
+2018-08-13T14:39:11.453 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 2[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:11.456 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 7[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=8720
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:11.458 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 3[0m, spinbit: 0
+    [36mMAX_DATA (0x4)[0m
+    Max data=0x100010
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=0
+      3c21646f637479706520                      '<!doctype '
+2018-08-13T14:39:11.460 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 8[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x14
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.466 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ab915ab44133a48338f, Src CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[36m
+       PKN: 4[0m, payload length: 23
+    [36mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=0
+    ack block count=1
+    first ackblock=0
+      gap=0, ackblock=0
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.474 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ab915ab44133a48338f, Src CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[36m
+       PKN: 5[0m, payload length: 23
+    [36mACK (0xd)[0m
+    largest acknowledged=4
+    ack delay=0
+    ack block count=1
+    first ackblock=1
+      gap=0, ackblock=0
+clear text client key: b9c0293e78a15fd4d1b095812943b4b2
+clear text client key: 647c83817b4a41a967ef94ca
+clear text client pn: 2a16691f3ff4be2b1df425af9e0f4682
+clear text server key: a2bcd8dfae7d24369914e173657f0b34
+clear text server iv: 447a90662a2795fef9f6c3ca
+clear text server pn: 399ede13db924ab8ec4b7ee399bc6a0d
+2018-08-13T14:39:11.522 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 9[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=5
+    ack delay=12464
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:11.564 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 6[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=5
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mPING (0x7)[0m
+
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=87 offset=359
+2018-08-13T14:39:11.566 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 7[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x03) length=10 offset=0
+      48656c6c6f20576f726c                      'Hello Worl'
+2018-08-13T14:39:11.567 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 10[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x03
+    Max data=0x14
+2018-08-13T14:39:11.572 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 8[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=7
+    ack delay=0
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:11.575 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 9[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=8
+    ack delay=0
+    ack block count=0
+    first ackblock=7
+2018-08-13T14:39:11.577 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 10[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=10
+      68746d6c3e0a3c68746d                      'html>\n<htm'
+2018-08-13T14:39:11.579 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 11[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x1e
+2018-08-13T14:39:11.580 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 11[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=10
+    ack delay=0
+    ack block count=0
+    first ackblock=7
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=2 offset=10
+      6421                                      'd!'
+2018-08-13T14:39:11.584 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 12[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x03) length=2 offset=10
+      6421                                      'd!'
+2018-08-13T14:39:11.585 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 12[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=11
+    ack delay=2248
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:11.586 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 13[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=11
+    ack delay=0
+    ack block count=0
+    first ackblock=8
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=20
+      6c3e0a0a3c686561643e                      'l>\n\n<head>'
+2018-08-13T14:39:11.588 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 13[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x28
+2018-08-13T14:39:11.598 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 14[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=13
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=30
+      0a202020203c7469746c                      '\n    <titl'
+2018-08-13T14:39:11.600 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 14[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x32
+2018-08-13T14:39:11.604 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 15[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=14
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=40
+      653e517569636b65723c                      'e>Quicker<'
+2018-08-13T14:39:11.605 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 15[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x3c
+    [31mACK (0xd)[0m
+    largest acknowledged=14
+    ack delay=3624
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.611 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 16[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=15
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=50
+      2f7469746c653e0a3c2f                      '/title>\n</'
+2018-08-13T14:39:11.612 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 16[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x46
+2018-08-13T14:39:11.615 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 17[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=16
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=60
+      686561643e0a0a3c626f                      'head>\n\n<bo'
+2018-08-13T14:39:11.617 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 17[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x50
+2018-08-13T14:39:11.625 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 18[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=17
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=70
+      64793e0a202020203c70                      'dy>\n    <p'
+2018-08-13T14:39:11.627 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 18[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x5a
+    [31mACK (0xd)[0m
+    largest acknowledged=17
+    ack delay=5920
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.633 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 19[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=18
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=80
+      3e48656c6c6f20576f72                      '>Hello Wor'
+2018-08-13T14:39:11.635 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 19[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x64
+2018-08-13T14:39:11.639 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 20[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=19
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=90
+      6c642066726f6d205175                      'ld from Qu'
+2018-08-13T14:39:11.641 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 20[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x6e
+2018-08-13T14:39:11.647 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 21[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=20
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=100
+      69636b6572213c2f703e                      'icker!</p>'
+2018-08-13T14:39:11.650 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 21[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x78
+    [31mACK (0xd)[0m
+    largest acknowledged=20
+    ack delay=3536
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.651 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 22[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x78
+2018-08-13T14:39:11.659 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 22[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=21
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=110
+      0a202020203c68722f3e                      '\n    <hr/>'
+2018-08-13T14:39:11.661 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 23[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x82
+2018-08-13T14:39:11.662 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 24[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=22
+    ack delay=2824
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:11.666 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 23[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=23
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=120
+      0a202020203c68722f3e                      '\n    <hr/>'
+2018-08-13T14:39:11.668 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 25[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x8c
+2018-08-13T14:39:11.671 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 24[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=25
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=130
+      0a202020203c62722f3e                      '\n    <br/>'
+2018-08-13T14:39:11.673 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 26[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x96
+2018-08-13T14:39:11.677 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 25[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=26
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=140
+      0a202020203c703e4c6f                      '\n    <p>Lo'
+2018-08-13T14:39:11.679 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 27[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xa0
+2018-08-13T14:39:11.683 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 26[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=27
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=150
+      72656d20697073756d20                      'rem ipsum '
+2018-08-13T14:39:11.684 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 28[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xaa
+    [31mACK (0xd)[0m
+    largest acknowledged=25
+    ack delay=4840
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.689 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 27[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=28
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=160
+      646f6c6f722073697420                      'dolor sit '
+2018-08-13T14:39:11.692 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 29[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xb4
+2018-08-13T14:39:11.700 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 28[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=29
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=170
+      616d65742c20636f6e73                      'amet, cons'
+2018-08-13T14:39:11.701 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 30[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xbe
+    [31mACK (0xd)[0m
+    largest acknowledged=27
+    ack delay=10704
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:11.707 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 29[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=30
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=180
+      65637465747572206164                      'ectetur ad'
+2018-08-13T14:39:11.710 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 31[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xc8
+2018-08-13T14:39:11.715 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 30[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=31
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=190
+      6970697363696e672065                      'ipiscing e'
+2018-08-13T14:39:11.717 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 32[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xd2
+2018-08-13T14:39:11.723 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 31[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=32
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=200
+      6c69742e20496e746567                      'lit. Integ'
+2018-08-13T14:39:11.726 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 33[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xdc
+    [31mACK (0xd)[0m
+    largest acknowledged=30
+    ack delay=4152
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.731 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 32[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=33
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=210
+      6572206e6563206f6469                      'er nec odi'
+2018-08-13T14:39:11.732 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 34[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xe6
+2018-08-13T14:39:11.735 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 33[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=34
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=220
+      6f2e205072616573656e                      'o. Praesen'
+2018-08-13T14:39:11.737 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 35[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xf0
+2018-08-13T14:39:11.742 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 34[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=35
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=230
+      74206c696265726f2e20                      't libero. '
+2018-08-13T14:39:11.743 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 36[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0xfa
+    [31mACK (0xd)[0m
+    largest acknowledged=33
+    ack delay=4744
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.749 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 35[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=36
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=240
+      53656420637572737573                      'Sed cursus'
+2018-08-13T14:39:11.750 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 37[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0104
+2018-08-13T14:39:11.753 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 36[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=37
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=250
+      20616e74652064617069                      ' ante dapi'
+2018-08-13T14:39:11.754 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 38[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x010e
+2018-08-13T14:39:11.758 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 37[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=38
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=260
+      627573206469616d2e0a                      'bus diam.\n'
+2018-08-13T14:39:11.759 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 39[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0118
+2018-08-13T14:39:11.764 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 38[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=39
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=270
+      20202020202020205365                      '        Se'
+2018-08-13T14:39:11.765 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 40[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0122
+    [31mACK (0xd)[0m
+    largest acknowledged=37
+    ack delay=2656
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.770 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 39[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=40
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=280
+      64206e6973692e204e75                      'd nisi. Nu'
+2018-08-13T14:39:11.771 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 41[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x012c
+2018-08-13T14:39:11.776 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 40[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=41
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=290
+      6c6c6120717569732073                      'lla quis s'
+2018-08-13T14:39:11.777 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 42[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0136
+2018-08-13T14:39:11.783 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 41[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=42
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=300
+      656d206174206e696268                      'em at nibh'
+2018-08-13T14:39:11.784 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 43[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0140
+    [31mACK (0xd)[0m
+    largest acknowledged=40
+    ack delay=3904
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.789 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 42[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=43
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=310
+      20656c656d656e74756d                      ' elementum'
+2018-08-13T14:39:11.791 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 44[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x014a
+2018-08-13T14:39:11.795 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 43[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=44
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=320
+      20696d70657264696574                      ' imperdiet'
+2018-08-13T14:39:11.796 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 45[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0154
+2018-08-13T14:39:11.799 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 44[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=45
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=330
+      2e204475697320736167                      '. Duis sag'
+2018-08-13T14:39:11.801 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 46[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x015e
+2018-08-13T14:39:11.806 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 45[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=46
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=340
+      69747469732069707375                      'ittis ipsu'
+2018-08-13T14:39:11.809 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 47[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0168
+    [31mACK (0xd)[0m
+    largest acknowledged=44
+    ack delay=3392
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.814 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 46[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=47
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=350
+      6d2e205072616573656e                      'm. Praesen'
+2018-08-13T14:39:11.815 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 48[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0172
+2018-08-13T14:39:11.818 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 47[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=48
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=360
+      74206d61757269732e20                      't mauris. '
+2018-08-13T14:39:11.820 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 49[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x017c
+2018-08-13T14:39:11.823 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 48[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=49
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=370
+      4675736365206e656320                      'Fusce nec '
+2018-08-13T14:39:11.824 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 50[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0186
+2018-08-13T14:39:11.828 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 49[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=50
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=380
+      74656c6c757320736564                      'tellus sed'
+2018-08-13T14:39:11.830 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 51[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0190
+    [31mACK (0xd)[0m
+    largest acknowledged=48
+    ack delay=2912
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.835 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 50[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=51
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=390
+      0a202020202020202061                      '\n        a'
+2018-08-13T14:39:11.836 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 52[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x019a
+2018-08-13T14:39:11.840 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 51[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=52
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=400
+      756775652073656d7065                      'ugue sempe'
+2018-08-13T14:39:11.842 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 53[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01a4
+2018-08-13T14:39:11.846 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 52[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=53
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=410
+      7220706f7274612e204d                      'r porta. M'
+2018-08-13T14:39:11.847 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 54[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ae
+    [31mACK (0xd)[0m
+    largest acknowledged=51
+    ack delay=4320
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.852 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 53[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=54
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=420
+      6175726973206d617373                      'auris mass'
+2018-08-13T14:39:11.853 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 55[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01b8
+2018-08-13T14:39:11.858 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 54[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=55
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=430
+      612e2056657374696275                      'a. Vestibu'
+2018-08-13T14:39:11.860 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 56[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01c2
+2018-08-13T14:39:11.864 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 57[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=54
+    ack delay=5040
+    ack block count=0
+    first ackblock=2
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01c2
+2018-08-13T14:39:11.866 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 55[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=56
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=440
+      6c756d206c6163696e69                      'lum lacini'
+2018-08-13T14:39:11.867 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 58[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01cc
+2018-08-13T14:39:11.871 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 56[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=58
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=450
+      61206172637520656765                      'a arcu ege'
+2018-08-13T14:39:11.872 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 59[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01d6
+2018-08-13T14:39:11.876 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 60[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01d6
+2018-08-13T14:39:11.878 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 57[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=59
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=460
+      74206e756c6c612e0a20                      't nulla.\n '
+2018-08-13T14:39:11.879 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 61[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01e0
+2018-08-13T14:39:11.885 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 58[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=61
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=470
+      202020202020203c623e                      '       <b>'
+2018-08-13T14:39:11.886 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 62[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ea
+    [31mACK (0xd)[0m
+    largest acknowledged=57
+    ack delay=5512
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.888 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 63[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01ea
+2018-08-13T14:39:11.896 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 59[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=62
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=480
+      4c6f72656d2069707375                      'Lorem ipsu'
+2018-08-13T14:39:11.897 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 64[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01f4
+2018-08-13T14:39:11.900 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 60[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=63
+    ack delay=7808
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.903 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 61[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=64
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=490
+      6d20646f6c6f72207369                      'm dolor si'
+2018-08-13T14:39:11.904 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 65[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x01fe
+    [31mACK (0xd)[0m
+    largest acknowledged=60
+    ack delay=1936
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:11.910 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 62[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=65
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=500
+      7420616d65742c20636f                      't amet, co'
+2018-08-13T14:39:11.911 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 66[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0208
+2018-08-13T14:39:11.914 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 63[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=66
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=510
+      6e736563746574757220                      'nsectetur '
+2018-08-13T14:39:11.915 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 67[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0212
+2018-08-13T14:39:11.918 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 64[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=67
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=520
+      61646970697363696e67                      'adipiscing'
+2018-08-13T14:39:11.920 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 68[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x021c
+2018-08-13T14:39:11.924 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 65[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=68
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=530
+      20656c69743c2f623e2e                      ' elit</b>.'
+2018-08-13T14:39:11.926 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 69[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0226
+    [31mACK (0xd)[0m
+    largest acknowledged=64
+    ack delay=3128
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.932 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 66[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=69
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=540
+      20436c61737320617074                      ' Class apt'
+2018-08-13T14:39:11.935 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 70[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0230
+2018-08-13T14:39:11.939 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 67[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=70
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=550
+      656e7420746163697469                      'ent taciti'
+2018-08-13T14:39:11.941 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 71[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x023a
+2018-08-13T14:39:11.946 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 68[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=71
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=560
+      20736f63696f73717520                      ' sociosqu '
+2018-08-13T14:39:11.947 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 72[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0244
+    [31mACK (0xd)[0m
+    largest acknowledged=67
+    ack delay=3416
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.952 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 69[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=72
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=570
+      6164206c69746f726120                      'ad litora '
+2018-08-13T14:39:11.953 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 73[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x024e
+2018-08-13T14:39:11.957 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 70[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=73
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=580
+      746f727175656e742070                      'torquent p'
+2018-08-13T14:39:11.958 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 74[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0258
+2018-08-13T14:39:11.962 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 71[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=74
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=590
+      65720a20202020202020                      'er\n       '
+2018-08-13T14:39:11.963 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 75[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0262
+2018-08-13T14:39:11.967 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 72[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=75
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=600
+      20636f6e75626961206e                      ' conubia n'
+2018-08-13T14:39:11.968 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 76[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x026c
+    [31mACK (0xd)[0m
+    largest acknowledged=71
+    ack delay=2928
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:11.974 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 73[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=76
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=610
+      6f737472612c20706572                      'ostra, per'
+2018-08-13T14:39:11.975 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 77[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0276
+2018-08-13T14:39:11.981 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 74[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=77
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=620
+      20696e636570746f7320                      ' inceptos '
+2018-08-13T14:39:11.983 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 78[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0280
+2018-08-13T14:39:11.987 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 75[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=78
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=630
+      68696d656e61656f732e                      'himenaeos.'
+2018-08-13T14:39:11.988 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 79[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x028a
+    [31mACK (0xd)[0m
+    largest acknowledged=74
+    ack delay=3192
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:11.994 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 76[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=79
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=640
+      20437572616269747572                      ' Curabitur'
+2018-08-13T14:39:11.995 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 80[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0294
+2018-08-13T14:39:11.998 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 77[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=80
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=650
+      20736f64616c6573206c                      ' sodales l'
+2018-08-13T14:39:12.000 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 81[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x029e
+2018-08-13T14:39:12.003 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 78[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=81
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=660
+      6967756c6120696e206c                      'igula in l'
+2018-08-13T14:39:12.004 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 82[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02a8
+2018-08-13T14:39:12.009 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 79[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=82
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=670
+      696265726f2e203c2f70                      'ibero. </p'
+2018-08-13T14:39:12.010 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 83[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02b2
+    [31mACK (0xd)[0m
+    largest acknowledged=78
+    ack delay=2136
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:12.016 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 80[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=83
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=680
+      3e0a0a202020203c703e                      '>\n\n    <p>'
+2018-08-13T14:39:12.020 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 84[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02bc
+2018-08-13T14:39:12.025 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 81[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=84
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=690
+      536564206469676e6973                      'Sed dignis'
+2018-08-13T14:39:12.028 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 85[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02c6
+    [31mACK (0xd)[0m
+    largest acknowledged=80
+    ack delay=9096
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:12.035 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 82[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=85
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=700
+      73696d206c6163696e69                      'sim lacini'
+2018-08-13T14:39:12.037 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 86[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02d0
+2018-08-13T14:39:12.041 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 83[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=86
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=710
+      61206e756e632e204375                      'a nunc. Cu'
+2018-08-13T14:39:12.042 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 87[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02da
+2018-08-13T14:39:12.045 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 84[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=87
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=720
+      7261626974757220746f                      'rabitur to'
+2018-08-13T14:39:12.047 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 88[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02e4
+    [31mACK (0xd)[0m
+    largest acknowledged=83
+    ack delay=2288
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.055 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 85[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=88
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=730
+      72746f722e2050656c6c                      'rtor. Pell'
+2018-08-13T14:39:12.057 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 89[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02ee
+2018-08-13T14:39:12.061 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 86[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=89
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=740
+      656e746573717565206e                      'entesque n'
+2018-08-13T14:39:12.064 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 90[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x02f8
+2018-08-13T14:39:12.069 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 87[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=90
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=750
+      6962682e0a2020202020                      'ibh.\n     '
+2018-08-13T14:39:12.070 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 91[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0302
+    [31mACK (0xd)[0m
+    largest acknowledged=86
+    ack delay=4184
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.079 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 88[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=91
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=760
+      2020203c623e46757363                      '   <b>Fusc'
+2018-08-13T14:39:12.081 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 92[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x030c
+2018-08-13T14:39:12.084 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 89[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=92
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=770
+      65206e65632074656c6c                      'e nec tell'
+2018-08-13T14:39:12.085 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 93[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0316
+2018-08-13T14:39:12.089 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 90[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=93
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=780
+      75732073656420617567                      'us sed aug'
+2018-08-13T14:39:12.090 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 94[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0320
+    [31mACK (0xd)[0m
+    largest acknowledged=89
+    ack delay=2176
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.097 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 91[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=94
+    ack delay=0
+    ack block count=0
+    first ackblock=1
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=790
+      75652073656d70657220                      'ue semper '
+2018-08-13T14:39:12.098 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 95[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x032a
+2018-08-13T14:39:12.099 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 96[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x032a
+2018-08-13T14:39:12.104 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 92[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=95
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=800
+      706f7274613c2f623e2e                      'porta</b>.'
+2018-08-13T14:39:12.105 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 97[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0334
+2018-08-13T14:39:12.108 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 93[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=96
+    ack delay=5528
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:12.110 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 98[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=93
+    ack delay=1472
+    ack block count=0
+    first ackblock=3
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0334
+2018-08-13T14:39:12.116 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 94[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=97
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=810
+      2041656e65616e207175                      ' Aenean qu'
+2018-08-13T14:39:12.118 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 99[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x033e
+2018-08-13T14:39:12.121 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 95[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=98
+    ack delay=9424
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:12.124 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 96[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=99
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=820
+      616d2e20496e20736365                      'am. In sce'
+2018-08-13T14:39:12.126 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 100[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0348
+2018-08-13T14:39:12.127 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 101[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0348
+2018-08-13T14:39:12.131 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 97[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=100
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=830
+      6c657269737175652073                      'lerisque s'
+2018-08-13T14:39:12.132 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 102[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0352
+2018-08-13T14:39:12.134 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 98[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=101
+    ack delay=4792
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:12.138 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 103[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=97
+    ack delay=2840
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:12.141 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 104[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0352
+2018-08-13T14:39:12.144 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 99[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=102
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=840
+      656d20617420646f6c6f                      'em at dolo'
+2018-08-13T14:39:12.146 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 105[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x035c
+2018-08-13T14:39:12.154 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 100[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=105
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=850
+      722e204d616563656e61                      'r. Maecena'
+2018-08-13T14:39:12.165 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 106[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0366
+    [31mACK (0xd)[0m
+    largest acknowledged=99
+    ack delay=7424
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:12.168 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 107[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0366
+2018-08-13T14:39:12.171 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 101[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=850
+      722e204d616563656e61                      'r. Maecena'
+2018-08-13T14:39:12.175 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 102[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=106
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=860
+      73206d61747469732e20                      's mattis. '
+2018-08-13T14:39:12.176 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 108[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0370
+2018-08-13T14:39:12.178 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 103[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=107
+    ack delay=7616
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:12.179 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 109[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=102
+    ack delay=3480
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:12.183 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 104[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=108
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=870
+      53656420636f6e76616c                      'Sed conval'
+2018-08-13T14:39:12.185 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 110[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x037a
+2018-08-13T14:39:12.186 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 111[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x037a
+2018-08-13T14:39:12.191 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 105[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=110
+    ack delay=0
+    ack block count=0
+    first ackblock=3
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=880
+      6c69730a202020202020                      'lis\n      '
+2018-08-13T14:39:12.192 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 112[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0384
+2018-08-13T14:39:12.194 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 106[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=111
+    ack delay=5640
+    ack block count=0
+    first ackblock=4
+2018-08-13T14:39:12.196 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 113[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=105
+    ack delay=3968
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.198 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 114[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0384
+2018-08-13T14:39:12.201 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 107[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=112
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=890
+      20207472697374697175                      '  tristiqu'
+2018-08-13T14:39:12.203 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 115[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x038e
+2018-08-13T14:39:12.208 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 108[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=115
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=900
+      652073656d2e2050726f                      'e sem. Pro'
+2018-08-13T14:39:12.209 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 116[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0398
+2018-08-13T14:39:12.210 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 117[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0398
+2018-08-13T14:39:12.214 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 109[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=116
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=910
+      696e207574206c696775                      'in ut ligu'
+2018-08-13T14:39:12.216 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 118[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03a2
+    [31mACK (0xd)[0m
+    largest acknowledged=108
+    ack delay=3656
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.218 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 110[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=117
+    ack delay=4808
+    ack block count=0
+    first ackblock=6
+2018-08-13T14:39:12.222 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 119[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03a2
+2018-08-13T14:39:12.225 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 111[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=118
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=920
+      6c612076656c206e756e                      'la vel nun'
+2018-08-13T14:39:12.226 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 120[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ac
+2018-08-13T14:39:12.231 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 112[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=120
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=930
+      63206567657374617320                      'c egestas '
+2018-08-13T14:39:12.232 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 121[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03b6
+2018-08-13T14:39:12.233 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 122[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=112
+    ack delay=2480
+    ack block count=0
+    first ackblock=6
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03b6
+2018-08-13T14:39:12.237 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 113[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=121
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=940
+      706f72747469746f722e                      'porttitor.'
+2018-08-13T14:39:12.239 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 123[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03c0
+2018-08-13T14:39:12.243 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 114[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=122
+    ack delay=6688
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:39:12.245 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 124[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03c0
+2018-08-13T14:39:12.248 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 115[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=123
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=950
+      204d6f726269206c6563                      ' Morbi lec'
+2018-08-13T14:39:12.249 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 125[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03ca
+2018-08-13T14:39:12.254 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 116[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=125
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=960
+      7475732072697375732c                      'tus risus,'
+2018-08-13T14:39:12.255 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 126[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03d4
+    [31mACK (0xd)[0m
+    largest acknowledged=115
+    ack delay=4856
+    ack block count=0
+    first ackblock=2
+2018-08-13T14:39:12.258 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 127[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03d4
+2018-08-13T14:39:12.262 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 117[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=126
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=970
+      20696163756c69732076                      ' iaculis v'
+2018-08-13T14:39:12.263 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 128[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03de
+2018-08-13T14:39:12.267 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 118[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=127
+    ack delay=7504
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:12.271 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 129[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03de
+2018-08-13T14:39:12.275 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 119[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=128
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=980
+      656c2c20737573636970                      'el, suscip'
+2018-08-13T14:39:12.276 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 130[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03e8
+    [31mACK (0xd)[0m
+    largest acknowledged=118
+    ack delay=5224
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:12.278 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 120[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=129
+    ack delay=4576
+    ack block count=0
+    first ackblock=5
+2018-08-13T14:39:12.285 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 131[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03e8
+2018-08-13T14:39:12.288 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 121[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=130
+    ack delay=0
+    ack block count=0
+    first ackblock=2
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=990
+      697420717569732c206c                      'it quis, l'
+2018-08-13T14:39:12.290 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 132[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03f2
+2018-08-13T14:39:12.292 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 122[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=131
+    ack delay=4320
+    ack block count=0
+    first ackblock=3
+2018-08-13T14:39:12.294 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 133[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=121
+    ack delay=4928
+    ack block count=0
+    first ackblock=8
+2018-08-13T14:39:12.297 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 134[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03f2
+2018-08-13T14:39:12.299 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 123[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=132
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=1000
+      75637475730a20202020                      'uctus\n    '
+2018-08-13T14:39:12.302 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 135[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x03fc
+2018-08-13T14:39:12.310 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 136[0m, spinbit: 1
+    [31mACK (0xd)[0m
+    largest acknowledged=123
+    ack delay=10632
+    ack block count=0
+    first ackblock=10
+2018-08-13T14:39:12.315 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 124[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=135
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=1010
+      202020206e6f6e2c206d                      '    non, m'
+2018-08-13T14:39:12.319 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 137[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0406
+2018-08-13T14:39:12.327 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 125[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=137
+    ack delay=0
+    ack block count=0
+    first ackblock=4
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=1020
+      617373612e2046757363                      'assa. Fusc'
+2018-08-13T14:39:12.329 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 138[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0410
+2018-08-13T14:39:12.335 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 126[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=138
+    ack delay=0
+    ack block count=0
+    first ackblock=5
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=1030
+      65206163207475727069                      'e ac turpi'
+2018-08-13T14:39:12.336 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 139[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x041a
+2018-08-13T14:39:12.341 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x0ab915ab44133a48338f[36m
+       PKN: 127[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=139
+    ack delay=0
+    ack block count=0
+    first ackblock=6
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x04) length=10 offset=1040
+      732071756973206c6967                      's quis lig'
+2018-08-13T14:39:12.344 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 140[0m, spinbit: 1
+    [31mMAX_STREAM_DATA (0x5)[0m
+    StreamID=0x04
+    Max data=0x0424
+    [31mACK (0xd)[0m
+    largest acknowledged=126
+    ack delay=3440
+    ack block count=0
+    first ackblock=2
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.protected1RTTDecrypt (/server/out/crypto/aead.js:96:21)
+    at PacketParser.parseShortHeaderPacket (/server/out/utilities/parsers/packet.parser.js:65:43)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:30:21)
+    at headerOffsets.forEach (/server/out/quicker/client.js:121:54)
+    at Array.forEach (<anonymous>)
+    at Client.onMessage (/server/out/quicker/client.js:119:27)
+    at Socket.socket.on (/server/out/quicker/client.js:56:84)
+    at emitTwo (events.js:125:13)
+2018-08-13T14:39:12.356 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x1cd4d893227a86a351deff8a8b08e70e77b2[31m
+       PKN: 141[0m, spinbit: 1
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 

@@ -1,0 +1,114 @@
+Running QUICker server at 0.0.0.0:4433, with certs: /keys/domain.key, /keys/domain.crt
+clear text client key: 59d63604919e2fd32d3b1c120aa8412c
+clear text client key: ff33c52be3754f5a507e2cb0
+clear text client pn: 2f81b6b33f8d0c35784e3f5a3a9a671b
+clear text server key: d3001a6cad191a7e24b1bb9897c69551
+clear text server iv: eca262630745729d7699134a
+clear text server pn: effdf9fa81ff4a60dcc29ce091874ffa
+2018-08-13T14:56:59.224 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x128c92bef39172d43065cc79ec5a3ff87e56, Src CID: 0x0d078b7ad9581c66cc922b64d5[36m
+       PKN: 1[0m, payload length: 1175
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 832
+clear text client key: 59d63604919e2fd32d3b1c120aa8412c
+clear text client key: ff33c52be3754f5a507e2cb0
+clear text client pn: 2f81b6b33f8d0c35784e3f5a3a9a671b
+clear text server key: d3001a6cad191a7e24b1bb9897c69551
+clear text server iv: eca262630745729d7699134a
+clear text server pn: effdf9fa81ff4a60dcc29ce091874ffa
+2018-08-13T14:56:59.281 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d078b7ad9581c66cc922b64d5, Src CID: 0x04dfb4a7[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T14:56:59.286 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d078b7ad9581c66cc922b64d5, Src CID: 0x04dfb4a7[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+protected1RTT client key: 8b8a80f50bee6274dd5866c61794caafaed35462c39e5cf08b36498d00685b79
+protected1RTT client iv: 8a0fc4c655b38077bf26894a
+protected1RTT client pn: fd1c5ece889a537cfd95d9918ee8b9c16edbfba292e43aeda0056e8ebe049436
+protected1RTT server key: 2be2cc76872a2da22adc15784b0997a07f4353a1d0ecacac60cec741bd71a785
+protected1RTT server iv: c7c3da75392b68724b4f68e1
+protected1RTT server pn: 171f9e6e32622f4b8b87d7d7596c073a190befda1628be80890b2b7d2fb8d87e
+2018-08-13T14:56:59.343 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 3[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=95176
+    ack block count=0
+    first ackblock=0
+clear text client key: 59d63604919e2fd32d3b1c120aa8412c
+clear text client key: ff33c52be3754f5a507e2cb0
+clear text client pn: 2f81b6b33f8d0c35784e3f5a3a9a671b
+clear text server key: d3001a6cad191a7e24b1bb9897c69551
+clear text server iv: eca262630745729d7699134a
+clear text server pn: effdf9fa81ff4a60dcc29ce091874ffa
+2018-08-13T14:56:59.350 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x04dfb4a7, Src CID: 0x0d078b7ad9581c66cc922b64d5[36m
+       PKN: 2[0m, payload length: 102
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+2018-08-13T14:56:59.357 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=272 offset=2312
+2018-08-13T14:56:59.363 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x04dfb4a7[36m
+       PKN: 3[0m, spinbit: 0
+    [36mSTOP_SENDING (0xc)[0m
+    StreamID=0x02
+    Application error code= 1
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+10: undefined
+QuicError: 10: undefined
+    at FrameHandler.handleStopSendingFrame (/server/out/utilities/handlers/frame.handler.js:165:19)
+    at FrameHandler.handle (/server/out/utilities/handlers/frame.handler.js:64:22)
+    at packet.getFrames.forEach (/server/out/utilities/handlers/packet.handler.js:135:31)
+    at Array.forEach (<anonymous>)
+    at PacketHandler.handleFrames (/server/out/utilities/handlers/packet.handler.js:134:28)
+    at PacketHandler.handleProtected1RTTPacket (/server/out/utilities/handlers/packet.handler.js:131:14)
+    at PacketHandler.handle (/server/out/utilities/handlers/packet.handler.js:42:22)
+    at headerOffsets.forEach (/server/out/quicker/server.js:90:36)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+2018-08-13T14:56:59.371 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 5[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+10: undefined
+2018-08-13T14:56:59.373 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 6[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-13T14:56:59.375 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 7[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-13T14:56:59.377 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d078b7ad9581c66cc922b64d5[31m
+       PKN: 8[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing

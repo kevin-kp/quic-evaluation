@@ -1,0 +1,226 @@
+Running QUICker server at 0.0.0.0:4433, with certs: /keys/domain.key, /keys/domain.crt
+clear text client key: b4be424cc7284016d6f648e8e91e2836
+clear text client key: 49f13c60a04cc8f1aa932c2a
+clear text client pn: 1beedb82648bfd3a8689a202d3a0174f
+clear text server key: 6a205a0e353792d44bf02e515de30718
+clear text server iv: 8fdb3f226f08f48f6cd265f9
+clear text server pn: 1dff5c10d6b16b94843de493c11176e8
+2018-08-13T09:19:36.134 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0e02ec2755c2b4e323d3798186e0, Src CID: 0x076f3b5b1a8b05[36m
+       PKN: 1[0m, payload length: 1185
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 842
+clear text client key: b4be424cc7284016d6f648e8e91e2836
+clear text client key: 49f13c60a04cc8f1aa932c2a
+clear text client pn: 1beedb82648bfd3a8689a202d3a0174f
+clear text server key: 6a205a0e353792d44bf02e515de30718
+clear text server iv: 8fdb3f226f08f48f6cd265f9
+clear text server pn: 1dff5c10d6b16b94843de493c11176e8
+2018-08-13T09:19:36.186 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T09:19:36.189 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+protected1RTT client key: 95ea6e692c0860b3835d28936342711022fdcc922e595910653bd8eebd0ba069
+protected1RTT client iv: 022d21ba090506a061061e86
+protected1RTT client pn: fc89614293fba7c9c7fa767a4d4e6bb8ee39b8c8df3f457665557e5e77257e65
+protected1RTT server key: a9fd06228b003589ccce4dff941b7db9966fc31a209c00b0141c8e8304b7e31d
+protected1RTT server iv: 5d718b8d95b54088ead702ce
+protected1RTT server pn: 32fe228bf9164c6c6374806568d5e8a327df1c074c877cbba6c5ac1275008360
+2018-08-13T09:19:36.244 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x076f3b5b1a8b05[31m
+       PKN: 3[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=92272
+    ack block count=0
+    first ackblock=0
+2018-08-13T09:19:36.390 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 4[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T09:19:36.397 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 5[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+2018-08-13T09:19:36.399 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 6[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T09:19:36.402 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 7[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+bit check failed in the first octet
+clear text client key: b4be424cc7284016d6f648e8e91e2836
+clear text client key: 49f13c60a04cc8f1aa932c2a
+clear text client pn: 1beedb82648bfd3a8689a202d3a0174f
+clear text server key: 6a205a0e353792d44bf02e515de30718
+clear text server iv: 8fdb3f226f08f48f6cd265f9
+clear text server pn: 1dff5c10d6b16b94843de493c11176e8
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.clearTextDecrypt (/server/out/crypto/aead.js:66:21)
+    at PacketParser.parseHandshakePacket (/server/out/utilities/parsers/packet.parser.js:117:43)
+    at PacketParser.parseLongHeaderPacket (/server/out/utilities/parsers/packet.parser.js:50:37)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:25:25)
+    at headerOffsets.forEach (/server/out/quicker/server.js:89:54)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+    at Socket.server.on (/server/out/quicker/server.js:52:84)
+clear text client key: b4be424cc7284016d6f648e8e91e2836
+clear text client key: 49f13c60a04cc8f1aa932c2a
+clear text client pn: 1beedb82648bfd3a8689a202d3a0174f
+clear text server key: 6a205a0e353792d44bf02e515de30718
+clear text server iv: 8fdb3f226f08f48f6cd265f9
+clear text server pn: 1dff5c10d6b16b94843de493c11176e8
+2018-08-13T09:19:36.467 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 8[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+Unsupported state or unable to authenticate data
+2018-08-13T09:19:36.471 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 9[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+bit check failed in the first octet
+2018-08-13T09:19:36.476 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 10[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-13T09:19:36.478 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 11[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+bit check failed in the first octet
+2018-08-13T09:19:36.481 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 12[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-13T09:19:36.486 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x076f3b5b1a8b05, Src CID: 0x0e232fdac4f84fb528c47c515130[31m
+       PKN: 13[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+bit check failed in the first octet
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+clear text client key: 02d25ec5d4b3ab151641237801a8f643
+clear text client key: ac9b12f245c041c8618083d4
+clear text client pn: 8398cf9055c9d1a10c00a4dde5e55ce5
+clear text server key: a00d0c76ee001aaab08e119c17d110e9
+clear text server iv: 52e34fb2499a770a526f6127
+clear text server pn: f5cfadefe2175aec0bc720bd83522c7b
+2018-08-13T09:19:41.361 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x07d8a5501c2afc, Src CID: 0x0ec4c5523f128a1af911652bc389[36m
+       PKN: 1[0m, payload length: 1185
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 842
+clear text client key: 02d25ec5d4b3ab151641237801a8f643
+clear text client key: ac9b12f245c041c8618083d4
+clear text client pn: 8398cf9055c9d1a10c00a4dde5e55ce5
+clear text server key: a00d0c76ee001aaab08e119c17d110e9
+clear text server iv: 52e34fb2499a770a526f6127
+clear text server pn: f5cfadefe2175aec0bc720bd83522c7b
+2018-08-13T09:19:41.398 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ec4c5523f128a1af911652bc389, Src CID: 0x0bdc0b39cc1b57f0ffc169[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T09:19:41.399 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ec4c5523f128a1af911652bc389, Src CID: 0x0bdc0b39cc1b57f0ffc169[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+protected1RTT client key: 144d8e8ab87d59e81848a42d56fbba4156d6c3fd2b06ecc4cb06b78733475f43
+protected1RTT client iv: f4340354a14aeec1933c7733
+protected1RTT client pn: 57eb95194ad946802751e4bf758987fa7a420fe87b1280e04df53f3bd9f3e03c
+protected1RTT server key: f6cfb6ed6e015f8360e24e3d865ed91552c3ad9ebecbbf055d2fb845d7d51f68
+protected1RTT server iv: a52c25edaea5a1c24b6318fd
+protected1RTT server pn: 041bcce27fec8cd895a67b103f90aa8e15e53997fb2866ce356f9668a48bce1f
+2018-08-13T09:19:41.446 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0ec4c5523f128a1af911652bc389[31m
+       PKN: 3[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=44408
+    ack block count=0
+    first ackblock=0
+bit check failed in the first octet
+clear text client key: 02d25ec5d4b3ab151641237801a8f643
+clear text client key: ac9b12f245c041c8618083d4
+clear text client pn: 8398cf9055c9d1a10c00a4dde5e55ce5
+clear text server key: a00d0c76ee001aaab08e119c17d110e9
+clear text server iv: 52e34fb2499a770a526f6127
+clear text server pn: f5cfadefe2175aec0bc720bd83522c7b
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.clearTextDecrypt (/server/out/crypto/aead.js:66:21)
+    at PacketParser.parseHandshakePacket (/server/out/utilities/parsers/packet.parser.js:117:43)
+    at PacketParser.parseLongHeaderPacket (/server/out/utilities/parsers/packet.parser.js:50:37)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:25:25)
+    at headerOffsets.forEach (/server/out/quicker/server.js:89:54)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+    at Socket.server.on (/server/out/quicker/server.js:52:84)
+clear text client key: 02d25ec5d4b3ab151641237801a8f643
+clear text client key: ac9b12f245c041c8618083d4
+clear text client pn: 8398cf9055c9d1a10c00a4dde5e55ce5
+clear text server key: a00d0c76ee001aaab08e119c17d110e9
+clear text server iv: 52e34fb2499a770a526f6127
+clear text server pn: f5cfadefe2175aec0bc720bd83522c7b
+2018-08-13T09:19:41.482 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ec4c5523f128a1af911652bc389, Src CID: 0x0bdc0b39cc1b57f0ffc169[31m
+       PKN: 4[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+Unsupported state or unable to authenticate data
+2018-08-13T09:19:41.484 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0ec4c5523f128a1af911652bc389, Src CID: 0x0bdc0b39cc1b57f0ffc169[31m
+       PKN: 5[0m, payload length: 20
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 1
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing

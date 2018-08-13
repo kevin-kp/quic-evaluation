@@ -1,0 +1,83 @@
+Running QUICker server at 0.0.0.0:4433, with certs: /keys/domain.key, /keys/domain.crt
+clear text client key: 11d2b0fd0fe16790148f89e565c7b041
+clear text client key: 25425d53facab468dffaf672
+clear text client pn: a2b1726b3a6ccfa383bcceec076f8547
+clear text server key: 24996253e9edf68e256b21f110e1a029
+clear text server iv: ff7f237690d8848f83079d2b
+clear text server pn: 86944e2af52b978aeea84153d0f0ed3a
+2018-08-13T14:50:14.343 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0de96efda15781ce7c72d031d4, Src CID: 0x0b7c6d7a3c74b0d6a5c1e2[36m
+       PKN: 2[0m, payload length: 1182
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 839
+clear text client key: 11d2b0fd0fe16790148f89e565c7b041
+clear text client key: 25425d53facab468dffaf672
+clear text client pn: a2b1726b3a6ccfa383bcceec076f8547
+clear text server key: 24996253e9edf68e256b21f110e1a029
+clear text server iv: ff7f237690d8848f83079d2b
+clear text server pn: 86944e2af52b978aeea84153d0f0ed3a
+2018-08-13T14:50:14.398 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0b7c6d7a3c74b0d6a5c1e2, Src CID: 0x1048a7e966b9c18518142892d066745f[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-13T14:50:14.401 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0b7c6d7a3c74b0d6a5c1e2, Src CID: 0x1048a7e966b9c18518142892d066745f[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+clear text client key: 11d2b0fd0fe16790148f89e565c7b041
+clear text client key: 25425d53facab468dffaf672
+clear text client pn: a2b1726b3a6ccfa383bcceec076f8547
+clear text server key: 24996253e9edf68e256b21f110e1a029
+clear text server iv: ff7f237690d8848f83079d2b
+clear text server pn: 86944e2af52b978aeea84153d0f0ed3a
+2018-08-13T14:50:14.411 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0de96efda15781ce7c72d031d4, Src CID: 0x0b7c6d7a3c74b0d6a5c1e2[36m
+       PKN: 3[0m, payload length: 1182
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 839
+protected1RTT client key: be8633da73457da9f38f69e9818c66fc0d7e20d32b079778775b28c905a76a83
+protected1RTT client iv: cc9ebfe3c980e7d4e96fa17f
+protected1RTT client pn: 6edf2e68090351da8caa1fbeb2421bf3ba12baa7cbc65ab9018284e1e07148ac
+protected1RTT server key: ec28f6c2580c0755eaca4f322eb5d54aa1fbea51e4c0e169f7de121b6fdb0794
+protected1RTT server iv: d1ca7003806b6ab1a804b1e5
+protected1RTT server pn: 0fab1cad0c17510b8f238fd5ccdebdb9ad10f31d9a44ff43aa8f337256070173
+2018-08-13T14:50:14.421 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0b7c6d7a3c74b0d6a5c1e2[31m
+       PKN: 3[0m, spinbit: 0
+    [31mSTREAM_BLOCKED (0x9)[0m
+    StreamID=0x00
+    Blocked offset= 2312
+clear text client key: 11d2b0fd0fe16790148f89e565c7b041
+clear text client key: 25425d53facab468dffaf672
+clear text client pn: a2b1726b3a6ccfa383bcceec076f8547
+clear text server key: 24996253e9edf68e256b21f110e1a029
+clear text server iv: ff7f237690d8848f83079d2b
+clear text server pn: 86944e2af52b978aeea84153d0f0ed3a
+2018-08-13T14:50:14.465 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x1048a7e966b9c18518142892d066745f, Src CID: 0x0b7c6d7a3c74b0d6a5c1e2[36m
+       PKN: 4[0m, payload length: 102
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+2018-08-13T14:50:14.469 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0b7c6d7a3c74b0d6a5c1e2[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTREAM_BLOCKED (0x9)[0m
+    StreamID=0x00
+    Blocked offset= 2312
+    [31mACK (0xd)[0m
+    largest acknowledged=3
+    ack delay=20224
+    ack block count=0
+    first ackblock=1
+2018-08-13T14:50:14.474 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x1048a7e966b9c18518142892d066745f[36m
+       PKN: 5[0m, spinbit: 0
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'

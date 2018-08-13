@@ -1,0 +1,128 @@
+QUICker client connecting to quicker:4433
+clear text client key: 552b3a70bf8ca6523da9df78e4c86b2b
+clear text client key: 1472d6949938b74cdce67fa7
+clear text client pn: 0dd26426dfcfce3e4d8b2b03f7fe36c1
+clear text server key: 677e9424e508e646ec89f0e7582cde57
+clear text server iv: 06b54cd7c1071d35b2b80578
+clear text server pn: 487f7b3995f0129cfd9e0343de1e66df
+2018-08-13T10:00:33.898 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x090da01c82711d1337, Src CID: 0x07774d97480e25[31m
+       PKN: 1[0m, payload length: 1190
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 847
+clear text client key: 552b3a70bf8ca6523da9df78e4c86b2b
+clear text client key: 1472d6949938b74cdce67fa7
+clear text client pn: 0dd26426dfcfce3e4d8b2b03f7fe36c1
+clear text server key: 677e9424e508e646ec89f0e7582cde57
+clear text server iv: 06b54cd7c1071d35b2b80578
+clear text server pn: 487f7b3995f0129cfd9e0343de1e66df
+2018-08-13T10:00:34.008 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x07774d97480e25, Src CID: 0x08debe74a13a4aca[36m
+       PKN: 1[0m, payload length: 1221
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+clear text client key: 552b3a70bf8ca6523da9df78e4c86b2b
+clear text client key: 1472d6949938b74cdce67fa7
+clear text client pn: 0dd26426dfcfce3e4d8b2b03f7fe36c1
+clear text server key: 677e9424e508e646ec89f0e7582cde57
+clear text server iv: 06b54cd7c1071d35b2b80578
+clear text server pn: 487f7b3995f0129cfd9e0343de1e66df
+2018-08-13T10:00:34.022 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x07774d97480e25, Src CID: 0x08debe74a13a4aca[36m
+       PKN: 2[0m, payload length: 1134
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+clear text client key: 552b3a70bf8ca6523da9df78e4c86b2b
+clear text client key: 1472d6949938b74cdce67fa7
+clear text client pn: 0dd26426dfcfce3e4d8b2b03f7fe36c1
+clear text server key: 677e9424e508e646ec89f0e7582cde57
+clear text server iv: 06b54cd7c1071d35b2b80578
+clear text server pn: 487f7b3995f0129cfd9e0343de1e66df
+2018-08-13T10:00:34.031 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x08debe74a13a4aca, Src CID: 0x07774d97480e25[31m
+       PKN: 2[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+protected1RTT client key: 0dcef9d612d120eafd3e62b07ee445e01717adffe48f8dd300d65f88c44f6c7a
+protected1RTT client iv: ddbf662ef62092ff0647c73e
+protected1RTT client pn: d4bf5a0763d538b7be90428cdf985e66bb45f7a09be219ce5b6ca17596448389
+protected1RTT server key: 5ad47430b9c2e46cf17d9b41e1ecb93e70dc5293402dad359998fcf80d93b599
+protected1RTT server iv: d6ce387d297c7ee73e88105d
+protected1RTT server pn: a72c8ae59bd829d2ee74002d8b67763b25a18efa4d947490d911a30dadbd3924
+2018-08-13T10:00:34.039 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x08debe74a13a4aca[31m
+       PKN: 3[0m, spinbit: 0
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x02
+    Application error code= 1
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+2018-08-13T10:00:34.042 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x08debe74a13a4aca[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x06
+    Application error code= 1
+2018-08-13T10:00:34.054 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x07774d97480e25[36m
+       PKN: 3[0m, spinbit: 0
+    [36mACK (0xd)[0m
+    largest acknowledged=1
+    ack delay=93272
+    ack block count=0
+    first ackblock=0
+2018-08-13T10:00:34.060 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x08debe74a13a4aca[31m
+       PKN: 5[0m, spinbit: 1
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x0a
+    Application error code= 1
+    [31mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=26184
+    ack block count=0
+    first ackblock=1
+2018-08-13T10:00:34.064 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x07774d97480e25[36m
+       PKN: 4[0m, spinbit: 0
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=272 offset=2312
+2018-08-13T10:00:34.066 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x08debe74a13a4aca[31m
+       PKN: 6[0m, spinbit: 1
+    [31mSTOP_SENDING (0xc)[0m
+    StreamID=0x0e
+    Application error code= 1
+2018-08-13T10:00:34.084 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x07774d97480e25[36m
+       PKN: 5[0m, spinbit: 0
+    [36mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+clear text client key: a6e17870cdd25f9ed7da2c1702e4bbe6
+clear text client key: 77b14b2fb78d52f18b7c6e15
+clear text client pn: 8236a49d65e4f9ed52dbd6f542faf956
+clear text server key: 2fe7ec7d24264a497e286203aea088ca
+clear text server iv: 5228e8366d5e81f332107fbd
+clear text server pn: 115fb89e2141799e2c13c488f632e0fe
+2018-08-13T10:00:39.058 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0eb5bd654fe4e00062ccff912e5b, Src CID: 0x0c7040bdea8c07404ed58c6d[31m
+       PKN: 1[0m, payload length: 1180
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=618 offset=0
+    [31mPADDING (0x0)[0m
+    length= 540
