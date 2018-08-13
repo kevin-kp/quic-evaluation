@@ -60,6 +60,7 @@ def main():
     remove_containers()
     client_container_id = None
     for x in range(0, args.amount_of_runs):
+        update_start_time()
         for resource in resources:
             for implementation in implementations:
                 for network_setting in network_settings:

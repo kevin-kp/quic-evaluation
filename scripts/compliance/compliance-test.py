@@ -71,6 +71,7 @@ def main():
     remove_containers()
     client_container_id = None
     for x in range(0, args.amount_of_runs):
+        update_start_time()
         for implementation in implementations:
             for branch in experiment_branches:
                 container_id = create_server_container(TEST_NAME, implementation)

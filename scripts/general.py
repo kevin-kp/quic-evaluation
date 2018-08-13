@@ -2,8 +2,11 @@ import subprocess
 import time
 
 QUIC_RESULTS_DIRECTORY = "/Users/kevin/Documents/quic-results"
-TEST_DATETIME_STR = time.strftime("%Y%m%d-%H%M%S")
+test_datetime_str = time.strftime("%Y%m%d-%H%M%S")
 
+def update_start_time():
+    global test_datetime_str
+    test_datetime_str = time.strftime("%Y%m%d-%H%M%S")
 
 def run_subprocess_command(command):
     process = subprocess.Popen(
@@ -22,9 +25,10 @@ def run_call_command(command):
 
 
 def get_host_directory(test_name, name, is_server):
+    global test_datetime_str
     subdir = "server" if is_server else "client"
     host_dir = QUIC_RESULTS_DIRECTORY + "/" + test_name + \
-        "/" + TEST_DATETIME_STR + "/" + subdir + "/" + name
+        "/" + test_datetime_str + "/" + subdir + "/" + name
     run_subprocess_command("mkdir -p " + host_dir)
     run_subprocess_command("chmod -R 777 " + host_dir)
     return host_dir
