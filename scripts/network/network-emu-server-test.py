@@ -20,6 +20,7 @@ def get_run_test_server_command(servername):
 
 def get_network_settings(network_settings_name):
     network_settings = {
+        # Google chrome throttling setting: WiFi
         "wifi": {
             "name": "wifi",
             "latency": "2ms",
@@ -28,6 +29,7 @@ def get_network_settings(network_settings_name):
             "bandwidth": "29Mbit",
             "bandwidth_burst": "130kb"
         },
+        # Google chrome throttling setting: WiFi with higher latency and loss
         "wifi_transatlantic_loss": {
             "name": "wifi_transatlantic_loss",
             "latency": "75ms",
@@ -36,20 +38,22 @@ def get_network_settings(network_settings_name):
             "bandwidth": "29Mbit",
             "bandwidth_burst": "130kb"
         },
+        # Google chrome throttling setting: 4G
         "4g": {
             "name": "4g",
             "latency": "20ms",
             "jitter": "4ms",
             "loss": None,
-            "bandwidth": "4.2Mbit",
+            "bandwidth": "4.0Mbit",
             "bandwidth_burst": "64kb"
         },
+        # Google chrome throttling setting: 2G with loss
         "2g_loss": {
             "name": "2g_loss",
             "latency": "150ms",
             "jitter": "20ms",
             "loss": "1.2%",
-            "bandwidth": "500kbit",
+            "bandwidth": "450kbit",
             "bandwidth_burst": "40kb"
         }
     }
