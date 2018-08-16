@@ -1,0 +1,93 @@
+Running QUICker server at 0.0.0.0:4433, with certs: /keys/domain.key, /keys/domain.crt
+2018-08-16T09:42:54.607 
+  [31mTX VersionNegotiation(0x3)[0m, Dest CID: 0x0709c6f2d2dba1, Src CID: 0x0ec4cb5b61ff108b6813b85393ca
+    version: 0xff00000c
+    version: 0xabcdef0c
+2018-08-16T09:42:54.639 
+  [36mRX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ec4cb5b61ff108b6813b85393ca, Src CID: 0x0709c6f2d2dba1[36m
+       PKN: 2[0m, payload length: 1185
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [36mPADDING (0x0)[0m
+    length= 842
+2018-08-16T09:42:54.699 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0709c6f2d2dba1, Src CID: 0x058d1a65db[31m
+       PKN: 1[0m, payload length: 1221
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+2018-08-16T09:42:54.704 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0709c6f2d2dba1, Src CID: 0x058d1a65db[31m
+       PKN: 2[0m, payload length: 1134
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+2018-08-16T09:42:54.759 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 3[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=79248
+    ack block count=0
+    first ackblock=0
+2018-08-16T09:42:54.778 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x058d1a65db, Src CID: 0x0709c6f2d2dba1[36m
+       PKN: 3[0m, payload length: 102
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+2018-08-16T09:42:54.781 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=272 offset=2312
+2018-08-16T09:42:54.792 
+  [36mRX Protected1RTT(0x5)[0m, Dest CID: 0x058d1a65db[36m
+       PKN: 4[0m, spinbit: 0
+    [36mSTOP_SENDING (0xc)[0m
+    StreamID=0x02
+    Application error code= 1
+    [36mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+10: undefined
+QuicError: 10: undefined
+    at FrameHandler.handleStopSendingFrame (/server/out/utilities/handlers/frame.handler.js:165:19)
+    at FrameHandler.handle (/server/out/utilities/handlers/frame.handler.js:64:22)
+    at packet.getFrames.forEach (/server/out/utilities/handlers/packet.handler.js:135:31)
+    at Array.forEach (<anonymous>)
+    at PacketHandler.handleFrames (/server/out/utilities/handlers/packet.handler.js:134:28)
+    at PacketHandler.handleProtected1RTTPacket (/server/out/utilities/handlers/packet.handler.js:131:14)
+    at PacketHandler.handle (/server/out/utilities/handlers/packet.handler.js:42:22)
+    at headerOffsets.forEach (/server/out/quicker/server.js:90:36)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+2018-08-16T09:42:54.797 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 5[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+10: undefined
+2018-08-16T09:42:54.799 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 6[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-16T09:42:54.814 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 7[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+2018-08-16T09:42:54.821 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0709c6f2d2dba1[31m
+       PKN: 8[0m, spinbit: 0
+    [31mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+server:onMessage : caught IGNORE_PACKET_ERROR : QuickerError: IGNORE_PACKET_ERROR : undefined
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
