@@ -75,16 +75,25 @@ def get_network_settings_array(network_settings_name):
 
 def activate_network_emulation(network_settings_name):
     network_settings = get_network_settings(network_settings_name)
-    command = "tc qdisc add dev eth0 root handle 1 tbf rate {0} burst {1} latency 50ms && tc qdisc add dev eth0 parent 1: handle 2: netem delay {2}"
-    i = 3
+    first_command = "tc qdisc add dev eth0 root handle 1 tbf rate {0} burst {1} latency 50ms"
+    second_command = "tc qdisc add dev eth0 parent 1: handle 2: netem delay {0}"
+    i = 1
     if network_settings["jitter"] is not None:
-        command += " {" + str(i) +"} distribution normal"
-    i = i + 1
+        second_command += " {" + str(i) +"} distribution normal"
+        i = i + 1
 
     if network_settings["loss"] is not None:
-        command += " loss {" + str(i) +"} "
-    command = command.format(*get_network_settings_array(network_settings_name))
-    run_command(command)
+        second_command += " loss {" + str(i) +"} "
+        
+    networks_array = get_network_settings_array(network_settings_name)
+    first_command_array = networks_array[:2]
+    second_command_array = networks_array[2:]
+    
+    first_command = first_command.format(*first_command_array)
+    second_command = second_command.format(*second_command_array)
+    
+    run_command(first_command)
+    run_command(second_command)
 
 def run_command(command, stdout=None, stderr=None):
     subprocess.call(command.split(), stdout=stdout, stderr=stderr)

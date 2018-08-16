@@ -23,18 +23,15 @@ COPY ./docker/quicker/github_key_file /keyfiles/github_key_file
 RUN   chmod 600 /keyfiles/github_key_file && \
     echo "IdentityFile /keyfiles/github_key_file\n" >> /etc/ssh/ssh_config && \
     echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config && \
-    git clone --depth 1 -b add_quicker_support-tls-d28 git@github.com:kevin-kp/node.git /node && \
-    rm -f /node/configure
-
-COPY ./configure /node/
+    git clone -b add_quicker_support-tls-d28 git@github.com:kevin-kp/node.git /node
 
 WORKDIR /node/deps/openssl/config
 
 RUN make
 
-RUN chmod 777 /node/configure && cd /node && ./configure
+RUN chmod 777 /node/configure && cd /node && ./configure --openssl-no-asm
 
-RUN cd /node && make -j2
+RUN cd /node && make -j2 && make install
 
 
 CMD ["/bin/bash"]

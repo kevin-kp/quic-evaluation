@@ -19,9 +19,12 @@ RUN rm -rf /var/lib/apt/lists/*  \
     && apt-get clean
 
 # clone openssl
-RUN git clone --depth 1 https://github.com/openssl/openssl /openssl
+RUN git clone https://github.com/openssl/openssl /openssl
 
 WORKDIR /openssl
+
+# Go to draft version 28 available
+RUN git checkout 58094ab60ff51918a248dc6bd977d48f981fe2c1
 
 # build and install openssl
 RUN ./config --prefix=$PWD/build && make && make install
