@@ -43,7 +43,7 @@ RUN mkdir Debug && mkdir ./Debug/external && mkdir ./Debug/external/lib
 
 WORKDIR ./Debug
 
-RUN cmake .. && make
+RUN cmake -DNO_SANITIZERS=True -DNO_FUZZER_CORPUS_COLLECTION=True .. && make
 
 WORKDIR ../
 
@@ -52,7 +52,7 @@ RUN mkdir Release && mkdir ./Release/external && mkdir ./Release/external/lib
 
 WORKDIR ./Release
 
-RUN cmake -DCMAKE_BUILD_TYPE=Release .. && make
+RUN cmake -DCMAKE_BUILD_TYPE=Release -DNO_SANITIZERS=True -DNO_FUZZER_CORPUS_COLLECTION=True .. && make
 
 # copy keys for the server
 COPY ./docker/keys /keys/

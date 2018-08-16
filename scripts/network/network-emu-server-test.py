@@ -84,7 +84,7 @@ def activate_network_emulation(network_settings_name):
 
     if network_settings["loss"] is not None:
         second_command += " loss {" + str(i) +"} "
-        
+
     networks_array = get_network_settings_array(network_settings_name)
     first_command_array = networks_array[:2]
     second_command_array = networks_array[2:]

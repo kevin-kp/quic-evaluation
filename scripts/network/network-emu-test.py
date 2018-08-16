@@ -27,9 +27,7 @@ def run_test_server(container_id, server_name, network_setting, resource):
     if container_id is None:
         print("cannot run server, no container")
         exit(-1)
-    command = "docker exec -i -d " + container_id + \
-        " python -u /scripts/network/network-emu-server-test.py --server " + \
-        server_name + " --network_setting " + network_setting + " --resource " + resource
+    command = "docker exec -i -d " + container_id + " python -u /scripts/network/network-emu-server-test.py --server " + server_name + " --network_setting " + network_setting + " --resource " + resource
     run_subprocess_command(command)
 
 
@@ -53,7 +51,7 @@ def main():
     ]
     resources = [
         "index.html",
-        "large-text.html",
+        "large-text.txt",
         "image.jpg"
     ]
     
