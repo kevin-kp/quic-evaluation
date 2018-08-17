@@ -41,7 +41,7 @@ def log_docker_stats(container_id, path, file):
         output = proc.stdout.readline()
         if start_time is None:
             start_time = time.time()
-        print("\time: " + str(round(time.time() - start_time, 2)))
+        #print("\t time: " + str(round(time.time() - start_time, 2)))
         if output == '' and proc.poll() is not None:
             break
         if output:
