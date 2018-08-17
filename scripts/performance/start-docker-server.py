@@ -22,7 +22,7 @@ def run_test_server(container_id, server_name, amount, resource):
         print("cannot run server, no container")
         exit(-1)
     command = "docker exec -i -d " + container_id + \
-        " python -u " + QUIC_EVALUATION_DIR + "/scripts/performance/performance-server-test.py --server " + \
+        " python -u /scripts/performance/performance-server-test.py --server " + \
         server_name + " --amount " + str(amount) + " --resource " + resource
     print("test server command: " + command)
     run_subprocess_command(command)
@@ -70,6 +70,7 @@ def main():
     container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME, args.server)
     start_docker_monitor(container_id, args.server, args.amount, args.resource)
     run_test_server(container_id, args.server, args.amount, args.resource)
+    # clean up
     remove_container(container_id)
     tcpdump_process.send_signal(signal.SIGINT)
 

@@ -19,7 +19,7 @@ def get_docker_stats_format():
         }'
 
 def process_docker_stats(stats, time, path, file):
-    print("stats: " + repr(stats))
+    #print("stats: " + repr(stats))
     stats_dict = json.loads(stats)
     if not path.endswith('/'):
         path = path + "/"
