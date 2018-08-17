@@ -3,6 +3,12 @@ import argparse
 import signal
 import sys
 
+# Add parent directory to path to import general.py
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Import ../general.py
+from general import *
+
 TEST_NAME = "performance"
 
 QUIC_EVALUATION_DIR = "/root/quic-evaluation"
