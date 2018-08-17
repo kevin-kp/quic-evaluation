@@ -21,7 +21,7 @@ def run_test_server(container_id, server_name, amount, resource):
     if container_id is None:
         print("cannot run server, no container")
         exit(-1)
-    command = "docker exec -i -d " + container_id + \
+    command = "docker exec -i " + container_id + \
         " python -u /scripts/performance/performance-server-test.py --server " + \
         server_name + " --amount " + str(amount) + " --resource " + resource
     print("test server command: " + command)
