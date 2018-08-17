@@ -64,6 +64,7 @@ def create_server_container(test_name, image, name=None, entrypoint=None):
         " -d -i -p 4433:4433/udp -v " + host_dir + ":/logs:Z " + image + ":latest"
     if entrypoint is not None:
         command += " --entrypoint " + entrypoint
+    print("server run command: " + command)
     output = run_subprocess_command(command)
     print("created server container with id: " + output)
     return output
@@ -76,6 +77,7 @@ def create_client_container(test_name, image, server_name, name=None, entrypoint
     host_dir = get_host_directory(test_name, name, False)
     command = "docker run --rm --privileged --name " + name + " --link " + \
         server_name + " -d -i -v " + host_dir + ":/logs:Z " + image + ":latest"
+    print("client run command: " + command)
     if entrypoint is not None:
         command += " --entrypoint " + entrypoint
     output = run_subprocess_command(command)
@@ -83,9 +85,9 @@ def create_client_container(test_name, image, server_name, name=None, entrypoint
     return output
 
 
-def restart_test_client(test_name, client_container_id, server_name):
+def restart_test_client(test_name, client, client_name, client_container_id, server_name):
     print("restarting client")
     if client_container_id is not None:
         remove_container(client_container_id)
-    client_container_id = create_client_container(test_name, "quicker", server_name, "client-quicker")
+    client_container_id = create_client_container(test_name, client, server_name, client_name)
     return client_container_id

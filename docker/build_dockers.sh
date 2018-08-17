@@ -21,3 +21,5 @@ docker build -t quant:latest -f ./quant/quant.dockerfile ./../
 # Build quicker dockers
 docker build -t node:qtls -f ./quicker/node.dockerfile ./../
 docker build -t quicker:latest -f ./quicker/quicker.dockerfile ./../
+
+docker build -t quicly:latest -f ./quicly/quicly.dockerfile ./../

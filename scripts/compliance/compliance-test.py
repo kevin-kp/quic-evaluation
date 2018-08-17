@@ -9,6 +9,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from general import *
 
 TEST_NAME = "compliance"
+CLIENT_NAME = "client-quicker"
+CLIENT_IMPLEMENTATION = "quicker"
 
 
 def run_test_client(client_container_id, server_name, branch):
@@ -36,7 +38,8 @@ def run_test_server(container_id, server_name, branch):
 def main():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-a','--amount_of_runs', help='Amount of times the compliance tests need to be run', nargs='?', const=1, type=int, default=1)
+    parser.add_argument('-a', '--amount_of_runs', help='Amount of times the compliance tests need to be run',
+                        nargs='?', const=1, type=int, default=1)
     args = parser.parse_args()
 
     implementations = [
@@ -74,9 +77,10 @@ def main():
         update_start_time()
         for implementation in implementations:
             for branch in experiment_branches:
-                container_id = create_server_container(TEST_NAME, implementation)
-                client_container_id = restart_test_client(
-                    TEST_NAME, client_container_id, implementation)
+                container_id = create_server_container(TEST_NAME,
+                                                       implementation)
+                client_container_id = restart_test_client(TEST_NAME,
+                                                          CLIENT_IMPLEMENTATION, CLIENT_NAME, client_container_id, implementation)
                 run_test_server(container_id, implementation, branch)
                 run_test_client(client_container_id, implementation, branch)
                 remove_container(container_id)
