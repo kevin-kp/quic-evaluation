@@ -65,10 +65,13 @@ def main():
 
     args = parser.parse_args()
 
+    remove_containers()
     tcpdump_process = start_tcpdump(args.server, args.amount, args.resource)
     container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME, args.server)
     start_docker_monitor(container_id, args.server, args.amount, args.resource)
     run_test_server(container_id, args.server, args.amount, args.resource)
+    remove_container(container_id)
+    tcpdump_process.send_signal(signal.SIGINT)
 
 
 if __name__ == "__main__":
