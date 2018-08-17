@@ -16,7 +16,7 @@ def run_test_server(container_id, server_name, amount, resource):
         exit(-1)
     command = "docker exec -i -d " + container_id + \
         " python -u " + QUIC_EVALUATION_DIR + "/scripts/performance/performance-server-test.py --server " + \
-        server_name + " --amount " + amount + " --resource " + resource
+        server_name + " --amount " + str(amount) + " --resource " + resource
     print("test server command: " + command)
     run_subprocess_command(command)
 
@@ -26,12 +26,12 @@ def run_command(command, stdout=None, stderr=None):
 
 def start_tcpdump(server, amount, resource):
     command = "tcpdump -i any -s0 udp port 4433 -U -w " + QUIC_RESULTS_DIR + "/tcpdump/" + \
-         server + "-" + amount + "-" + resource + ".pcap"
+         server + "-" + str(amount) + "-" + resource + ".pcap"
     return subprocess.Popen(command.split())
 
 def start_docker_monitor(container_id, server, amount, resource):
     command = "python " + QUIC_EVALUATION_DIR + "/scripts/monitor/monitor-docker.py --container " + container_id + \
-        "--path " + QUIC_RESULTS_DIR + "/monitor --file " + server + "-" + amount + "-" + resource + ".csv"
+        "--path " + QUIC_RESULTS_DIR + "/monitor --file " + server + "-" + str(amount) + "-" + resource + ".csv"
     return subprocess.Popen(command.split())
 
 
