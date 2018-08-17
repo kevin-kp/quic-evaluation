@@ -38,7 +38,7 @@ def start_tcpdump(server, amount, resource):
 
 def start_docker_monitor(container_id, server, amount, resource):
     command = "python " + QUIC_EVALUATION_DIR + "/scripts/monitor/monitor-docker.py --container " + container_id + \
-        "--path " + QUIC_RESULTS_DIR + "/monitor --file " + server + "-" + str(amount) + "-" + resource + ".csv"
+        " --path " + QUIC_RESULTS_DIR + "/monitor --file " + server + "-" + str(amount) + "-" + resource + ".csv"
     return subprocess.Popen(command.split())
 
 
