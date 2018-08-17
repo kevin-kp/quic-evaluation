@@ -7,6 +7,7 @@ import sys
 out_file = None
 
 
+
 def get_run_test_server_command(servername):
     switcher = {
         #"ats": "??",
@@ -61,7 +62,7 @@ def main():
         print("unknown server")
         exit(-1)
 
-    out_file = open("/logs/" + args.server + "-" + args.amount + "-" + args.resource + ".txt", "w+")
+    out_file = open("/logs/" + args.server + "-" + str(args.amount) + "-" + args.resource + ".txt", "w+")
     
     # TCP dump is started in main docker script
     #tcpdump_process = start_tcpdump(args.server, args.amount, args.resource)
