@@ -11,6 +11,7 @@ from general import *
 TEST_NAME = "compliance"
 CLIENT_NAME = "client-quicker"
 CLIENT_IMPLEMENTATION = "quicker"
+QUIC_RESULTS_DIR = "/Users/kevin/Documents/quic-results"
 
 
 def run_test_client(client_container_id, server_name, branch):
@@ -77,9 +78,9 @@ def main():
         update_start_time()
         for implementation in implementations:
             for branch in experiment_branches:
-                container_id = create_server_container(TEST_NAME,
+                container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME,
                                                        implementation)
-                client_container_id = restart_test_client(TEST_NAME,
+                client_container_id = restart_test_client(QUIC_RESULTS_DIR, TEST_NAME,
                                                           CLIENT_IMPLEMENTATION, CLIENT_NAME, client_container_id, implementation)
                 run_test_server(container_id, implementation, branch)
                 run_test_client(client_container_id, implementation, branch)

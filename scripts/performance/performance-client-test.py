@@ -6,7 +6,6 @@ import threading
 
 LOCAL_PATH_TO_NGTCP2 = "/Users/kevin/Documents/UHasselt/Masterjaar2/Masterproef/ngtcp/ngtcp2"
 
-
 class QuicRequestThread (threading.Thread):
    def __init__(self, server, resource, command):
       threading.Thread.__init__(self)

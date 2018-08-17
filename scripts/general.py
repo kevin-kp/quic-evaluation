@@ -1,7 +1,6 @@
 import subprocess
 import time
 
-QUIC_RESULTS_DIRECTORY = "/Users/kevin/Documents/quic-results"
 test_datetime_str = time.strftime("%Y%m%d-%H%M%S")
 
 def update_start_time():
@@ -24,10 +23,10 @@ def run_call_command(command):
                     stderr=subprocess.PIPE)
 
 
-def get_host_directory(test_name, name, is_server):
+def get_host_directory(quic_results_dir, test_name, name, is_server):
     global test_datetime_str
     subdir = "server" if is_server else "client"
-    host_dir = QUIC_RESULTS_DIRECTORY + "/" + test_name + \
+    host_dir = quic_results_dir + "/" + test_name + \
         "/" + test_datetime_str + "/" + subdir + "/" + name
     run_subprocess_command("mkdir -p " + host_dir)
     run_subprocess_command("chmod -R 777 " + host_dir)
@@ -55,11 +54,11 @@ def remove_containers():
         remove_container(container_id)
 
 
-def create_server_container(test_name, image, name=None, entrypoint=None):
+def create_server_container(quic_results_dir, test_name, image, name=None, entrypoint=None):
     print("creating server container")
     if name is None:
         name = image
-    host_dir = get_host_directory(test_name, name, True)
+    host_dir = get_host_directory(quic_results_dir, test_name, name, True)
     command = "docker run --rm --privileged --name " + name + \
         " -d -i -p 4433:4433/udp -v " + host_dir + ":/logs:Z " + image + ":latest"
     if entrypoint is not None:
@@ -70,11 +69,11 @@ def create_server_container(test_name, image, name=None, entrypoint=None):
     return output
 
 
-def create_client_container(test_name, image, server_name, name=None, entrypoint=None):
+def create_client_container(quic_results_dir, test_name, image, server_name, name=None, entrypoint=None):
     print("creating client container")
     if name is None:
         name = image
-    host_dir = get_host_directory(test_name, name, False)
+    host_dir = get_host_directory(quic_results_dir, test_name, name, False)
     command = "docker run --rm --privileged --name " + name + " --link " + \
         server_name + " -d -i -v " + host_dir + ":/logs:Z " + image + ":latest"
     print("client run command: " + command)
@@ -85,9 +84,9 @@ def create_client_container(test_name, image, server_name, name=None, entrypoint
     return output
 
 
-def restart_test_client(test_name, client, client_name, client_container_id, server_name):
+def restart_test_client(quic_results_dir, test_name, client, client_name, client_container_id, server_name):
     print("restarting client")
     if client_container_id is not None:
         remove_container(client_container_id)
-    client_container_id = create_client_container(test_name, client, server_name, client_name)
+    client_container_id = create_client_container(quic_results_dir, test_name, client, server_name, client_name)
     return client_container_id

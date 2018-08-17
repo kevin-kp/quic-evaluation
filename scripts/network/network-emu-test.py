@@ -11,6 +11,7 @@ from general import *
 TEST_NAME = "network"
 CLIENT_NAME = "client-ngtcp2"
 CLIENT_IMPLEMENTATION = "ngtcp2"
+QUIC_RESULTS_DIR = "/root/quic-results"
 
 
 def run_test_client(client_container_id, client_name, server_name, network_setting, resource):

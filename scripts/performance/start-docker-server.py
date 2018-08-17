@@ -9,7 +9,6 @@ QUIC_EVALUATION_DIR = "/root/quic-evaluation"
 QUIC_RESULTS_DIR = "/root/quic-results"
 
 tcpdump_process = None
-out_file = None
 
 def run_test_server(container_id, server_name, amount, resource):
     if container_id is None:
@@ -38,11 +37,7 @@ def start_docker_monitor(container_id, server, amount, resource):
 
 def sigterm_handler(signal, frame):
     global tcpdump_process
-    global out_file
     print("server done")
-    if out_file is not None:
-        out_file.flush()
-        out_file.close()
     if tcpdump_process is not None:
         tcpdump_process.send_signal(signal.SIGINT)
     sys.exit(0)
@@ -50,7 +45,6 @@ def sigterm_handler(signal, frame):
 
 def main():
     global tcpdump_process
-    global out_file
 
     signal.signal(signal.SIGTERM, sigterm_handler)
 
@@ -64,9 +58,8 @@ def main():
 
     args = parser.parse_args()
 
-    out_file = open(QUIC_RESULTS_DIR + "/logs/" + args.server + "-" + args.amount + "-" + args.resource + ".txt", "w+")
     tcpdump_process = start_tcpdump(args.server, args.amount, args.resource)
-    container_id = create_server_container(TEST_NAME, args.server)
+    container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME, args.server)
     start_docker_monitor(container_id, args.server, args.amount, args.resource)
     run_test_server(container_id, args.server, args.amount, args.resource)
 
