@@ -30,11 +30,10 @@ RUN rm -rf /var/lib/apt/lists/*  \
 
 WORKDIR /
 
-RUN git clone https://github.com/h2o/quicly.git /quicly
+# Clone quicly
+RUN git clone -b experiment-branch https://github.com/kevin-kp/quicly.git /quicly
 
 WORKDIR /quicly
-
-RUN git checkout bac9513805909e636e7cd9af12b2a2444df41bec
 
 RUN git submodule update --init --recursive
 RUN PKG_CONFIG_PATH=/openssl/lib/pkgconfig cmake .
@@ -46,7 +45,7 @@ COPY ./docker/keys /keys/
 # copy scripts
 COPY ./scripts /scripts/
 # copy www folder
-COPY ./www /www/
+COPY ./www/* /quicly/assets/
 
 # install python dependencies for the scripts that are going to be used
 RUN pip install --upgrade pip
