@@ -77,12 +77,15 @@ def main():
     except KeyboardInterrupt:
         print("keyboard interrupt")
         # clean up
-        if tcpdump_process is not None:
-            tcpdump_process.send_signal(signal.SIGINT)
-        if monitor_process is not None:
-            monitor_process.send_signal(signal.SIGINT)
-        if container_id is not None:
-            remove_container(container_id)
+    except Exception as e:
+        print("exception")
+        print(e.message)
+    if tcpdump_process is not None:
+        tcpdump_process.send_signal(signal.SIGINT)
+    if monitor_process is not None:
+        monitor_process.send_signal(signal.SIGINT)
+    if container_id is not None:
+        remove_container(container_id)
 
 
 if __name__ == "__main__":

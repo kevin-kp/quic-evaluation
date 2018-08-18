@@ -8,21 +8,43 @@ LOCAL_PATH_TO_NGTCP2 = "/Users/kevin/Documents/UHasselt/Masterjaar2/Masterproef/
 LOG_DIRECTORY = "/Users/kevin/Documents/quic-results/performance"
 DEV_NULL = open(os.devnull, 'w')
 
+
 class QuicRequestThread (threading.Thread):
    def __init__(self, server, resource, command):
       threading.Thread.__init__(self)
       self.server = server
       self.resource = resource
       self.command = command
+      self.thread_process = None
+
+   def stop_thread(self):
+       if self.thread_process is not None and self.check_pid(self.thread_process.pid):
+           self.thread_process.terminate()
+           self.thread_process.wait()
 
    def run_command(self, command, stdout=subprocess.PIPE, stderr=subprocess.PIPE):
-       subprocess.call(command.split(), stdout=stdout, stderr=stderr)
+       return subprocess.Popen(command.split(), stdout=stdout, stderr=stderr)
 
    def run(self):
-       self.run_command(self.command, subprocess.PIPE, subprocess.PIPE)
+       self.thread_process = self.run_command(
+           self.command, subprocess.PIPE, subprocess.PIPE)
+       self.thread_process.wait()
+
+    # source check_pid: https://stackoverflow.com/questions/568271/how-to-check-if-there-exists-a-process-with-a-given-pid-in-python
+   def check_pid(self, pid):        
+       """ Check For the existence of a unix pid. """
+       try:
+           # does not do anything when if pid is running
+           os.kill(pid, 0)
+       except OSError:
+           return False
+       else:
+           return True
+
 
 def get_run_test_client_command(server, resource):
     return LOCAL_PATH_TO_NGTCP2 + "/examples/client " + server + " 4433 -d ./request.txt"
+
 
 def create_temporary_request_file(resource):
     f = open("./request.txt", "w+")
@@ -30,13 +52,16 @@ def create_temporary_request_file(resource):
     f.flush()
     f.close()
 
+
 def remove_temp_request_file():
     os.remove("./request.txt")
+
 
 def start_tcpdump(server, resource, amount):
     command = "tcpdump -i any -s0 udp port 4433 -U -w " + LOG_DIRECTORY + "/" + \
         server + "-" + str(amount) + "-" + resource + ".pcap"
     return subprocess.Popen(command.split())
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -56,10 +81,11 @@ def main():
 
     create_temporary_request_file(args.resource)
     tcpdump_process = start_tcpdump(args.name, args.resource, args.amount)
+    client_pool = []
     try:
-        client_pool = []
         for i in range(0, args.amount):
-            request_thread = QuicRequestThread(args.server, args.resource, run_client_command)
+            request_thread = QuicRequestThread(
+                args.server, args.resource, run_client_command)
             client_pool.append(request_thread)
         for request_thread in client_pool:
             request_thread.start()
@@ -71,6 +97,8 @@ def main():
         print(e)
         print("exception")
     print("cleaning up")
+    for request_thread in client_pool:
+        request_thread.stop_thread()
     tcpdump_process.send_signal(signal.SIGINT)
     remove_temp_request_file()
 
