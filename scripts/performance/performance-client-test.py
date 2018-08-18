@@ -5,6 +5,8 @@ import os
 import threading
 
 LOCAL_PATH_TO_NGTCP2 = "/Users/kevin/Documents/UHasselt/Masterjaar2/Masterproef/ngtcp/ngtcp2"
+LOG_DIRECTORY = "/Users/kevin/Documents/quic-results/performance"
+DEV_NULL = open(os.devnull, 'w')
 
 class QuicRequestThread (threading.Thread):
    def __init__(self, server, resource, command):
@@ -13,11 +15,11 @@ class QuicRequestThread (threading.Thread):
       self.resource = resource
       self.command = command
 
-   def run_command(self, command, stdout=None, stderr=None):
+   def run_command(self, command, stdout=subprocess.PIPE, stderr=subprocess.PIPE):
        subprocess.call(command.split(), stdout=stdout, stderr=stderr)
 
    def run(self):
-       self.run_command(self.command, open(os.devnull, 'w'), subprocess.STDOUT)
+       self.run_command(self.command, subprocess.PIPE, subprocess.PIPE)
 
 def get_run_test_client_command(server, resource):
     return LOCAL_PATH_TO_NGTCP2 + "/examples/client " + server + " 4433 -d ./request.txt"
@@ -32,14 +34,16 @@ def remove_temp_request_file():
     os.remove("./request.txt")
 
 def start_tcpdump(server, resource, amount):
-    command = "tcpdump -i any -s0 udp port 4433 -U -w /logs/" + \
+    command = "tcpdump -i any -s0 udp port 4433 -U -w " + LOG_DIRECTORY + "/" + \
         server + "-" + str(amount) + "-" + resource + ".pcap"
     return subprocess.Popen(command.split())
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '-s', '--server', help='Server name that is tested with this client script', required=True)
+        '-s', '--server', help='Server IP that is tested with this client script', required=True)
+    parser.add_argument(
+        '-n', '--name', help='Server name that is tested with this client script', required=True)
     parser.add_argument(
         '-a', '--amount', help='Amount of connections to open', required=True, default=1, type=int)
     parser.add_argument(
@@ -51,7 +55,7 @@ def main():
         args.server, args.resource)
 
     create_temporary_request_file(args.resource)
-    tcpdump_process = start_tcpdump(args.server, args.resource, args.amount)
+    tcpdump_process = start_tcpdump(args.name, args.resource, args.amount)
     try:
         client_pool = []
         for i in range(0, args.amount):
