@@ -66,14 +66,23 @@ def main():
     args = parser.parse_args()
 
     remove_containers()
-    tcpdump_process = start_tcpdump(args.server, args.amount, args.resource)
-    container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME, args.server)
-    monitor_process = start_docker_monitor(container_id, args.server, args.amount, args.resource)
-    run_test_server(container_id, args.server, args.amount, args.resource)
-    # clean up
-    remove_container(container_id)
-    tcpdump_process.send_signal(signal.SIGINT)
-    monitor_process.send_signal(signal.SIGINT)
+    tcpdump_process = None
+    container_id = None
+    monitor_process = None
+    try:
+        tcpdump_process = start_tcpdump(args.server, args.amount, args.resource)
+        container_id = create_server_container(QUIC_RESULTS_DIR, TEST_NAME, args.server)
+        monitor_process = start_docker_monitor(container_id, args.server, args.amount, args.resource)
+        run_test_server(container_id, args.server, args.amount, args.resource)
+    except KeyboardInterrupt:
+        print("keyboard interrupt")
+        # clean up
+        if container_id is not None:
+            remove_container(container_id)
+        if tcpdump_process is not None:
+            tcpdump_process.send_signal(signal.SIGINT)
+        if monitor_process is not None:
+            monitor_process.send_signal(signal.SIGINT)
 
 
 if __name__ == "__main__":
