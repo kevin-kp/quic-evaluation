@@ -1,0 +1,12 @@
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.protected1RTTDecrypt (/server/out/crypto/aead.js:96:21)
+    at PacketParser.parseShortHeaderPacket (/server/out/utilities/parsers/packet.parser.js:65:43)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:30:21)
+    at headerOffsets.forEach (/server/out/quicker/server.js:89:54)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+    at Socket.server.on (/server/out/quicker/server.js:52:84)
+    at emitTwo (events.js:125:13)

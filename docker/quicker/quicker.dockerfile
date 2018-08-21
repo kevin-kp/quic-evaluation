@@ -10,18 +10,18 @@ RUN apt-get install -y \
     && apt-get clean
 
 # Clone quicker
-RUN git clone -b draft-12+PR#1389 https://github.com/kevin-kp/quicker.git /server
+RUN git clone -b draft-12+PR#1389 https://github.com/kevin-kp/quicker.git /quicker
 
 # Install typescript which is necesarry for quicker
 RUN npm install typescript -g
 
-WORKDIR /server
+WORKDIR /quicker
 
 # Install dependencies quicker
 RUN npm install
 
 # Build quicker 
-#RUN tsc -p ./
+RUN tsc -p ./
 
 # copy keys for the server
 COPY ./docker/keys /keys/

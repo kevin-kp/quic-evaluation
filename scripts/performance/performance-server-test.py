@@ -2,6 +2,7 @@ import subprocess
 import argparse
 import signal
 import sys
+import os.path
 
 #tcpdump_process = None
 out_file = None
@@ -13,7 +14,7 @@ def get_run_test_server_command(servername):
         #"ats": "??",
         "ngtcp2": "/ngtcp2/examples/server 0.0.0.0 4433 /keys/domain.key /keys/domain.crt -d /www --quiet",
         "picoquic": "/picoquic/picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433",
-        "quicker": "sh /server/scripts/run-scripts/server/build_quicker_and_run.sh 0.0.0.0 4433 /keys/domain.key /keys/domain.crt",
+        "quicker": "/node/out/Release/node /quicker/out/main.js 0.0.0.0 4433 /keys/domain.key /keys/domain.crt",
         "quant": "/quant/Debug/bin/server -d /www -i eth0 -p 4433:4433/udp -k /keys/domain.key -c /keys/domain.crt",
         "quicly": "./cli 0.0.0.0 4433 -k /keys/domain.key -c /keys/domain.crt",
     }
@@ -24,8 +25,12 @@ def run_command(command, stdout=None, stderr=None):
 
 
 def start_tcpdump(server, amount, resource):
-    command = "tcpdump -i any -s0 udp port 4433 -U -w /logs/" + \
-         server + "-" + amount + "-" + resource + ".pcap"
+    i = 0
+    tcpdump_name = "/logs/" + server + "-" + amount + "-" + resource + "-" + str(i) + ".pcap"
+    while os.path.isfile(tcpdump_name):
+        i = i + 1
+        tcpdump_name = "/logs/" + server + "-" + amount + "-" + resource + "-" + str(i) + ".pcap"
+    command = "tcpdump -i any -s0 udp port 4433 -U -w " + tcpdump_name
     return subprocess.Popen(command.split())
 
 

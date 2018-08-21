@@ -7,7 +7,7 @@ docker build -t openssl:tls13 -f ./openssl/openssl.dockerfile ./../
 
 
 # Build ngtcp2 docker
-docker build -t ngtcp2:latest -f ./ngtcp2/ngtcp2.dockerfile ./../
+docker build -t ngtcp2:latest --no-cache -f ./ngtcp2/ngtcp2.dockerfile ./../
 
 
 # Build picoquic docker
@@ -20,6 +20,6 @@ docker build -t quant:latest -f ./quant/quant.dockerfile ./../
 
 # Build quicker dockers
 docker build -t node:qtls -f ./quicker/node.dockerfile ./../
-docker build -t quicker:latest -f ./quicker/quicker.dockerfile ./../
+docker build -t quicker:latest --no-cache -f ./quicker/quicker.dockerfile ./../
 
-docker build -t quicly:latest -f ./quicly/quicly.dockerfile ./../
+docker build -t quicly:latest --no-cache -f ./quicly/quicly.dockerfile ./../

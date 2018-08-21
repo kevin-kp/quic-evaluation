@@ -10,8 +10,9 @@ DEV_NULL = open(os.devnull, 'w')
 
 
 class QuicRequestThread (threading.Thread):
-   def __init__(self, server, resource, command):
+   def __init__(self, thread_id, server, resource, command):
       threading.Thread.__init__(self)
+      self.thread_id = thread_id
       self.server = server
       self.resource = resource
       self.command = command
@@ -26,9 +27,10 @@ class QuicRequestThread (threading.Thread):
        return subprocess.Popen(command.split(), stdout=stdout, stderr=stderr)
 
    def run(self):
-       self.thread_process = self.run_command(
-           self.command, subprocess.PIPE, subprocess.PIPE)
-       self.thread_process.wait()
+       with open("/Users/kevin/Documents/quic-results/performance_measures/damn_client_logs/" + self.server + "-" + str(self.thread_id) + ".txt","w+") as out:
+           self.thread_process = self.run_command(
+               self.command, out, out)
+           self.thread_process.wait()
 
     # source check_pid: https://stackoverflow.com/questions/568271/how-to-check-if-there-exists-a-process-with-a-given-pid-in-python
    def check_pid(self, pid):        
@@ -84,7 +86,7 @@ def main():
     client_pool = []
     try:
         for i in range(0, args.amount):
-            request_thread = QuicRequestThread(
+            request_thread = QuicRequestThread(i,
                 args.server, args.resource, run_client_command)
             client_pool.append(request_thread)
         for request_thread in client_pool:

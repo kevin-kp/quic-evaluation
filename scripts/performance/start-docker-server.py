@@ -12,8 +12,8 @@ from general import *
 
 TEST_NAME = "performance"
 
-QUIC_EVALUATION_DIR = "/root/quic-evaluation"
-QUIC_RESULTS_DIR = "/root/quic-results"
+QUIC_EVALUATION_DIR = "/Users/kevin/Documents/UHasselt/Masterjaar2/Masterproef/quic-evaluation"
+QUIC_RESULTS_DIR = "/Users/kevin/Documents/quic-results/performance_measures"
 
 tcpdump_process = None
 
@@ -21,7 +21,7 @@ def run_test_server(container_id, server_name, amount, resource):
     if container_id is None:
         print("cannot run server, no container")
         exit(-1)
-    command = "docker exec -i " + container_id + \
+    command = "docker exec -i -d " + container_id + \
         " python -u /scripts/performance/performance-server-test.py --server " + \
         server_name + " --amount " + str(amount) + " --resource " + resource
     print("test server command: " + command)
@@ -37,8 +37,14 @@ def start_tcpdump(server, amount, resource):
     return subprocess.Popen(command.split())
 
 def start_docker_monitor(container_id, server, amount, resource):
+    i = 0
+    path = QUIC_RESULTS_DIR + "/monitor/"
+    monitor_file = server + "-" + str(amount) + "-" + resource + "-" + str(i) + ".csv"
+    while os.path.isfile(path + monitor_file):
+        i = i + 1
+        monitor_file = server + "-" + str(amount) + "-" + resource + "-" + str(i) + ".csv"
     command = "python " + QUIC_EVALUATION_DIR + "/scripts/monitor/monitor-docker.py --container " + container_id + \
-        " --path " + QUIC_RESULTS_DIR + "/monitor --file " + server + "-" + str(amount) + "-" + resource + ".csv"
+        " --path " + path + " --file " + monitor_file
     return subprocess.Popen(command.split())
 
 
@@ -83,6 +89,7 @@ def main():
     if tcpdump_process is not None:
         tcpdump_process.send_signal(signal.SIGINT)
     if monitor_process is not None:
+        print("sending SIGINT")
         monitor_process.send_signal(signal.SIGINT)
     if container_id is not None:
         remove_container(container_id)

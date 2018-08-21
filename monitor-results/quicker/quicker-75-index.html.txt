@@ -1,0 +1,36 @@
+Unsupported state or unable to authenticate data
+Error: Unsupported state or unable to authenticate data
+    at Decipheriv.final (internal/crypto/cipher.js:104:26)
+    at AEAD._decrypt (/server/out/crypto/aead.js:291:28)
+    at AEAD.clearTextDecrypt (/server/out/crypto/aead.js:66:21)
+    at PacketParser.parseClientInitialPacket (/server/out/utilities/parsers/packet.parser.js:90:43)
+    at PacketParser.parseLongHeaderPacket (/server/out/utilities/parsers/packet.parser.js:38:37)
+    at PacketParser.parse (/server/out/utilities/parsers/packet.parser.js:25:25)
+    at headerOffsets.forEach (/server/out/quicker/server.js:89:54)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/server/out/quicker/server.js:82:23)
+    at Socket.server.on (/server/out/quicker/server.js:52:84)
+Cannot read property 'multiply' of undefined
+TypeError: Cannot read property 'multiply' of undefined
+    at LossDetection.detectLostPackets (/server/out/loss-detection/loss.detection.js:223:83)
+    at LossDetection.onAckReceived (/server/out/loss-detection/loss.detection.js:87:14)
+    at FrameHandler.handleAckFrame (/server/out/utilities/handlers/frame.handler.js:178:39)
+    at FrameHandler.handle (/server/out/utilities/handlers/frame.handler.js:68:22)
+    at packet.getFrames.forEach (/server/out/utilities/handlers/packet.handler.js:135:31)
+    at Array.forEach (<anonymous>)
+    at PacketHandler.handleFrames (/server/out/utilities/handlers/packet.handler.js:134:28)
+    at PacketHandler.handleProtected1RTTPacket (/server/out/utilities/handlers/packet.handler.js:131:14)
+    at PacketHandler.handle (/server/out/utilities/handlers/packet.handler.js:42:22)
+    at headerOffsets.forEach (/server/out/quicker/server.js:90:36)
+Cannot read property 'multiply' of undefined
+TypeError: Cannot read property 'multiply' of undefined
+    at LossDetection.detectLostPackets (/server/out/loss-detection/loss.detection.js:223:83)
+    at LossDetection.onAckReceived (/server/out/loss-detection/loss.detection.js:87:14)
+    at FrameHandler.handleAckFrame (/server/out/utilities/handlers/frame.handler.js:178:39)
+    at FrameHandler.handle (/server/out/utilities/handlers/frame.handler.js:68:22)
+    at packet.getFrames.forEach (/server/out/utilities/handlers/packet.handler.js:135:31)
+    at Array.forEach (<anonymous>)
+    at PacketHandler.handleFrames (/server/out/utilities/handlers/packet.handler.js:134:28)
+    at PacketHandler.handleProtected1RTTPacket (/server/out/utilities/handlers/packet.handler.js:131:14)
+    at PacketHandler.handle (/server/out/utilities/handlers/packet.handler.js:42:22)
+    at headerOffsets.forEach (/server/out/quicker/server.js:90:36)
