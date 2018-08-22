@@ -10,12 +10,13 @@ DEV_NULL = open(os.devnull, 'w')
 
 
 class QuicRequestThread (threading.Thread):
-   def __init__(self, thread_id, server, resource, command):
+   def __init__(self, thread_id, server, resource, command, amount):
       threading.Thread.__init__(self)
       self.thread_id = thread_id
       self.server = server
       self.resource = resource
       self.command = command
+      self.amount = amount
       self.thread_process = None
 
    def stop_thread(self):
@@ -27,7 +28,7 @@ class QuicRequestThread (threading.Thread):
        return subprocess.Popen(command.split(), stdout=stdout, stderr=stderr)
 
    def run(self):
-       with open("/Users/kevin/Documents/quic-results/performance_measures/damn_client_logs/" + self.server + "-" + str(self.thread_id) + ".txt","w+") as out:
+       with open("/Users/kevin/Documents/quic-results/performance_measures/damn_client_logs/" + self.server + "-" + str(self.thread_id) + "-" + str(self.amount) + ".txt","w+") as out:
            self.thread_process = self.run_command(
                self.command, out, out)
            self.thread_process.wait()
@@ -87,7 +88,7 @@ def main():
     try:
         for i in range(0, args.amount):
             request_thread = QuicRequestThread(i,
-                args.server, args.resource, run_client_command)
+                args.server, args.resource, run_client_command, args.amount)
             client_pool.append(request_thread)
         for request_thread in client_pool:
             request_thread.start()

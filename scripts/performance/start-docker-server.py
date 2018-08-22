@@ -12,8 +12,8 @@ from general import *
 
 TEST_NAME = "performance"
 
-QUIC_EVALUATION_DIR = "/Users/kevin/Documents/UHasselt/Masterjaar2/Masterproef/quic-evaluation"
-QUIC_RESULTS_DIR = "/Users/kevin/Documents/quic-results/performance_measures"
+QUIC_EVALUATION_DIR = "/root/quic-evaluation"
+QUIC_RESULTS_DIR = "/root/quic-results"
 
 tcpdump_process = None
 
