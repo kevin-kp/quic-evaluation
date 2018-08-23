@@ -1,0 +1,12 @@
+Number can only safely store up to 53 bits
+Error: Number can only safely store up to 53 bits
+    at assert (/quicker/node_modules/bn.js/lib/bn.js:6:21)
+    at BN.toNumber (/quicker/node_modules/bn.js/lib/bn.js:506:7)
+    at Bignum.toNumber (/quicker/out/types/bignum.js:179:28)
+    at FrameParser.parseStream (/quicker/out/utilities/parsers/frame.parser.js:241:44)
+    at FrameParser.parseFrame (/quicker/out/utilities/parsers/frame.parser.js:60:25)
+    at FrameParser.parse (/quicker/out/utilities/parsers/frame.parser.js:13:32)
+    at PacketParser.parseClientInitialPacket (/quicker/out/utilities/parsers/packet.parser.js:91:39)
+    at PacketParser.parseLongHeaderPacket (/quicker/out/utilities/parsers/packet.parser.js:38:37)
+    at PacketParser.parse (/quicker/out/utilities/parsers/packet.parser.js:25:25)
+    at headerOffsets.forEach (/quicker/out/quicker/server.js:89:54)

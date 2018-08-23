@@ -1,0 +1,10 @@
+Using document root /www/
+Unsupported version: Send Version Negotiation
+I00000000 0x621556edb11ddadda6694e90f767afec085d con recv packet len=1215
+I00000000 0x621556edb11ddadda6694e90f767afec085d pkt rx pkt 2 dcid=0x09c9a06d51a06c099c scid=0x042ee0f0 type=Initial(0x7f) len=1194
+I00000000 0x621556edb11ddadda6694e90f767afec085d frm rx 2 Initial(0x7f) STREAM(0x38) id=0xa fin=0 offset=0 len=1175 uni=1
+ngtcp2_conn_handshake: ERR_PROTO
+Closing period has started
+I00000000 0x621556edb11ddadda6694e90f767afec085d frm tx 0 Handshake(0x7d) CONNECTION_CLOSE(0x02) error_code=PROTOCOL_VIOLATION(10) reason_len=0
+Closing Period: TX CONNECTION_CLOSE
+Closing QUIC connection

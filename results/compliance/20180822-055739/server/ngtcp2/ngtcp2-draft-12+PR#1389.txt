@@ -1,0 +1,773 @@
+Using document root /www/
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=1215
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 1 dcid=0x064150dde567 scid=0x04eb96d0 type=Initial(0x7f) len=1197
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 1 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 01 01 3b 01 00 01  37 03 03 d3 2d 22 27 8d  |....;...7...-"'.|
+00000010  6b 12 f5 69 24 3b e6 13  f4 22 7f e8 ae 7b 1f 66  |k..i$;..."...{.f|
+00000020  86 bd 13 3c 44 b9 5e 92  a4 11 f1 20 1f 53 f7 b3  |...<D.^.... .S..|
+00000030  d2 60 f3 9d db af cf e1  bd 74 a4 5c e0 40 b1 a2  |.`.......t.\.@..|
+00000040  a1 7c 54 d2 21 e1 ff c6  e4 13 93 9b 00 08 13 02  |.|T.!...........|
+00000050  13 03 13 01 00 ff 01 00  00 e6 00 1a 00 2d ff 00  |.............-..|
+00000060  00 0c 00 27 00 00 00 04  00 00 28 00 00 01 00 04  |...'......(.....|
+00000070  00 00 c8 00 00 03 00 02  00 1e 00 02 00 02 00 0c  |................|
+00000080  00 08 00 02 00 0c 00 07  00 01 03 00 00 00 0b 00  |................|
+00000090  09 00 00 06 6e 67 74 63  70 32 00 0b 00 04 03 00  |....ngtcp2......|
+000000a0  01 02 00 0a 00 04 00 02  00 17 00 23 00 00 00 10  |...........#....|
+000000b0  00 08 00 06 05 68 71 2d  31 32 00 16 00 00 00 17  |.....hq-12......|
+000000c0  00 00 00 0d 00 1e 00 1c  04 03 05 03 06 03 08 07  |................|
+000000d0  08 08 08 09 08 0a 08 0b  08 04 08 05 08 06 04 01  |................|
+000000e0  05 01 06 01 00 2b 00 07  06 7f 1c 7f 1b 7f 1a 00  |.....+..........|
+000000f0  2d 00 02 01 01 00 33 00  47 00 45 00 17 00 41 04  |-.....3.G.E...A.|
+00000100  0a cf f4 2c 30 a5 69 99  6a b0 03 5d 63 c8 a0 e5  |...,0.i.j..]c...|
+00000110  69 7e 8a 47 d0 f2 0e 7b  08 46 dc ae e7 b8 fb e8  |i~.G...{.F......|
+00000120  0a e4 3d c5 1f a2 44 2e  a5 ed 23 b6 2d 86 35 e5  |..=...D...#.-.5.|
+00000130  05 d4 b7 d0 99 da 8e 42  7b a0 e0 68 46 66 de bc  |.......B{..hFf..|
+00000140
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters initial_version=0xff00000c
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters initial_max_stream_data=10240
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters initial_max_data=51200
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters initial_max_bidi_streams=12
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters initial_max_uni_streams=12
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters idle_timeout=30
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters max_packet_size=65527
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f cry remote transport_parameters ack_delay_exponent=3
+SSL_READ_EARLY_DATA_FINISH
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 1 Initial(0x7f) PADDING(0x00) len=855
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 1215 left 0
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 0 Handshake(0x7d) ACK(0x0d) largest_ack=1 ack_delay=0(0) ack_block_count=0
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 0 Handshake(0x7d) ACK(0x0d) block=[1..1] block_count=0
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 0 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0x10eb5540b79c8ca6
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 0 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1176 uni=0
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277084666880 last_hs_tx_pkt_ts=1534910276884666880 alarm_duration=200
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 1 Handshake(0x7d) PATH_CHALLENGE(0x0e) data=0x1cc010bbe43e2de8
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 1 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1176 len=1127 uni=0
+I00000000 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277084666880 last_hs_tx_pkt_ts=1534910276884666880 alarm_duration=200
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm fired
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet lost 1 sent_ts=1534910276884666880 unprotected=1
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet lost 0 sent_ts=1534910276884666880 unprotected=1
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm canceled
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 2 Handshake(0x7d) STREAM(0x12) id=0x0 fin=0 offset=0 len=1176 uni=0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 3 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1176 len=1127 uni=0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+Forward CID=064150dde567 to CID=6bf0f601ce0f4d6e39b5072d98bff794564f
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=1215
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 2 dcid=0x064150dde567 scid=0x04eb96d0 type=Initial(0x7f) len=1197
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 2 Initial(0x7f) STREAM(0x16) id=0x0 fin=0 offset=0 len=320 uni=0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 2 Initial(0x7f) PADDING(0x00) len=855
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 1215 left 0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 4 Handshake(0x7d) ACK(0x0d) largest_ack=2 ack_delay=0(0) ack_block_count=0
+I00000236 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 4 Handshake(0x7d) ACK(0x0d) block=[2..1] block_count=1
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=56
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 3 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x04eb96d0 type=Handshake(0x7d) len=27
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 3 Handshake(0x7d) PATH_RESPONSE(0x0f) data=0x10eb5540b79c8ca6
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f con source address validated
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 3 Handshake(0x7d) PADDING(0x00) len=1
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 56 left 0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=133
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 4 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x04eb96d0 type=Handshake(0x7d) len=103
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 4 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=320 len=80 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  14 03 03 00 01 01 17 03  03 00 45 cb 69 de 84 2e  |..........E.i...|
+00000010  92 e2 dc 2f 8c c8 0a 77  52 f6 53 2e e4 3c 76 f3  |.../...wR.S..<v.|
+00000020  e5 a1 49 11 88 d2 f8 51  85 91 71 e3 6d 04 83 e3  |..I....Q..q.m...|
+00000030  01 e8 ef f5 3d d1 b8 b9  80 92 b9 f5 8b 4a 89 4d  |....=........J.M|
+00000040  ee 66 88 03 58 45 10 55  ba b6 45 3d 7e de 44 bf  |.f..XE.U..E=~.D.|
+00000050
+Negotiated cipher suite is TLS_AES_256_GCM_SHA384
+Negotiated ALPN is hq-12
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 133 left 0
+QUIC handshake has completed
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 5 Short(0x00) ACK(0x0d) largest_ack=4 ack_delay=0(0) ack_block_count=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 5 Short(0x00) ACK(0x0d) block=[4..1] block_count=3
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 5 Short(0x00) PING(0x07)
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 5 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2303 len=87 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 6 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2390 len=87 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 7 Short(0x00) STREAM(0x13) id=0x3 fin=1 offset=0 len=12 uni=1
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=66
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 5 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 5 Short(0x00) PATH_RESPONSE(0x0f) data=0x1cc010bbe43e2de8
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 5 Short(0x00) PADDING(0x00) len=1
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 5 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=0 len=16 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  47 45 54 20 2f 69 6e 64  65 78 2e 68 74 6d 6c 0a  |GET /index.html.|
+00000010
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 66 left 0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 8 Short(0x00) ACK(0x0d) largest_ack=5 ack_delay=0(0) ack_block_count=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 8 Short(0x00) ACK(0x0d) block=[5..1] block_count=4
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 8 Short(0x00) MAX_DATA(0x04) max_data=1048592
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 8 Short(0x00) STREAM(0x12) id=0x4 fin=0 offset=0 len=1205 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 9 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=1205 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 10 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=2420 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 11 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=3635 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 12 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=4850 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 13 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=6065 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 14 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=7280 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 15 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=8495 len=1215 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 16 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=9710 len=530 uni=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss_detection_alarm=1534910277521166592 last_hs_tx_pkt_ts=1534910277121166592 alarm_duration=400
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 6 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 6 Short(0x00) ACK(0x0d) largest_ack=4 ack_delay=3(477) ack_block_count=0
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 6 Short(0x00) ACK(0x0d) block=[4..0] block_count=4
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 3 acked, slow start cwnd=15780
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 2 acked, slow start cwnd=17007
+I00000267 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000343 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm fired
+I00000343 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv handshake_count=0 tlp_count=1 rto_count=0
+I00000343 0x6bf0f601ce0f4d6e39b5072d98bff794564f con transmit probe pkt left=1
+I00000343 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 17 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=9710 len=530 uni=0
+I00000343 0x6bf0f601ce0f4d6e39b5072d98bff794564f con probe pkt size=558
+I00000355 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm fired
+I00000355 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv handshake_count=0 tlp_count=2 rto_count=0
+I00000355 0x6bf0f601ce0f4d6e39b5072d98bff794564f con transmit probe pkt left=1
+I00000355 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 18 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=9710 len=530 uni=0
+I00000355 0x6bf0f601ce0f4d6e39b5072d98bff794564f con probe pkt size=558
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 7 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 7 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=19950
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 19 Short(0x00) ACK(0x0d) largest_ack=7 ack_delay=0(0) ack_block_count=0
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 19 Short(0x00) ACK(0x0d) block=[7..1] block_count=6
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 19 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=10240 len=1210 uni=0
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 20 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=11450 len=1215 uni=0
+I00000358 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 21 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=12665 len=1215 uni=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 8 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 8 Short(0x00) ACK(0x0d) largest_ack=17 ack_delay=1(249) ack_block_count=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 8 Short(0x00) ACK(0x0d) block=[17..0] block_count=17
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f con packet after last handshake packet was acknowledged
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=22 min_rtt=22 smoothed_rtt=22.537 rttvar=11.268 max_ack_delay=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 17 acked, slow start cwnd=17565
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 15 acked, slow start cwnd=18808
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 14 acked, slow start cwnd=20051
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 13 acked, slow start cwnd=21294
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 12 acked, slow start cwnd=22537
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 11 acked, slow start cwnd=23780
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 10 acked, slow start cwnd=25023
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 9 acked, slow start cwnd=26266
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 8 acked, slow start cwnd=27507
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 7 acked, slow start cwnd=27544
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 6 acked, slow start cwnd=27659
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 5 acked, slow start cwnd=27780
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 22 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=13880 len=1215 uni=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 23 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=15095 len=1215 uni=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 24 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=16310 len=1215 uni=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 25 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=17525 len=1215 uni=0
+I00000366 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 26 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=18740 len=1210 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 9 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 9 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=30190
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 27 Short(0x00) ACK(0x0d) largest_ack=9 ack_delay=0(0) ack_block_count=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 27 Short(0x00) ACK(0x0d) block=[9..6] block_count=3
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 27 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=19950 len=1210 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 28 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=21160 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 29 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=22375 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 30 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=23590 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 31 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=24805 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 32 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=26020 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 33 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=27235 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 34 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=28450 len=1215 uni=0
+I00000382 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 35 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=29665 len=525 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 10 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 10 Short(0x00) ACK(0x0d) largest_ack=26 ack_delay=1(197) ack_block_count=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 10 Short(0x00) ACK(0x0d) block=[26..5] block_count=21
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=28 min_rtt=22 smoothed_rtt=23.258 rttvar=9.894 max_ack_delay=1
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 26 acked, slow start cwnd=29020
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 25 acked, slow start cwnd=30265
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 24 acked, slow start cwnd=31508
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 23 acked, slow start cwnd=32751
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 22 acked, slow start cwnd=33994
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 21 acked, slow start cwnd=35237
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 20 acked, slow start cwnd=36480
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 19 acked, slow start cwnd=37723
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 18 acked, slow start cwnd=38281
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 11 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 11 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=39905
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 36 Short(0x00) ACK(0x0d) largest_ack=11 ack_delay=0(0) ack_block_count=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 36 Short(0x00) ACK(0x0d) block=[11..8] block_count=3
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 36 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=30190 len=1210 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 37 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=31400 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 38 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=32615 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 39 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=33830 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 40 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=35045 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 41 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=36260 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 42 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=37475 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 43 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=38690 len=1215 uni=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 12 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 12 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=39905
+I00000396 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000410 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 44 Short(0x00) ACK(0x0d) largest_ack=12 ack_delay=14(1809) ack_block_count=0
+I00000410 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 44 Short(0x00) ACK(0x0d) block=[12..8] block_count=4
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 13 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 13 Short(0x00) ACK(0x0d) largest_ack=35 ack_delay=7(932) ack_block_count=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 13 Short(0x00) ACK(0x0d) block=[35..18] block_count=17
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=29 min_rtt=22 smoothed_rtt=24.083 rttvar=9.070 max_ack_delay=7
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 35 acked, slow start cwnd=38836
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 34 acked, slow start cwnd=40081
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 33 acked, slow start cwnd=41326
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 32 acked, slow start cwnd=42571
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 31 acked, slow start cwnd=43816
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 30 acked, slow start cwnd=45061
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 29 acked, slow start cwnd=46306
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 28 acked, slow start cwnd=47551
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 27 acked, slow start cwnd=48796
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 14 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 14 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=50145
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 45 Short(0x00) ACK(0x0d) largest_ack=14 ack_delay=0(0) ack_block_count=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 45 Short(0x00) ACK(0x0d) block=[14..10] block_count=4
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 45 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=39905 len=1210 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 46 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=41115 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 47 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=42330 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 48 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=43545 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 49 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=44760 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 50 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=45975 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 51 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=47190 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 52 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=48405 len=1215 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 53 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=49620 len=525 uni=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 15 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 15 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=50145
+I00000419 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000432 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 54 Short(0x00) ACK(0x0d) largest_ack=15 ack_delay=13(1626) ack_block_count=0
+I00000432 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 54 Short(0x00) ACK(0x0d) block=[15..10] block_count=5
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 16 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 16 Short(0x00) ACK(0x0d) largest_ack=44 ack_delay=2(277) ack_block_count=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 16 Short(0x00) ACK(0x0d) block=[44..27] block_count=17
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=29 min_rtt=22 smoothed_rtt=24.755 rttvar=8.147 max_ack_delay=7
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 43 acked, slow start cwnd=50041
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 42 acked, slow start cwnd=51286
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 41 acked, slow start cwnd=52531
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 40 acked, slow start cwnd=53776
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 39 acked, slow start cwnd=55021
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 38 acked, slow start cwnd=56266
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 37 acked, slow start cwnd=57511
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 36 acked, slow start cwnd=58756
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 17 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 17 Short(0x00) MAX_DATA(0x04) max_data=98449
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 18 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 18 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=59860
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 55 Short(0x00) ACK(0x0d) largest_ack=18 ack_delay=0(0) ack_block_count=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 55 Short(0x00) ACK(0x0d) block=[18..13] block_count=5
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 55 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=50145 len=1210 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 56 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=51355 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 57 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=52570 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 58 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=53785 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 59 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=55000 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 60 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=56215 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 61 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=57430 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 62 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=58645 len=1215 uni=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 19 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 19 Short(0x00) MAX_DATA(0x04) max_data=98449
+I00000442 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000456 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 63 Short(0x00) ACK(0x0d) largest_ack=19 ack_delay=14(1766) ack_block_count=0
+I00000456 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 63 Short(0x00) ACK(0x0d) block=[19..13] block_count=6
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 20 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 20 Short(0x00) ACK(0x0d) largest_ack=54 ack_delay=3(419) ack_block_count=0
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 20 Short(0x00) ACK(0x0d) block=[54..36] block_count=18
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=26 min_rtt=22 smoothed_rtt=25.003 rttvar=6.606 max_ack_delay=7
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 53 acked, slow start cwnd=59311
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 52 acked, slow start cwnd=60556
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 51 acked, slow start cwnd=61801
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 50 acked, slow start cwnd=63046
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 49 acked, slow start cwnd=64291
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 48 acked, slow start cwnd=65536
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 47 acked, slow start cwnd=66781
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 46 acked, slow start cwnd=68026
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 45 acked, slow start cwnd=69271
+I00000462 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 21 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 21 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=70100
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 64 Short(0x00) ACK(0x0d) largest_ack=21 ack_delay=0(0) ack_block_count=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 64 Short(0x00) ACK(0x0d) block=[21..16] block_count=5
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 64 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=59860 len=1210 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 65 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=61070 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 66 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=62285 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 67 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=63500 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 68 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=64715 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 69 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=65930 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 70 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=67145 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 71 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=68360 len=1215 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 72 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=69575 len=525 uni=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 22 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 22 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=70100
+I00000474 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000483 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 73 Short(0x00) ACK(0x0d) largest_ack=22 ack_delay=8(1056) ack_block_count=0
+I00000483 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 73 Short(0x00) ACK(0x0d) block=[22..16] block_count=6
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 23 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 23 Short(0x00) ACK(0x0d) largest_ack=63 ack_delay=12(1549) ack_block_count=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 23 Short(0x00) ACK(0x0d) block=[63..45] block_count=18
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=32 min_rtt=22 smoothed_rtt=25.920 rttvar=6.788 max_ack_delay=7
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 62 acked, slow start cwnd=70516
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 61 acked, slow start cwnd=71761
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 60 acked, slow start cwnd=73006
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 59 acked, slow start cwnd=74251
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 58 acked, slow start cwnd=75496
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 57 acked, slow start cwnd=76741
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 56 acked, slow start cwnd=77986
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 55 acked, slow start cwnd=79231
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 24 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 24 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=79815
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 74 Short(0x00) ACK(0x0d) largest_ack=24 ack_delay=0(0) ack_block_count=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 74 Short(0x00) ACK(0x0d) block=[24..20] block_count=4
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 74 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=70100 len=1210 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 75 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=71310 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 76 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=72525 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 77 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=73740 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 78 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=74955 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 79 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=76170 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 80 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=77385 len=1215 uni=0
+I00000488 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 81 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=78600 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 25 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 25 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=79815
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 26 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 26 Short(0x00) ACK(0x0d) largest_ack=73 ack_delay=7(988) ack_block_count=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 26 Short(0x00) ACK(0x0d) block=[73..55] block_count=18
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=21 min_rtt=21 smoothed_rtt=25.316 rttvar=6.298 max_ack_delay=7
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 72 acked, slow start cwnd=79786
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 71 acked, slow start cwnd=81031
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 70 acked, slow start cwnd=82276
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 69 acked, slow start cwnd=83521
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 68 acked, slow start cwnd=84766
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 67 acked, slow start cwnd=86011
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 66 acked, slow start cwnd=87256
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 65 acked, slow start cwnd=88501
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 64 acked, slow start cwnd=89746
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 27 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 27 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=90055
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 82 Short(0x00) ACK(0x0d) largest_ack=27 ack_delay=0(0) ack_block_count=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 82 Short(0x00) ACK(0x0d) block=[27..23] block_count=4
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 82 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=79815 len=1210 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 83 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=81025 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 84 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=82240 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 85 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=83455 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 86 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=84670 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 87 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=85885 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 88 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=87100 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 89 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=88315 len=1215 uni=0
+I00000504 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 90 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=89530 len=525 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 28 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 28 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=99770
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 91 Short(0x00) ACK(0x0d) largest_ack=28 ack_delay=0(0) ack_block_count=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 91 Short(0x00) ACK(0x0d) block=[28..23] block_count=5
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 91 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=90055 len=1210 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 92 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=91265 len=1215 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 93 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=92480 len=1215 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 94 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=93695 len=1215 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 95 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=94910 len=1215 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 96 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=96125 len=1215 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 97 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=97340 len=1097 uni=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=48
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 29 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 29 Short(0x00) ACK(0x0d) largest_ack=90 ack_delay=0(59) ack_block_count=0
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 29 Short(0x00) ACK(0x0d) block=[90..74] block_count=16
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=17 min_rtt=17 smoothed_rtt=24.334 rttvar=6.688 max_ack_delay=7
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 90 acked, slow start cwnd=90301
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 89 acked, slow start cwnd=91546
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 88 acked, slow start cwnd=92791
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 87 acked, slow start cwnd=94036
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 86 acked, slow start cwnd=95281
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 85 acked, slow start cwnd=96526
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 84 acked, slow start cwnd=97771
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 83 acked, slow start cwnd=99016
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 82 acked, slow start cwnd=100261
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 81 acked, slow start cwnd=101506
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 80 acked, slow start cwnd=102751
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 79 acked, slow start cwnd=103996
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 78 acked, slow start cwnd=105241
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 77 acked, slow start cwnd=106486
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 76 acked, slow start cwnd=107731
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 75 acked, slow start cwnd=108976
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 74 acked, slow start cwnd=110221
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 29 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=99770
+I00000521 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 48 left 0
+I00000536 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 98 Short(0x00) ACK(0x0d) largest_ack=29 ack_delay=14(1872) ack_block_count=0
+I00000536 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 98 Short(0x00) ACK(0x0d) block=[29..28] block_count=1
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 30 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 30 Short(0x00) MAX_DATA(0x04) max_data=144954
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 99 Short(0x00) ACK(0x0d) largest_ack=30 ack_delay=0(0) ack_block_count=0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 99 Short(0x00) ACK(0x0d) block=[30..28] block_count=2
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 99 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=98437 len=1210 uni=0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 100 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=99647 len=123 uni=0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 31 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 31 Short(0x00) MAX_DATA(0x04) max_data=144954
+I00000541 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000548 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 101 Short(0x00) ACK(0x0d) largest_ack=31 ack_delay=6(874) ack_block_count=0
+I00000548 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 101 Short(0x00) ACK(0x0d) block=[31..28] block_count=3
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=49
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 32 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 32 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=109887
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 32 Short(0x00) ACK(0x0d) largest_ack=98 ack_delay=1(178) ack_block_count=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 32 Short(0x00) ACK(0x0d) block=[98..91] block_count=7
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=12 min_rtt=12 smoothed_rtt=22.831 rttvar=8.021 max_ack_delay=7
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 97 acked, slow start cwnd=111348
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 96 acked, slow start cwnd=112593
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 95 acked, slow start cwnd=113838
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 94 acked, slow start cwnd=115083
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 93 acked, slow start cwnd=116328
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 92 acked, slow start cwnd=117573
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 91 acked, slow start cwnd=118818
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 49 left 0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 102 Short(0x00) ACK(0x0d) largest_ack=32 ack_delay=0(0) ack_block_count=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 102 Short(0x00) ACK(0x0d) block=[32..30] block_count=2
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 102 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=99770 len=1210 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 103 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=100980 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 104 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=102195 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 105 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=103410 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 106 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=104625 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 107 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=105840 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 108 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=107055 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 109 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=108270 len=1215 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 110 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=109485 len=402 uni=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 33 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 33 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=109887
+I00000549 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000560 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 111 Short(0x00) ACK(0x0d) largest_ack=33 ack_delay=11(1436) ack_block_count=0
+I00000560 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 111 Short(0x00) ACK(0x0d) block=[33..30] block_count=3
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 34 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 34 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=119725
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 112 Short(0x00) ACK(0x0d) largest_ack=34 ack_delay=0(0) ack_block_count=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 112 Short(0x00) ACK(0x0d) block=[34..30] block_count=4
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 112 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=109887 len=1210 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 113 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=111097 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 114 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=112312 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 115 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=113527 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 116 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=114742 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 117 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=115957 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 118 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=117172 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 119 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=118387 len=1215 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 120 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=119602 len=123 uni=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=49
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 35 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 35 Short(0x00) ACK(0x0d) largest_ack=111 ack_delay=1(170) ack_block_count=0
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 35 Short(0x00) ACK(0x0d) block=[111..91] block_count=20
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=5 min_rtt=5 smoothed_rtt=20.718 rttvar=10.242 max_ack_delay=7
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 110 acked, slow start cwnd=119250
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 109 acked, slow start cwnd=120495
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 108 acked, slow start cwnd=121740
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 107 acked, slow start cwnd=122985
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 106 acked, slow start cwnd=124230
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 105 acked, slow start cwnd=125475
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 104 acked, slow start cwnd=126720
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 103 acked, slow start cwnd=127965
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 102 acked, slow start cwnd=129210
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 100 acked, slow start cwnd=129363
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 99 acked, slow start cwnd=130608
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 35 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=119725
+I00000566 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 49 left 0
+I00000579 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 121 Short(0x00) ACK(0x0d) largest_ack=35 ack_delay=12(1618) ack_block_count=0
+I00000579 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 121 Short(0x00) ACK(0x0d) block=[35..34] block_count=1
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 36 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 36 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=129842
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 122 Short(0x00) ACK(0x0d) largest_ack=36 ack_delay=0(0) ack_block_count=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 122 Short(0x00) ACK(0x0d) block=[36..34] block_count=2
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 122 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=119725 len=1210 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 123 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=120935 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 124 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=122150 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 125 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=123365 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 126 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=124580 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 127 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=125795 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 128 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=127010 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 129 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=128225 len=1215 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 130 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=129440 len=402 uni=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 37 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 37 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=129842
+I00000583 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000591 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 131 Short(0x00) ACK(0x0d) largest_ack=37 ack_delay=8(1069) ack_block_count=0
+I00000591 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 131 Short(0x00) ACK(0x0d) block=[37..34] block_count=3
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 38 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 38 Short(0x00) ACK(0x0d) largest_ack=121 ack_delay=3(456) ack_block_count=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 38 Short(0x00) ACK(0x0d) block=[121..112] block_count=9
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=15 min_rtt=5 smoothed_rtt=20.022 rttvar=9.074 max_ack_delay=7
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 120 acked, slow start cwnd=130761
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 119 acked, slow start cwnd=132006
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 118 acked, slow start cwnd=133251
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 117 acked, slow start cwnd=134496
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 116 acked, slow start cwnd=135741
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 115 acked, slow start cwnd=136986
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 114 acked, slow start cwnd=138231
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 113 acked, slow start cwnd=139476
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 112 acked, slow start cwnd=140721
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 39 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 39 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=139680
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 132 Short(0x00) ACK(0x0d) largest_ack=39 ack_delay=0(0) ack_block_count=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 132 Short(0x00) ACK(0x0d) block=[39..36] block_count=3
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 132 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=129842 len=1210 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 133 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=131052 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 134 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=132267 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 135 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=133482 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 136 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=134697 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 137 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=135912 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 138 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=137127 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 139 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=138342 len=1215 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 140 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=139557 len=123 uni=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 40 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 40 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=139680
+I00000598 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000610 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 141 Short(0x00) ACK(0x0d) largest_ack=40 ack_delay=12(1553) ack_block_count=0
+I00000610 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 141 Short(0x00) ACK(0x0d) block=[40..36] block_count=4
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 41 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 41 Short(0x00) ACK(0x0d) largest_ack=131 ack_delay=5(745) ack_block_count=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 41 Short(0x00) ACK(0x0d) block=[131..112] block_count=19
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=19 min_rtt=5 smoothed_rtt=19.948 rttvar=6.953 max_ack_delay=7
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 130 acked, slow start cwnd=141153
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 129 acked, slow start cwnd=142398
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 128 acked, slow start cwnd=143643
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 127 acked, slow start cwnd=144888
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 126 acked, slow start cwnd=146133
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 125 acked, slow start cwnd=147378
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 124 acked, slow start cwnd=148623
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 123 acked, slow start cwnd=149868
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 122 acked, slow start cwnd=151113
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 42 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 42 Short(0x00) MAX_DATA(0x04) max_data=192031
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 43 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 43 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=149797
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 142 Short(0x00) ACK(0x0d) largest_ack=43 ack_delay=0(0) ack_block_count=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 142 Short(0x00) ACK(0x0d) block=[43..38] block_count=5
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 142 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=139680 len=1210 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 143 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=140890 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 144 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=142105 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 145 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=143320 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 146 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=144535 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 147 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=145750 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 148 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=146965 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 149 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=148180 len=1215 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 150 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=149395 len=402 uni=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=41
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 44 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 44 Short(0x00) MAX_DATA(0x04) max_data=192031
+I00000617 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 41 left 0
+I00000630 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 151 Short(0x00) ACK(0x0d) largest_ack=44 ack_delay=13(1662) ack_block_count=0
+I00000630 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 151 Short(0x00) ACK(0x0d) block=[44..38] block_count=6
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 45 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 45 Short(0x00) ACK(0x0d) largest_ack=141 ack_delay=7(883) ack_block_count=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 45 Short(0x00) ACK(0x0d) block=[141..122] block_count=19
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=19 min_rtt=5 smoothed_rtt=19.867 rttvar=5.377 max_ack_delay=7
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 140 acked, slow start cwnd=151266
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 139 acked, slow start cwnd=152511
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 138 acked, slow start cwnd=153756
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 137 acked, slow start cwnd=155001
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 136 acked, slow start cwnd=156246
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 135 acked, slow start cwnd=157491
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 134 acked, slow start cwnd=158736
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 133 acked, slow start cwnd=159981
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 132 acked, slow start cwnd=161226
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 46 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 46 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=159635
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 152 Short(0x00) ACK(0x0d) largest_ack=46 ack_delay=0(0) ack_block_count=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 152 Short(0x00) ACK(0x0d) block=[46..41] block_count=5
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 152 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=149797 len=1210 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 153 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=151007 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 154 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=152222 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 155 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=153437 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 156 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=154652 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 157 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=155867 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 158 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=157082 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 159 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=158297 len=1215 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 160 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=159512 len=123 uni=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 47 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 47 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=159635
+I00000636 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000649 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 161 Short(0x00) ACK(0x0d) largest_ack=47 ack_delay=12(1619) ack_block_count=0
+I00000649 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 161 Short(0x00) ACK(0x0d) block=[47..41] block_count=6
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 48 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 48 Short(0x00) ACK(0x0d) largest_ack=151 ack_delay=6(851) ack_block_count=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 48 Short(0x00) ACK(0x0d) block=[151..132] block_count=19
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=19 min_rtt=5 smoothed_rtt=19.761 rttvar=4.246 max_ack_delay=7
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 150 acked, slow start cwnd=161658
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 149 acked, slow start cwnd=162903
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 148 acked, slow start cwnd=164148
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 147 acked, slow start cwnd=165393
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 146 acked, slow start cwnd=166638
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 145 acked, slow start cwnd=167883
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 144 acked, slow start cwnd=169128
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 143 acked, slow start cwnd=170373
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 142 acked, slow start cwnd=171618
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 49 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 49 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=169752
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 162 Short(0x00) ACK(0x0d) largest_ack=49 ack_delay=0(0) ack_block_count=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 162 Short(0x00) ACK(0x0d) block=[49..45] block_count=4
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 162 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=159635 len=1210 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 163 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=160845 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 164 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=162060 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 165 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=163275 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 166 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=164490 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 167 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=165705 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 168 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=166920 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 169 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=168135 len=1215 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 170 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=169350 len=402 uni=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 50 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 50 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=169752
+I00000656 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000667 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 171 Short(0x00) ACK(0x0d) largest_ack=50 ack_delay=10(1356) ack_block_count=0
+I00000667 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 171 Short(0x00) ACK(0x0d) block=[50..45] block_count=5
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 51 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 51 Short(0x00) ACK(0x0d) largest_ack=161 ack_delay=4(624) ack_block_count=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 51 Short(0x00) ACK(0x0d) block=[161..142] block_count=19
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=18 min_rtt=5 smoothed_rtt=19.602 rttvar=3.502 max_ack_delay=7
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 160 acked, slow start cwnd=171771
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 159 acked, slow start cwnd=173016
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 158 acked, slow start cwnd=174261
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 157 acked, slow start cwnd=175506
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 156 acked, slow start cwnd=176751
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 155 acked, slow start cwnd=177996
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 154 acked, slow start cwnd=179241
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 153 acked, slow start cwnd=180486
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 152 acked, slow start cwnd=181731
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 52 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 52 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=179590
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 172 Short(0x00) ACK(0x0d) largest_ack=52 ack_delay=0(0) ack_block_count=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 172 Short(0x00) ACK(0x0d) block=[52..48] block_count=4
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 172 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=169752 len=1210 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 173 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=170962 len=1215 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 174 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=172177 len=1215 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 175 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=173392 len=1215 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 176 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=174607 len=1215 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 177 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=175822 len=238 uni=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=42
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 53 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 53 Short(0x00) MAX_STREAM_DATA(0x05) id=0x4 max_stream_data=179590
+I00000673 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 42 left 0
+I00000683 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 178 Short(0x00) ACK(0x0d) largest_ack=53 ack_delay=9(1229) ack_block_count=0
+I00000683 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 178 Short(0x00) ACK(0x0d) block=[53..48] block_count=5
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 54 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 54 Short(0x00) ACK(0x0d) largest_ack=171 ack_delay=6(812) ack_block_count=0
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 54 Short(0x00) ACK(0x0d) block=[171..152] block_count=19
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=12 min_rtt=5 smoothed_rtt=18.754 rttvar=4.323 max_ack_delay=7
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 170 acked, slow start cwnd=182163
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 169 acked, slow start cwnd=183408
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 168 acked, slow start cwnd=184653
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 167 acked, slow start cwnd=185898
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 166 acked, slow start cwnd=187143
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 165 acked, slow start cwnd=188388
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 164 acked, slow start cwnd=189633
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 163 acked, slow start cwnd=190878
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 162 acked, slow start cwnd=192123
+I00000686 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000710 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm fired
+I00000710 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv handshake_count=0 tlp_count=1 rto_count=0
+I00000710 0x6bf0f601ce0f4d6e39b5072d98bff794564f con transmit probe pkt left=1
+I00000710 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 179 Short(0x00) STREAM(0x17) id=0x4 fin=1 offset=175822 len=238 uni=0
+I00000710 0x6bf0f601ce0f4d6e39b5072d98bff794564f con probe pkt size=268
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 55 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 55 Short(0x00) ACK(0x0d) largest_ack=178 ack_delay=12(1602) ack_block_count=0
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 55 Short(0x00) ACK(0x0d) block=[178..162] block_count=16
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=21 min_rtt=5 smoothed_rtt=19.086 rttvar=3.906 max_ack_delay=7
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 177 acked, slow start cwnd=192391
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 176 acked, slow start cwnd=193636
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 175 acked, slow start cwnd=194881
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 174 acked, slow start cwnd=196126
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 173 acked, slow start cwnd=197371
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 172 acked, slow start cwnd=198616
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm canceled
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000717 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 180 Short(0x00) MAX_STREAM_ID(0x06) max_stream_id=404
+I00000754 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm fired
+I00000754 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv handshake_count=0 tlp_count=1 rto_count=0
+I00000754 0x6bf0f601ce0f4d6e39b5072d98bff794564f con transmit probe pkt left=1
+I00000754 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm tx 181 Short(0x00) MAX_STREAM_ID(0x06) max_stream_id=404
+I00000754 0x6bf0f601ce0f4d6e39b5072d98bff794564f con probe pkt size=25
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 56 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 56 Short(0x00) ACK(0x0d) largest_ack=180 ack_delay=9(1156) ack_block_count=0
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 56 Short(0x00) ACK(0x0d) block=[180..162] block_count=18
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=32 min_rtt=5 smoothed_rtt=20.750 rttvar=6.259 max_ack_delay=9
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 180 acked, slow start cwnd=198641
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 179 acked, slow start cwnd=198909
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv loss detection alarm canceled
+I00000759 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f con recv packet len=43
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt rx pkt 57 dcid=0x6bf0f601ce0f4d6e39b5072d98bff794564f scid=0x type=Short(0x00) len=0
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 57 Short(0x00) ACK(0x0d) largest_ack=181 ack_delay=16(2008) ack_block_count=0
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f frm rx 57 Short(0x00) ACK(0x0d) block=[181..162] block_count=19
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv latest_rtt=47 min_rtt=5 smoothed_rtt=24.067 rttvar=11.327 max_ack_delay=16
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f rcv packet 181 acked, slow start cwnd=198934
+I00000817 0x6bf0f601ce0f4d6e39b5072d98bff794564f pkt read packet 43 left 0
+Timeout
+Draining period has started
+Draining Period is over
+Closing QUIC connection

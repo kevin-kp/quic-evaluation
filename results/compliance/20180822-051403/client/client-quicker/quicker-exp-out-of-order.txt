@@ -1,0 +1,224 @@
+QUICker client connecting to quicker:4433
+set pn: 1
+clear text client key: d397de127284a5f82b5a8adae74b17f7
+clear text client key: 1da3c5f7b0c1349a32a17a14
+clear text client pn: 5d153a8e79b3004593cfaa9bfa6c10bd
+clear text server key: de94cf46893809b13f915d1a451e13be
+clear text server iv: ee6944574045ccf7f3d205ce
+clear text server pn: 05e3aba10409501e994354a2d8ac34b9
+2018-08-22T03:37:14.456 
+  [31mTX Initial(0x0)[0m, Version: 0xbababa0c, Dest CID: 0x11cbbf87988a8cf0c0f59bec1265a01a42, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 1[0m, payload length: 1174
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 831
+2018-08-22T03:37:14.488 
+  [36mRX VersionNegotiation(0x3)[0m, Dest CID: 0x0f99741b0dbdb87ce4481e25f255d9, Src CID: 0x11cbbf87988a8cf0c0f59bec1265a01a42
+    version: 0xff00000c
+    version: 0xabcdef0c
+set pn: 2
+clear text client key: d397de127284a5f82b5a8adae74b17f7
+clear text client key: 1da3c5f7b0c1349a32a17a14
+clear text client pn: 5d153a8e79b3004593cfaa9bfa6c10bd
+clear text server key: de94cf46893809b13f915d1a451e13be
+clear text server iv: ee6944574045ccf7f3d205ce
+clear text server pn: 05e3aba10409501e994354a2d8ac34b9
+2018-08-22T03:37:14.497 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x11cbbf87988a8cf0c0f59bec1265a01a42, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 2[0m, payload length: 1174
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 831
+clear text client key: d397de127284a5f82b5a8adae74b17f7
+clear text client key: 1da3c5f7b0c1349a32a17a14
+clear text client pn: 5d153a8e79b3004593cfaa9bfa6c10bd
+clear text server key: de94cf46893809b13f915d1a451e13be
+clear text server iv: ee6944574045ccf7f3d205ce
+clear text server pn: 05e3aba10409501e994354a2d8ac34b9
+2018-08-22T03:37:14.566 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f99741b0dbdb87ce4481e25f255d9, Src CID: 0x0d55b6a371a3d7d9fe10ca1839[36m
+       PKN: 1[0m, payload length: 1221
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1200 offset=0
+clear text client key: d397de127284a5f82b5a8adae74b17f7
+clear text client key: 1da3c5f7b0c1349a32a17a14
+clear text client pn: 5d153a8e79b3004593cfaa9bfa6c10bd
+clear text server key: de94cf46893809b13f915d1a451e13be
+clear text server iv: ee6944574045ccf7f3d205ce
+clear text server pn: 05e3aba10409501e994354a2d8ac34b9
+2018-08-22T03:37:14.579 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0f99741b0dbdb87ce4481e25f255d9, Src CID: 0x0d55b6a371a3d7d9fe10ca1839[36m
+       PKN: 2[0m, payload length: 1134
+    [36mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=1112 offset=1200
+set pn: 3
+set pn: 4
+protected1RTT client key: b13b83aa37298bdf44b63cb08a2581f0c67afc3956d9ad1732cf6d16d6bec967
+protected1RTT client iv: 1960be73c52970a9a47d096b
+protected1RTT client pn: ee7daf46af3bad3a522153f934f96d27a76a8682982f5dddf94a864a6a2a4e38
+protected1RTT server key: 9bc76b0ad776e3f4199486de76ba0ab904c21ad6f5cc904eafd95e48b7d34b00
+protected1RTT server iv: 8aa4d644ceb4eaaf6660885f
+protected1RTT server pn: 8979b4206ba5ecc2ef8b4eb2f7acf87fa06b097f41685ad1590d52fd5fd59d5a
+2018-08-22T03:37:14.591 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839[31m
+       PKN: 4[0m, spinbit: 0
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x04) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+clear text client key: d397de127284a5f82b5a8adae74b17f7
+clear text client key: 1da3c5f7b0c1349a32a17a14
+clear text client pn: 5d153a8e79b3004593cfaa9bfa6c10bd
+clear text server key: de94cf46893809b13f915d1a451e13be
+clear text server iv: ee6944574045ccf7f3d205ce
+clear text server pn: 05e3aba10409501e994354a2d8ac34b9
+2018-08-22T03:37:14.596 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 3[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 5
+2018-08-22T03:37:14.599 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839[31m
+       PKN: 5[0m, spinbit: 0
+    [31mSTREAM (0x17) [0m FIN=1 LEN=1 OFF=1
+    StreamID (0x08) length=16 offset=0
+      474554202f696e6465782e68746d6c0a          'GET /index.html\n'
+set pn: 6
+2018-08-22T03:37:14.647 
+  [31mTX Protected1RTT(0x5)[0m, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839[31m
+       PKN: 6[0m, spinbit: 0
+    [31mACK (0xd)[0m
+    largest acknowledged=2
+    ack delay=27648
+    ack block count=0
+    first ackblock=1
+set pn: 7
+2018-08-22T03:37:14.700 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 7[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 8
+2018-08-22T03:37:14.909 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 8[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 9
+2018-08-22T03:37:15.315 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 9[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 10
+2018-08-22T03:37:16.118 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 10[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 11
+2018-08-22T03:37:17.725 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 11[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 12
+2018-08-22T03:37:20.928 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 12[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 13
+2018-08-22T03:37:27.340 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 13[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 14
+2018-08-22T03:37:40.117 
+  [31mTX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d55b6a371a3d7d9fe10ca1839, Src CID: 0x0f99741b0dbdb87ce4481e25f255d9[31m
+       PKN: 14[0m, payload length: 102
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=80 offset=321
+set pn: 1
+clear text client key: beebc98afa4ebb441662e23cab5fdef4
+clear text client key: 248bed67973a0da8b1e6d346
+clear text client pn: dd381471543db6e45539837dd7028191
+clear text server key: 9f9c6351b941191d726c0c29c04f7853
+clear text server iv: 19e0beaad547fe971761bcc1
+clear text server pn: 4f4584b0dac5b51b12b4841b33c821b6
+2018-08-22T03:37:59.499 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 1[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 2
+2018-08-22T03:37:59.704 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 2[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 3
+2018-08-22T03:37:59.707 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 3[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 4
+2018-08-22T03:38:00.110 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 4[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 5
+2018-08-22T03:38:00.916 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 5[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 6
+2018-08-22T03:38:02.522 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 6[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+Connection:sendPackets : trying to send data while connection closing
+set pn: 7
+2018-08-22T03:38:05.726 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 7[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+Connection:sendPackets : trying to send data while connection closing
+set pn: 8
+2018-08-22T03:38:12.105 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 8[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838
+set pn: 9
+2018-08-22T03:38:24.923 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x0ee9c995f3c2941f89d60e3d7144, Src CID: 0x0b116a11e26ade0f43d3f6[31m
+       PKN: 9[0m, payload length: 1181
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=321 offset=0
+    [31mPADDING (0x0)[0m
+    length= 838

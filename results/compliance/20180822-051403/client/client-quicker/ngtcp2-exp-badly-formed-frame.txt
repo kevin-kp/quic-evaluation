@@ -1,0 +1,48 @@
+QUICker client connecting to ngtcp2:4433
+clear text client key: c0715f13716c501624d00a6e1ade1149
+clear text client key: 5b1731168ff70652eaf87fd2
+clear text client pn: b223b68a31dfe6673a4ebfe5130124ad
+clear text server key: 112a480ff115e595cb627ca24b811992
+clear text server iv: cad6a5d7ca71092918203ca1
+clear text server pn: 46d86e9f3672aa6d3750a12ccf081e5a
+2018-08-22T03:15:34.012 
+  [31mTX Initial(0x0)[0m, Version: 0xbababa0c, Dest CID: 0x107a26f1fa53f007718d76c2954c37b5, Src CID: 0x0d7f4a07f5c4ce00093a765378[31m
+       PKN: 1[0m, payload length: 1177
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 835
+2018-08-22T03:15:34.024 
+  [36mRX VersionNegotiation(0x3)[0m, Dest CID: 0x0d7f4a07f5c4ce00093a765378, Src CID: 0x107a26f1fa53f007718d76c2954c37b5
+    version: 0xaa0a2a4a
+    version: 0xff00000c
+clear text client key: c0715f13716c501624d00a6e1ade1149
+clear text client key: 5b1731168ff70652eaf87fd2
+clear text client pn: b223b68a31dfe6673a4ebfe5130124ad
+clear text server key: 112a480ff115e595cb627ca24b811992
+clear text server iv: cad6a5d7ca71092918203ca1
+clear text server pn: 46d86e9f3672aa6d3750a12ccf081e5a
+2018-08-22T03:15:34.032 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x107a26f1fa53f007718d76c2954c37b5, Src CID: 0x0d7f4a07f5c4ce00093a765378[31m
+       PKN: 2[0m, payload length: 1177
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 835
+clear text client key: c0715f13716c501624d00a6e1ade1149
+clear text client key: 5b1731168ff70652eaf87fd2
+clear text client pn: b223b68a31dfe6673a4ebfe5130124ad
+clear text server key: 112a480ff115e595cb627ca24b811992
+clear text server iv: cad6a5d7ca71092918203ca1
+clear text server pn: 46d86e9f3672aa6d3750a12ccf081e5a
+2018-08-22T03:15:34.043 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x0d7f4a07f5c4ce00093a765378, Src CID: 0xd9d1b47948f8cb73a8d495ec84ca7c658167[36m
+       PKN: 0[0m, payload length: 20
+    [36mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing

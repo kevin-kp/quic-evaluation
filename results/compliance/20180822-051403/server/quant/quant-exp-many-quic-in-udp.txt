@@ -1,0 +1,383 @@
+[0m[0m0.000[0m [44m [0m [35mq_init[30m [34mquic.c:494 [0mquant/socket 0.0.12/37ac9128 with libev 4.22 ready
+[0m[0m0.002[0m [44m [0m [35mq_init[30m [34mquic.c:495 [0msubmit bug reports at https://github.com/NTAP/quant/issues
+[0m[0m0.003[0m [42m [0m [35mq_bind[30m [34mquic.c:366 [0mbinding serv socket on port 4433
+[0m[0m0.005[0m [42m [0m [35mnew_conn[30m [34mconn.c:1210 [0mserv conn 0 on port 4433 created
+[0m[0m0.007[0m [42m [0m [35mnew_conn[30m [34mconn.c:1212 [0mconn 0 state closed -> [31mserv_lstn[0m
+[0m[0m0.009[0m [43m [0m [35mq_bind[30m [34mquic.c:368 [0mbound serv socket on port 4433
+[0m[0m0.011[0m [42m [0m [35mmain[30m [34mserver.c:239 [0mserver waiting on eth0 port 4433
+[0m[0m0.012[0m [43m [0m [35mq_accept[30m [34mquic.c:389 [0mwaiting for conn on any serv sock (timeout 0 sec)
+[0m[0m0.014[0m [42m [0m [35mq_accept[30m [34mquic.c:405 [0mq_accept(accept_queue, 0) entering event loop
+[0m[0m4.569[0m [46m [0m [35mrx_pkts[30m [34mconn.c:888 [0mnew serv conn on port 4433 w/cid 0c9e38a4790709d58b211816 from 172.17.0.3:50023
+[0m[0m4.571[0m [42m [0m [35mnew_conn[30m [34mconn.c:1210 [0mserv conn 0c9e38a4790709d58b211816 on port 4433 created
+[0m[0m4.572[0m [42m [0m [35mnew_conn[30m [34mconn.c:1212 [0mconn 0c9e38a4790709d58b211816 state closed -> [31mserv_lstn[0m
+[0m[0m4.573[0m [42m [0m [35mnew_stream[30m [34mstream.c:74 [0mconn 0c9e38a4790709d58b211816 strm [1m[33m0[0m state 0 -> 1
+[0m[0m4.575[0m [42m [0m [35mnew_stream[30m [34mstream.c:79 [0mreserved strm [1m[33m0[0m on serv conn 0c9e38a4790709d58b211816
+[0m[0m4.576[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [32..32] w/off 36
+[0m[1m4.577[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=1215 0xff=[1m[34mInitial [0mvers=0xbababa0c dcid=0c9e38a4790709d58b211816 scid=0ce74df3dbc40546fd0cc7ae len=1183 nr=[34m1
+[0m[0m4.578[0m [44m [0m [35mvers_supported[30m [34mconn.c:119 [0mno vers in common with clnt
+[0m[0m4.579[0m [42m [0m [35mrx_pkt[30m [34mconn.c:662 [0mconn 0c9e38a4790709d58b211816 state serv_lstn -> [31mserv_tx_vneg[0m
+[0m[0m4.580[0m [43m [0m [35mrx_pkt[30m [34mconn.c:665 [0mserv conn 0c9e38a4790709d58b211816 clnt-requested vers 0xbababa0c not supported 
+[0m[0m4.581[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 0c9e38a4790709d58b211816 strm [1m[33m0[0m w/0 pkts in queue
+[0m[0m4.582[0m [44m [0m [35menc_pkt[30m [34mpkt.c:146 [0msending vers neg serv response
+[0m[1m4.583[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:83 [0m[1m[1m[32mTX[0m len=0 0xb4=[1m[32mVersion Negotiation [0mvers=0x00000000 dcid=0ce74df3dbc40546fd0cc7ae scid=0c9e38a4790709d58b211816
+[0m[0m4.584[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: 
+[0m[0m4.586[0m [42m [0m [35mtx_other[30m [34mconn.c:348 [0mconn 0c9e38a4790709d58b211816 state serv_tx_vneg -> [31mserv_lstn[0m
+[0m[0m4.599[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [32..32] w/off 36
+[0m[1m4.601[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=1215 0xff=[1m[34mInitial [0mvers=0xff00000c dcid=0c9e38a4790709d58b211816 scid=0ce74df3dbc40546fd0cc7ae len=1183 nr=[34m2
+[0m[0m4.602[0m [44m [0m [35mrx_pkt[30m [34mconn.c:622 [0msupporting clnt-requested vers 0xff00000c
+[0m[0m4.603[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..1198] in [1199..1214]
+[0m[0m4.604[0m [44m [0m [35mdec_stream_frame[30m [34mframe.c:201 [0m[1m[34mSTREAM[0m 0x16=LEN|OFF id=[1m[33m0[0m/4 cdata=0/32768 off=0/0 len=319 [seq]
+[0m[0m4.605[0m [44m [0m [35mdec_frames[30m [34mframe.c:673 [0m[1m[34mPADDING[0m len=841
+[0m[0m4.606[0m [46m [0m [35mrx_pkt[30m [34mconn.c:656 [0mhshk switch to scid 3b504662320cc82f for serv conn (was 0c9e38a4790709d58b211816)
+[0m[0m4.607[0m [42m [0m [35muse_next_scid[30m [34mconn.c:185 [0mnew dcid=3b504662320cc82f (was 0c9e38a4790709d58b211816)
+[0m[0m4.609[0m [42m [0m [35mrx_pkt[30m [34mconn.c:814 [0mnon-ACK frame received, starting ACK timer
+[0m[0m4.610[0m [44m [0m [35mon_ch[30m [34mtls.c:338 [0m	SNI = quant
+[0m[0m4.611[0m [44m [0m [35mon_ch[30m [34mtls.c:366 [0m	ALPN = hq-12
+[0m[0m4.612[0m [44m [0m [35mchk_tp[30m [34mtls.c:492 [0m	initial_max_stream_data = 10240
+[0m[0m4.613[0m [44m [0m [35mchk_tp[30m [34mtls.c:502 [0m	initial_max_data = 51200
+[0m[0m4.614[0m [44m [0m [35mchk_tp[30m [34mtls.c:524 [0m	idle_timeout = 30
+[0m[0m4.615[0m [44m [0m [35mchk_tp[30m [34mtls.c:510 [0m	initial_max_stream_id_bidi = 49
+[0m[0m4.616[0m [44m [0m [35mchk_tp[30m [34mtls.c:519 [0m	initial_max_stream_id_uni = 51
+[0m[0m4.618[0m [44m [0m [35mchk_tp[30m [34mtls.c:538 [0m	ack_delay_exponent = 3
+[0m[0m4.628[0m [44m [0m [35mencrypt_ticket_cb[30m [34mtls.c:670 [0mcreating new 0-RTT session ticket for serv conn 3b504662320cc82f (quant hq-12)
+[0m[0m4.629[0m [42m [0m [35mtls_io[30m [34mtls.c:968 [0min 319 (off 0), gen 2490, ret 0, left 0
+[0m[0m4.631[0m [42m [0m [35mtls_io[30m [34mtls.c:989 [0mconn 3b504662320cc82f state serv_lstn -> [31mserv_tx_sh[0m
+[0m[0m4.632[0m [42m [0m [35mtx[30m [34mconn.c:429 [0mdata TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[1m4.633[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[32mTX[0m len=0 0xfd=[1m[32mHandshake [0mvers=0xff00000c dcid=0ce74df3dbc40546fd0cc7ae scid=3b504662320cc82f len=0 nr=[32m0
+[0m[0m4.634[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:941 [0m[1m[32mACK[0m lg=[34m2[0m delay=0 (0 usec) cnt=0 block=0 [[34m2[0m]
+[0m[0m4.635[0m [44m [0m [35menc_path_challenge_frame[30m [34mframe.c:1222 [0m[1m[32mPATH_CHALLENGE[0m data=cb9c272711e6372a
+[0m[0m4.636[0m [44m [0m [35menc_padding_frame[30m [34mframe.c:797 [0m[1m[32mPADDING[0m len=53
+[0m[0m4.637[0m [44m [0m [35menc_stream_frame[30m [34mframe.c:1045 [0m[1m[32mSTREAM[0m 0x12=LEN id=[1m[33m0[0m/4 cdata=0/51200 off=0/2280 len=1140
+[0m[0m4.638[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc handshake AEAD over [0..1235] in [1236..1251]; PNE over [28..28] w/off 32
+[0m[0m4.639[0m [42m [0m [35mon_pkt_sent[30m [34mrecovery.c:239 [0min_flight +1252 = 1252
+[0m[0m4.641[0m [42m [0m [35mset_ld_alarm[30m [34mrecovery.c:79 [0mhandshake RTX alarm in 0.200000 sec on serv conn 3b504662320cc82f
+[0m[1m4.642[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[32mTX[0m len=0 0xfd=[1m[32mHandshake [0mvers=0xff00000c dcid=0ce74df3dbc40546fd0cc7ae scid=3b504662320cc82f len=0 nr=[32m1
+[0m[0m4.643[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:941 [0m[1m[32mACK[0m lg=[34m2[0m delay=0 (0 usec) cnt=0 block=0 [[34m2[0m]
+[0m[0m4.644[0m [44m [0m [35menc_path_challenge_frame[30m [34mframe.c:1222 [0m[1m[32mPATH_CHALLENGE[0m data=cb9c272711e6372a
+[0m[0m4.645[0m [44m [0m [35menc_padding_frame[30m [34mframe.c:797 [0m[1m[32mPADDING[0m len=53
+[0m[0m4.646[0m [44m [0m [35menc_stream_frame[30m [34mframe.c:1045 [0m[1m[32mSTREAM[0m 0x16=LEN|OFF id=[1m[33m0[0m/4 cdata=1140/51200 off=1140/2280 len=1140
+[0m[0m4.647[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc handshake AEAD over [0..1235] in [1236..1251]; PNE over [28..28] w/off 32
+[0m[0m4.648[0m [42m [0m [35mon_pkt_sent[30m [34mrecovery.c:239 [0min_flight +1252 = 2504
+[0m[0m4.649[0m [42m [0m [35mset_ld_alarm[30m [34mrecovery.c:79 [0mhandshake RTX alarm in 0.200000 sec on serv conn 3b504662320cc82f
+[0m[0m4.650[0m [44m [0m [35mtx_stream[30m [34mconn.c:263 [0mout of FC window for strm [1m[33m0[0m, 2280+210/2280
+[0m[0m4.651[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: *[32m0[0m *[32m1[0m 
+[0m[0m4.654[0m [42m [0m [35mack_alarm[30m [34mconn.c:1091 [0mACK timeout on serv conn 3b504662320cc82f
+[0m[0m4.656[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[0m4.657[0m [44m [0m [35mtx_stream[30m [34mconn.c:263 [0mout of FC window for strm [1m[33m0[0m, 2280+1140/2280
+[0m[0m4.659[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: *[32m0[0m *[32m1[0m 
+[0m[0m4.695[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[1m4.697[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=54 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=27 nr=[34m3
+[0m[0m4.698[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..37] in [38..53]
+[0m[0m4.699[0m [44m [0m [35mdec_path_response_frame[30m [34mframe.c:575 [0m[1m[34mPATH_RESPONSE[0m data=cb9c272711e6372a
+[0m[0m4.700[0m [42m [0m [35mrx_pkt[30m [34mconn.c:814 [0mnon-ACK frame received, starting ACK timer
+[0m[0m4.701[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[1m4.702[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=54 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=27 nr=[34m4
+[0m[0m4.703[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..37] in [38..53]
+[0m[0m4.704[0m [44m [0m [35mdec_path_response_frame[30m [34mframe.c:575 [0m[1m[34mPATH_RESPONSE[0m data=cb9c272711e6372a
+[0m[0m4.705[0m [42m [0m [35mrx_pkt[30m [34mconn.c:814 [0mnon-ACK frame received, starting ACK timer
+[0m[0m4.728[0m [42m [0m [35mack_alarm[30m [34mconn.c:1091 [0mACK timeout on serv conn 3b504662320cc82f
+[0m[0m4.732[0m [42m [0m [35mtx[30m [34mconn.c:429 [0mdata TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[0m4.735[0m [42m [0m [35mtx_stream[30m [34mconn.c:273 [0mskipping already-tx'ed pkt [32m0[0m on strm [1m[33m0[0m during TX
+[0m[0m4.738[0m [42m [0m [35mtx_stream[30m [34mconn.c:273 [0mskipping already-tx'ed pkt [32m1[0m on strm [1m[33m0[0m during TX
+[0m[1m4.740[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[32mTX[0m len=0 0xfd=[1m[32mHandshake [0mvers=0xff00000c dcid=0ce74df3dbc40546fd0cc7ae scid=3b504662320cc82f len=0 nr=[32m2
+[0m[0m4.741[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:934 [0m[1m[32mACK[0m lg=[34m4[0m delay=3323 (26584 usec) cnt=0 block=2 [[34m2[0m..[34m4[0m]
+[0m[0m4.743[0m [44m [0m [35menc_padding_frame[30m [34mframe.c:797 [0m[1m[32mPADDING[0m len=61
+[0m[0m4.744[0m [44m [0m [35menc_stream_frame[30m [34mframe.c:1045 [0m[1m[32mSTREAM[0m 0x16=LEN|OFF id=[1m[33m0[0m/4 cdata=2280/51200 off=2280/0 len=210
+[0m[0m4.745[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc handshake AEAD over [0..305] in [306..321]; PNE over [28..28] w/off 32
+[0m[0m4.746[0m [42m [0m [35mon_pkt_sent[30m [34mrecovery.c:239 [0min_flight +322 = 2826
+[0m[0m4.748[0m [42m [0m [35mset_ld_alarm[30m [34mrecovery.c:79 [0mhandshake RTX alarm in 0.200000 sec on serv conn 3b504662320cc82f
+[0m[0m4.749[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: *[32m0[0m *[32m1[0m *[32m2[0m 
+[0m[0m4.750[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[1m4.751[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=50 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=23 nr=[34m5
+[0m[0m4.753[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..33] in [34..49]
+[0m[0m4.754[0m [42m [0m [35mon_ack_rx_1[30m [34mrecovery.c:293 [0msrtt = 0.151260, rttvar = 0.075630 on serv conn 3b504662320cc82f
+[0m[0m4.755[0m [44m [0m [35mdec_ack_frame[30m [34mframe.c:297 [0m[1m[34mACK[0m lg=[32m1[0m delay=1923 (15384 usec) cnt=0 block=1 [[32m0[0m..[32m1[0m]
+[0m[0m4.757[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:339 [0mfirst ACK for [32m1[0m
+[0m[0m4.758[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:394 [0min_flight -1252 = 1574
+[0m[0m4.760[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:402 [0mcwnd 15852
+[0m[0m4.761[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:411 [0mstream [1m[33m0[0m ACK cnt 1, len 3
+[0m[0m4.763[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:339 [0mfirst ACK for [32m0[0m
+[0m[0m4.764[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:394 [0min_flight -1252 = 322
+[0m[0m4.766[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:402 [0mcwnd 17104
+[0m[0m4.768[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:411 [0mstream [1m[33m0[0m ACK cnt 2, len 3
+[0m[0m4.769[0m [42m [0m [35mset_ld_alarm[30m [34mrecovery.c:79 [0mhandshake RTX alarm in 0.302520 sec on serv conn 3b504662320cc82f
+[0m[0m4.875[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.876[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1242
+[0m[1m4.878[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m55
+[0m[0m4.879[0m [41m [0m [35merr_close[30m [34mconn.c:1040 [0mAEAD fail on 0x7d-type LH pkt
+[0m[0m4.880[0m [42m [0m [35merr_close[30m [34mconn.c:1044 [0mconn 3b504662320cc82f state serv_tx_sh -> [31mclosing[0m
+[0m[0m4.881[0m [42m [0m [35menter_closing[30m [34mconn.c:1078 [0mclosing/draining alarm in 0.756299 sec on serv conn 3b504662320cc82f
+[0m[0m4.882[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.883[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1196
+[0m[1m4.884[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m229875447
+[0m[0m4.885[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.887[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.888[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1150
+[0m[1m4.889[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m20
+[0m[0m4.890[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.891[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.892[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1104
+[0m[1m4.893[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m821347099
+[0m[0m4.894[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.895[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.897[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1058
+[0m[1m4.898[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m25
+[0m[0m4.899[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.900[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.901[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1012
+[0m[1m4.902[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m127
+[0m[0m4.903[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.904[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.906[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 966
+[0m[1m4.907[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m370822362
+[0m[0m4.908[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.909[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.910[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 920
+[0m[1m4.911[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m67
+[0m[0m4.912[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.913[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.914[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 874
+[0m[1m4.916[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m37
+[0m[0m4.917[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.918[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.919[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 828
+[0m[1m4.920[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m124189856
+[0m[0m4.921[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.922[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.923[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 782
+[0m[1m4.925[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m420960200
+[0m[0m4.926[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.927[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.928[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 736
+[0m[1m4.929[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m64
+[0m[0m4.930[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.931[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.932[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 690
+[0m[1m4.933[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m115
+[0m[0m4.934[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.935[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.937[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 644
+[0m[1m4.938[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m431725710
+[0m[0m4.939[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.940[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.941[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 598
+[0m[1m4.942[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m7511498
+[0m[0m4.943[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.944[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.945[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 552
+[0m[1m4.946[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m110
+[0m[0m4.947[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.948[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.949[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 506
+[0m[1m4.950[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m656905835
+[0m[0m4.951[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.952[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.954[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 460
+[0m[1m4.955[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m553497608
+[0m      [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.958[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.959[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 414
+[0m[1m4.960[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m52
+[0m[0m4.961[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.962[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.963[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 368
+[0m[1m4.964[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m33
+[0m[0m4.965[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.966[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.968[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 322
+[0m[1m4.969[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m59
+[0m[0m4.970[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.971[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.972[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 276
+[0m[1m4.973[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m1008254601
+[0m[0m4.975[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.976[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m4.977[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 230
+[0m[1m4.978[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m46
+[0m[0m4.979[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.980[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m      [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 184
+[0m[1m4.983[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m846530180
+[0m[0m4.984[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.985[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.987[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 138
+[0m[1m4.988[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m195237204
+[0m[0m4.989[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.990[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.991[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 92
+[0m[1m4.992[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m719888303
+[0m[0m4.993[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.994[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m4.996[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 46
+[0m[1m4.997[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m802253075
+[0m[0m4.998[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m4.999[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[1m5.000[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m250795430
+[0m[0m5.002[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.003[0m [42m [0m [35mtx[30m [34mconn.c:429 [0mdata TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[0m5.004[0m [42m [0m [35mtx_stream[30m [34mconn.c:273 [0mskipping already-tx'ed pkt [32m2[0m on strm [1m[33m0[0m during TX
+[0m[0m5.005[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: *[32m2[0m 
+[0m[0m5.006[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[0m5.007[0m [42m [0m [35mtx_stream[30m [34mconn.c:273 [0mskipping already-tx'ed pkt [32m2[0m on strm [1m[33m0[0m during TX
+[0m[1m5.008[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:97 [0m[1m[1m[32mTX[0m len=0 0x36=[1m[32mShort [0mdcid=0ce74df3dbc40546fd0cc7ae nr=[32m3
+[0m[0m5.010[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:934 [0m[1m[32mACK[0m lg=[34m5[0m delay=15576 (124608 usec) cnt=0 block=2 [[34m3[0m..[34m5[0m]
+[0m[0m5.011[0m [44m [0m [35menc_close_frame[30m [34mframe.c:1081 [0m[1m[32mCONNECTION_CLOSE[0m err=[31m0x0201[0m rlen=29 reason=[31mAEAD fail on 0x7d-type LH pkt[0m
+[0m[0m5.012[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc 1-RTT AEAD over [0..52] in [53..68]; PNE over [13..13] w/off 17
+[0m[0m5.013[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: *[32m2[0m [32m3[0m 
+[0m[0m5.015[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [28..28] w/off 32
+[0m[1m5.016[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=131 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=103 nr=[34m34
+[0m[0m5.018[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..114] in [115..130]
+[0m[0m5.019[0m [44m [0m [35mdec_stream_frame[30m [34mframe.c:201 [0m[1m[34mSTREAM[0m 0x16=LEN|OFF id=[1m[33m0[0m/4 cdata=319/32768 off=319/0 len=80 [seq]
+[0m[0m5.021[0m [42m [0m [35mrx_pkt[30m [34mconn.c:814 [0mnon-ACK frame received, starting ACK timer
+[0m[0m5.022[0m [42m [0m [35mtls_io[30m [34mtls.c:968 [0min 80 (off 319), gen 0, ret 0, left 0
+[0m[0m5.023[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.024[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1242
+[0m[1m5.025[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m86
+[0m[0m5.027[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.028[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.029[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1196
+[0m[1m5.030[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m898084992
+[0m[0m5.031[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.032[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.034[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1150
+[0m[1m5.035[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m73
+[0m[0m5.036[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.037[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.038[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1104
+[0m[1m5.039[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m106
+[0m[0m5.041[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.042[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.043[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1058
+[0m[1m5.044[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m655723029
+[0m[0m5.045[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.046[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.048[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 1012
+[0m[1m5.049[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m20
+[0m[0m5.050[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.051[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.052[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 966
+[0m[1m5.053[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m90
+[0m[0m5.054[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.056[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.057[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 920
+[0m[1m5.058[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m32
+[0m[0m5.059[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.060[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.061[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 874
+[0m[1m5.062[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m98151567
+[0m[0m5.063[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.064[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.065[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 828
+[0m[1m5.066[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m115
+[0m[0m5.068[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.069[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.070[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 782
+[0m[1m5.071[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m111
+[0m[0m5.072[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.073[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.075[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 736
+[0m[1m5.076[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m87
+[0m[0m5.077[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.078[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.079[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 690
+[0m[1m5.081[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m328855743
+[0m[0m5.082[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.083[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.084[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 644
+[0m[1m5.085[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m34
+[0m[0m5.087[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.088[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.089[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 598
+[0m[1m5.090[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m1046966027
+[0m[0m5.091[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.092[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.094[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 552
+[0m[1m5.095[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m897812643
+[0m[0m5.096[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.097[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.098[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 506
+[0m[1m5.100[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m85
+[0m[0m5.101[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.102[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.103[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 460
+[0m[1m5.104[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m14
+[0m[0m5.105[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.107[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.108[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 414
+[0m[1m5.109[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m734771168
+[0m[0m5.110[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.111[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.112[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 368
+[0m[1m5.113[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m32
+[0m[0m5.114[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.116[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.117[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 322
+[0m[1m5.118[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m100598483
+[0m[0m5.119[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m      [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.122[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 276
+[0m[1m5.124[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m283154382
+[0m[0m5.125[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.126[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.127[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 230
+[0m[1m5.128[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m81
+[0m[0m5.129[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.130[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.132[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 184
+[0m[1m5.133[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m95
+[0m[0m5.134[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.135[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.136[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 138
+[0m[1m5.137[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m10
+[0m[0m5.138[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.140[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[0m5.141[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 92
+[0m[1m5.142[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m485991259
+[0m[0m5.143[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.144[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..27] w/off 31
+[0m[0m5.145[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:502 [0msplit out 0x7d-type coalesced pkt of len 46
+[0m[1m5.147[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m60
+[0m[0m5.148[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.149[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [27..30] w/off 31
+[0m[1m5.150[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=46 0xfd=[1m[34mHandshake [0mvers=0xff00000c dcid=3b504662320cc82f scid=0ce74df3dbc40546fd0cc7ae len=19 nr=[34m373742007
+[0m[0m5.151[0m [43m [0m [35merr_close[30m [34mconn.c:1036 [0mignoring new err 0x0201 (AEAD fail on 0x7d-type LH pkt); existing err is 0x0201 (AEAD fail on 0x7d-type LH pkt) 
+[0m[0m5.153[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [9..9] w/off 13
+[0m[1m5.154[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:97 [0m[1m[1m[34mRX[0m len=46 0x32=[1m[34mShort [0mdcid=3b504662320cc82f nr=[34m63
+[0m[0m5.155[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec 1-RTT AEAD over [0..29] in [30..45]
+[0m[0m5.156[0m [42m [0m [35mnew_stream[30m [34mstream.c:74 [0mconn 3b504662320cc82f strm [1m[33m4[0m state 0 -> 1
+[0m[0m5.157[0m [42m [0m [35mnew_stream[30m [34mstream.c:79 [0mreserved strm [1m[33m4[0m on serv conn 3b504662320cc82f
+[0m[0m5.158[0m [42m [0m [35mdec_stream_frame[30m [34mframe.c:164 [0mconn 3b504662320cc82f strm [1m[33m4[0m state 1 -> 2
+[0m[0m5.159[0m [44m [0m [35mdec_stream_frame[30m [34mframe.c:201 [0m[1m[34mSTREAM[0m 0x17=FIN|LEN|OFF id=[1m[33m4[0m/4 cdata=399/32768 off=0/16384 len=16 [seq]
+[0m[0m5.160[0m [42m [0m [35mrx_pkt[30m [34mconn.c:814 [0mnon-ACK frame received, starting ACK timer
+[0m      [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [9..9] w/off 13
+[0m[1m5.164[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:97 [0m[1m[1m[34mRX[0m len=32 0x32=[1m[34mShort [0mdcid=3b504662320cc82f nr=[34m64
+[0m[0m5.165[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec 1-RTT AEAD over [0..15] in [16..31]
+[0m[0m5.166[0m [42m [0m [35mon_ack_rx_1[30m [34mrecovery.c:293 [0msrtt = 0.168222, rttvar = 0.090647 on serv conn 3b504662320cc82f
+[0m[0m5.168[0m [44m [0m [35mdec_ack_frame[30m [34mframe.c:297 [0m[1m[34mACK[0m lg=[32m2[0m delay=15609 (124872 usec) cnt=0 block=2 [[32m0[0m..[32m2[0m]
+[0m[0m5.169[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:339 [0mfirst ACK for [32m2[0m
+[0m[0m5.170[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:394 [0min_flight -322 = 0
+[0m[0m5.171[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:402 [0mcwnd 17426
+[0m[0m5.172[0m [42m [0m [35mon_pkt_acked[30m [34mrecovery.c:411 [0mstream [1m[33m0[0m ACK cnt 3, len 3
+[0m[0m5.173[0m [42m [0m [35mset_ld_alarm[30m [34mrecovery.c:69 [0mno RTX-able pkts outstanding, stopping ld_alarm
+[0m[0m5.176[0m [42m [0m [35mack_alarm[30m [34mconn.c:1091 [0mACK timeout on serv conn 3b504662320cc82f
+[0m[0m5.177[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 3b504662320cc82f strm [1m[33m0[0m w/3 pkts in queue
+[0m[1m5.179[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:97 [0m[1m[1m[32mTX[0m len=0 0x34=[1m[32mShort [0mdcid=0ce74df3dbc40546fd0cc7ae nr=[32m4
+[0m[0m5.180[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:934 [0m[1m[32mACK[0m lg=[34m64[0m delay=20175 (161400 usec) cnt=2 block=1 [[34m63[0m..[34m4[0m]
+[0m[0m5.181[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:987 [0m[1m[32mACK[0m gap=27 block=0 [[34m34[0m]
+[0m      [44m [0m [35menc_ack_frame[30m [34mframe.c:987 [0m[1m[32mACK[0m gap=27 block=0 [[34m5[0m]
+[0m[0m5.184[0m [44m [0m [35menc_close_frame[30m [34mframe.c:1081 [0m[1m[32mCONNECTION_CLOSE[0m err=[31m0x0201[0m rlen=29 reason=[31mAEAD fail on 0x7d-type LH pkt[0m
+[0m[0m5.185[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc 1-RTT AEAD over [0..59] in [60..75]; PNE over [13..13] w/off 17
+[0m[0m5.186[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: [32m3[0m [32m4[0m 
+[0m[0m5.641[0m [42m [0m [35menter_closed[30m [34mconn.c:1056 [0mclosing/draining alarm on serv conn 3b504662320cc82f
+[0m[0m5.644[0m [42m [0m [35menter_closed[30m [34mconn.c:1058 [0mconn 3b504662320cc82f state closing -> [31mclosed[0m
+[0m[0m5.647[0m [42m [0m [35menter_closed[30m [34mconn.c:1061 [0mq_accept(accept_queue, 0) done, exiting event loop
+[0m[0m5.648[0m [41m [0m [35mq_accept[30m [34mquic.c:410 [0mconn not accepted
+[0m[0m5.649[0m [42m [0m [35mq_cleanup[30m [34mquic.c:572 [0mclosing serv conn 3b504662320cc82f
+[0m[0m5.650[0m [42m [0m [35mfree_stream[30m [34mstream.c:89 [0mfreeing strm [1m[33m0[0m on serv conn 3b504662320cc82f
+[0m[0m5.652[0m [42m [0m [35mfree_stream[30m [34mstream.c:89 [0mfreeing strm [1m[33m4[0m on serv conn 3b504662320cc82f
+[0m[0m5.653[0m [42m [0m [35muse_next_scid[30m [34mconn.c:185 [0mnew dcid=0 (was 3b504662320cc82f)
+[0m[0m5.654[0m [42m [0m [35muse_next_dcid[30m [34mconn.c:196 [0mnew dcid=0 (was 0ce74df3dbc40546fd0cc7ae)
+[0m[0m5.656[0m [42m [0m [35mq_cleanup[30m [34mquic.c:577 [0mclosing serv conn 0
+[0m[0m5.657[0m [43m [0m [35mq_close[30m [34mquic.c:544 [0mclosing serv conn 0 on port 4433
+[0m[0m5.658[0m [42m [0m [35mq_close[30m [34mquic.c:553 [0mconn 0 state serv_lstn -> [31mclosed[0m
+[0m[0m5.659[0m [42m [0m [35mmain[30m [34mserver.c:288 [0mserver exiting

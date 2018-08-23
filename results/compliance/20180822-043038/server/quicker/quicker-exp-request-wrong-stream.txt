@@ -1,0 +1,12 @@
+10: undefined
+QuicError: 10: undefined
+    at FrameHandler.handleStreamFrame (/quicker/out/utilities/handlers/frame.handler.js:190:19)
+    at FrameHandler.handle (/quicker/out/utilities/handlers/frame.handler.js:81:18)
+    at packet.getFrames.forEach (/quicker/out/utilities/handlers/packet.handler.js:135:31)
+    at Array.forEach (<anonymous>)
+    at PacketHandler.handleFrames (/quicker/out/utilities/handlers/packet.handler.js:134:28)
+    at PacketHandler.handleProtected1RTTPacket (/quicker/out/utilities/handlers/packet.handler.js:131:14)
+    at PacketHandler.handle (/quicker/out/utilities/handlers/packet.handler.js:42:22)
+    at headerOffsets.forEach (/quicker/out/quicker/server.js:90:36)
+    at Array.forEach (<anonymous>)
+    at Server.onMessage (/quicker/out/quicker/server.js:82:23)

@@ -1,0 +1,48 @@
+QUICker client connecting to ngtcp2:4433
+clear text client key: ebd8fae1daa4d85e11fd370f085ce476
+clear text client key: 3366bf369b1fced5cffc065d
+clear text client pn: 0cd0ea20a2ab2ef3bd7fd5d886d7aaaf
+clear text server key: 06d7024e6f23a53a947a34ee70ff7ea0
+clear text server iv: 590653b375b1f84af31b47a9
+clear text server pn: 94c4467e12a29009577086ca84f28043
+2018-08-22T02:32:08.168 
+  [31mTX Initial(0x0)[0m, Version: 0xbababa0c, Dest CID: 0x09c9a06d51a06c099c, Src CID: 0x042ee0f0[31m
+       PKN: 1[0m, payload length: 1193
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 851
+2018-08-22T02:32:08.181 
+  [36mRX VersionNegotiation(0x3)[0m, Dest CID: 0x042ee0f0, Src CID: 0x09c9a06d51a06c099c
+    version: 0x9aea4aba
+    version: 0xff00000c
+clear text client key: ebd8fae1daa4d85e11fd370f085ce476
+clear text client key: 3366bf369b1fced5cffc065d
+clear text client pn: 0cd0ea20a2ab2ef3bd7fd5d886d7aaaf
+clear text server key: 06d7024e6f23a53a947a34ee70ff7ea0
+clear text server iv: 590653b375b1f84af31b47a9
+clear text server pn: 94c4467e12a29009577086ca84f28043
+2018-08-22T02:32:08.190 
+  [31mTX Initial(0x0)[0m, Version: 0xff00000c, Dest CID: 0x09c9a06d51a06c099c, Src CID: 0x042ee0f0[31m
+       PKN: 2[0m, payload length: 1193
+    [31mSTREAM (0x16) [0m FIN=0 LEN=1 OFF=1
+    StreamID (0x00) length=320 offset=0
+    [31mPADDING (0x0)[0m
+    length= 851
+clear text client key: ebd8fae1daa4d85e11fd370f085ce476
+clear text client key: 3366bf369b1fced5cffc065d
+clear text client pn: 0cd0ea20a2ab2ef3bd7fd5d886d7aaaf
+clear text server key: 06d7024e6f23a53a947a34ee70ff7ea0
+clear text server iv: 590653b375b1f84af31b47a9
+clear text server pn: 94c4467e12a29009577086ca84f28043
+2018-08-22T02:32:08.201 
+  [36mRX Handshake(0x2)[0m, Version: 0xff00000c, Dest CID: 0x042ee0f0, Src CID: 0x621556edb11ddadda6694e90f767afec085d[36m
+       PKN: 0[0m, payload length: 20
+    [36mCONNECTION_CLOSE (0x2)[0m
+    Error code= 10
+    Error phrase= 
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing
+Connection:sendPackets : trying to send data while connection closing

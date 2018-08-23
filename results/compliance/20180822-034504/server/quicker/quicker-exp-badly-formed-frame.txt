@@ -1,0 +1,15 @@
+/quicker/out/quicker/connection.js:178
+        return this.localTransportParameters.getTransportParameter(type);
+                                             ^
+
+TypeError: Cannot read property 'getTransportParameter' of undefined
+    at Connection.getLocalTransportParameter (/quicker/out/quicker/connection.js:178:46)
+    at PacketLogging.logAckFrame (/quicker/out/utilities/logging/packet.logging.js:272:43)
+    at PacketLogging.logFrame (/quicker/out/utilities/logging/packet.logging.js:187:29)
+    at baseEncryptedPacket.getFrames.forEach (/quicker/out/utilities/logging/packet.logging.js:124:25)
+    at Array.forEach (<anonymous>)
+    at PacketLogging.logFrames (/quicker/out/utilities/logging/packet.logging.js:122:41)
+    at PacketLogging.logPackets (/quicker/out/utilities/logging/packet.logging.js:108:29)
+    at PacketLogging.logOutgoingPacket (/quicker/out/utilities/logging/packet.logging.js:60:24)
+    at CongestionControl.congestionControl.on (/quicker/out/quicker/connection.js:89:58)
+    at emitOne (events.js:115:13)

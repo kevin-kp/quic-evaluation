@@ -1,0 +1,49 @@
+[0m[0m0.000[0m [44m [0m [35mq_init[30m [34mquic.c:494 [0mquant/socket 0.0.12/37ac9128 with libev 4.22 ready
+[0m[0m0.003[0m [44m [0m [35mq_init[30m [34mquic.c:495 [0msubmit bug reports at https://github.com/NTAP/quant/issues
+[0m[0m0.005[0m [42m [0m [35mq_bind[30m [34mquic.c:366 [0mbinding serv socket on port 4433
+[0m[0m0.007[0m [42m [0m [35mnew_conn[30m [34mconn.c:1210 [0mserv conn 0 on port 4433 created
+[0m[0m0.010[0m [42m [0m [35mnew_conn[30m [34mconn.c:1212 [0mconn 0 state closed -> [31mserv_lstn[0m
+[0m[0m0.012[0m [43m [0m [35mq_bind[30m [34mquic.c:368 [0mbound serv socket on port 4433
+[0m[0m0.014[0m [42m [0m [35mmain[30m [34mserver.c:239 [0mserver waiting on eth0 port 4433
+[0m[0m0.016[0m [43m [0m [35mq_accept[30m [34mquic.c:389 [0mwaiting for conn on any serv sock (timeout 0 sec)
+[0m[0m0.018[0m [42m [0m [35mq_accept[30m [34mquic.c:405 [0mq_accept(accept_queue, 0) entering event loop
+[0m[0m4.026[0m [46m [0m [35mrx_pkts[30m [34mconn.c:888 [0mnew serv conn on port 4433 w/cid 0caaffa96c33fffe9dfe785c from 172.17.0.3:51615
+[0m[0m4.028[0m [42m [0m [35mnew_conn[30m [34mconn.c:1210 [0mserv conn 0caaffa96c33fffe9dfe785c on port 4433 created
+[0m[0m4.029[0m [42m [0m [35mnew_conn[30m [34mconn.c:1212 [0mconn 0caaffa96c33fffe9dfe785c state closed -> [31mserv_lstn[0m
+[0m[0m4.031[0m [42m [0m [35mnew_stream[30m [34mstream.c:74 [0mconn 0caaffa96c33fffe9dfe785c strm [1m[33m0[0m state 0 -> 1
+[0m[0m4.032[0m [42m [0m [35mnew_stream[30m [34mstream.c:79 [0mreserved strm [1m[33m0[0m on serv conn 0caaffa96c33fffe9dfe785c
+[0m[0m4.034[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [30..30] w/off 34
+[0m[1m4.035[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=1215 0xff=[1m[34mInitial [0mvers=0xbababa0c dcid=0caaffa96c33fffe9dfe785c scid=0a0982191e128f6ec06e len=1185 nr=[34m1
+[0m[0m4.036[0m [44m [0m [35mvers_supported[30m [34mconn.c:119 [0mno vers in common with clnt
+[0m[0m4.038[0m [42m [0m [35mrx_pkt[30m [34mconn.c:662 [0mconn 0caaffa96c33fffe9dfe785c state serv_lstn -> [31mserv_tx_vneg[0m
+[0m[0m4.039[0m [43m [0m [35mrx_pkt[30m [34mconn.c:665 [0mserv conn 0caaffa96c33fffe9dfe785c clnt-requested vers 0xbababa0c not supported 
+[0m[0m4.040[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 0caaffa96c33fffe9dfe785c strm [1m[33m0[0m w/0 pkts in queue
+[0m[0m4.042[0m [44m [0m [35menc_pkt[30m [34mpkt.c:146 [0msending vers neg serv response
+[0m[1m4.043[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:83 [0m[1m[1m[32mTX[0m len=0 0xc4=[1m[32mVersion Negotiation [0mvers=0x00000000 dcid=0a0982191e128f6ec06e scid=0caaffa96c33fffe9dfe785c
+[0m[0m4.044[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: 
+[0m[0m4.046[0m [42m [0m [35mtx_other[30m [34mconn.c:348 [0mconn 0caaffa96c33fffe9dfe785c state serv_tx_vneg -> [31mserv_lstn[0m
+[0m[0m4.059[0m [42m [0m [35mdec_pkt_hdr_remainder[30m [34mpkt.c:479 [0mdec PNE over [30..30] w/off 34
+[0m[1m4.061[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[34mRX[0m len=1215 0xff=[1m[34mInitial [0mvers=0xff00000c dcid=0caaffa96c33fffe9dfe785c scid=0a0982191e128f6ec06e len=1185 nr=[34m2
+[0m[0m4.062[0m [44m [0m [35mrx_pkt[30m [34mconn.c:622 [0msupporting clnt-requested vers 0xff00000c
+[0m[0m4.063[0m [42m [0m [35mdec_aead[30m [34mtls.c:1259 [0mdec handshake AEAD over [0..1198] in [1199..1214]
+[0m[0m4.065[0m [41m [0m [35merr_close[30m [34mconn.c:1040 [0munknown frame type 0x35 at pos 31
+[0m[0m4.066[0m [42m [0m [35merr_close[30m [34mconn.c:1044 [0mconn 0caaffa96c33fffe9dfe785c state serv_lstn -> [31mclosing[0m
+[0m[0m4.068[0m [42m [0m [35menter_closing[30m [34mconn.c:1078 [0mclosing/draining alarm in 0.300000 sec on serv conn 0caaffa96c33fffe9dfe785c
+[0m[0m4.069[0m [42m [0m [35mtx_other[30m [34mconn.c:324 [0mother TX on serv conn 0caaffa96c33fffe9dfe785c strm [1m[33m0[0m w/0 pkts in queue
+[0m[1m4.070[0m [46m [0m [35mlog_pkt[30m [34mpkt.c:91 [0m[1m[1m[32mTX[0m len=0 0xfd=[1m[32mHandshake [0mvers=0xff00000c dcid=0a0982191e128f6ec06e scid=0caaffa96c33fffe9dfe785c len=0 nr=[32m0
+[0m[0m4.072[0m [44m [0m [35menc_ack_frame[30m [34mframe.c:941 [0m[1m[32mACK[0m lg=[34m2[0m delay=0 (0 usec) cnt=0 block=0 [[34m2[0m]
+[0m[0m4.073[0m [44m [0m [35menc_close_frame[30m [34mframe.c:1081 [0m[1m[32mCONNECTION_CLOSE[0m err=[31m0x0135[0m rlen=33 reason=[31munknown frame type 0x35 at pos 31[0m
+[0m[0m4.075[0m [42m [0m [35menc_aead[30m [34mtls.c:1295 [0menc handshake AEAD over [0..72] in [73..88]; PNE over [30..30] w/off 34
+[0m[0m4.076[0m [42m [0m [35mlog_sent_pkts[30m [34mconn.c:220 [0munacked: [32m0[0m 
+[0m[0m4.360[0m [42m [0m [35menter_closed[30m [34mconn.c:1056 [0mclosing/draining alarm on serv conn 0caaffa96c33fffe9dfe785c
+[0m[0m4.364[0m [42m [0m [35menter_closed[30m [34mconn.c:1058 [0mconn 0caaffa96c33fffe9dfe785c state closing -> [31mclosed[0m
+[0m[0m4.366[0m [42m [0m [35menter_closed[30m [34mconn.c:1061 [0mq_accept(accept_queue, 0) done, exiting event loop
+[0m[0m4.368[0m [41m [0m [35mq_accept[30m [34mquic.c:410 [0mconn not accepted
+[0m[0m4.370[0m [42m [0m [35mq_cleanup[30m [34mquic.c:572 [0mclosing serv conn 0caaffa96c33fffe9dfe785c
+[0m[0m4.373[0m [42m [0m [35mfree_stream[30m [34mstream.c:89 [0mfreeing strm [1m[33m0[0m on serv conn 0caaffa96c33fffe9dfe785c
+[0m[0m4.375[0m [42m [0m [35muse_next_scid[30m [34mconn.c:185 [0mnew dcid=0 (was 0caaffa96c33fffe9dfe785c)
+[0m[0m4.376[0m [42m [0m [35muse_next_dcid[30m [34mconn.c:196 [0mnew dcid=0 (was 0a0982191e128f6ec06e)
+[0m[0m4.381[0m [42m [0m [35mq_cleanup[30m [34mquic.c:577 [0mclosing serv conn 0
+[0m[0m4.384[0m [43m [0m [35mq_close[30m [34mquic.c:544 [0mclosing serv conn 0 on port 4433
+[0m[0m4.386[0m [42m [0m [35mq_close[30m [34mquic.c:553 [0mconn 0 state serv_lstn -> [31mclosed[0m
+[0m[0m4.387[0m [42m [0m [35mmain[30m [34mserver.c:288 [0mserver exiting
