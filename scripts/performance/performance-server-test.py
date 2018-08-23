@@ -12,7 +12,7 @@ out_file = None
 def get_run_test_server_command(servername):
     switcher = {
         #"ats": "??",
-        "ngtcp2": "/ngtcp2/examples/server 0.0.0.0 4433 /keys/domain.key /keys/domain.crt -d /www --quiet",
+        "ngtcp2": "/ngtcp2/examples/server 0.0.0.0 4433 /keys/domain.key /keys/domain.crt -d /www",
         "picoquic": "/picoquic/picoquicdemo -c /keys/domain.crt -k /keys/domain.key -p 4433",
         "quicker": "/node/out/Release/node /quicker/out/main.js 0.0.0.0 4433 /keys/domain.key /keys/domain.crt",
         "quant": "/quant/Debug/bin/server -d /www -i eth0 -p 4433:4433/udp -k /keys/domain.key -c /keys/domain.crt",
