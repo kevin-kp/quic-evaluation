@@ -46,7 +46,7 @@ class QuicRequestThread (threading.Thread):
 
 
 def get_run_test_client_command(server, resource):
-    return LOCAL_PATH_TO_NGTCP2 + "/examples/client " + server + " 4433 -d ./request.txt"
+    return LOCAL_PATH_TO_NGTCP2 + "/examples/client " + server + " 4433 -d ./request.txt --quiet"
 
 
 def create_temporary_request_file(resource):

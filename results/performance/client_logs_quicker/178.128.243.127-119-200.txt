@@ -1,0 +1,828 @@
+I00000000 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 0 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000000 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 0 Initial(0x7f) PADDING(0x00) len=896
+I00000000 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901394132017152 last_hs_tx_pkt_ts=1534901393932017152 alarm_duration=200
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 rcv packet lost 0 sent_ts=1534901393932017152 unprotected=1
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm canceled
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 1 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 1 Initial(0x7f) PADDING(0x00) len=896
+I00000384 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901394716446976 last_hs_tx_pkt_ts=1534901394316446976 alarm_duration=400
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 rcv packet lost 1 sent_ts=1534901394316446976 unprotected=1
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=2 tlp_count=0 rto_count=0
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm canceled
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 2 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 2 Initial(0x7f) PADDING(0x00) len=896
+I00000785 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901395517869056 last_hs_tx_pkt_ts=1534901394717869056 alarm_duration=800
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 1 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 1 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 03 00 7b 02 00 00  77 03 03 1a 93 d7 9c e2  |....{...w.......|
+00000010  a8 f1 30 93 b8 47 15 45  c9 f3 9a 4f d9 bb de 9c  |..0..G.E...O....|
+00000020  e8 19 26 b7 04 01 99 8d  ec 6b 6d 00 13 02 00 00  |..&......km.....|
+00000030  4f 00 2b 00 02 7f 1c 00  33 00 45 00 17 00 41 04  |O.+.....3.E...A.|
+00000040  75 f0 7d f9 de a4 4f 66  8b f7 b0 fe f9 74 81 0e  |u.}...Of.....t..|
+00000050  aa 33 cd 8f 47 c6 77 33  69 b8 a8 cb 45 5d 68 f0  |.3..G.w3i...E]h.|
+00000060  15 08 e6 b1 2f cb e3 f0  91 7b 8b e0 35 b5 1a b3  |..../....{..5...|
+00000070  1d 45 4d 34 89 48 48 71  ac b6 3d dc 16 ef d0 5d  |.EM4.HHq..=....]|
+00000080  14 03 03 00 01 01 17 03  03 00 71 28 62 0f c1 dd  |..........q(b...|
+00000090  25 f8 32 aa fc 99 a0 43  ea 9c 8b 38 e1 c8 75 b3  |%.2....C...8..u.|
+000000a0  dc 94 9c 90 a6 42 53 9a  a4 4a 82 11 8c 3e 31 91  |.....BS..J...>1.|
+000000b0  1c 00 3b 6d f7 69 24 71  44 cf e2 d3 44 ce 4f 74  |..;m.i$qD...D.Ot|
+000000c0  0d b8 37 c5 ac eb 4a 0f  86 8a 66 85 f9 b4 96 9e  |..7...J...f.....|
+000000d0  0b fc 7b 02 7b 0b 32 99  87 3a 20 5e aa 6a 5d f3  |..{.{.2..: ^.j].|
+000000e0  9e 28 44 20 7c 24 64 f4  c2 17 81 5f f4 1a 23 e8  |.(D |$d...._..#.|
+000000f0  c5 cd d3 78 af 35 f0 3c  c2 14 15 df 17 03 03 05  |...x.5.<........|
+00000100  7f cd e1 c5 8a c4 16 d3  a0 83 67 60 bd f2 9c 69  |..........g`...i|
+00000110  6b af 89 91 d4 eb 16 18  1c c5 98 8d e3 e5 52 e1  |k.............R.|
+00000120  a2 2b cf 4e 56 8e a9 98  f5 ef 15 c2 f1 f2 d4 e2  |.+.NV...........|
+00000130  47 e8 90 1b 80 69 36 f3  0e f8 6e c9 a3 99 60 c5  |G....i6...n...`.|
+00000140  de b1 ea ab 5b 24 0f 7a  3c 10 75 97 15 05 e5 04  |....[$.z<.u.....|
+00000150  61 d7 71 d9 f4 e6 f0 8c  85 b6 0f 04 d5 1c ab 7a  |a.q............z|
+00000160  5b 6e 87 54 ae f8 30 d1  9c a6 f3 cf 72 c9 bc f3  |[n.T..0.....r...|
+00000170  87 b7 f7 05 53 b3 b8 8c  55 02 7d c7 64 f7 66 12  |....S...U.}.d.f.|
+00000180  ad 74 83 4d c7 7b 28 ef  d9 c9 65 ea cf fd 81 f8  |.t.M.{(...e.....|
+00000190  aa 47 5a 8e 6d 0d 5e a3  e5 ff df 4f 96 15 f5 23  |.GZ.m.^....O...#|
+000001a0  f6 8e 06 0b e7 55 bb 33  e8 89 41 95 51 b0 4a 32  |.....U.3..A.Q.J2|
+000001b0  44 fc 7e 8d 5a a6 ac 17  e8 b9 7a 1e 85 79 1d 6b  |D.~.Z.....z..y.k|
+000001c0  4a 97 74 2c 1f ce 3f c5  d7 0f 18 58 da 8f 5c 12  |J.t,..?....X..\.|
+000001d0  38 70 15 ad f1 1e f4 ce  30 c0 46 4c a9 bd 49 0b  |8p......0.FL..I.|
+000001e0  0b 99 99 8f 29 e7 f9 6b  7b 06 20 69 09 9f f1 8c  |....)..k{. i....|
+000001f0  20 67 8c 34 0c 84 6f bd  dc 9f d5 5e 86 b8 a2 9e  | g.4..o....^....|
+00000200  fc 0c d6 df b3 c2 13 ec  c9 96 d5 b9 c0 8e e1 25  |...............%|
+00000210  e3 99 69 b2 3f 70 80 b1  c1 34 f4 df 89 c5 42 bd  |..i.?p...4....B.|
+00000220  2d 2a cf f0 6f 2c 07 fa  f6 f4 7e 32 13 23 81 ec  |-*..o,....~2.#..|
+00000230  9b 40 1a 1c 6f fb 0c e7  bc 18 12 42 1e 31 f6 15  |.@..o......B.1..|
+00000240  21 f2 c3 fc 26 63 c9 20  63 42 c2 b2 97 d1 b0 f7  |!...&c. cB......|
+00000250  1d 91 cb 40 66 16 ad 02  97 79 e6 04 40 99 7b 42  |...@f....y..@.{B|
+00000260  da 86 1c 0f fb 02 e5 6b  99 b3 2c ed 7d 54 fa 58  |.......k..,.}T.X|
+00000270  d3 84 ee a8 87 b5 87 3c  de 82 f2 f0 fe 6f c6 64  |.......<.....o.d|
+00000280  49 48 91 46 3a fc 43 f7  0f 55 dc 40 0a 38 dd 18  |IH.F:.C..U.@.8..|
+00000290  48 d7 b8 94 7e 06 0c 96  12 2d 58 1a e9 0b 21 e1  |H...~....-X...!.|
+000002a0  30 64 24 90 f1 87 d2 fb  93 4e ee 65 ac 7b c5 9c  |0d$......N.e.{..|
+000002b0  54 d0 bb b7 a5 b0 01 03  58 92 ee 5e 1f c8 2b a4  |T.......X..^..+.|
+000002c0  69 66 4f 81 6c 60 c0 ce  34 e6 2b a1 e1 7f 68 72  |ifO.l`..4.+...hr|
+000002d0  2a fc 32 58 22 23 99 e3  8d a1 b0 45 4a ff 9a d0  |*.2X"#.....EJ...|
+000002e0  a1 21 e0 c1 6a db f2 d6  1e 95 d1 0f 03 83 2c 94  |.!..j.........,.|
+000002f0  54 18 00 f2 f7 fc a5 e3  18 92 d6 6d be bc 7d 11  |T..........m..}.|
+00000300  d8 92 60 2e aa 2c 0e df  7e 62 a9 57 5f 36 76 92  |..`..,..~b.W_6v.|
+00000310  58 ab 16 42 f8 5c ae e1  ff e6 be 39 1d dd 8e 04  |X..B.\.....9....|
+00000320  eb f5 40 eb 85 ae bb 0c  d2 98 ec 45 d7 19 56 0c  |..@........E..V.|
+00000330  fb c0 f4 93 b2 9f 19 0b  29 f9 44 33 c8 5f 0d 3c  |........).D3._.<|
+00000340  bd b9 ec d3 68 96 e4 be  57 1e ef 05 5c d5 d9 5a  |....h...W...\..Z|
+00000350  cc 20 57 c6 ac b4 7f 6b  e5 80 0e ee a1 a5 2b 3e  |. W....k......+>|
+00000360  64 56 90 7d bb 35 60 85  b2 a4 b3 14 85 43 19 2e  |dV.}.5`......C..|
+00000370  b6 8a 3f b5 87 3c 52 01  a0 46 f2 0e e9 b3 d6 56  |..?..<R..F.....V|
+00000380  cc 1c f2 5b e3 6b 39 2b  2a 3f ea a3 0c 43 04 cd  |...[.k9+*?...C..|
+00000390  28 07 2c d4 9b f3 ca b0  76 6a ae 76 a9 69 51 93  |(.,.....vj.v.iQ.|
+000003a0  58 81 e8 9e 20 45 d0 73  89 f8 0f b5 1f 1a 18 ca  |X... E.s........|
+000003b0  08 c3 49 06 dd 96 42 5c  29 8d 49 d9 48 1c c0 34  |..I...B\).I.H..4|
+000003c0  92 8a 83 ab 44 64 91 9e  90 0d da d5 29 62 aa 7b  |....Dd......)b.{|
+000003d0  1e d6 f0 1c 3c 72 7e a6  de 8d ef 99 4a 57 1e 15  |....<r~.....JW..|
+000003e0  5d 20 69 a5 a5 46 57 20  5c b9 fb f1 50 7d 65 76  |] i..FW \...P}ev|
+000003f0  76 12 a5 02 11 32 fe 64  c0 d1 cf 66 64 00 54 04  |v....2.d...fd.T.|
+00000400  51 79 71 7c a8 21 12 cb  f0 67 37 d8 71 5e 32 f4  |Qyq|.!...g7.q^2.|
+00000410  16 ae e5 21 b9 59 3b 7e  be a3 b8 78 f7 e2 05 5a  |...!.Y;~...x...Z|
+00000420  1a 3c b5 f9 ae 58 0a e4  b6 15 ea ff 94 68 a8 ee  |.<...X.......h..|
+00000430  20 dc 71 f9 80 6f db 55  2c b1 6b 07 b9 7e d3 06  | .q..o.U,.k..~..|
+00000440  db 8e 89 17 88 70 94 29  02 00 f5 12 35 77 31 35  |.....p.)....5w15|
+00000450  84 0e 86 4c bc ef 7f e9  28 8f e1 80 4d 84 b4 4b  |...L....(...M..K|
+00000460  80 03 a7 26 7f 7c 01 3c  4a d4 9f fe 34 0b 46 34  |...&.|.<J...4.F4|
+00000470  35 fd 61 af b6 54 99 3c  45 36 0d e8 97 22 f3 41  |5.a..T.<E6...".A|
+00000480  00 1a e1 eb 7e 34 6f fb  a3 09 a7 e0 37 80 ac b0  |....~4o.....7...|
+00000490  d1 50 74 2b 62 9b 77 94  36 8e 76 80 e5 24 4e 80  |.Pt+b.w.6.v..$N.|
+000004a0  42 99 08 60 a8 c9 6a d8  1a 3f 67 ef 2e d2 ee d0  |B..`..j..?g.....|
+000004b0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters negotiated_version=0xff00000c
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters supported_version[0]=0xff00000c
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters supported_version[1]=0xabcdef0c
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters initial_max_stream_data=10240
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters initial_max_data=51200
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters initial_max_bidi_streams=12
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters initial_max_uni_streams=12
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters idle_timeout=30
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters max_packet_size=65527
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters stateless_reset_token=0x6a60f2ffd767cbcba880267701c4588c
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 cry remote transport_parameters ack_delay_exponent=3
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 3 Handshake(0x7d) ACK(0x0d) largest_ack=1 ack_delay=0(0) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 3 Handshake(0x7d) ACK(0x0d) block=[1..1] block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 2 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 2 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  f5 e0 45 39 0a 59 96 b4  9b 6c f3 74 1f cc 85 9d  |..E9.Y...l.t....|
+00000010  0f e2 28 f5 74 b2 62 e6  2c 10 66 e5 bf 05 29 16  |..(.t.b.,.f...).|
+00000020  5d 37 4d 3a 80 17 c3 c1  e2 7c 8a e6 78 08 0c a6  |]7M:.....|..x...|
+00000030  82 7c 6f 70 ee df 00 3e  2f 1f 1d c9 b0 55 8e 98  |.|op...>/....U..|
+00000040  18 76 f4 a8 d2 f5 62 f5  9b eb 1e 80 84 bd 40 50  |.v....b.......@P|
+00000050  46 b0 ba 0a b5 58 4a af  a8 d8 48 ad 72 2d 82 e1  |F....XJ...H.r-..|
+00000060  da 6b 0d 06 66 70 53 2c  91 8e 6b f3 09 29 a8 63  |.k..fpS,..k..).c|
+00000070  95 0a 82 02 33 eb 8e 06  30 5a ca fd 1d 1e 2e 06  |....3...0Z......|
+00000080  41 f3 85 ba 39 29 ac 72  8e e7 29 ab 62 17 27 09  |A...9).r..).b.'.|
+00000090  51 20 b3 54 56 a9 af 9a  9d 8d b0 0f 92 cd 8c 61  |Q .TV..........a|
+000000a0  f5 ba 19 aa 6d 28 09 7e  af f3 01 96 cf 43 7a 9a  |....m(.~.....Cz.|
+000000b0  d0 69 fe c1 17 69 6d a8  1b 43 c3 10 83 bf e8 4f  |.i...im..C.....O|
+000000c0  45 16 c9 17 55 e3 48 df  2b 9e 6a 25 39 72 ca aa  |E...U.H.+.j%9r..|
+000000d0  50 9b b3 60 e2 3a 54 24  f6 bc a2 f9 2e 43 92 b6  |P..`.:T$.....C..|
+000000e0  9b 38 17 17 9a 19 dd f8  e0 37 00 a2 86 05 51 cf  |.8.......7....Q.|
+000000f0  f0 af 25 fe fc db 6d f8  dd 98 8f 23 5e 7e f7 81  |..%...m....#^~..|
+00000100  6e 33 f9 f8 b8 ee b3 2f  a6 f4 ad 73 ed 79 d5 6b  |n3...../...s.y.k|
+00000110  cf 5d 7d 1c c3 f8 7a 00  23 ea ff 19 9d 61 d7 7a  |.]}...z.#....a.z|
+00000120  2d fe bd 70 0d 8c 6f bb  dd 62 ed 9d ba 39 4d 25  |-..p..o..b...9M%|
+00000130  a3 41 b9 52 8d 21 d8 ca  e7 34 cf 49 cf 1f f5 3e  |.A.R.!...4.I...>|
+00000140  71 19 2b c5 7a 97 18 f8  af 38 41 e9 f7 5b 92 32  |q.+.z....8A..[.2|
+00000150  c6 f0 97 4a 19 66 86 4f  db f8 28 61 da f8 12 1f  |...J.f.O..(a....|
+00000160  39 6c 8c d5 12 33 ba f4  c7 7f a5 24 84 3e 67 7a  |9l...3.....$.>gz|
+00000170  ec 9d d5 29 0e ef e3 05  e3 e4 5c 0e d3 2a 38 2d  |...)......\..*8-|
+00000180  5c d2 91 02 cf dc f0 24  fd 9f ff 5d 65 61 07 71  |\......$...]ea.q|
+00000190  88 ad 60 2e ce 88 27 c3  fc c7 21 44 dc 94 42 bf  |..`...'...!D..B.|
+000001a0  70 4e f5 ac c7 3a 51 76  2b 75 ef 33 75 a6 8b fc  |pN...:Qv+u.3u...|
+000001b0  bf 41 3c f1 eb 48 d6 59  97 74 c2 56 02 c5 e8 c4  |.A<..H.Y.t.V....|
+000001c0  31 ee a4 db 58 46 27 0a  8e 3c 0f 8f 44 40 74 73  |1...XF'..<..D@ts|
+000001d0  17 03 03 02 19 7c d4 5e  aa d0 f4 6f 61 18 58 5c  |.....|.^...oa.X\|
+000001e0  b9 65 39 82 10 64 9d 52  6e 0e e1 29 a0 7f 7d 04  |.e9..d.Rn..)..}.|
+000001f0  59 25 45 72 67 bf f2 d4  36 15 f1 f4 3e 2f e2 6b  |Y%Erg...6...>/.k|
+00000200  ea 83 63 d0 c0 a7 3c d4  67 78 72 ad 72 26 8a 19  |..c...<.gxr.r&..|
+00000210  88 9e a5 d3 bc eb dc 1b  88 dd c4 59 25 a5 a1 46  |...........Y%..F|
+00000220  7d bf c7 40 5f a5 7e 5a  d3 b6 3f 9b 6c 69 a2 d4  |}..@_.~Z..?.li..|
+00000230  b5 f9 73 ce ed b0 86 a7  85 d4 89 cd 83 7c 02 3a  |..s..........|.:|
+00000240  83 40 2b 82 11 97 70 fe  3b 10 59 4b 30 b7 92 38  |.@+...p.;.YK0..8|
+00000250  44 ec 3e 21 f6 a5 aa d5  78 9e 51 d7 49 d8 a2 f3  |D.>!....x.Q.I...|
+00000260  f4 3f cc 16 9c 4d 19 43  3f ed 08 93 39 83 ec 3e  |.?...M.C?...9..>|
+00000270  a1 20 41 1a a1 eb 3f 1d  c1 ef 62 c2 3b 4a 51 10  |. A...?...b.;JQ.|
+00000280  fa 51 75 7b 58 6e 18 87  c8 9c 33 90 5d 36 74 e8  |.Qu{Xn....3.]6t.|
+00000290  8e eb 7b 3a af 96 0f 0b  a9 50 f0 6d 95 4c 6d bf  |..{:.....P.m.Lm.|
+000002a0  b0 9c bf bc 93 51 3b fe  12 b5 dd ff c9 9c ce cd  |.....Q;.........|
+000002b0  f7 e6 ae 91 89 7d 65 e6  e9 44 f9 a8 15 4c b4 dd  |.....}e..D...L..|
+000002c0  98 55 14 34 6f 55 e0 93  3b aa da ed fc 46 af df  |.U.4oU..;....F..|
+000002d0  ea aa fd 27 c8 25 8d 00  9f c2 93 6c 2f a3 81 f4  |...'.%.....l/...|
+000002e0  44 2f 8f cb 55 55 81 3b  a3 f1 1e 4a 1c 78 ee 86  |D/..UU.;...J.x..|
+000002f0  2f 42 20 3d 75 b6 09 1f  04 aa a7 86 dd de 4b c1  |/B =u.........K.|
+00000300  b7 f5 8a 7c 16 6c 7a 35  15 8c 4d 00 75 14 b0 f5  |...|.lz5..M.u...|
+00000310  cb 84 04 ad b6 cf ea fc  c2 d9 ea 3e d9 48 18 ac  |...........>.H..|
+00000320  49 01 4e cb 69 1f 2c 99  e1 9b 7e 49 c6 12 d0 fd  |I.N.i.,...~I....|
+00000330  1b 55 a7 53 5f 6b 38 6f  df 3c 4c cb 1e 98 16 11  |.U.S_k8o.<L.....|
+00000340  15 8e 26 72 a4 54 e1 58  9d d4 e0 6d df a0 45 bb  |..&r.T.X...m..E.|
+00000350  cb d7 05 0c 9e 73 80 9e  e8 7b 9a 5e 07 54 1d f1  |.....s...{.^.T..|
+00000360  8e 68 4e d3 b8 1e a0 36  5d d8 0c 09 05 b8 df e6  |.hN....6].......|
+00000370  b2 71 59 83 04 5d d2 4f  4a bc 54 2d 48 37 ee e1  |.qY..].OJ.T-H7..|
+00000380  14 f2 b5 f8 ff 9b 57 3d  0b 5b 51 eb a8 be 62 d1  |......W=.[Q...b.|
+00000390  8f 07 e6 c2 8e 31 08 b0  4b fa f1 6e 00 91 16 9e  |.....1..K..n....|
+000003a0  d1 95 e4 6b 20 ed 0f 56  1c 3c 95 c0 99 b1 b1 ac  |...k ..V.<......|
+000003b0  74 53 d1 03 9d 58 b8 e4  5b fb 5e 31 95 84 25 8b  |tS...X..[.^1..%.|
+000003c0  2e f5 2a 3a 69 be 3c 43  28 16 bd 99 bc 05 1f d4  |..*:i.<C(.......|
+000003d0  90 d3 53 2a cf 58 d9 4e  55 74 52 2e 92 b2 fe 35  |..S*.X.NUtR....5|
+000003e0  c6 1a df e0 14 96 93 e7  61 11 c5 d6 ca f6 17 03  |........a.......|
+000003f0  03 00 45 ed ce 77 36 2a  15 9b 20 dd 21 77 f1 03  |..E..w6*.. .!w..|
+00000400  d5 a7 f2 18 2e 7a 27 13  e9 74 86 20 03 a5 1e 1b  |.....z'..t. ....|
+00000410  8a c4 fc 7e 6a 6a e1 9a  a8 64 2d 83 a1 0c 0c d2  |...~jj...d-.....|
+00000420  bf a4 4c 45 e4 a1 6b 45  38 8b 82 97 ad 5d bd 67  |..LE..kE8....].g|
+00000430  3b b6 6c d8 c8 6b 47 e1                           |;.l..kG.|
+00000438
+Negotiated cipher suite is TLS_AES_256_GCM_SHA384
+Negotiated ALPN is hq-12
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 4 Handshake(0x7d) ACK(0x0d) largest_ack=2 ack_delay=0(0) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 4 Handshake(0x7d) ACK(0x0d) block=[2..1] block_count=1
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 4 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=292 len=74 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396263227904 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=800
+QUIC handshake has completed
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=43
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 3 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 3 Short(0x00) ACK(0x0d) largest_ack=0 ack_delay=189(23658) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 3 Short(0x00) ACK(0x0d) block=[0..0] block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396263227904 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=800
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 43 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 4 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 4 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 5 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 5 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=43
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 6 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 6 Short(0x00) ACK(0x0d) largest_ack=1 ack_delay=243(30433) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 6 Short(0x00) ACK(0x0d) block=[1..0] block_count=1
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396263227904 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=800
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 43 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 7 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 7 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 8 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 8 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=41
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 9 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 9 Short(0x00) ACK(0x0d) largest_ack=2 ack_delay=29(3689) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 9 Short(0x00) ACK(0x0d) block=[2..0] block_count=2
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv latest_rtt=745 min_rtt=745 smoothed_rtt=745.359 rttvar=372.679 max_ack_delay=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv packet 2 acked, slow start cwnd=15852
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396953945600 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=1490
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 41 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 10 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 10 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 11 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 11 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 12 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 12 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 13 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 13 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=43
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 14 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 14 Short(0x00) ACK(0x0d) largest_ack=3 ack_delay=211(26476) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 14 Short(0x00) ACK(0x0d) block=[3..0] block_count=3
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396953945600 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=1490
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 43 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1260
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 15 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1222
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 15 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1260 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1141
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 16 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x0da412cafb9b3b92ba4b54062a type=Handshake(0x7d) len=1103
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 16 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1141 left 0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 5 Short(0x00) ACK(0x0d) largest_ack=16 ack_delay=0(0) ack_block_count=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 5 Short(0x00) ACK(0x0d) block=[16..1] block_count=15
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 5 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00001531 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss_detection_alarm=1534901396953945600 last_hs_tx_pkt_ts=1534901395463227904 alarm_duration=1490
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv packet lost 4 sent_ts=1534901395463227904 unprotected=1
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv no need to retransmit Handshake packet
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=1 rto_count=0
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=1
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 6 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00005455 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=329
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 17 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 17 Short(0x00) STREAM(0x16) id=0x0 fin=0 offset=2280 len=288 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  17 03 03 01 1b 2b f4 47  2e 8b 81 2c f7 b7 7e 26  |.....+.G...,..~&|
+00000010  64 5a 22 b3 a4 07 0e 42  a2 f9 64 26 44 ce a2 16  |dZ"....B..d&D...|
+00000020  52 29 82 18 5d 39 e8 15  f3 69 ea 99 df 22 5c fe  |R)..]9...i..."\.|
+00000030  10 f9 8e 21 e2 0f 57 fa  b6 11 32 60 84 1e ef b6  |...!..W...2`....|
+00000040  80 97 59 5f 28 1b 74 f0  d0 70 69 59 19 ab e3 96  |..Y_(.t..piY....|
+00000050  18 eb 57 ef 78 76 ff 43  0b d6 17 a0 54 0a 75 c2  |..W.xv.C....T.u.|
+00000060  69 8a d9 ff 26 c3 bd b9  dc a4 77 df 13 fe 48 b5  |i...&.....w...H.|
+00000070  45 c0 6d 0c 64 31 55 97  26 28 fe 4a 84 27 e7 09  |E.m.d1U.&(.J.'..|
+00000080  63 3f dd 2d 1a 60 84 0a  9f be 8f 48 88 f4 c7 8e  |c?.-.`.....H....|
+00000090  93 d5 e6 08 36 70 fe 97  08 cb a9 fc ae 84 52 45  |....6p........RE|
+000000a0  bd 59 88 4a 49 a9 7e f3  a3 6a 78 eb 3c 82 c0 0a  |.Y.JI.~..jx.<...|
+000000b0  63 83 ee 42 0b 11 91 29  36 0c fb 4a 7c 1b 9f d7  |c..B...)6..J|...|
+000000c0  1c 66 5e e9 08 90 3e 73  47 f3 cb 44 7c 6d 40 2d  |.f^...>sG..D|m@-|
+000000d0  60 e6 dc ad e5 00 8e 14  2b 43 d8 f1 12 5f 10 9e  |`.......+C..._..|
+000000e0  e0 f8 34 9d 7f 7b 05 1a  69 f2 39 15 67 52 d4 a8  |..4..{..i.9.gR..|
+000000f0  19 42 13 20 22 6b 36 10  9d c8 94 90 a4 62 f4 78  |.B. "k6......b.x|
+00000100  fa 54 a2 da e5 b2 81 f6  b0 44 4b 8c 95 0c 46 46  |.T.......DK...FF|
+00000110  ca b7 fd a5 59 d0 c5 a8  f5 d4 1d 12 07 d7 21 61  |....Y.........!a|
+00000120
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 329 left 0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1270
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 18 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 18 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=0 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  3c 21 64 6f 63 74 79 70  65 20 68 74 6d 6c 3e 0a  |<!doctype html>.|
+00000010  3c 68 74 6d 6c 3e 0a 0a  3c 68 65 61 64 3e 0a 20  |<html>..<head>. |
+00000020  20 20 20 3c 74 69 74 6c  65 3e 51 75 69 63 6b 65  |   <title>Quicke|
+00000030  72 3c 2f 74 69 74 6c 65  3e 0a 3c 2f 68 65 61 64  |r</title>.</head|
+00000040  3e 0a 0a 3c 62 6f 64 79  3e 0a 20 20 20 20 3c 70  |>..<body>.    <p|
+00000050  3e 48 65 6c 6c 6f 20 57  6f 72 6c 64 20 66 72 6f  |>Hello World fro|
+00000060  6d 20 51 75 69 63 6b 65  72 21 3c 2f 70 3e 0a 20  |m Quicker!</p>. |
+00000070  20 20 20 3c 68 72 2f 3e  0a 20 20 20 20 3c 68 72  |   <hr/>.    <hr|
+00000080  2f 3e 0a 20 20 20 20 3c  62 72 2f 3e 0a 20 20 20  |/>.    <br/>.   |
+00000090  20 3c 70 3e 4c 6f 72 65  6d 20 69 70 73 75 6d 20  | <p>Lorem ipsum |
+000000a0  64 6f 6c 6f 72 20 73 69  74 20 61 6d 65 74 2c 20  |dolor sit amet, |
+000000b0  63 6f 6e 73 65 63 74 65  74 75 72 20 61 64 69 70  |consectetur adip|
+000000c0  69 73 63 69 6e 67 20 65  6c 69 74 2e 20 49 6e 74  |iscing elit. Int|
+000000d0  65 67 65 72 20 6e 65 63  20 6f 64 69 6f 2e 20 50  |eger nec odio. P|
+000000e0  72 61 65 73 65 6e 74 20  6c 69 62 65 72 6f 2e 20  |raesent libero. |
+000000f0  53 65 64 20 63 75 72 73  75 73 20 61 6e 74 65 20  |Sed cursus ante |
+00000100  64 61 70 69 62 75 73 0a  20 20 20 20 20 20 20 20  |dapibus.        |
+00000110  64 69 61 6d 2e 20 53 65  64 20 6e 69 73 69 2e 20  |diam. Sed nisi. |
+00000120  4e 75 6c 6c 61 20 71 75  69 73 20 73 65 6d 20 61  |Nulla quis sem a|
+00000130  74 20 6e 69 62 68 20 65  6c 65 6d 65 6e 74 75 6d  |t nibh elementum|
+00000140  20 69 6d 70 65 72 64 69  65 74 2e 20 44 75 69 73  | imperdiet. Duis|
+00000150  20 73 61 67 69 74 74 69  73 20 69 70 73 75 6d 2e  | sagittis ipsum.|
+00000160  20 50 72 61 65 73 65 6e  74 20 6d 61 75 72 69 73  | Praesent mauris|
+00000170  2e 20 46 75 73 63 65 20  6e 65 63 20 74 65 6c 6c  |. Fusce nec tell|
+00000180  75 73 0a 20 20 20 20 20  20 20 20 73 65 64 20 61  |us.        sed a|
+00000190  75 67 75 65 20 73 65 6d  70 65 72 20 70 6f 72 74  |ugue semper port|
+000001a0  61 2e 20 4d 61 75 72 69  73 20 6d 61 73 73 61 2e  |a. Mauris massa.|
+000001b0  20 56 65 73 74 69 62 75  6c 75 6d 20 6c 61 63 69  | Vestibulum laci|
+000001c0  6e 69 61 20 61 72 63 75  20 65 67 65 74 20 6e 75  |nia arcu eget nu|
+000001d0  6c 6c 61 2e 0a 20 20 20  20 20 20 20 20 3c 62 3e  |lla..        <b>|
+000001e0  4c 6f 72 65 6d 20 69 70  73 75 6d 20 64 6f 6c 6f  |Lorem ipsum dolo|
+000001f0  72 20 73 69 74 20 61 6d  65 74 2c 20 63 6f 6e 73  |r sit amet, cons|
+00000200  65 63 74 65 74 75 72 20  61 64 69 70 69 73 63 69  |ectetur adipisci|
+00000210  6e 67 20 65 6c 69 74 3c  2f 62 3e 2e 20 43 6c 61  |ng elit</b>. Cla|
+00000220  73 73 20 61 70 74 65 6e  74 20 74 61 63 69 74 69  |ss aptent taciti|
+00000230  20 73 6f 63 69 6f 73 71  75 20 61 64 20 6c 69 74  | sociosqu ad lit|
+00000240  6f 72 61 20 74 6f 72 71  75 65 6e 74 20 70 65 72  |ora torquent per|
+00000250  0a 20 20 20 20 20 20 20  20 63 6f 6e 75 62 69 61  |.        conubia|
+00000260  20 6e 6f 73 74 72 61 2c  20 70 65 72 20 69 6e 63  | nostra, per inc|
+00000270  65 70 74 6f 73 20 68 69  6d 65 6e 61 65 6f 73 2e  |eptos himenaeos.|
+00000280  20 43 75 72 61 62 69 74  75 72 20 73 6f 64 61 6c  | Curabitur sodal|
+00000290  65 73 20 6c 69 67 75 6c  61 20 69 6e 20 6c 69 62  |es ligula in lib|
+000002a0  65 72 6f 2e 20 3c 2f 70  3e 0a 0a 20 20 20 20 3c  |ero. </p>..    <|
+000002b0  70 3e 53 65 64 20 64 69  67 6e 69 73 73 69 6d 20  |p>Sed dignissim |
+000002c0  6c 61 63 69 6e 69 61 20  6e 75 6e 63 2e 20 43 75  |lacinia nunc. Cu|
+000002d0  72 61 62 69 74 75 72 20  74 6f 72 74 6f 72 2e 20  |rabitur tortor. |
+000002e0  50 65 6c 6c 65 6e 74 65  73 71 75 65 20 6e 69 62  |Pellentesque nib|
+000002f0  68 2e 0a 20 20 20 20 20  20 20 20 3c 62 3e 46 75  |h..        <b>Fu|
+00000300  73 63 65 20 6e 65 63 20  74 65 6c 6c 75 73 20 73  |sce nec tellus s|
+00000310  65 64 20 61 75 67 75 65  20 73 65 6d 70 65 72 20  |ed augue semper |
+00000320  70 6f 72 74 61 3c 2f 62  3e 2e 20 41 65 6e 65 61  |porta</b>. Aenea|
+00000330  6e 20 71 75 61 6d 2e 20  49 6e 20 73 63 65 6c 65  |n quam. In scele|
+00000340  72 69 73 71 75 65 20 73  65 6d 20 61 74 20 64 6f  |risque sem at do|
+00000350  6c 6f 72 2e 20 4d 61 65  63 65 6e 61 73 20 6d 61  |lor. Maecenas ma|
+00000360  74 74 69 73 2e 20 53 65  64 20 63 6f 6e 76 61 6c  |ttis. Sed conval|
+00000370  6c 69 73 0a 20 20 20 20  20 20 20 20 74 72 69 73  |lis.        tris|
+00000380  74 69 71 75 65 20 73 65  6d 2e 20 50 72 6f 69 6e  |tique sem. Proin|
+00000390  20 75 74 20 6c 69 67 75  6c 61 20 76 65 6c 20 6e  | ut ligula vel n|
+000003a0  75 6e 63 20 65 67 65 73  74 61 73 20 70 6f 72 74  |unc egestas port|
+000003b0  74 69 74 6f 72 2e 20 4d  6f 72 62 69 20 6c 65 63  |titor. Morbi lec|
+000003c0  74 75 73 20 72 69 73 75  73 2c 20 69 61 63 75 6c  |tus risus, iacul|
+000003d0  69 73 20 76 65 6c 2c 20  73 75 73 63 69 70 69 74  |is vel, suscipit|
+000003e0  20 71 75 69 73 2c 20 6c  75 63 74 75 73 0a 20 20  | quis, luctus.  |
+000003f0  20 20 20 20 20 20 6e 6f  6e 2c 20 6d 61 73 73 61  |      non, massa|
+00000400  2e 20 46 75 73 63 65 20  61 63 20 74 75 72 70 69  |. Fusce ac turpi|
+00000410  73 20 71 75 69 73 20 6c  69 67 75 6c 61 20 6c 61  |s quis ligula la|
+00000420  63 69 6e 69 61 20 61 6c  69 71 75 65 74 2e 20 4d  |cinia aliquet. M|
+00000430  61 75 72 69 73 20 69 70  73 75 6d 2e 20 3c 2f 70  |auris ipsum. </p|
+00000440  3e 0a 0a 20 20 20 20 3c  70 3e 4e 75 6c 6c 61 20  |>..    <p>Nulla |
+00000450  6d 65 74 75 73 20 6d 65  74 75 73 2c 20 75 6c 6c  |metus metus, ull|
+00000460  61 6d 63 6f 72 70 65 72  20 76 65 6c 2c 20 74 69  |amcorper vel, ti|
+00000470  6e 63 69 64 75 6e 74 20  73 65 64 2c 20 65 75 69  |ncidunt sed, eui|
+00000480  73 6d 6f 64 20 69 6e 2c  20 6e 69 62 68 2e 20 51  |smod in, nibh. Q|
+00000490  75 69 73 71 75 65 20 76  6f 6c 75 74 70 61 74 20  |uisque volutpat |
+000004a0  63 6f 6e 64 69 6d 65 6e  74 75 6d 20 76 65 6c 69  |condimentum veli|
+000004b0  74 2e 0a 20 20 20 20 20  20 20 20 3c 69 3e 53 65  |t..        <i>Se|
+000004c0  64 20 64 69 67 6e 69 73  73 69 6d 20 6c 61        |d dignissim la|
+000004ce
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1270 left 0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1271
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 19 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 19 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=1230 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  63 69 6e 69 61 20 6e 75  6e 63 3c 2f 69 3e 2e 20  |cinia nunc</i>. |
+00000010  43 6c 61 73 73 20 61 70  74 65 6e 74 20 74 61 63  |Class aptent tac|
+00000020  69 74 69 20 73 6f 63 69  6f 73 71 75 20 61 64 20  |iti sociosqu ad |
+00000030  6c 69 74 6f 72 61 20 74  6f 72 71 75 65 6e 74 20  |litora torquent |
+00000040  70 65 72 20 63 6f 6e 75  62 69 61 20 6e 6f 73 74  |per conubia nost|
+00000050  72 61 2c 20 70 65 72 20  69 6e 63 65 70 74 6f 73  |ra, per inceptos|
+00000060  0a 20 20 20 20 20 20 20  20 68 69 6d 65 6e 61 65  |.        himenae|
+00000070  6f 73 2e 20 4e 61 6d 20  6e 65 63 20 61 6e 74 65  |os. Nam nec ante|
+00000080  2e 0a 20 20 20 20 20 20  20 20 3c 62 3e 4d 6f 72  |..        <b>Mor|
+00000090  62 69 20 6c 65 63 74 75  73 20 72 69 73 75 73 2c  |bi lectus risus,|
+000000a0  20 69 61 63 75 6c 69 73  20 76 65 6c 2c 20 73 75  | iaculis vel, su|
+000000b0  73 63 69 70 69 74 20 71  75 69 73 2c 20 6c 75 63  |scipit quis, luc|
+000000c0  74 75 73 20 6e 6f 6e 2c  20 6d 61 73 73 61 3c 2f  |tus non, massa</|
+000000d0  62 3e 2e 20 53 65 64 20  6c 61 63 69 6e 69 61 2c  |b>. Sed lacinia,|
+000000e0  20 75 72 6e 61 20 6e 6f  6e 20 74 69 6e 63 69 64  | urna non tincid|
+000000f0  75 6e 74 20 6d 61 74 74  69 73 2c 0a 20 20 20 20  |unt mattis,.    |
+00000100  20 20 20 20 74 6f 72 74  6f 72 20 6e 65 71 75 65  |    tortor neque|
+00000110  20 61 64 69 70 69 73 63  69 6e 67 20 64 69 61 6d  | adipiscing diam|
+00000120  2c 20 61 20 63 75 72 73  75 73 20 69 70 73 75 6d  |, a cursus ipsum|
+00000130  20 61 6e 74 65 20 71 75  69 73 20 74 75 72 70 69  | ante quis turpi|
+00000140  73 2e 20 4e 75 6c 6c 61  20 66 61 63 69 6c 69 73  |s. Nulla facilis|
+00000150  69 2e 0a 20 20 20 20 20  20 20 20 3c 69 3e 50 65  |i..        <i>Pe|
+00000160  6c 6c 65 6e 74 65 73 71  75 65 20 6e 69 62 68 3c  |llentesque nibh<|
+00000170  2f 69 3e 2e 20 55 74 20  66 72 69 6e 67 69 6c 6c  |/i>. Ut fringill|
+00000180  61 2e 20 53 75 73 70 65  6e 64 69 73 73 65 20 70  |a. Suspendisse p|
+00000190  6f 74 65 6e 74 69 2e 20  4e 75 6e 63 20 66 65 75  |otenti. Nunc feu|
+000001a0  67 69 61 74 20 6d 69 20  61 20 74 65 6c 6c 75 73  |giat mi a tellus|
+000001b0  20 63 6f 6e 73 65 71 75  61 74 20 69 6d 70 65 72  | consequat imper|
+000001c0  64 69 65 74 2e 0a 20 20  20 20 20 20 20 20 3c 62  |diet..        <b|
+000001d0  3e 46 75 73 63 65 20 61  63 20 74 75 72 70 69 73  |>Fusce ac turpis|
+000001e0  20 71 75 69 73 20 6c 69  67 75 6c 61 20 6c 61 63  | quis ligula lac|
+000001f0  69 6e 69 61 20 61 6c 69  71 75 65 74 3c 2f 62 3e  |inia aliquet</b>|
+00000200  2e 20 56 65 73 74 69 62  75 6c 75 6d 20 73 61 70  |. Vestibulum sap|
+00000210  69 65 6e 2e 20 50 72 6f  69 6e 20 71 75 61 6d 2e  |ien. Proin quam.|
+00000220  20 3c 2f 70 3e 0a 0a 20  20 20 20 3c 70 3e 45 74  | </p>..    <p>Et|
+00000230  69 61 6d 20 75 6c 74 72  69 63 65 73 2e 20 53 75  |iam ultrices. Su|
+00000240  73 70 65 6e 64 69 73 73  65 20 69 6e 20 6a 75 73  |spendisse in jus|
+00000250  74 6f 20 65 75 20 6d 61  67 6e 61 20 6c 75 63 74  |to eu magna luct|
+00000260  75 73 20 73 75 73 63 69  70 69 74 2e 20 53 65 64  |us suscipit. Sed|
+00000270  20 6c 65 63 74 75 73 2e  20 49 6e 74 65 67 65 72  | lectus. Integer|
+00000280  20 65 75 69 73 6d 6f 64  20 6c 61 63 75 73 20 6c  | euismod lacus l|
+00000290  75 63 74 75 73 20 6d 61  67 6e 61 2e 20 51 75 69  |uctus magna. Qui|
+000002a0  73 71 75 65 0a 20 20 20  20 20 20 20 20 63 75 72  |sque.        cur|
+000002b0  73 75 73 2c 20 6d 65 74  75 73 20 76 69 74 61 65  |sus, metus vitae|
+000002c0  20 70 68 61 72 65 74 72  61 20 61 75 63 74 6f 72  | pharetra auctor|
+000002d0  2c 20 73 65 6d 20 6d 61  73 73 61 20 6d 61 74 74  |, sem massa matt|
+000002e0  69 73 20 73 65 6d 2c 20  61 74 20 69 6e 74 65 72  |is sem, at inter|
+000002f0  64 75 6d 20 6d 61 67 6e  61 20 61 75 67 75 65 20  |dum magna augue |
+00000300  65 67 65 74 20 64 69 61  6d 2e 0a 20 20 20 20 20  |eget diam..     |
+00000310  20 20 20 3c 69 3e 50 72  6f 69 6e 20 75 74 20 6c  |   <i>Proin ut l|
+00000320  69 67 75 6c 61 20 76 65  6c 20 6e 75 6e 63 20 65  |igula vel nunc e|
+00000330  67 65 73 74 61 73 20 70  6f 72 74 74 69 74 6f 72  |gestas porttitor|
+00000340  3c 2f 69 3e 2e 20 56 65  73 74 69 62 75 6c 75 6d  |</i>. Vestibulum|
+00000350  20 61 6e 74 65 20 69 70  73 75 6d 20 70 72 69 6d  | ante ipsum prim|
+00000360  69 73 20 69 6e 20 66 61  75 63 69 62 75 73 20 6f  |is in faucibus o|
+00000370  72 63 69 20 6c 75 63 74  75 73 20 65 74 20 75 6c  |rci luctus et ul|
+00000380  74 72 69 63 65 73 0a 20  20 20 20 20 20 20 20 70  |trices.        p|
+00000390  6f 73 75 65 72 65 20 63  75 62 69 6c 69 61 20 43  |osuere cubilia C|
+000003a0  75 72 61 65 3b 20 4d 6f  72 62 69 20 6c 61 63 69  |urae; Morbi laci|
+000003b0  6e 69 61 20 6d 6f 6c 65  73 74 69 65 20 64 75 69  |nia molestie dui|
+000003c0  2e 20 50 72 61 65 73 65  6e 74 20 62 6c 61 6e 64  |. Praesent bland|
+000003d0  69 74 20 64 6f 6c 6f 72  2e 20 53 65 64 20 6e 6f  |it dolor. Sed no|
+000003e0  6e 20 71 75 61 6d 2e 20  49 6e 20 76 65 6c 20 6d  |n quam. In vel m|
+000003f0  69 20 73 69 74 20 61 6d  65 74 20 61 75 67 75 65  |i sit amet augue|
+00000400  0a 20 20 20 20 20 20 20  20 63 6f 6e 67 75 65 20  |.        congue |
+00000410  65 6c 65 6d 65 6e 74 75  6d 2e 20 4d 6f 72 62 69  |elementum. Morbi|
+00000420  20 69 6e 20 69 70 73 75  6d 20 73 69 74 20 61 6d  | in ipsum sit am|
+00000430  65 74 20 70 65 64 65 20  66 61 63 69 6c 69 73 69  |et pede facilisi|
+00000440  73 20 6c 61 6f 72 65 65  74 2e 20 44 6f 6e 65 63  |s laoreet. Donec|
+00000450  20 6c 61 63 75 73 20 6e  75 6e 63 2c 20 76 69 76  | lacus nunc, viv|
+00000460  65 72 72 61 20 6e 65 63  2c 20 62 6c 61 6e 64 69  |erra nec, blandi|
+00000470  74 20 76 65 6c 2c 20 65  67 65 73 74 61 73 0a 20  |t vel, egestas. |
+00000480  20 20 20 20 20 20 20 65  74 2c 20 61 75 67 75 65  |       et, augue|
+00000490  2e 20 56 65 73 74 69 62  75 6c 75 6d 20 74 69 6e  |. Vestibulum tin|
+000004a0  63 69 64 75 6e 74 20 6d  61 6c 65 73 75 61 64 61  |cidunt malesuada|
+000004b0  20 74 65 6c 6c 75 73 2e  20 55 74 20 75 6c 74 72  | tellus. Ut ultr|
+000004c0  69 63 65 73 20 75 6c 74  72 69 63 65 73 20        |ices ultrices |
+000004ce
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1271 left 0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1271
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 20 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 20 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=2460 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  65 6e 69 6d 2e 20 43 75  72 61 62 69 74 75 72 20  |enim. Curabitur |
+00000010  73 69 74 20 61 6d 65 74  20 6d 61 75 72 69 73 2e  |sit amet mauris.|
+00000020  20 3c 2f 70 3e 0a 0a 20  20 20 20 3c 70 3e 0a 20  | </p>..    <p>. |
+00000030  20 20 20 20 20 20 20 3c  62 3e 53 65 64 20 6e 6f  |       <b>Sed no|
+00000040  6e 20 71 75 61 6d 3c 2f  62 3e 2e 20 4d 6f 72 62  |n quam</b>. Morb|
+00000050  69 20 69 6e 20 64 75 69  20 71 75 69 73 20 65 73  |i in dui quis es|
+00000060  74 20 70 75 6c 76 69 6e  61 72 20 75 6c 6c 61 6d  |t pulvinar ullam|
+00000070  63 6f 72 70 65 72 2e 20  4e 75 6c 6c 61 20 66 61  |corper. Nulla fa|
+00000080  63 69 6c 69 73 69 2e 20  49 6e 74 65 67 65 72 20  |cilisi. Integer |
+00000090  6c 61 63 69 6e 69 61 20  73 6f 6c 6c 69 63 69 74  |lacinia sollicit|
+000000a0  75 64 69 6e 20 6d 61 73  73 61 2e 0a 20 20 20 20  |udin massa..    |
+000000b0  20 20 20 20 3c 62 3e 51  75 69 73 71 75 65 20 63  |    <b>Quisque c|
+000000c0  75 72 73 75 73 2c 20 6d  65 74 75 73 20 76 69 74  |ursus, metus vit|
+000000d0  61 65 20 70 68 61 72 65  74 72 61 20 61 75 63 74  |ae pharetra auct|
+000000e0  6f 72 2c 20 73 65 6d 20  6d 61 73 73 61 20 6d 61  |or, sem massa ma|
+000000f0  74 74 69 73 20 73 65 6d  2c 20 61 74 20 69 6e 74  |ttis sem, at int|
+00000100  65 72 64 75 6d 20 6d 61  67 6e 61 20 61 75 67 75  |erdum magna augu|
+00000110  65 20 65 67 65 74 20 64  69 61 6d 3c 2f 62 3e 2e  |e eget diam</b>.|
+00000120  20 43 72 61 73 0a 20 20  20 20 20 20 20 20 6d 65  | Cras.        me|
+00000130  74 75 73 2e 20 53 65 64  20 61 6c 69 71 75 65 74  |tus. Sed aliquet|
+00000140  20 72 69 73 75 73 20 61  20 74 6f 72 74 6f 72 2e  | risus a tortor.|
+00000150  20 49 6e 74 65 67 65 72  20 69 64 20 71 75 61 6d  | Integer id quam|
+00000160  2e 20 4d 6f 72 62 69 20  6d 69 2e 0a 20 20 20 20  |. Morbi mi..    |
+00000170  20 20 20 20 3c 69 3e 53  65 64 20 6e 6f 6e 20 71  |    <i>Sed non q|
+00000180  75 61 6d 3c 2f 69 3e 2e  20 51 75 69 73 71 75 65  |uam</i>. Quisque|
+00000190  20 6e 69 73 6c 20 66 65  6c 69 73 2c 20 76 65 6e  | nisl felis, ven|
+000001a0  65 6e 61 74 69 73 20 74  72 69 73 74 69 71 75 65  |enatis tristique|
+000001b0  2c 20 64 69 67 6e 69 73  73 69 6d 20 69 6e 2c 20  |, dignissim in, |
+000001c0  75 6c 74 72 69 63 65 73  20 73 69 74 20 61 6d 65  |ultrices sit ame|
+000001d0  74 2c 20 61 75 67 75 65  2e 20 50 72 6f 69 6e 20  |t, augue. Proin |
+000001e0  73 6f 64 61 6c 65 73 0a  20 20 20 20 20 20 20 20  |sodales.        |
+000001f0  6c 69 62 65 72 6f 20 65  67 65 74 20 61 6e 74 65  |libero eget ante|
+00000200  2e 20 4e 75 6c 6c 61 20  71 75 61 6d 2e 20 41 65  |. Nulla quam. Ae|
+00000210  6e 65 61 6e 20 6c 61 6f  72 65 65 74 2e 20 56 65  |nean laoreet. Ve|
+00000220  73 74 69 62 75 6c 75 6d  20 6e 69 73 69 20 6c 65  |stibulum nisi le|
+00000230  63 74 75 73 2c 20 63 6f  6d 6d 6f 64 6f 20 61 63  |ctus, commodo ac|
+00000240  2c 20 66 61 63 69 6c 69  73 69 73 20 61 63 2c 20  |, facilisis ac, |
+00000250  75 6c 74 72 69 63 69 65  73 20 65 75 2c 20 70 65  |ultricies eu, pe|
+00000260  64 65 2e 0a 20 20 20 20  20 20 20 20 55 74 20 6f  |de..        Ut o|
+00000270  72 63 69 20 72 69 73 75  73 2c 20 61 63 63 75 6d  |rci risus, accum|
+00000280  73 61 6e 20 70 6f 72 74  74 69 74 6f 72 2c 20 63  |san porttitor, c|
+00000290  75 72 73 75 73 20 71 75  69 73 2c 20 61 6c 69 71  |ursus quis, aliq|
+000002a0  75 65 74 20 65 67 65 74  2c 20 6a 75 73 74 6f 2e  |uet eget, justo.|
+000002b0  20 3c 2f 70 3e 0a 20 20  20 20 3c 68 72 2f 3e 0a  | </p>.    <hr/>.|
+000002c0  20 20 20 20 3c 62 72 2f  3e 0a 20 20 20 20 3c 70  |    <br/>.    <p|
+000002d0  3e 4c 6f 72 65 6d 20 69  70 73 75 6d 20 64 6f 6c  |>Lorem ipsum dol|
+000002e0  6f 72 20 73 69 74 20 61  6d 65 74 2c 20 63 6f 6e  |or sit amet, con|
+000002f0  73 65 63 74 65 74 75 72  20 61 64 69 70 69 73 63  |sectetur adipisc|
+00000300  69 6e 67 20 65 6c 69 74  2e 20 49 6e 74 65 67 65  |ing elit. Intege|
+00000310  72 20 6e 65 63 20 6f 64  69 6f 2e 20 50 72 61 65  |r nec odio. Prae|
+00000320  73 65 6e 74 20 6c 69 62  65 72 6f 2e 20 53 65 64  |sent libero. Sed|
+00000330  20 63 75 72 73 75 73 20  61 6e 74 65 20 64 61 70  | cursus ante dap|
+00000340  69 62 75 73 0a 20 20 20  20 20 20 20 20 64 69 61  |ibus.        dia|
+00000350  6d 2e 20 53 65 64 20 6e  69 73 69 2e 20 4e 75 6c  |m. Sed nisi. Nul|
+00000360  6c 61 20 71 75 69 73 20  73 65 6d 20 61 74 20 6e  |la quis sem at n|
+00000370  69 62 68 20 65 6c 65 6d  65 6e 74 75 6d 20 69 6d  |ibh elementum im|
+00000380  70 65 72 64 69 65 74 2e  20 44 75 69 73 20 73 61  |perdiet. Duis sa|
+00000390  67 69 74 74 69 73 20 69  70 73 75 6d 2e 20 50 72  |gittis ipsum. Pr|
+000003a0  61 65 73 65 6e 74 20 6d  61 75 72 69 73 2e 20 46  |aesent mauris. F|
+000003b0  75 73 63 65 20 6e 65 63  20 74 65 6c 6c 75 73 0a  |usce nec tellus.|
+000003c0  20 20 20 20 20 20 20 20  73 65 64 20 61 75 67 75  |        sed augu|
+000003d0  65 20 73 65 6d 70 65 72  20 70 6f 72 74 61 2e 20  |e semper porta. |
+000003e0  4d 61 75 72 69 73 20 6d  61 73 73 61 2e 20 56 65  |Mauris massa. Ve|
+000003f0  73 74 69 62 75 6c 75 6d  20 6c 61 63 69 6e 69 61  |stibulum lacinia|
+00000400  20 61 72 63 75 20 65 67  65 74 20 6e 75 6c 6c 61  | arcu eget nulla|
+00000410  2e 0a 20 20 20 20 20 20  20 20 3c 62 3e 4c 6f 72  |..        <b>Lor|
+00000420  65 6d 20 69 70 73 75 6d  20 64 6f 6c 6f 72 20 73  |em ipsum dolor s|
+00000430  69 74 20 61 6d 65 74 2c  20 63 6f 6e 73 65 63 74  |it amet, consect|
+00000440  65 74 75 72 20 61 64 69  70 69 73 63 69 6e 67 20  |etur adipiscing |
+00000450  65 6c 69 74 3c 2f 62 3e  2e 20 43 6c 61 73 73 20  |elit</b>. Class |
+00000460  61 70 74 65 6e 74 20 74  61 63 69 74 69 20 73 6f  |aptent taciti so|
+00000470  63 69 6f 73 71 75 20 61  64 20 6c 69 74 6f 72 61  |ciosqu ad litora|
+00000480  20 74 6f 72 71 75 65 6e  74 20 70 65 72 0a 20 20  | torquent per.  |
+00000490  20 20 20 20 20 20 63 6f  6e 75 62 69 61 20 6e 6f  |      conubia no|
+000004a0  73 74 72 61 2c 20 70 65  72 20 69 6e 63 65 70 74  |stra, per incept|
+000004b0  6f 73 20 68 69 6d 65 6e  61 65 6f 73 2e 20 43 75  |os himenaeos. Cu|
+000004c0  72 61 62 69 74 75 72 20  73 6f 64 61 6c 65        |rabitur sodale|
+000004ce
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1271 left 0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1271
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 21 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 21 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=3690 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  73 20 6c 69 67 75 6c 61  20 69 6e 20 6c 69 62 65  |s ligula in libe|
+00000010  72 6f 2e 20 3c 2f 70 3e  0a 0a 20 20 20 20 3c 70  |ro. </p>..    <p|
+00000020  3e 53 65 64 20 64 69 67  6e 69 73 73 69 6d 20 6c  |>Sed dignissim l|
+00000030  61 63 69 6e 69 61 20 6e  75 6e 63 2e 20 43 75 72  |acinia nunc. Cur|
+00000040  61 62 69 74 75 72 20 74  6f 72 74 6f 72 2e 20 50  |abitur tortor. P|
+00000050  65 6c 6c 65 6e 74 65 73  71 75 65 20 6e 69 62 68  |ellentesque nibh|
+00000060  2e 0a 20 20 20 20 20 20  20 20 3c 62 3e 46 75 73  |..        <b>Fus|
+00000070  63 65 20 6e 65 63 20 74  65 6c 6c 75 73 20 73 65  |ce nec tellus se|
+00000080  64 20 61 75 67 75 65 20  73 65 6d 70 65 72 20 70  |d augue semper p|
+00000090  6f 72 74 61 3c 2f 62 3e  2e 20 41 65 6e 65 61 6e  |orta</b>. Aenean|
+000000a0  20 71 75 61 6d 2e 20 49  6e 20 73 63 65 6c 65 72  | quam. In sceler|
+000000b0  69 73 71 75 65 20 73 65  6d 20 61 74 20 64 6f 6c  |isque sem at dol|
+000000c0  6f 72 2e 20 4d 61 65 63  65 6e 61 73 20 6d 61 74  |or. Maecenas mat|
+000000d0  74 69 73 2e 20 53 65 64  20 63 6f 6e 76 61 6c 6c  |tis. Sed convall|
+000000e0  69 73 0a 20 20 20 20 20  20 20 20 74 72 69 73 74  |is.        trist|
+000000f0  69 71 75 65 20 73 65 6d  2e 20 50 72 6f 69 6e 20  |ique sem. Proin |
+00000100  75 74 20 6c 69 67 75 6c  61 20 76 65 6c 20 6e 75  |ut ligula vel nu|
+00000110  6e 63 20 65 67 65 73 74  61 73 20 70 6f 72 74 74  |nc egestas portt|
+00000120  69 74 6f 72 2e 20 4d 6f  72 62 69 20 6c 65 63 74  |itor. Morbi lect|
+00000130  75 73 20 72 69 73 75 73  2c 20 69 61 63 75 6c 69  |us risus, iaculi|
+00000140  73 20 76 65 6c 2c 20 73  75 73 63 69 70 69 74 20  |s vel, suscipit |
+00000150  71 75 69 73 2c 20 6c 75  63 74 75 73 0a 20 20 20  |quis, luctus.   |
+00000160  20 20 20 20 20 6e 6f 6e  2c 20 6d 61 73 73 61 2e  |     non, massa.|
+00000170  20 46 75 73 63 65 20 61  63 20 74 75 72 70 69 73  | Fusce ac turpis|
+00000180  20 71 75 69 73 20 6c 69  67 75 6c 61 20 6c 61 63  | quis ligula lac|
+00000190  69 6e 69 61 20 61 6c 69  71 75 65 74 2e 20 4d 61  |inia aliquet. Ma|
+000001a0  75 72 69 73 20 69 70 73  75 6d 2e 20 3c 2f 70 3e  |uris ipsum. </p>|
+000001b0  0a 0a 20 20 20 20 3c 70  3e 4e 75 6c 6c 61 20 6d  |..    <p>Nulla m|
+000001c0  65 74 75 73 20 6d 65 74  75 73 2c 20 75 6c 6c 61  |etus metus, ulla|
+000001d0  6d 63 6f 72 70 65 72 20  76 65 6c 2c 20 74 69 6e  |mcorper vel, tin|
+000001e0  63 69 64 75 6e 74 20 73  65 64 2c 20 65 75 69 73  |cidunt sed, euis|
+000001f0  6d 6f 64 20 69 6e 2c 20  6e 69 62 68 2e 20 51 75  |mod in, nibh. Qu|
+00000200  69 73 71 75 65 20 76 6f  6c 75 74 70 61 74 20 63  |isque volutpat c|
+00000210  6f 6e 64 69 6d 65 6e 74  75 6d 20 76 65 6c 69 74  |ondimentum velit|
+00000220  2e 0a 20 20 20 20 20 20  20 20 3c 69 3e 53 65 64  |..        <i>Sed|
+00000230  20 64 69 67 6e 69 73 73  69 6d 20 6c 61 63 69 6e  | dignissim lacin|
+00000240  69 61 20 6e 75 6e 63 3c  2f 69 3e 2e 20 43 6c 61  |ia nunc</i>. Cla|
+00000250  73 73 20 61 70 74 65 6e  74 20 74 61 63 69 74 69  |ss aptent taciti|
+00000260  20 73 6f 63 69 6f 73 71  75 20 61 64 20 6c 69 74  | sociosqu ad lit|
+00000270  6f 72 61 20 74 6f 72 71  75 65 6e 74 20 70 65 72  |ora torquent per|
+00000280  20 63 6f 6e 75 62 69 61  20 6e 6f 73 74 72 61 2c  | conubia nostra,|
+00000290  20 70 65 72 20 69 6e 63  65 70 74 6f 73 0a 20 20  | per inceptos.  |
+000002a0  20 20 20 20 20 20 68 69  6d 65 6e 61 65 6f 73 2e  |      himenaeos.|
+000002b0  20 4e 61 6d 20 6e 65 63  20 61 6e 74 65 2e 0a 20  | Nam nec ante.. |
+000002c0  20 20 20 20 20 20 20 3c  62 3e 4d 6f 72 62 69 20  |       <b>Morbi |
+000002d0  6c 65 63 74 75 73 20 72  69 73 75 73 2c 20 69 61  |lectus risus, ia|
+000002e0  63 75 6c 69 73 20 76 65  6c 2c 20 73 75 73 63 69  |culis vel, susci|
+000002f0  70 69 74 20 71 75 69 73  2c 20 6c 75 63 74 75 73  |pit quis, luctus|
+00000300  20 6e 6f 6e 2c 20 6d 61  73 73 61 3c 2f 62 3e 2e  | non, massa</b>.|
+00000310  20 53 65 64 20 6c 61 63  69 6e 69 61 2c 20 75 72  | Sed lacinia, ur|
+00000320  6e 61 20 6e 6f 6e 20 74  69 6e 63 69 64 75 6e 74  |na non tincidunt|
+00000330  20 6d 61 74 74 69 73 2c  0a 20 20 20 20 20 20 20  | mattis,.       |
+00000340  20 74 6f 72 74 6f 72 20  6e 65 71 75 65 20 61 64  | tortor neque ad|
+00000350  69 70 69 73 63 69 6e 67  20 64 69 61 6d 2c 20 61  |ipiscing diam, a|
+00000360  20 63 75 72 73 75 73 20  69 70 73 75 6d 20 61 6e  | cursus ipsum an|
+00000370  74 65 20 71 75 69 73 20  74 75 72 70 69 73 2e 20  |te quis turpis. |
+00000380  4e 75 6c 6c 61 20 66 61  63 69 6c 69 73 69 2e 0a  |Nulla facilisi..|
+00000390  20 20 20 20 20 20 20 20  3c 69 3e 50 65 6c 6c 65  |        <i>Pelle|
+000003a0  6e 74 65 73 71 75 65 20  6e 69 62 68 3c 2f 69 3e  |ntesque nibh</i>|
+000003b0  2e 20 55 74 20 66 72 69  6e 67 69 6c 6c 61 2e 20  |. Ut fringilla. |
+000003c0  53 75 73 70 65 6e 64 69  73 73 65 20 70 6f 74 65  |Suspendisse pote|
+000003d0  6e 74 69 2e 20 4e 75 6e  63 20 66 65 75 67 69 61  |nti. Nunc feugia|
+000003e0  74 20 6d 69 20 61 20 74  65 6c 6c 75 73 20 63 6f  |t mi a tellus co|
+000003f0  6e 73 65 71 75 61 74 20  69 6d 70 65 72 64 69 65  |nsequat imperdie|
+00000400  74 2e 0a 20 20 20 20 20  20 20 20 3c 62 3e 46 75  |t..        <b>Fu|
+00000410  73 63 65 20 61 63 20 74  75 72 70 69 73 20 71 75  |sce ac turpis qu|
+00000420  69 73 20 6c 69 67 75 6c  61 20 6c 61 63 69 6e 69  |is ligula lacini|
+00000430  61 20 61 6c 69 71 75 65  74 3c 2f 62 3e 2e 20 56  |a aliquet</b>. V|
+00000440  65 73 74 69 62 75 6c 75  6d 20 73 61 70 69 65 6e  |estibulum sapien|
+00000450  2e 20 50 72 6f 69 6e 20  71 75 61 6d 2e 20 3c 2f  |. Proin quam. </|
+00000460  70 3e 0a 0a 20 20 20 20  3c 70 3e 45 74 69 61 6d  |p>..    <p>Etiam|
+00000470  20 75 6c 74 72 69 63 65  73 2e 20 53 75 73 70 65  | ultrices. Suspe|
+00000480  6e 64 69 73 73 65 20 69  6e 20 6a 75 73 74 6f 20  |ndisse in justo |
+00000490  65 75 20 6d 61 67 6e 61  20 6c 75 63 74 75 73 20  |eu magna luctus |
+000004a0  73 75 73 63 69 70 69 74  2e 20 53 65 64 20 6c 65  |suscipit. Sed le|
+000004b0  63 74 75 73 2e 20 49 6e  74 65 67 65 72 20 65 75  |ctus. Integer eu|
+000004c0  69 73 6d 6f 64 20 6c 61  63 75 73 20 6c 75        |ismod lacus lu|
+000004ce
+I00005921 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1271 left 0
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=2 rto_count=0
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=1
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 7 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 7 Short(0x00) ACK(0x0d) largest_ack=21 ack_delay=8706(1088267) ack_block_count=0
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 7 Short(0x00) ACK(0x0d) block=[21..1] block_count=20
+I00014628 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=58
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1271
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 22 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 22 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=4920 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  63 74 75 73 20 6d 61 67  6e 61 2e 20 51 75 69 73  |ctus magna. Quis|
+00000010  71 75 65 0a 20 20 20 20  20 20 20 20 63 75 72 73  |que.        curs|
+00000020  75 73 2c 20 6d 65 74 75  73 20 76 69 74 61 65 20  |us, metus vitae |
+00000030  70 68 61 72 65 74 72 61  20 61 75 63 74 6f 72 2c  |pharetra auctor,|
+00000040  20 73 65 6d 20 6d 61 73  73 61 20 6d 61 74 74 69  | sem massa matti|
+00000050  73 20 73 65 6d 2c 20 61  74 20 69 6e 74 65 72 64  |s sem, at interd|
+00000060  75 6d 20 6d 61 67 6e 61  20 61 75 67 75 65 20 65  |um magna augue e|
+00000070  67 65 74 20 64 69 61 6d  2e 0a 20 20 20 20 20 20  |get diam..      |
+00000080  20 20 3c 69 3e 50 72 6f  69 6e 20 75 74 20 6c 69  |  <i>Proin ut li|
+00000090  67 75 6c 61 20 76 65 6c  20 6e 75 6e 63 20 65 67  |gula vel nunc eg|
+000000a0  65 73 74 61 73 20 70 6f  72 74 74 69 74 6f 72 3c  |estas porttitor<|
+000000b0  2f 69 3e 2e 20 56 65 73  74 69 62 75 6c 75 6d 20  |/i>. Vestibulum |
+000000c0  61 6e 74 65 20 69 70 73  75 6d 20 70 72 69 6d 69  |ante ipsum primi|
+000000d0  73 20 69 6e 20 66 61 75  63 69 62 75 73 20 6f 72  |s in faucibus or|
+000000e0  63 69 20 6c 75 63 74 75  73 20 65 74 20 75 6c 74  |ci luctus et ult|
+000000f0  72 69 63 65 73 0a 20 20  20 20 20 20 20 20 70 6f  |rices.        po|
+00000100  73 75 65 72 65 20 63 75  62 69 6c 69 61 20 43 75  |suere cubilia Cu|
+00000110  72 61 65 3b 20 4d 6f 72  62 69 20 6c 61 63 69 6e  |rae; Morbi lacin|
+00000120  69 61 20 6d 6f 6c 65 73  74 69 65 20 64 75 69 2e  |ia molestie dui.|
+00000130  20 50 72 61 65 73 65 6e  74 20 62 6c 61 6e 64 69  | Praesent blandi|
+00000140  74 20 64 6f 6c 6f 72 2e  20 53 65 64 20 6e 6f 6e  |t dolor. Sed non|
+00000150  20 71 75 61 6d 2e 20 49  6e 20 76 65 6c 20 6d 69  | quam. In vel mi|
+00000160  20 73 69 74 20 61 6d 65  74 20 61 75 67 75 65 0a  | sit amet augue.|
+00000170  20 20 20 20 20 20 20 20  63 6f 6e 67 75 65 20 65  |        congue e|
+00000180  6c 65 6d 65 6e 74 75 6d  2e 20 4d 6f 72 62 69 20  |lementum. Morbi |
+00000190  69 6e 20 69 70 73 75 6d  20 73 69 74 20 61 6d 65  |in ipsum sit ame|
+000001a0  74 20 70 65 64 65 20 66  61 63 69 6c 69 73 69 73  |t pede facilisis|
+000001b0  20 6c 61 6f 72 65 65 74  2e 20 44 6f 6e 65 63 20  | laoreet. Donec |
+000001c0  6c 61 63 75 73 20 6e 75  6e 63 2c 20 76 69 76 65  |lacus nunc, vive|
+000001d0  72 72 61 20 6e 65 63 2c  20 62 6c 61 6e 64 69 74  |rra nec, blandit|
+000001e0  20 76 65 6c 2c 20 65 67  65 73 74 61 73 0a 20 20  | vel, egestas.  |
+000001f0  20 20 20 20 20 20 65 74  2c 20 61 75 67 75 65 2e  |      et, augue.|
+00000200  20 56 65 73 74 69 62 75  6c 75 6d 20 74 69 6e 63  | Vestibulum tinc|
+00000210  69 64 75 6e 74 20 6d 61  6c 65 73 75 61 64 61 20  |idunt malesuada |
+00000220  74 65 6c 6c 75 73 2e 20  55 74 20 75 6c 74 72 69  |tellus. Ut ultri|
+00000230  63 65 73 20 75 6c 74 72  69 63 65 73 20 65 6e 69  |ces ultrices eni|
+00000240  6d 2e 20 43 75 72 61 62  69 74 75 72 20 73 69 74  |m. Curabitur sit|
+00000250  20 61 6d 65 74 20 6d 61  75 72 69 73 2e 20 3c 2f  | amet mauris. </|
+00000260  70 3e 0a 0a 20 20 20 20  3c 70 3e 0a 20 20 20 20  |p>..    <p>.    |
+00000270  20 20 20 20 3c 62 3e 53  65 64 20 6e 6f 6e 20 71  |    <b>Sed non q|
+00000280  75 61 6d 3c 2f 62 3e 2e  20 4d 6f 72 62 69 20 69  |uam</b>. Morbi i|
+00000290  6e 20 64 75 69 20 71 75  69 73 20 65 73 74 20 70  |n dui quis est p|
+000002a0  75 6c 76 69 6e 61 72 20  75 6c 6c 61 6d 63 6f 72  |ulvinar ullamcor|
+000002b0  70 65 72 2e 20 4e 75 6c  6c 61 20 66 61 63 69 6c  |per. Nulla facil|
+000002c0  69 73 69 2e 20 49 6e 74  65 67 65 72 20 6c 61 63  |isi. Integer lac|
+000002d0  69 6e 69 61 20 73 6f 6c  6c 69 63 69 74 75 64 69  |inia sollicitudi|
+000002e0  6e 20 6d 61 73 73 61 2e  0a 20 20 20 20 20 20 20  |n massa..       |
+000002f0  20 3c 62 3e 51 75 69 73  71 75 65 20 63 75 72 73  | <b>Quisque curs|
+00000300  75 73 2c 20 6d 65 74 75  73 20 76 69 74 61 65 20  |us, metus vitae |
+00000310  70 68 61 72 65 74 72 61  20 61 75 63 74 6f 72 2c  |pharetra auctor,|
+00000320  20 73 65 6d 20 6d 61 73  73 61 20 6d 61 74 74 69  | sem massa matti|
+00000330  73 20 73 65 6d 2c 20 61  74 20 69 6e 74 65 72 64  |s sem, at interd|
+00000340  75 6d 20 6d 61 67 6e 61  20 61 75 67 75 65 20 65  |um magna augue e|
+00000350  67 65 74 20 64 69 61 6d  3c 2f 62 3e 2e 20 43 72  |get diam</b>. Cr|
+00000360  61 73 0a 20 20 20 20 20  20 20 20 6d 65 74 75 73  |as.        metus|
+00000370  2e 20 53 65 64 20 61 6c  69 71 75 65 74 20 72 69  |. Sed aliquet ri|
+00000380  73 75 73 20 61 20 74 6f  72 74 6f 72 2e 20 49 6e  |sus a tortor. In|
+00000390  74 65 67 65 72 20 69 64  20 71 75 61 6d 2e 20 4d  |teger id quam. M|
+000003a0  6f 72 62 69 20 6d 69 2e  0a 20 20 20 20 20 20 20  |orbi mi..       |
+000003b0  20 3c 69 3e 53 65 64 20  6e 6f 6e 20 71 75 61 6d  | <i>Sed non quam|
+000003c0  3c 2f 69 3e 2e 20 51 75  69 73 71 75 65 20 6e 69  |</i>. Quisque ni|
+000003d0  73 6c 20 66 65 6c 69 73  2c 20 76 65 6e 65 6e 61  |sl felis, venena|
+000003e0  74 69 73 20 74 72 69 73  74 69 71 75 65 2c 20 64  |tis tristique, d|
+000003f0  69 67 6e 69 73 73 69 6d  20 69 6e 2c 20 75 6c 74  |ignissim in, ult|
+00000400  72 69 63 65 73 20 73 69  74 20 61 6d 65 74 2c 20  |rices sit amet, |
+00000410  61 75 67 75 65 2e 20 50  72 6f 69 6e 20 73 6f 64  |augue. Proin sod|
+00000420  61 6c 65 73 0a 20 20 20  20 20 20 20 20 6c 69 62  |ales.        lib|
+00000430  65 72 6f 20 65 67 65 74  20 61 6e 74 65 2e 20 4e  |ero eget ante. N|
+00000440  75 6c 6c 61 20 71 75 61  6d 2e 20 41 65 6e 65 61  |ulla quam. Aenea|
+00000450  6e 20 6c 61 6f 72 65 65  74 2e 20 56 65 73 74 69  |n laoreet. Vesti|
+00000460  62 75 6c 75 6d 20 6e 69  73 69 20 6c 65 63 74 75  |bulum nisi lectu|
+00000470  73 2c 20 63 6f 6d 6d 6f  64 6f 20 61 63 2c 20 66  |s, commodo ac, f|
+00000480  61 63 69 6c 69 73 69 73  20 61 63 2c 20 75 6c 74  |acilisis ac, ult|
+00000490  72 69 63 69 65 73 20 65  75 2c 20 70 65 64 65 2e  |ricies eu, pede.|
+000004a0  0a 20 20 20 20 20 20 20  20 55 74 20 6f 72 63 69  |.        Ut orci|
+000004b0  20 72 69 73 75 73 2c 20  61 63 63 75 6d 73 61 6e  | risus, accumsan|
+000004c0  20 70 6f 72 74 74 69 74  6f 72 2c 20 63 75        | porttitor, cu|
+000004ce
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1271 left 0
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 con recv packet len=1271
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 pkt rx pkt 23 dcid=0xaf81a43c7067cbbf77759cded3062959f6 scid=0x type=Short(0x00) len=0
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 frm rx 23 Short(0x00) STREAM(0x16) id=0x4 fin=0 offset=6150 len=1230 uni=0
+Ordered STREAM data stream_id=0x4
+00000000  72 73 75 73 20 71 75 69  73 2c 20 61 6c 69 71 75  |rsus quis, aliqu|
+00000010  65 74 20 65 67 65 74 2c  20 6a 75 73 74 6f 2e 20  |et eget, justo. |
+00000020  3c 2f 70 3e 0a 20 20 20  20 3c 68 72 2f 3e 0a 20  |</p>.    <hr/>. |
+00000030  20 20 20 3c 62 72 2f 3e  0a 20 20 20 20 3c 70 3e  |   <br/>.    <p>|
+00000040  4c 6f 72 65 6d 20 69 70  73 75 6d 20 64 6f 6c 6f  |Lorem ipsum dolo|
+00000050  72 20 73 69 74 20 61 6d  65 74 2c 20 63 6f 6e 73  |r sit amet, cons|
+00000060  65 63 74 65 74 75 72 20  61 64 69 70 69 73 63 69  |ectetur adipisci|
+00000070  6e 67 20 65 6c 69 74 2e  20 49 6e 74 65 67 65 72  |ng elit. Integer|
+00000080  20 6e 65 63 20 6f 64 69  6f 2e 20 50 72 61 65 73  | nec odio. Praes|
+00000090  65 6e 74 20 6c 69 62 65  72 6f 2e 20 53 65 64 20  |ent libero. Sed |
+000000a0  63 75 72 73 75 73 20 61  6e 74 65 20 64 61 70 69  |cursus ante dapi|
+000000b0  62 75 73 0a 20 20 20 20  20 20 20 20 64 69 61 6d  |bus.        diam|
+000000c0  2e 20 53 65 64 20 6e 69  73 69 2e 20 4e 75 6c 6c  |. Sed nisi. Null|
+000000d0  61 20 71 75 69 73 20 73  65 6d 20 61 74 20 6e 69  |a quis sem at ni|
+000000e0  62 68 20 65 6c 65 6d 65  6e 74 75 6d 20 69 6d 70  |bh elementum imp|
+000000f0  65 72 64 69 65 74 2e 20  44 75 69 73 20 73 61 67  |erdiet. Duis sag|
+00000100  69 74 74 69 73 20 69 70  73 75 6d 2e 20 50 72 61  |ittis ipsum. Pra|
+00000110  65 73 65 6e 74 20 6d 61  75 72 69 73 2e 20 46 75  |esent mauris. Fu|
+00000120  73 63 65 20 6e 65 63 20  74 65 6c 6c 75 73 0a 20  |sce nec tellus. |
+00000130  20 20 20 20 20 20 20 73  65 64 20 61 75 67 75 65  |       sed augue|
+00000140  20 73 65 6d 70 65 72 20  70 6f 72 74 61 2e 20 4d  | semper porta. M|
+00000150  61 75 72 69 73 20 6d 61  73 73 61 2e 20 56 65 73  |auris massa. Ves|
+00000160  74 69 62 75 6c 75 6d 20  6c 61 63 69 6e 69 61 20  |tibulum lacinia |
+00000170  61 72 63 75 20 65 67 65  74 20 6e 75 6c 6c 61 2e  |arcu eget nulla.|
+00000180  0a 20 20 20 20 20 20 20  20 3c 62 3e 4c 6f 72 65  |.        <b>Lore|
+00000190  6d 20 69 70 73 75 6d 20  64 6f 6c 6f 72 20 73 69  |m ipsum dolor si|
+000001a0  74 20 61 6d 65 74 2c 20  63 6f 6e 73 65 63 74 65  |t amet, consecte|
+000001b0  74 75 72 20 61 64 69 70  69 73 63 69 6e 67 20 65  |tur adipiscing e|
+000001c0  6c 69 74 3c 2f 62 3e 2e  20 43 6c 61 73 73 20 61  |lit</b>. Class a|
+000001d0  70 74 65 6e 74 20 74 61  63 69 74 69 20 73 6f 63  |ptent taciti soc|
+000001e0  69 6f 73 71 75 20 61 64  20 6c 69 74 6f 72 61 20  |iosqu ad litora |
+000001f0  74 6f 72 71 75 65 6e 74  20 70 65 72 0a 20 20 20  |torquent per.   |
+00000200  20 20 20 20 20 63 6f 6e  75 62 69 61 20 6e 6f 73  |     conubia nos|
+00000210  74 72 61 2c 20 70 65 72  20 69 6e 63 65 70 74 6f  |tra, per incepto|
+00000220  73 20 68 69 6d 65 6e 61  65 6f 73 2e 20 43 75 72  |s himenaeos. Cur|
+00000230  61 62 69 74 75 72 20 73  6f 64 61 6c 65 73 20 6c  |abitur sodales l|
+00000240  69 67 75 6c 61 20 69 6e  20 6c 69 62 65 72 6f 2e  |igula in libero.|
+00000250  20 3c 2f 70 3e 0a 0a 20  20 20 20 3c 70 3e 53 65  | </p>..    <p>Se|
+00000260  64 20 64 69 67 6e 69 73  73 69 6d 20 6c 61 63 69  |d dignissim laci|
+00000270  6e 69 61 20 6e 75 6e 63  2e 20 43 75 72 61 62 69  |nia nunc. Curabi|
+00000280  74 75 72 20 74 6f 72 74  6f 72 2e 20 50 65 6c 6c  |tur tortor. Pell|
+00000290  65 6e 74 65 73 71 75 65  20 6e 69 62 68 2e 0a 20  |entesque nibh.. |
+000002a0  20 20 20 20 20 20 20 3c  62 3e 46 75 73 63 65 20  |       <b>Fusce |
+000002b0  6e 65 63 20 74 65 6c 6c  75 73 20 73 65 64 20 61  |nec tellus sed a|
+000002c0  75 67 75 65 20 73 65 6d  70 65 72 20 70 6f 72 74  |ugue semper port|
+000002d0  61 3c 2f 62 3e 2e 20 41  65 6e 65 61 6e 20 71 75  |a</b>. Aenean qu|
+000002e0  61 6d 2e 20 49 6e 20 73  63 65 6c 65 72 69 73 71  |am. In scelerisq|
+000002f0  75 65 20 73 65 6d 20 61  74 20 64 6f 6c 6f 72 2e  |ue sem at dolor.|
+00000300  20 4d 61 65 63 65 6e 61  73 20 6d 61 74 74 69 73  | Maecenas mattis|
+00000310  2e 20 53 65 64 20 63 6f  6e 76 61 6c 6c 69 73 0a  |. Sed convallis.|
+00000320  20 20 20 20 20 20 20 20  74 72 69 73 74 69 71 75  |        tristiqu|
+00000330  65 20 73 65 6d 2e 20 50  72 6f 69 6e 20 75 74 20  |e sem. Proin ut |
+00000340  6c 69 67 75 6c 61 20 76  65 6c 20 6e 75 6e 63 20  |ligula vel nunc |
+00000350  65 67 65 73 74 61 73 20  70 6f 72 74 74 69 74 6f  |egestas porttito|
+00000360  72 2e 20 4d 6f 72 62 69  20 6c 65 63 74 75 73 20  |r. Morbi lectus |
+00000370  72 69 73 75 73 2c 20 69  61 63 75 6c 69 73 20 76  |risus, iaculis v|
+00000380  65 6c 2c 20 73 75 73 63  69 70 69 74 20 71 75 69  |el, suscipit qui|
+00000390  73 2c 20 6c 75 63 74 75  73 0a 20 20 20 20 20 20  |s, luctus.      |
+000003a0  20 20 6e 6f 6e 2c 20 6d  61 73 73 61 2e 20 46 75  |  non, massa. Fu|
+000003b0  73 63 65 20 61 63 20 74  75 72 70 69 73 20 71 75  |sce ac turpis qu|
+000003c0  69 73 20 6c 69 67 75 6c  61 20 6c 61 63 69 6e 69  |is ligula lacini|
+000003d0  61 20 61 6c 69 71 75 65  74 2e 20 4d 61 75 72 69  |a aliquet. Mauri|
+000003e0  73 20 69 70 73 75 6d 2e  20 3c 2f 70 3e 0a 0a 20  |s ipsum. </p>.. |
+000003f0  20 20 20 3c 70 3e 4e 75  6c 6c 61 20 6d 65 74 75  |   <p>Nulla metu|
+00000400  73 20 6d 65 74 75 73 2c  20 75 6c 6c 61 6d 63 6f  |s metus, ullamco|
+00000410  72 70 65 72 20 76 65 6c  2c 20 74 69 6e 63 69 64  |rper vel, tincid|
+00000420  75 6e 74 20 73 65 64 2c  20 65 75 69 73 6d 6f 64  |unt sed, euismod|
+00000430  20 69 6e 2c 20 6e 69 62  68 2e 20 51 75 69 73 71  | in, nibh. Quisq|
+00000440  75 65 20 76 6f 6c 75 74  70 61 74 20 63 6f 6e 64  |ue volutpat cond|
+00000450  69 6d 65 6e 74 75 6d 20  76 65 6c 69 74 2e 0a 20  |imentum velit.. |
+00000460  20 20 20 20 20 20 20 3c  69 3e 53 65 64 20 64 69  |       <i>Sed di|
+00000470  67 6e 69 73 73 69 6d 20  6c 61 63 69 6e 69 61 20  |gnissim lacinia |
+00000480  6e 75 6e 63 3c 2f 69 3e  2e 20 43 6c 61 73 73 20  |nunc</i>. Class |
+00000490  61 70 74 65 6e 74 20 74  61 63 69 74 69 20 73 6f  |aptent taciti so|
+000004a0  63 69 6f 73 71 75 20 61  64 20 6c 69 74 6f 72 61  |ciosqu ad litora|
+000004b0  20 74 6f 72 71 75 65 6e  74 20 70 65 72 20 63 6f  | torquent per co|
+000004c0  6e 75 62 69 61 20 6e 6f  73 74 72 61 2c 20        |nubia nostra, |
+000004ce
+I00014650 0xaf81a43c7067cbbf77759cded3062959f6 pkt read packet 1271 left 0
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=2 rto_count=1
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=2
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 8 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 8 Short(0x00) ACK(0x0d) largest_ack=23 ack_delay=3575(446885) ack_block_count=0
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 8 Short(0x00) ACK(0x0d) block=[23..1] block_count=22
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=58
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=1
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 9 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00018226 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=2 rto_count=2
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=2
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 10 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=1
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 11 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00022698 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 rcv loss detection alarm fired
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 rcv handshake_count=1 tlp_count=2 rto_count=3
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=2
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 12 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 con transmit probe pkt left=1
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 13 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00031648 0xaf81a43c7067cbbf77759cded3062959f6 con probe pkt size=50
+Timeout
+I00044653 0xaf81a43c7067cbbf77759cded3062959f6 frm tx 14 Short(0x00) CONNECTION_CLOSE(0x02) error_code=NO_ERROR(0) reason_len=0

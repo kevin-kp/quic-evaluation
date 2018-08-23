@@ -1,0 +1,101 @@
+I00000000 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 0 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000000 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 0 Initial(0x7f) PADDING(0x00) len=896
+I00000000 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901393746385152 last_hs_tx_pkt_ts=1534901393546385152 alarm_duration=200
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 0 sent_ts=1534901393546385152 unprotected=1
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 1 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 1 Initial(0x7f) PADDING(0x00) len=896
+I00000409 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901394355440128 last_hs_tx_pkt_ts=1534901393955440128 alarm_duration=400
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 1 sent_ts=1534901393955440128 unprotected=1
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=2 tlp_count=0 rto_count=0
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 2 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 2 Initial(0x7f) PADDING(0x00) len=896
+I00000809 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901395155827200 last_hs_tx_pkt_ts=1534901394355827200 alarm_duration=800
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 2 sent_ts=1534901394355827200 unprotected=1
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=3 tlp_count=0 rto_count=0
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 3 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 3 Initial(0x7f) PADDING(0x00) len=896
+I00001609 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901396756312064 last_hs_tx_pkt_ts=1534901395156312064 alarm_duration=1600
+I00001925 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00001925 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 1 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00001925 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00001925 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 2 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=43
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 pkt read packet 43 left 0
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 4 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00002226 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 5 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=43
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 pkt read packet 43 left 0
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 7 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00002459 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 8 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002871 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00002871 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 9 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00002871 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00002871 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 10 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 3 sent_ts=1534901395156312064 unprotected=1
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=4 tlp_count=0 rto_count=0
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 4 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 4 Initial(0x7f) PADDING(0x00) len=896
+I00003214 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901399961342976 last_hs_tx_pkt_ts=1534901396761342976 alarm_duration=3200
+I00003695 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00003695 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 11 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00003695 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00003695 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 12 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00003990 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=45
+I00003990 0x278bfea9ca8f9472de9c8a878722c74b18 pkt read packet 45 left 0
+I00005281 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00005281 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 14 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00005287 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1135
+I00005287 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 15 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1103
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 4 sent_ts=1534901396761342976 unprotected=1
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=5 tlp_count=0 rto_count=0
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 5 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 5 Initial(0x7f) PADDING(0x00) len=896
+I00006416 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901406362534912 last_hs_tx_pkt_ts=1534901399962534912 alarm_duration=6400
+I00006506 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=45
+I00006506 0x278bfea9ca8f9472de9c8a878722c74b18 pkt read packet 45 left 0
+I00008823 0x278bfea9ca8f9472de9c8a878722c74b18 con recv packet len=1254
+I00008823 0x278bfea9ca8f9472de9c8a878722c74b18 pkt rx pkt 17 dcid=0x278bfea9ca8f9472de9c8a878722c74b18 scid=0x07d977ce4bdf90 type=Handshake(0x7d) len=1222
+ngtcp2_conn_handshake: ERR_TLS_DECRYPT
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 5 sent_ts=1534901399962534912 unprotected=1
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=6 tlp_count=0 rto_count=0
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 6 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 6 Initial(0x7f) PADDING(0x00) len=896
+I00012820 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901419167172864 last_hs_tx_pkt_ts=1534901406367172864 alarm_duration=12800
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm fired
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 rcv packet lost 6 sent_ts=1534901406367172864 unprotected=1
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 rcv handshake_count=7 tlp_count=0 rto_count=0
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss detection alarm canceled
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 7 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 7 Initial(0x7f) PADDING(0x00) len=896
+I00025625 0x278bfea9ca8f9472de9c8a878722c74b18 rcv loss_detection_alarm=1534901444771861760 last_hs_tx_pkt_ts=1534901419171861760 alarm_duration=25600
+Timeout
+I00038827 0x278bfea9ca8f9472de9c8a878722c74b18 frm tx 8 Handshake(0x7d) CONNECTION_CLOSE(0x02) error_code=NO_ERROR(0) reason_len=0

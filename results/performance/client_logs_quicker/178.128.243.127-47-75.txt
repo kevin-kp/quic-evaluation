@@ -1,0 +1,257 @@
+I00000000 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 0 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000000 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 0 Initial(0x7f) PADDING(0x00) len=896
+I00000000 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899830089396992 last_hs_tx_pkt_ts=1534899829889396992 alarm_duration=200
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv packet lost 0 sent_ts=1534899829889396992 unprotected=1
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=1 tlp_count=0 rto_count=0
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm canceled
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 1 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 1 Initial(0x7f) PADDING(0x00) len=896
+I00000200 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899830489831936 last_hs_tx_pkt_ts=1534899830089831936 alarm_duration=400
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv packet lost 1 sent_ts=1534899830089831936 unprotected=1
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=2 tlp_count=0 rto_count=0
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm canceled
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 2 Initial(0x7f) STREAM(0x12) id=0x0 fin=0 offset=0 len=292 uni=0
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 2 Initial(0x7f) PADDING(0x00) len=896
+I00000602 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899831292252160 last_hs_tx_pkt_ts=1534899830492252160 alarm_duration=800
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1261
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 1 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1222
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 1 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  16 03 03 00 7b 02 00 00  77 03 03 1d 29 fa df 80  |....{...w...)...|
+00000010  2a e0 85 09 87 d0 3d 2f  be 9b a6 9d cc ca 6e e4  |*.....=/......n.|
+00000020  73 ab b4 96 18 02 59 91  88 82 50 00 13 02 00 00  |s.....Y...P.....|
+00000030  4f 00 2b 00 02 7f 1c 00  33 00 45 00 17 00 41 04  |O.+.....3.E...A.|
+00000040  11 95 e0 d9 1b 1d 35 4a  95 51 d9 08 aa 74 51 7c  |......5J.Q...tQ||
+00000050  d4 bc af 82 1e 2c c7 46  ad 85 02 65 d6 a6 9d 05  |.....,.F...e....|
+00000060  e5 48 ed f3 48 07 62 2e  50 ca 04 85 e4 a7 f6 bc  |.H..H.b.P.......|
+00000070  cc 42 d5 2f 0b b8 09 19  13 88 49 45 f5 b2 d0 a8  |.B./......IE....|
+00000080  14 03 03 00 01 01 17 03  03 00 71 3d 23 37 c9 f1  |..........q=#7..|
+00000090  43 a2 38 6a 0a 00 bd ee  3b e4 56 a5 07 2e 0c 1d  |C.8j....;.V.....|
+000000a0  cf 9e b3 16 7c 2b 02 f3  61 7a 04 e9 77 9f c0 96  |....|+..az..w...|
+000000b0  5d af 8c 0a 71 5c a5 39  7d 8a 6f 76 46 c3 8f 9c  |]...q\.9}.ovF...|
+000000c0  b5 6c bf 2b 4c 71 92 1c  12 cc 44 6e 2d ec 35 0c  |.l.+Lq....Dn-.5.|
+000000d0  0c 32 05 a5 66 64 7e e5  65 f1 95 c3 29 0e 57 59  |.2..fd~.e...).WY|
+000000e0  36 d2 fa 93 0a db c9 d3  23 7b 39 09 7b 90 e8 e7  |6.......#{9.{...|
+000000f0  0e af 8f ff 1e fd 7e 1b  3f b9 ce 54 17 03 03 05  |......~.?..T....|
+00000100  7f c5 35 4e 69 1d 2a 8b  eb e3 13 7c c9 d6 e5 6e  |..5Ni.*....|...n|
+00000110  bd c2 77 c5 b1 98 39 41  a9 6c a7 71 c3 de 63 32  |..w...9A.l.q..c2|
+00000120  35 21 27 96 5d 85 fe c9  49 44 93 da b9 c6 7b f9  |5!'.]...ID....{.|
+00000130  f9 f2 44 df 9b d7 72 68  62 8e c0 c4 26 52 dd 75  |..D...rhb...&R.u|
+00000140  c0 30 bc e9 1d 48 7b df  9f 6e f3 b8 0a db c4 12  |.0...H{..n......|
+00000150  ba 45 38 62 b3 b4 4d b3  b8 a7 0f d2 8d c3 61 3a  |.E8b..M.......a:|
+00000160  d8 b2 db 5f 30 80 55 b2  2f fa 5a 20 4e 7c 47 dd  |..._0.U./.Z N|G.|
+00000170  38 f5 69 77 e7 81 a6 00  7b f9 a7 33 bc e0 c6 07  |8.iw....{..3....|
+00000180  ca 88 cf cd 3a 0d 03 68  17 01 bb 34 4c 97 93 4c  |....:..h...4L..L|
+00000190  36 0c bb 68 c5 51 3b 33  3f 2e 41 06 fa 7b 38 40  |6..h.Q;3?.A..{8@|
+000001a0  44 a8 2b b2 1f a1 da b8  aa ff 82 57 19 51 6a ae  |D.+........W.Qj.|
+000001b0  e7 86 9b e3 72 a6 d1 eb  6e 57 c1 54 34 6c c2 31  |....r...nW.T4l.1|
+000001c0  36 d2 40 1a b9 ce 06 b9  ac 79 6a fd 4c fa ab 1f  |6.@......yj.L...|
+000001d0  c6 d6 6a 6b a4 76 dc af  a0 8d b3 cb 1b d1 a1 c2  |..jk.v..........|
+000001e0  fa dc 04 21 33 cb 68 2c  6a f3 c5 89 3b d7 fc 23  |...!3.h,j...;..#|
+000001f0  98 96 00 57 4f b1 27 20  74 c3 6d 70 ac c4 f6 53  |...WO.' t.mp...S|
+00000200  ee 92 c5 79 27 ab 0d b5  ce 38 e8 58 1d ba 65 4b  |...y'....8.X..eK|
+00000210  04 05 c1 be c8 a1 46 a0  6a c6 25 9f 73 4f 8a aa  |......F.j.%.sO..|
+00000220  5b 2f ad b3 d1 55 ae 8e  d8 0f ee a5 66 d1 b6 1c  |[/...U......f...|
+00000230  9e f6 70 f0 ed 39 5e b9  38 8e d4 4b c2 e8 d2 ec  |..p..9^.8..K....|
+00000240  42 4c 34 dc fb 2a 6f 88  15 2a 94 f5 0e 01 91 cd  |BL4..*o..*......|
+00000250  36 15 18 dd 5a b9 7a b2  f9 02 97 88 a2 ca d3 be  |6...Z.z.........|
+00000260  1f fc 93 c6 03 28 08 b9  31 b5 b7 bc bb 08 00 f9  |.....(..1.......|
+00000270  b7 b0 cd 0e de b6 7d 98  63 12 8a 7a 8f 16 a7 3c  |......}.c..z...<|
+00000280  05 4d 19 28 97 b7 c5 56  3a f8 5a b3 b9 ca 72 03  |.M.(...V:.Z...r.|
+00000290  cb 67 41 d9 e2 64 6f fd  d1 02 ca 61 5c db 25 77  |.gA..do....a\.%w|
+000002a0  ad 14 17 46 08 08 88 3b  ff b4 3c 1a 8b 17 e5 01  |...F...;..<.....|
+000002b0  1c 29 c2 80 fe 24 6b ec  68 ec 83 d4 cf 55 2b cf  |.)...$k.h....U+.|
+000002c0  a0 fe 26 4d ee 44 8a b0  de 81 a4 43 20 91 91 82  |..&M.D.....C ...|
+000002d0  39 4f 6c 27 7c 25 b9 7c  cb 69 c1 c9 bf 3c 01 4e  |9Ol'|%.|.i...<.N|
+000002e0  b8 a7 cc 40 c2 1c 74 8f  ec 6a c8 a1 63 a9 50 a4  |...@..t..j..c.P.|
+000002f0  3c a1 00 e9 db 1d 74 33  ef e3 21 40 7b 60 be 01  |<.....t3..!@{`..|
+00000300  e2 01 07 a3 4a ee 28 70  7f 65 c1 dd 5a 94 31 46  |....J.(p.e..Z.1F|
+00000310  34 3f c5 e0 b2 6a d2 ea  9b d4 57 86 f9 3c 8b 2f  |4?...j....W..<./|
+00000320  40 f3 59 1f 39 28 ab 54  fa 64 e1 eb 23 34 e0 ec  |@.Y.9(.T.d..#4..|
+00000330  69 09 4f c6 42 1f 4a c2  b7 f7 d2 47 3e 14 9e b9  |i.O.B.J....G>...|
+00000340  15 57 df d0 90 b8 1a ee  8a 46 18 0a e3 8f 02 26  |.W.......F.....&|
+00000350  16 47 c5 eb 0a 44 44 5b  88 6c a1 31 1e 22 2f 2d  |.G...DD[.l.1."/-|
+00000360  01 b6 8e 90 c1 bb 15 bb  8e 91 4d d0 a4 7e 4e cf  |..........M..~N.|
+00000370  60 31 a2 91 1e f6 87 19  7d 9d cd 38 d2 75 75 bb  |`1......}..8.uu.|
+00000380  64 18 df 5b 67 ed a4 94  e5 e8 b1 9e 20 73 6e 2c  |d..[g....... sn,|
+00000390  b5 4e 10 ab f8 c9 64 59  1c c3 d4 2e 76 67 81 29  |.N....dY....vg.)|
+000003a0  3a d5 93 48 d0 4c 39 3d  40 38 f0 01 4d a4 88 58  |:..H.L9=@8..M..X|
+000003b0  1b b4 3a f7 3f 4e 5f 31  c1 4a 71 24 cc 5a b5 0a  |..:.?N_1.Jq$.Z..|
+000003c0  53 1f 17 c2 73 17 a0 37  60 36 29 6b 80 54 e0 d9  |S...s..7`6)k.T..|
+000003d0  60 68 86 1e fb 25 c4 7b  70 f9 e8 d8 1e 4f e4 16  |`h...%.{p....O..|
+000003e0  10 ee b3 65 fa 6b 7f d8  ec af 19 59 85 ef f9 7b  |...e.k.....Y...{|
+000003f0  cf 43 c1 45 a9 17 12 08  e5 26 32 ec e7 19 ec 3b  |.C.E.....&2....;|
+00000400  34 2a 6b 9b 64 31 49 09  c6 36 d6 73 d5 2f 8a 30  |4*k.d1I..6.s./.0|
+00000410  38 82 f6 04 43 96 bd cf  29 10 0e 41 43 03 11 40  |8...C...)..AC..@|
+00000420  62 fb 49 e0 80 ea 36 38  f6 6c 05 95 6a af a6 0e  |b.I...68.l..j...|
+00000430  3f 03 99 5f b7 35 79 9e  36 6a 4a fa 5d a0 2d 50  |?.._.5y.6jJ.].-P|
+00000440  06 49 96 5d 05 ed 17 ad  15 3b 49 3e 3c cc 4e 14  |.I.].....;I><.N.|
+00000450  72 63 d0 d7 a2 e3 f0 57  09 07 d5 e2 71 17 79 c1  |rc.....W....q.y.|
+00000460  b9 40 05 3b a8 54 29 6d  a2 20 5d 43 b1 c5 32 2e  |.@.;.T)m. ]C..2.|
+00000470  7e 5b b4 7b 02 9d d9 eb  e3 a4 2d 67 7f 0b 27 ce  |~[.{......-g..'.|
+00000480  28 9b 57 2d db 7b 71 ce  6f 74 70 8c be dc 5c 11  |(.W-.{q.otp...\.|
+00000490  83 cd c4 e5 54 b9 c4 9d  66 00 e3 b2 08 d3 95 ed  |....T...f.......|
+000004a0  20 a2 52 9c 52 57 50 38  d6 5e 35 7f 26 41 aa 28  | .R.RWP8.^5.&A.(|
+000004b0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters negotiated_version=0xff00000c
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters supported_version[0]=0xff00000c
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters supported_version[1]=0xabcdef0c
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters initial_max_stream_data=10240
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters initial_max_data=51200
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters initial_max_bidi_streams=12
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters initial_max_uni_streams=12
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters idle_timeout=30
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters max_packet_size=65527
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters stateless_reset_token=0x1f971343c83164d9d70f670f029ca6c6
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 cry remote transport_parameters ack_delay_exponent=3
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1261 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 3 Handshake(0x7d) ACK(0x0d) largest_ack=1 ack_delay=0(0) ack_block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 3 Handshake(0x7d) ACK(0x0d) block=[1..1] block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1142
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 2 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1103
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 2 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+Ordered STREAM data stream_id=0x0
+00000000  04 ec d2 4e 13 92 0f 87  f7 e8 b5 00 22 93 46 00  |...N........".F.|
+00000010  46 96 3f 7a 76 79 6a 99  f5 aa 94 d1 70 95 2f 5e  |F.?zvyj.....p./^|
+00000020  99 c6 b2 41 e3 c5 ae b3  99 2b 6d 7f d3 04 54 ee  |...A.....+m...T.|
+00000030  69 f1 70 71 60 dd 9d 63  83 61 bf eb 07 af 77 f7  |i.pq`..c.a....w.|
+00000040  46 ab a5 97 a7 a3 a9 fa  37 40 9e 98 a4 e4 4c 6b  |F.......7@....Lk|
+00000050  70 04 7a 28 f7 14 a6 6e  d5 52 34 1a b1 c8 26 6a  |p.z(...n.R4...&j|
+00000060  94 cc 12 28 a3 12 88 fe  ab 30 92 49 93 ba 1d 23  |...(.....0.I...#|
+00000070  79 fe 06 95 f1 d9 25 07  26 10 aa 68 a8 42 3d d5  |y.....%.&..h.B=.|
+00000080  10 2a 61 1e dc ee c6 b1  c8 b6 76 ec fc 70 b9 f3  |.*a.......v..p..|
+00000090  3a 9a 8c 0c 34 7b cd 88  74 52 1b f4 4c 58 fe 61  |:...4{..tR..LX.a|
+000000a0  41 ee c0 50 cf 52 7c 92  4c 51 20 53 06 e5 12 8e  |A..P.R|.LQ S....|
+000000b0  90 60 9d 6a 6a e4 f9 c3  7c e8 3b 8a 98 1b 8e 7e  |.`.jj...|.;....~|
+000000c0  ee 27 32 21 89 74 84 b8  f1 48 cb ac cd 6d 1d 46  |.'2!.t...H...m.F|
+000000d0  75 5c 1d d1 80 1f f5 42  68 2c bf ab 22 29 8d 3e  |u\.....Bh,..").>|
+000000e0  4f e9 dd 57 2f 8c cf 18  4a d6 29 0f 4c b9 c8 d3  |O..W/...J.).L...|
+000000f0  68 1c 12 3a 4a 5a f4 dd  62 d6 ec 20 58 57 28 94  |h..:JZ..b.. XW(.|
+00000100  c3 95 a1 85 50 d4 83 9a  9b 1a d2 a8 ed e3 a8 c4  |....P...........|
+00000110  22 d5 5f ff a0 04 0e 2b  b3 4b 6d 3a 7a 7f e9 7f  |"._....+.Km:z...|
+00000120  a7 60 32 aa 48 4a 6a ee  d3 b7 48 c1 bc 8c 8d f9  |.`2.HJj...H.....|
+00000130  a0 ad 0a 33 cf 27 a9 41  42 c1 94 3b 45 0d 16 43  |...3.'.AB..;E..C|
+00000140  c2 6d 8b 57 9b f3 0b 9c  24 1a fd 82 41 34 aa ab  |.m.W....$...A4..|
+00000150  c9 58 5a 05 db 25 6b 96  d1 05 db 0d 44 0a 75 33  |.XZ..%k.....D.u3|
+00000160  e5 cf 65 37 70 b3 57 88  46 ff 95 90 e8 ea f1 2a  |..e7p.W.F......*|
+00000170  ce c0 29 a1 e1 7f 1b 81  26 05 eb ce 95 a8 b3 43  |..).....&......C|
+00000180  e8 d4 33 99 0f 63 26 7a  7c 6a a8 5a 1b d0 6c d7  |..3..c&z|j.Z..l.|
+00000190  b5 57 3e 12 6e e1 53 de  ca 33 31 cf c6 24 f4 3c  |.W>.n.S..31..$.<|
+000001a0  25 f5 30 d0 a5 6b ec 12  3f 0f d5 c2 96 98 ae da  |%.0..k..?.......|
+000001b0  43 ed 17 8a 25 4e b1 d9  b2 56 4c d6 1c a8 e0 45  |C...%N...VL....E|
+000001c0  96 c6 cb 3d 95 4f 5a 47  39 30 cc a5 40 15 bd 27  |...=.OZG90..@..'|
+000001d0  17 03 03 02 19 24 3a 3f  52 c2 35 48 ce 7d 92 13  |.....$:?R.5H.}..|
+000001e0  98 2d e0 0c 95 83 fd 22  9e 9a 5b 51 7b ce 04 86  |.-....."..[Q{...|
+000001f0  bb 92 14 e2 74 32 8e c3  28 ba 3c bb e2 6c 6e d2  |....t2..(.<..ln.|
+00000200  78 87 0b 0c 16 20 1a e9  b4 42 e7 c2 2d a3 27 4a  |x.... ...B..-.'J|
+00000210  30 1c 02 7e 63 16 25 26  34 52 b0 da 11 7b 6a 96  |0..~c.%&4R...{j.|
+00000220  f9 fa bd 55 06 8d dc ad  90 01 eb d3 16 3a 0d 96  |...U.........:..|
+00000230  69 70 57 cb 6d 9c 72 d2  32 9b 3e 94 52 20 c8 a0  |ipW.m.r.2.>.R ..|
+00000240  7c c2 13 c4 eb 90 92 32  fa ca 8b ec 27 b0 19 35  ||......2....'..5|
+00000250  2f e7 98 bb d6 1b 03 64  bd e4 a0 79 51 d9 70 b2  |/......d...yQ.p.|
+00000260  5a b0 c6 fe f7 c0 5e 07  e2 d6 0a 79 4f 75 70 04  |Z.....^....yOup.|
+00000270  8e 13 92 7d 16 14 9e 92  40 88 44 e6 0f d2 33 ad  |...}....@.D...3.|
+00000280  de 4a 04 e4 2c 07 ee fc  75 e4 a6 d4 58 b6 9c b3  |.J..,...u...X...|
+00000290  af b5 7d bf f5 e8 4c 03  75 88 f9 88 b6 d7 74 8b  |..}...L.u.....t.|
+000002a0  a6 15 d8 42 a1 da d4 83  c1 ef f8 c6 7b 7a de ff  |...B........{z..|
+000002b0  1e ad cb b0 e5 22 fc e5  ff 33 8a 08 35 68 34 c9  |....."...3..5h4.|
+000002c0  be 20 09 dd 71 eb 80 51  06 3d 1d a7 de 2b 5c 38  |. ..q..Q.=...+\8|
+000002d0  ac 05 b6 2b 09 50 0e e2  f7 c1 78 1b 04 91 72 90  |...+.P....x...r.|
+000002e0  0c 83 18 ac 4a 1c 67 09  60 3f b8 5f 3c 51 00 d1  |....J.g.`?._<Q..|
+000002f0  d3 6e d3 55 12 33 4c 19  f4 b4 32 11 27 1e 4d 44  |.n.U.3L...2.'.MD|
+00000300  7d 05 1a 88 79 39 0d ef  b7 f3 0f 71 14 34 18 16  |}...y9.....q.4..|
+00000310  6f c5 6b 77 59 b8 5f 95  00 fb 9c c8 eb 39 c6 64  |o.kwY._......9.d|
+00000320  bf 0b b1 54 83 fc 0e fe  df bc 63 c3 b0 88 21 3f  |...T......c...!?|
+00000330  82 5b 3c fc c4 bd 3d d5  89 d5 99 ed ac 3b 8c a7  |.[<...=......;..|
+00000340  09 19 38 df 06 cf 7d cf  6b 66 01 1c 1c d7 80 46  |..8...}.kf.....F|
+00000350  ab 60 7c 46 cc b5 66 13  c6 31 ef b6 69 70 83 54  |.`|F..f..1..ip.T|
+00000360  29 49 d6 17 c4 0c 42 1e  06 0d b3 95 e3 8f 6d c4  |)I....B.......m.|
+00000370  47 17 17 3e 4c 42 4d ae  bf d3 68 4f 6f f7 fd 00  |G..>LBM...hOo...|
+00000380  54 77 9e 4e ab 91 e0 09  e8 e4 d9 fa 15 c6 c1 c4  |Tw.N............|
+00000390  4b ea 20 fb 28 e1 8d 25  c4 17 da e3 f1 0c 52 4b  |K. .(..%......RK|
+000003a0  c7 36 fd c4 c8 b3 b6 69  a5 1a e3 a4 80 4c c9 02  |.6.....i.....L..|
+000003b0  e1 75 c0 9d c6 52 00 5e  f6 7c 1d 22 70 5b 45 fa  |.u...R.^.|."p[E.|
+000003c0  99 e5 e8 bf e8 fe 85 17  b4 17 49 83 3c a8 7e ed  |..........I.<.~.|
+000003d0  ab 43 bb 13 be ce e4 91  9e d5 bd 21 ac 96 a3 89  |.C.........!....|
+000003e0  5e 26 b2 cd 70 b2 aa 49  a6 68 a0 28 86 b2 17 03  |^&..p..I.h.(....|
+000003f0  03 00 45 ee 87 aa 3a 02  4c 57 d0 7f 95 a5 f6 19  |..E...:.LW......|
+00000400  bf 64 67 29 30 64 9d b2  27 27 f2 5a a2 31 1d cc  |.dg)0d..''.Z.1..|
+00000410  bf db 52 40 04 12 49 46  30 7b fc ca ec 27 5a cf  |..R@..IF0{...'Z.|
+00000420  9c 0c 40 ca 8a 50 88 ef  8a 32 54 97 da 3e ea 97  |..@..P...2T..>..|
+00000430  20 8e bd 5a 9d 52 17 b0                           | ..Z.R..|
+00000438
+Negotiated cipher suite is TLS_AES_256_GCM_SHA384
+Negotiated ALPN is hq-12
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1142 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 4 Handshake(0x7d) ACK(0x0d) largest_ack=2 ack_delay=0(0) ack_block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 4 Handshake(0x7d) ACK(0x0d) block=[2..1] block_count=1
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 4 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=292 len=74 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899831912643840 last_hs_tx_pkt_ts=1534899831112643840 alarm_duration=800
+QUIC handshake has completed
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=43
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 3 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x type=Short(0x00) len=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 3 Short(0x00) ACK(0x0d) largest_ack=0 ack_delay=747(93383) ack_block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 3 Short(0x00) ACK(0x0d) block=[0..0] block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899831912643840 last_hs_tx_pkt_ts=1534899831112643840 alarm_duration=800
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 43 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1261
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 4 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1222
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 4 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1261 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1142
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 5 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1103
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 5 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1142 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1261
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 6 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1222
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 6 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1261 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1142
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 7 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1103
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 7 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1142 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1261
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 8 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1222
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 8 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=0 len=1200 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1261 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=1142
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 9 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x0e1ee4b033ad9fa5e0d2862cae4d type=Handshake(0x7d) len=1103
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 9 Handshake(0x7d) STREAM(0x16) id=0x0 fin=0 offset=1200 len=1080 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt read packet 1142 left 0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 5 Short(0x00) ACK(0x0d) largest_ack=9 ack_delay=0(0) ack_block_count=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 5 Short(0x00) ACK(0x0d) block=[9..1] block_count=8
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 5 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00001223 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss_detection_alarm=1534899831912643840 last_hs_tx_pkt_ts=1534899831112643840 alarm_duration=800
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv packet lost 4 sent_ts=1534899831112643840 unprotected=1
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv packet lost 2 sent_ts=1534899830492252160 unprotected=1
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=3 tlp_count=0 rto_count=0
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv no need to retransmit Initial packet
+I00002810 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv no need to retransmit Handshake packet
+I00002811 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00002811 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=3 tlp_count=1 rto_count=0
+I00002811 0x22118a13d6bf95fe85bd48f3de3d0b7370 con transmit probe pkt left=1
+I00002811 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 6 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00002811 0x22118a13d6bf95fe85bd48f3de3d0b7370 con probe pkt size=51
+I00002824 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00002824 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=3 tlp_count=2 rto_count=0
+I00002824 0x22118a13d6bf95fe85bd48f3de3d0b7370 con transmit probe pkt left=1
+I00002824 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 7 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00002824 0x22118a13d6bf95fe85bd48f3de3d0b7370 con probe pkt size=51
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv loss detection alarm fired
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 rcv handshake_count=3 tlp_count=2 rto_count=1
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 con transmit probe pkt left=2
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 8 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 con probe pkt size=51
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 con transmit probe pkt left=1
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 9 Short(0x00) STREAM(0x13) id=0x4 fin=1 offset=0 len=16 uni=0
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 con probe pkt size=51
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 con recv packet len=43
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 pkt rx pkt 10 dcid=0x22118a13d6bf95fe85bd48f3de3d0b7370 scid=0x type=Short(0x00) len=0
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 10 Short(0x00) ACK(0x0d) largest_ack=3 ack_delay=48(6050) ack_block_count=1
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 10 Short(0x00) ACK(0x0d) block=[3..3] block_count=0
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm rx 10 Short(0x00) ACK(0x0d) block=[18446744073709551615..18446744073709551614] gap=2 block_count=1
+ngtcp2_conn_recv: ERR_ACK_FRAME
+I00003125 0x22118a13d6bf95fe85bd48f3de3d0b7370 frm tx 10 Short(0x00) CONNECTION_CLOSE(0x02) error_code=FRAME_FORMAT_ERROR(7) reason_len=0
