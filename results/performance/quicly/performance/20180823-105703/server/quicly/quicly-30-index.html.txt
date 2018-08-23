@@ -1,0 +1,48 @@
+*** Error in `./cli': double free or corruption (!prev): 0x0000000000884a30 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7fb36c9667e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7fb36c96f37a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7fb36c97353c]
+./cli[0x41d5ac]
+./cli[0x41be29]
+./cli(quicly_send+0x43c)[0x41b78c]
+./cli[0x413c03]
+./cli[0x41404b]
+./cli(main+0x587)[0x405da7]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7fb36c90f830]
+./cli(_start+0x29)[0x405ec9]
+======= Memory map: ========
+00400000-00425000 r-xp 00000000 fd:01 1301228                            /quicly/cli
+00625000-00626000 r--p 00025000 fd:01 1301228                            /quicly/cli
+00626000-00627000 rw-p 00026000 fd:01 1301228                            /quicly/cli
+00627000-0062e000 rw-p 00000000 00:00 0 
+00747000-00f75000 rw-p 00000000 00:00 0                                  [heap]
+7fb368000000-7fb368021000 rw-p 00000000 00:00 0 
+7fb368021000-7fb36c000000 ---p 00000000 00:00 0 
+7fb36c4d5000-7fb36c4eb000 r-xp 00000000 fd:01 262221                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb36c4eb000-7fb36c6ea000 ---p 00016000 fd:01 262221                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb36c6ea000-7fb36c6eb000 rw-p 00015000 fd:01 262221                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb36c6eb000-7fb36c6ee000 r-xp 00000000 fd:01 262213                     /lib/x86_64-linux-gnu/libdl-2.23.so
+7fb36c6ee000-7fb36c8ed000 ---p 00003000 fd:01 262213                     /lib/x86_64-linux-gnu/libdl-2.23.so
+7fb36c8ed000-7fb36c8ee000 r--p 00002000 fd:01 262213                     /lib/x86_64-linux-gnu/libdl-2.23.so
+7fb36c8ee000-7fb36c8ef000 rw-p 00003000 fd:01 262213                     /lib/x86_64-linux-gnu/libdl-2.23.so
+7fb36c8ef000-7fb36caaf000 r-xp 00000000 fd:01 262200                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fb36caaf000-7fb36ccaf000 ---p 001c0000 fd:01 262200                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fb36ccaf000-7fb36ccb3000 r--p 001c0000 fd:01 262200                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fb36ccb3000-7fb36ccb5000 rw-p 001c4000 fd:01 262200                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fb36ccb5000-7fb36ccb9000 rw-p 00000000 00:00 0 
+7fb36ccb9000-7fb36ced3000 r-xp 00000000 fd:01 317708                     /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fb36ced3000-7fb36d0d2000 ---p 0021a000 fd:01 317708                     /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fb36d0d2000-7fb36d0ee000 r--p 00219000 fd:01 317708                     /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fb36d0ee000-7fb36d0fa000 rw-p 00235000 fd:01 317708                     /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fb36d0fa000-7fb36d0fd000 rw-p 00000000 00:00 0 
+7fb36d0fd000-7fb36d123000 r-xp 00000000 fd:01 262180                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fb36d318000-7fb36d31c000 rw-p 00000000 00:00 0 
+7fb36d321000-7fb36d322000 rw-p 00000000 00:00 0 
+7fb36d322000-7fb36d323000 r--p 00025000 fd:01 262180                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fb36d323000-7fb36d324000 rw-p 00026000 fd:01 262180                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fb36d324000-7fb36d325000 rw-p 00000000 00:00 0 
+7ffe9e0c5000-7ffe9e0e6000 rw-p 00000000 00:00 0                          [stack]
+7ffe9e111000-7ffe9e114000 r--p 00000000 00:00 0                          [vvar]
+7ffe9e114000-7ffe9e116000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
